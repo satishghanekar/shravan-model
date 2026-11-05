@@ -3,8 +3,9 @@
 *Shravanam*, listening, is the first of the nine forms of bhakti. This project teaches a small speech model to listen to
 our family chanting the Nitya Upasana texts, so the app can follow along and keep the place in the text.
 
-This repository is **private**. It holds the training code, the list of recordings and the test results. It never holds
-the audio itself.
+This repository is **public for now**, while the work is getting to a good state. It holds the training code, the list
+of recordings and the test results. It never holds the audio itself, and `.gitignore` keeps audio and model files out.
+Because anyone can read it, `recordings.csv` names people by initials only.
 
 ## Where things live
 
@@ -41,7 +42,7 @@ python -c "import torch; print(torch.backends.mps.is_available())"   # should pr
 ## Adding recordings
 
 1. Copy the Voice Memos into `~/chant-audio/`.
-2. Add one row per memo to `recordings.csv`. If the session followed the usual routine, `routine` is enough in the
+2. Add one row per memo to `recordings.csv`, with initials in the `who` column. If the session followed the usual routine, `routine` is enough in the
    `texts` column.
 3. Leave the held-out day's rows marked `heldout=yes`. They are never trained on, so the scores mean something.
 
