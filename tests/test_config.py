@@ -55,6 +55,10 @@ def test_training_fits_a_16_gb_mac():
     assert all(0 < share <= 1 for share in t["gpu_memory"].values())
 
 
+def test_a_family_recording_trained_on_is_held_to_a_higher_bar():
+    assert CFG.min_alignment_score <= CFG.min_alignment_score_family < 0.75
+
+
 def test_family_recordings_weigh_more_but_not_overwhelmingly():
     assert 1 <= CFG.training["family_repeat"] <= 5
 

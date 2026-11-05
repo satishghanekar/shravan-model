@@ -25,7 +25,10 @@ hear the words. Everything here exists to train that model fairly and to prove h
 4. **Cut** (`scripts/cut.py`): line-sized clips of at most 30 seconds (Whisper's limit), each with its label, into `work/`.
 5. **Split** (`shravan/split.py`): by hymn, into train, validation (to choose the best checkpoint) and test (the
    final score, used once). Held-out recordings (`recordings.csv`) never reach training. Verses aligned below
-   `min_alignment_score` are left out: their audio may not match their label (a verse the chanter skipped).
+   `min_alignment_score` are left out: their audio may not match their label (a verse the chanter skipped). A family
+   recording trained on is held to `min_alignment_score_family`: its clean verses score far higher, so a low one is
+   most likely a fumble or a gap. A block too long for one 30-second clip (an anuvaka of the Rudram) is aligned and cut
+   in pieces of a few lines, so a fumble costs only its own piece.
 6. **Test** (`scripts/evaluate.py`): the untrained model first, then each trained one, on the held-out clips only,
    each recording scored on its own. **Follow** (`scripts/follow.py`): the app's own measure, each tested recording
    played as a phone hears it (the last 6 seconds), the right place found 2, 3 and 5 seconds into each verse.

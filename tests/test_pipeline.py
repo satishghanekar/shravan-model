@@ -4,7 +4,7 @@ import pytest
 
 from shravan import config, follow, metrics, recordings
 from shravan.texts import load_all
-from shravan.units import of, select, stanzas, sung, verses
+from shravan.units import MAX_LETTERS, of, select, stanzas, sung, verses
 
 CFG = config.load()
 PAVAMANA = load_all(CFG.texts)["vedic-chant-pavamana-suktam"]
@@ -38,10 +38,11 @@ LALITA = load_all(CFG.texts)["vedic-chant-lalita-sahasranama"]
 def test_any_text_has_a_unit_per_block_keyed_by_number_or_kind():
     units = stanzas(LALITA)
     keys = [u.key for u in units]
+    blocks = list(dict.fromkeys(u.block for u in units))
     # the Nyasa, four Dhyanam verses and the opening line said once, 183 stanzas, the closing line
-    assert keys[:7] == ["once-1", "once-2", "once-3", "once-4", "once-5", "once-6", "1"]
-    assert keys[-2:] == ["183", "once-7"]
-    assert len(set(keys)) == len(keys) == 190
+    assert blocks[:7] == ["once-1", "once-2", "once-3", "once-4", "once-5", "once-6", "1"]
+    assert blocks[-2:] == ["183", "once-7"]
+    assert len(blocks) == 190 and len(set(keys)) == len(keys)
     assert of(LALITA) == units
     # Pavamana's units are still its referenced verses
     assert of(PAVAMANA) == verses(PAVAMANA)
@@ -50,11 +51,29 @@ def test_any_text_has_a_unit_per_block_keyed_by_number_or_kind():
 def test_a_recording_names_the_blocks_it_chants_in_order():
     picked = select(stanzas(LALITA), "132..183 once-7 once-2..once-5")
     assert [u.key for u in picked][:2] == ["132", "133"]
-    assert [u.key for u in picked][-6:] == ["183", "once-7", "once-2", "once-3", "once-4", "once-5"]
+    assert list(dict.fromkeys(u.block for u in picked))[-6:] == [
+        "183",
+        "once-7",
+        "once-2",
+        "once-3",
+        "once-4",
+        "once-5",
+    ]
     with pytest.raises(KeyError):
         select(stanzas(LALITA), "200")
     with pytest.raises(ValueError):
         select(stanzas(LALITA), "183..132")
+
+
+def test_a_block_too_long_for_one_clip_is_cut_into_pieces_of_a_few_lines():
+    rudra = stanzas(load_all(CFG.texts)["vedic-chant-shree-rudra"])
+    first = [u for u in rudra if u.block == "1"]
+    # the first anuvaka, about two minutes chanted: in pieces, each short enough for a clip, its lines all kept
+    assert len(first) > 3 and all(len(u.label) <= MAX_LETTERS for u in first)
+    assert [u.key for u in first][:2] == ["1.1", "1.2"]
+    assert select(rudra, "1") == first and select(rudra, "1.2")[0] == first[1]
+    # short verses stay whole
+    assert all(u.key == u.block for u in stanzas(load_all(CFG.texts)["vedic-chant-durga-suktam"]))
 
 
 def test_an_aarti_is_chanted_with_its_dhrupad_after_every_stanza():
