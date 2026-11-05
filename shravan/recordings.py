@@ -13,6 +13,7 @@ class Recording:
     file: str  # its name in the audio folder (config.yaml, audio:)
     date: str
     texts: tuple[str, ...]  # text ids, or "routine"
+    parts: tuple[str, ...]  # for each text, the blocks chanted in order ("132..183 once-7"), or "" for all of it
     who: str  # initials, or "published"
     heldout: bool
     notes: str
@@ -24,18 +25,25 @@ class Recording:
 
 
 def load(path: Path) -> list[Recording]:
+    """The texts column lists text ids separated by ";", each optionally followed by ":" and the blocks chanted, for
+    a recording of part of a text or with a part said again: "vedic-chant-lalita-sahasranama: 132..183 once-7"."""
     with path.open(encoding="utf-8", newline="") as f:
-        return [
+        rows = list(csv.DictReader(f))
+    out = []
+    for row in rows:
+        named = [t.partition(":") for t in row["texts"].split(";") if t.strip()]
+        out.append(
             Recording(
                 file=row["file"],
                 date=row["date"],
-                texts=tuple(t.strip() for t in row["texts"].split(";") if t.strip()),
+                texts=tuple(t.strip() for t, _, _ in named),
+                parts=tuple(p.strip() for _, _, p in named),
                 who=row["who"],
                 heldout=row["heldout"].strip().lower() == "yes",
                 notes=row.get("notes", ""),
             )
-            for row in csv.DictReader(f)
-        ]
+        )
+    return out
 
 
 def find(recordings: list[Recording], name: str) -> Recording:

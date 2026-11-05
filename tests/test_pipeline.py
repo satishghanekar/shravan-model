@@ -2,9 +2,9 @@
 
 import pytest
 
-from shravan import config, metrics, recordings
+from shravan import config, follow, metrics, recordings
 from shravan.texts import load_all
-from shravan.units import verses
+from shravan.units import of, select, stanzas, verses
 
 CFG = config.load()
 PAVAMANA = load_all(CFG.texts)["vedic-chant-pavamana-suktam"]
@@ -28,8 +28,54 @@ def test_every_recording_row_is_readable_and_names_no_one():
 
 
 def test_a_recording_has_a_safe_slug():
-    r = recordings.Recording("Sri Pavamaana Suktha - Copy 1.mp3", "", ("x",), "published", False, "")
+    r = recordings.Recording("Sri Pavamaana Suktha - Copy 1.mp3", "", ("x",), ("",), "published", False, "")
     assert r.slug == "sri-pavamaana-suktha-copy-1"
+
+
+LALITA = load_all(CFG.texts)["vedic-chant-lalita-sahasranama"]
+
+
+def test_any_text_has_a_unit_per_block_keyed_by_number_or_kind():
+    units = stanzas(LALITA)
+    keys = [u.key for u in units]
+    # the Nyasa, four Dhyanam verses and the opening line said once, 183 stanzas, the closing line
+    assert keys[:7] == ["once-1", "once-2", "once-3", "once-4", "once-5", "once-6", "1"]
+    assert keys[-2:] == ["183", "once-7"]
+    assert len(set(keys)) == len(keys) == 190
+    assert of(LALITA) == units
+    # Pavamana's units are still its referenced verses
+    assert of(PAVAMANA) == verses(PAVAMANA)
+
+
+def test_a_recording_names_the_blocks_it_chants_in_order():
+    picked = select(stanzas(LALITA), "132..183 once-7 once-2..once-5")
+    assert [u.key for u in picked][:2] == ["132", "133"]
+    assert [u.key for u in picked][-6:] == ["183", "once-7", "once-2", "once-3", "once-4", "once-5"]
+    with pytest.raises(KeyError):
+        select(stanzas(LALITA), "200")
+    with pytest.raises(ValueError):
+        select(stanzas(LALITA), "183..132")
+
+
+def test_the_recordings_list_reads_the_parts_of_a_text():
+    lalita = next(r for r in recordings.load(CFG.recordings) if r.texts == ("vedic-chant-lalita-sahasranama",))
+    assert lalita.parts == ("132..183 once-7 once-2..once-5",)
+    assert lalita.heldout and lalita.who == "SJ"
+    # every recording's parts name real blocks
+    every = load_all(CFG.texts)
+    for r in recordings.load(CFG.recordings):
+        for t, p in zip(r.texts, r.parts, strict=True):
+            assert select(of(every[t]), p) if p else of(every[t])
+
+
+def test_following_finds_where_the_heard_words_end():
+    labels = ["स्वादिष्ठया मदिष्ठया पवस्व", "इन्द्राय पातवे सुतः", "रक्षोहा विश्वचर्षणिः"]
+    # the end of one verse and the start of the next: the chanting is in the next
+    assert follow.where("पातवे सुतः रक्षोहा विश्व", labels) == 2
+    assert follow.where("मदिष्ठया पव", labels) == 0
+    assert follow.where("", labels) == -1
+    assert list(follow.nearby(0, 10)) == [0, 1, 2, 3]
+    assert list(follow.nearby(8, 10)) == [7, 8, 9]
 
 
 def test_letters_wrong_ignores_marks_and_dandas_in_what_was_heard():

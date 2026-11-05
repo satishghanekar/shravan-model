@@ -1,33 +1,20 @@
-"""Score a model on the clips of one split: letters wrong and verses found (shravan/metrics.py).
+"""Score a model on the clips of one split: letters wrong and verses found (shravan/metrics.py), for each recording.
 
     python scripts/evaluate.py openai/whisper-base              # the untrained model, on the test clips
     python scripts/evaluate.py checkpoints/whisper-base --split validation
 
-Writes one file to results/, with a few examples of what the model wrote beside what was chanted.
+Each recording is scored on its own (a family recording of a text never trained on is a different question from the
+held-out hymns of a training recording); a clip's verse is looked for among every unit of its own text. Writes one
+file to results/, with a few examples of what the model wrote beside what was chanted.
 """
 
 import argparse
+import json
 import time
 
 import soundfile as sf
-import torch
-from transformers import WhisperForConditionalGeneration, WhisperProcessor
 
-from shravan import config, data, env, metrics, results, texts, units
-
-
-def transcribe(model_name: str, paths: list[str], language: str, batch: int = 8) -> list[str]:
-    device = "mps" if torch.backends.mps.is_available() else "cpu"
-    processor = WhisperProcessor.from_pretrained(model_name)
-    model = WhisperForConditionalGeneration.from_pretrained(model_name).to(device).eval()
-    out: list[str] = []
-    for i in range(0, len(paths), batch):
-        audio = [sf.read(p, dtype="float32")[0] for p in paths[i : i + batch]]
-        feats = processor(audio, sampling_rate=16000, return_tensors="pt").input_features.to(device)
-        with torch.inference_mode():
-            ids = model.generate(feats, language=language, task="transcribe", max_new_tokens=225)
-        out += processor.batch_decode(ids, skip_special_tokens=True)
-    return out
+from shravan import config, data, env, hear, metrics, results, texts, units
 
 
 def main() -> None:
@@ -40,24 +27,29 @@ def main() -> None:
     cfg = config.load()
     env.cap_gpu_memory(min(cfg.training["gpu_memory"].values()))  # testing needs far less than training
     clips = data.clips(cfg.work, args.split)
-    every = units.verses(texts.load_all(cfg.texts)["vedic-chant-pavamana-suktam"])
-    labels = [u.label for u in every]
-    index = {u.id: i for i, u in enumerate(every)}
+    every = texts.load_all(cfg.texts)
 
     started = time.time()
-    heard = transcribe(args.model, [str(c.path) for c in clips], cfg.language)
+    heard = hear.transcribe(args.model, [sf.read(c.path, dtype="float32")[0] for c in clips], cfg.language)
     seconds = time.time() - started
-    scores = {
-        "split": args.split,
-        "clips": len(clips),
-        "minutes": round(sum(c.seconds for c in clips) / 60, 1),
-        "letters_wrong": round(metrics.letters_wrong([c.label for c in clips], heard), 4),
-        "verses_found": round(metrics.verses_found([index[c.id] for c in clips], heard, labels), 4),
-        "seconds_to_transcribe": round(seconds, 1),
-    }
-    examples = [{"id": c.id, "chanted": c.label, "heard": h} for c, h in list(zip(clips, heard, strict=True))[:5]]
+    scores: dict[str, object] = {"split": args.split, "seconds_to_transcribe": round(seconds, 1)}
+    examples = []
+    for rec in sorted({c.recording for c in clips}):
+        pairs = [(c, h) for c, h in zip(clips, heard, strict=True) if c.recording == rec]
+        own = units.of(every[pairs[0][0].id.split("/")[0]])
+        index = {u.id: i for i, u in enumerate(own)}
+        scores[rec] = {
+            "clips": len(pairs),
+            "minutes": round(sum(c.seconds for c, _ in pairs) / 60, 1),
+            "letters_wrong": round(metrics.letters_wrong([c.label for c, _ in pairs], [h for _, h in pairs]), 4),
+            "verses_found": round(
+                metrics.verses_found([index[c.id] for c, _ in pairs], [h for _, h in pairs], [u.label for u in own]), 4
+            ),
+            "out_of": len(own),
+        }
+        examples += [{"id": c.id, "chanted": c.label, "heard": h} for c, h in pairs[:5]]
     path = results.save("evaluate", args.model, cfg, scores, {"examples": examples})
-    print(scores)
+    print(json.dumps(scores, indent=1))
     print(f"saved to {path}")
 
 

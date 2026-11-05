@@ -1,0 +1,122 @@
+{
+ "kind": "evaluate",
+ "model": "checkpoints/openai-whisper-small/best",
+ "when": "2026-11-05T08:18:50",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)",
+  "Lalita Sahasrnaam.m4a,2022-10-04,\"vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5\",SJ,yes,\"a family Voice Memo: the last 52 stanzas, the closing line, then the Dhyanam again; never trained on\""
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": {
+   "openai/whisper-base": 8,
+   "openai/whisper-small": 4
+  },
+  "accumulate": {
+   "openai/whisper-base": 1,
+   "openai/whisper-small": 2
+  },
+  "gpu_memory": {
+   "openai/whisper-base": 0.75,
+   "openai/whisper-small": 0.9
+  },
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05
+  },
+  "warmup_steps": 50,
+  "max_steps": 2000,
+  "eval_every": 100,
+  "patience": 5,
+  "augment": true,
+  "seed": 1
+ },
+ "scores": {
+  "split": "test",
+  "seconds_to_transcribe": 61.5,
+  "lalita-sahasrnaam": {
+   "clips": 56,
+   "minutes": 8.4,
+   "letters_wrong": 0.391,
+   "verses_found": 0.9643,
+   "out_of": 190
+  },
+  "sri-pavamaana-suktha-copy-1": {
+   "clips": 79,
+   "minutes": 10.4,
+   "letters_wrong": 0.0989,
+   "verses_found": 1.0,
+   "out_of": 610
+  }
+ },
+ "examples": [
+  {
+   "id": "vedic-chant-lalita-sahasranama/133",
+   "chanted": "भाषारूपा बृहत्सेना भावाभावविवर्जिता सुखाराध्या शुभकरी शोभना सुलभा गतिः",
+   "heard": "वाशा रुपा बृवत्सेना वावावाविवर्चिता सुगाराद्या शुवतरि शोवनासु न पाददि"
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama/134",
+   "chanted": "राजराजेश्वरी राज्यदायिनी राज्यवल्लभा राजत्कृपा राजपीठनिवेशितनिजाश्रिता",
+   "heard": "राज राजे शुरी राजे राहिराजे वल्मा राज पृवा राज पीणनिवेषिदां षाशिदा"
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama/135",
+   "chanted": "राज्यलक्ष्मीः कोशनाथा चतुरङ्गबलेश्वरी साम्राज्यदायिनी सत्यसन्धा सागरमेखला",
+   "heard": "रावच �रक्ष्मी कोशना दाच्च दुरं गवलेष्वरि साम राजे दायि नीसत्य सन्दा सागरमेदर"
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama/136",
+   "chanted": "दीक्षिता दैत्यशमनी सर्वलोकवशङ्करी सर्वार्थदात्री सावित्री सच्चिदानन्दरूपिणी",
+   "heard": "द्रीषि दावैत्य समरि सर्व रोकवशं करि सर्वा दारि सावित्रि सचिदाणन्दरुविणि"
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama/137",
+   "chanted": "देशकालापरिच्छिन्ना सर्वगा सर्वमोहिनी सरस्वती शास्त्रमयी गुहाम्बा गुह्यरूपिणी",
+   "heard": "देष काला परिचिन्ना सर्व गासर्व मुहिनि सरस्वतीषा स्रमयी गुहां बा गुह्यरुपिनि"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.01",
+   "chanted": "अया वीती परि स्रव यस्त इन्दो मदेष्वा अवाहन्नवतीर्नव",
+   "heard": "अया वीति परि स्रवयस्त इन्दो मदेष्वा अवाहन्न वतीर्णव"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.02",
+   "chanted": "पुर सद्य इत्थाधिये दिवोदासाय शम्बरम् अध त्यं तुर्वशं यदुम्",
+   "heard": "उरः सद्य इथ्थाधि एदिवो दासाय शं वरम् अधत्यं तुर्वशियदुम्"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.03",
+   "chanted": "परि णो अश्वमश्वविद्गोमदिन्दो हिरण्यवत् क्षरा सहस्रिणीरिषः",
+   "heard": "परि णो अश्वमश्व विद्गोमदिन्दो हिरण्यवत् शरा सहस्रिणीरिषः"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.04",
+   "chanted": "पवमानस्य ते वयं पवित्रमभ्युन्दतः सखित्वमा वृणीमहे",
+   "heard": "पवमानस्य ते वयं पवित्रमभ्युन्दतः सुगित्पमा वृणीमहे"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.05",
+   "chanted": "ये ते पवित्रमूर्मयोभिक्षरन्ति धारया तेभिर्नः सोम मृळय",
+   "heard": "एते पवित्रमूर्मयोभि क्षरन्ति धारया ते भिर्णः सोम वृळ्य"
+  }
+ ]
+}

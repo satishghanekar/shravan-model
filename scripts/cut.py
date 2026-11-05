@@ -27,6 +27,7 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
 
     kept, left_out, counts = [], [], {"train": 0, "validation": 0, "test": 0}
+    used: set[str] = set()
     for i, row in enumerate(rows):
         if row["score"] < cfg.min_alignment_score:
             left_out.append(row)
@@ -38,12 +39,18 @@ def main() -> None:
         if end - start > MAX_SECONDS:
             left_out.append(row)
             continue
-        name = row["id"].split("/")[-1] + ".wav"
+        # (a block chanted twice in one recording gets a second file, not the first one's)
+        name = row["id"].split("/")[-1]
+        while name + ".wav" in used:
+            name += "-again"
+        name += ".wav"
+        used.add(name)
         sf.write(out / name, audio[int(start * rate) : int(end * rate)], rate)
-        split = split_of(row["hymn"], cfg)
+        # a held-out recording is only ever tested on; the others are split by hymn
+        split = "test" if rec.heldout else split_of(row["hymn"], cfg)
         counts[split] += 1
         kept.append(
-            {"id": row["id"], "file": f"{rec.slug}/{name}", "label": row["label"]}
+            {"id": row["id"], "recording": rec.slug, "file": f"{rec.slug}/{name}", "label": row["label"]}
             | {"hymn": row["hymn"], "split": split, "score": row["score"], "seconds": round(end - start, 2)}
         )
 

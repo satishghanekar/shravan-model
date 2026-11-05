@@ -15,6 +15,7 @@ class Clip:
     hymn: int
     split: str
     seconds: float
+    recording: str
 
 
 def clips(work: Path, split: str | None = None) -> list[Clip]:
@@ -23,5 +24,14 @@ def clips(work: Path, split: str | None = None) -> list[Clip]:
         for line in manifest.read_text(encoding="utf-8").splitlines():
             r = json.loads(line)
             if split is None or r["split"] == split:
-                out.append(Clip(r["id"], work / "clips" / r["file"], r["label"], r["hymn"], r["split"], r["seconds"]))
+                clip = Clip(
+                    r["id"],
+                    work / "clips" / r["file"],
+                    r["label"],
+                    r["hymn"],
+                    r["split"],
+                    r["seconds"],
+                    manifest.parent.name,
+                )
+                out.append(clip)
     return out
