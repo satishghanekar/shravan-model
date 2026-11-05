@@ -10,9 +10,10 @@ from __future__ import annotations
 
 import hashlib
 from pathlib import Path
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
-import numpy as np
+if TYPE_CHECKING:  # (numpy is loaded only where it is used: CI, with no numpy, still tests split and join)
+    import numpy as np
 
 PIECE = 20_000_000  # bytes: under Cloudflare Pages' 25 MiB a file, with room to spare
 
@@ -42,6 +43,8 @@ def join(folder: Path, pieces: list[dict[str, object]]) -> bytes:
 
 def tone(seconds: float = 3.0, rate: int = 16000) -> np.ndarray:
     """The check sound: a few tones rising and falling, the same on every machine (the site makes it the same way)."""
+    import numpy as np
+
     t = np.arange(int(seconds * rate), dtype=np.float64) / rate
     wave = 0.3 * np.sin(2 * np.pi * (220 + 60 * t) * t) + 0.2 * np.sin(2 * np.pi * 440 * t) * np.cos(
         2 * np.pi * 0.5 * t
@@ -53,6 +56,8 @@ def tone(seconds: float = 3.0, rate: int = 16000) -> np.ndarray:
 def greedy(encoder: Any, decoder: Any, features: np.ndarray, manifest: dict[str, Any], most: int = 40) -> list[int]:
     """The tokens the model writes for one window, step by step as the site does it (onnxruntime sessions): the start
     tokens, then each time the likeliest token it may write, until the end token or `most` tokens."""
+    import numpy as np
+
     hidden = encoder.run(None, {"input_features": features[None]})[0]
     layers = manifest["layers"]
     empty: np.ndarray = np.zeros((1, 8, 0, 64), dtype=np.float32)

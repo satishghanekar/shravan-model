@@ -151,6 +151,7 @@ def test_a_model_file_is_cut_into_pieces_the_site_can_serve_and_joined_back(tmp_
 
 
 def test_the_check_sound_is_the_same_every_time():
+    pytest.importorskip("numpy")  # (not installed in CI)
     from shravan import package
 
     a, b = package.tone(), package.tone()
