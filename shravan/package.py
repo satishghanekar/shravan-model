@@ -89,3 +89,41 @@ def greedy(encoder: Any, decoder: Any, features: np.ndarray, manifest: dict[str,
                 past[name] = present
         step = np.array([[token]], dtype=np.int64)
     return out
+
+
+def forced(
+    encoder: Any, decoder: Any, features: np.ndarray, manifest: dict[str, Any], tokens: list[int]
+) -> dict[str, Any]:
+    """What a check needs that small differences in arithmetic can't tip over: a few of the encoder's numbers, and the
+    decoder fed `tokens` one at a time through its cache (as greedy does, but always given the next of `tokens`), with
+    the token it would choose at each step and by how much it beats the next best. A site can then check its own
+    run against these at the steps where the choice is clear, where greedy alone would wander off at a near tie."""
+    import numpy as np
+
+    hidden = encoder.run(None, {"input_features": features[None]})[0]
+    empty: np.ndarray = np.zeros((1, 8, 0, 64), dtype=np.float32)
+    layers = manifest["layers"]
+    past = {
+        f"past_key_values.{i}.{s}.{k}": empty
+        for i in range(layers)
+        for s in ("decoder", "encoder")
+        for k in ("key", "value")
+    }
+    names = [o.name for o in decoder.get_outputs()]
+    step = np.array(manifest["start"], dtype=np.int64)[None]
+    steps = []
+    for n, token in enumerate(tokens):
+        feed = {"input_ids": step, "encoder_hidden_states": hidden, "use_cache_branch": np.array([n > 0])} | past
+        result = dict(zip(names, decoder.run(None, feed), strict=True))
+        logits = result["logits"][0, -1].astype(np.float64)
+        logits[manifest["never"]] = -np.inf
+        if n == 0:
+            logits[manifest["never_first"]] = -np.inf
+        best, second = np.argsort(logits)[::-1][:2]
+        steps.append([int(best), round(float(logits[best] - logits[second]), 3)])
+        for name in past:
+            if n == 0 or ".decoder." in name:
+                past[name] = result[name.replace("past_key_values", "present")]
+        step = np.array([[token]], dtype=np.int64)
+    rows = [0, 100, 500, 1499]
+    return {"hidden": {str(r): [round(float(v), 5) for v in hidden[0, r, :8]] for r in rows}, "steps": steps}

@@ -70,12 +70,16 @@ def main() -> None:
     encoder = ort.InferenceSession(package.join(out, manifest["encoder"]))
     decoder = ort.InferenceSession(package.join(out, manifest["decoder"]))
     frames = [0, 1, 150, 299, 300, 2999]
-    check = {
+    tokens = package.greedy(encoder, decoder, features, manifest)
+    check: dict[str, object] = {
         "seconds": 3.0,
         "frames": {str(f): [round(float(v), 5) for v in features[:, f]] for f in frames},
-        "tokens": package.greedy(encoder, decoder, features, manifest),
+        "tokens": tokens,
     }
-    check["text"] = tok.decode(check["tokens"])
+    check["text"] = tok.decode(tokens)
+    # (greedy wanders off at a near tie, so the site checks against these: the encoder's numbers, and the decoder fed
+    # the tokens above one by one, with its choice and margin at each step)
+    check |= package.forced(encoder, decoder, features, manifest, tokens)
     (out / "check.json").write_text(json.dumps(check, ensure_ascii=False), encoding="utf-8")
     for f in sorted(out.iterdir()):
         print(f"{f.name:16s} {f.stat().st_size / 1e6:6.1f} MB")
