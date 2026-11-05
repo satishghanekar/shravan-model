@@ -1,0 +1,61 @@
+id: aarti-ovaloo-sapreme-aarti
+title: आरती श्री नानामहाराजांची
+title-en: Aarti Shri Nana Maharajanchi
+category: aarti
+language: mr
+refrain: every-verse
+refrain-before-first: yes
+---
+[once]
+॥ अवधूत चिंतन श्री गुरूदेव दत्त ॥
+|| Avadhut Chintan Shri Gurudev Datta ||
+
+[dhrupad]
+ओवाळू सप्रेमे आरती मार्तंडा तुजला ।
+Ovalu Sapreme Aarti Martanda Tujala |
+अनन्य भावे शरण आलो आम्ही सद्‌गुरू चरणाला ॥ धृ. ॥
+Ananya Bhave Sharan Aalo Aamhi Sadguru Charanala || Dhr. ||
+
+[1]
+संसारी या त्रस्त जाहलो मुकलो सौख्याला ।
+Sansari Ya Trasta Jahalo Mukalo Saukhyala |
+कामक्रोधादिक हे षड्रिपु गांजिति आम्हाला ।
+Kamakrodhadik He Shadripu Ganjiti Aamhala |
+दाराधन पुत्रातचि आमुचा जीव वेडा झाला ।
+Daradhan Putratachi Aamucha Jiv Veda Jhala |
+अज्ञानी आम्ही चुकतची गेलो तारी तारी सकला ॥
+Adnyani Aamhi Chukatachi Gelo Tari Tari Sakala ||
+
+[2]
+यथासांग ते कर्म आजवरी नाही आम्हा घडले ।
+Yathasang Te Karma Aajavari Nahi Aamha Ghadale |
+लोभ मोह हे साथी बळकट यांनी बहु पडीले ।
+Lobh Moh He Sathi Balakat Yanni Bahu Padile |
+दुस्तर मायेमध्ये निरंतर मन आमुचे बुडले ।
+Dustar Mayemadhye Nirantar Man Aamuche Budale |
+रक्षक तू भेटला दयाळा चित्त पदी जडले ॥
+Rakshak Tu Bhetala Dayala Chitta Padi Jadale ||
+
+[3]
+कांही सुकृत होते गाठीं तव दर्शन झाले ।
+Kanhi Sukrut Hote Gathin Tav Darshan Jhale |
+याच जीवनी याच लोचनी कौतुक दाखविले ।
+Yach Jivani Yach Lochani Kautuk Dakhavile |
+काही संकट येता सदनी प्रभू धावूनी आले ।
+Kahi Sankat Yeta Sadani Prabhu Dhavuni Aale |
+अनेक ऐसे चमत्कार किती भक्तांना दिसले ॥
+Anek Aise Chamatkar Kiti Bhaktanna Disale ||
+
+[4]
+दया क्षमा शांति या वसति, सदैव तव सदनी ।
+Daya Kshama Shanti Ya Vasati, Sadaiv Tav Sadani |
+दत्त दत्त जय दत्त नाम हे अखंड तव वदनी ।
+Datta Datta Jay Datta Nam He Akhand Tav Vadani |
+मंगलमय हे चरण सोडूनि कां जावे रानी ।
+Mangalamay He Charan Soduni Kan Jave Rani |
+कृपा कटाक्षे दासा आपुल्या नेई उद्धारूनि ॥
+Krupa Katakshe Dasa Aapulya Nei Uddharuni ||
+
+[once]
+॥ अवधूत चिंतन श्री गुरूदेव दत्त ॥
+|| Avadhut Chintan Shri Gurudev Datta ||

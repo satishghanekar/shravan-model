@@ -1,0 +1,252 @@
+id: vedic-chant-atharvashirsha
+title: गणपत्यथर्वशीर्षोपनिषत्
+title-en: Ganapati Atharvashirsha
+category: vedic-chant
+language: sa
+legacy-id: p1
+line-ids: p1l
+layout: prose
+credit: [अथर्ववेदीय उपनिषद](https://mr.wikipedia.org/wiki/गणपती_अथर्वशीर्ष)
+credit-en: [An Atharva Veda Upanishad](https://en.wikipedia.org/wiki/Ganapati_Atharvaśīrṣa)
+---
+[dhrupad]
+ॐ भ॒द्रं कर्णे॑भिः शृणु॒याम॑ देवाः ।
+Om Bhadram Karnebhih Shrunuyama Devah |
+भ॒द्रं प॑श्येमा॒क्षभि॒र्यज॑त्राः ।
+Bhadram Pashyemakshabhiryajatrah |
+स्थि॒रैरङ्गै᳚स्तुष्टु॒वाग्ं स॑स्त॒नूभिः॑ ।
+Sthirairangaistushtuvagm Sastanubhih |
+व्यशे॑म दे॒वहि॑तं॒ यदायुः॑ ।
+Vyashema Devahitam Yadayuh |
+स्व॒स्ति न॒ इन्द्रो॑ वृ॒द्धश्र॑वाः ।
+Svasti Na Indro Vruddhashravah |
+स्व॒स्ति नः॑ पू॒षा वि॒श्ववे॑दाः ।
+Svasti Nah Pusha Vishvavedah |
+स्व॒स्ति न॒स्तार्क्ष्यो॒ अरि॑ष्टनेमिः ।
+Svasti Nastarkshyo Arishtanemih |
+स्व॒स्ति नो॒ बृह॒स्पति॑र्दधातु ॥
+Svasti No Bruhaspatirdadhatu ||
+
+[dhrupad]
+॥ ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+|| Om Shantih Shantih Shantih ||
+
+[para 1]
+ॐ नम॑स्ते ग॒णप॑तये ।
+Om Namaste Ganapataye |
+त्वमे॒व प्र॒त्यक्षं॒ तत्त्व॑मसि ।
+Tvameva Pratyaksham Tattvamasi |
+त्वमे॒व के॒वलं॒ कर्ता॑ऽसि ।
+Tvameva Kevalam Kartasi |
+त्वमे॒व के॒वलं॒ धर्ता॑ऽसि ।
+Tvameva Kevalam Dhartasi |
+त्वमे॒व के॒वलं॒ हर्ता॑ऽसि ।
+Tvameva Kevalam Hartasi |
+त्वमेव सर्वं खल्विदं॑ ब्रह्मा॒सि ।
+Tvameva Sarvam Khalvidam Brahmasi |
+त्वं साक्षादात्मा॑ऽसि नि॒त्यम् ॥ १ ॥
+Tvam Sakshadatmasi Nityam || 1 ||
+
+[2]
+ऋ॑तं व॒च्मि । स॑त्यं व॒च्मि ॥ २ ॥
+Rutam Vachmi | Satyam Vachmi || 2 ||
+
+[3]
+अव॒ त्वं॒ माम् । अव॑ व॒क्तार᳚म् ।
+Ava Tvam Mam | Ava Vaktaram |
+अव॑ श्रो॒तार᳚म् । अव॑ दा॒तार᳚म् ।
+Ava Shrotaram | Ava Dataram |
+अव॑ धा॒तार᳚म् । अवानूचानम॑व शि॒ष्यम् ।
+Ava Dhataram | Avanuchanamava Shishyam |
+अव॑ प॒श्चात्ता᳚त् । अव॑ पु॒रस्ता᳚त् ।
+Ava Pashchattat | Ava Purastat |
+अवोत्त॒रात्ता᳚त् । अव॑ दक्षि॒णात्ता᳚त् ।
+Avottarattat | Ava Dakshinattat |
+अव॑ चो॒र्ध्वात्ता᳚त् । अवाध॒रात्ता᳚त् ।
+Ava Chordhvattat | Avadharattat |
+सर्वतो मां पाहि पाहि॑ सम॒न्तात् ॥ ३ ॥
+Sarvato Mam Pahi Pahi Samantat || 3 ||
+
+[4]
+त्वं वाङ्मय॑स्त्वं चिन्म॒यः ।
+Tvam Vangmayastvam Chinmayah |
+त्वमानन्दमय॑स्त्वं ब्रह्म॒मयः ।
+Tvamanandamayastvam Brahmamayah |
+त्वं सच्चिदानन्दाऽद्वि॑तीयो॒ऽसि ।
+Tvam Sachchidanandadvitiyosi |
+त्वं प्र॒त्यक्षं॒ ब्रह्मा॑सि ।
+Tvam Pratyaksham Brahmasi |
+त्वं ज्ञानमयो विज्ञान॑मयो॒ऽसि ॥ ४ ॥
+Tvam Dnyanamayo Vidnyanamayosi || 4 ||
+
+[para 5]
+सर्वं जगदिदं त्व॑त्तो जा॒यते ।
+Sarvam Jagadidam Tvatto Jayate |
+सर्वं जगदिदं त्व॑त्तस्ति॒ष्ठति ।
+Sarvam Jagadidam Tvattastishthati |
+सर्वं जगदिदं त्वयि लय॑मेष्य॒ति ।
+Sarvam Jagadidam Tvayi Layameshyati |
+सर्वं जगदिदं त्वयि॑ प्रत्ये॒ति ।
+Sarvam Jagadidam Tvayi Pratyeti |
+त्वं भूमिरापोऽनलोऽनि॑लो न॒भः ।
+Tvam Bhumiraponalonilo Nabhah |
+त्वं चत्वारि वा᳚क्पदा॒नि ॥ ५ ॥
+Tvam Chatvari Vakpadani || 5 ||
+
+[6]
+त्वं गु॒णत्र॑याती॒तः ।
+Tvam Gunatrayatitah |
+त्वं अवस्थात्र॑याती॒तः ।
+Tvam Avasthatrayatitah |
+त्वं दे॒हत्र॑याती॒तः ।
+Tvam Dehatrayatitah |
+त्वं का॒लत्र॑याती॒तः ।
+Tvam Kalatrayatitah |
+त्वं मूलाधारस्थितो॑ऽसि नि॒त्यम् ।
+Tvam Muladharasthitosi Nityam |
+त्वं शक्तित्र॑यात्म॒कः ।
+Tvam Shaktitrayatmakah |
+त्वां योगिनो ध्याय॑न्ति नि॒त्यम् ।
+Tvam Yogino Dhyayanti Nityam |
+त्वं ब्रह्मा त्वं विष्णुस्त्वं // रुद्रस्त्वमिन्द्रस्त्वमग्निस्त्वं
+Tvam Brahma Tvam Vishnustvam // Rudrastvamindrastvamagnistvam
+वायुस्त्वं सूर्यस्त्वं चन्द्रमास्त्वं // ब्रह्म॒ भूर्भुवः॒ स्वरोम् ॥ ६ ॥
+Vayustvam Suryastvam Chandramastvam // Brahma Bhurbhuvah Svarom || 6 ||
+
+[7]
+ग॒णादिं᳚ पूर्व॑मुच्चा॒र्य॒ व॒र्णादीं᳚ स्तदन॒न्तरम् ।
+Ganadim Purvamuchcharya Varnadim Stadanantaram |
+अनुस्वारः प॑रत॒रः । अर्धे᳚न्दुल॒सितम् ।
+Anusvarah Paratarah | Ardhendulasitam |
+तारे॑ण ऋ॒द्धम् । एतत्तव मनु॑स्वरू॒पम् ।
+Tarena Ruddham | Etattava Manusvarupam |
+गकारः पू᳚र्वरू॒पम् । अकारो मध्य॑मरू॒पम् ।
+Gakarah Purvarupam | Akaro Madhyamarupam |
+अनुस्वारश्चा᳚न्त्यरू॒पम् । बिन्दुरुत्त॑ररू॒पम् ।
+Anusvarashchantyarupam | Binduruttararupam |
+नादः॑ सन्धा॒नम् । सग्ंहि॑ता स॒न्धिः ।
+Nadah Sandhanam | Samhita Sandhih |
+सैषा गणे॑शवि॒द्या । गण॑क ऋ॒षिः ।
+Saisha Ganeshavidya | Ganaka Rushih |
+निचृद्गाय॑त्रीच्छ॒न्दः । गणपति॑र्देव॒ता ।
+Nichrudgayatrichchhandah | Ganapatirdevata |
+ॐ गं ग॒णप॑तये नमः ॥ ७ ॥
+Om Gam Ganapataye Namah || 7 ||
+
+[para 8]
+एकद॒न्ताय॑ वि॒द्महे॑ वक्रतु॒ण्डाय॑ धीमहि ।
+Ekadantaya Vidmahe Vakratundaya Dhimahi |
+तन्नो॑ दन्तिः प्रचो॒दया᳚त् ॥ ८ ॥
+Tanno Dantih Prachodayat || 8 ||
+
+[9]
+एकद॒न्तं च॑तुर्ह॒स्तं॒ पा॒शम॑ङ्कुश॒धारि॑णम् ।
+Ekadantam Chaturhastam Pashamankushadharinam |
+रदं॑ च॒ वर॑दं ह॒स्तै॒र्बि॒भ्राणं॑ मूष॒कध्व॑जम् ।
+Radam Cha Varadam Hastairbibhranam Mushakadhvajam |
+रक्तं॑ ल॒म्बोद॑रं शू॒र्प॒क॒र्णकं॑ रक्त॒वास॑सम् ।
+Raktam Lambodaram Shurpakarnakam Raktavasasam |
+रक्त॑ग॒न्धानु॑लिप्ता॒ङ्गं॒ र॒क्तपु॑ष्पैः सु॒पूजि॑तम् ।
+Raktagandhanuliptangam Raktapushpaih Supujitam |
+भक्ता॑नु॒कम्पि॑नं दे॒वं॒ ज॒गत्का॑रण॒मच्यु॑तम् ।
+Bhaktanukampinam Devam Jagatkaranamachyutam |
+आवि॑र्भू॒तं च॑ सृ॒ष्ट्या॒दौ॒ // प्र॒कृतेः᳚ पुरु॒षात्प॑रम् ।
+Avirbhutam Cha Srushtyadau // Prakruteh Purushatparam |
+एवं॑ ध्या॒यति॑ यो नि॒त्यं॒ // स॒ योगी॑ योगि॒नां व॑रः ॥ ९ ॥
+Evam Dhyayati Yo Nityam // Sa Yogi Yoginam Varah || 9 ||
+
+[10]
+नमो व्रातपतये नमो गणपतये
+Namo Vratapataye Namo Ganapataye
+नमः प्रमथपतये
+Namah Pramathapataye
+नमस्तेऽस्तु लम्बोदरायैकदन्ताय
+Namastestu Lambodarayaikadantaya
+विघ्ननाशिने शिवसुताय
+Vighnanashine Shivasutaya
+वरदमूर्तये॒ नमः॑ ॥ १० ॥
+Varadamurtaye Namah || 10 ||
+
+[para 11]
+एतदथर्वशीर्षं॑ योऽधी॒ते // स ब्रह्मभूया॑य क॒ल्पते ।
+Etadatharvashirsham Yodhite // Sa Brahmabhuyaya Kalpate |
+स सर्वविघ्नै᳚र्न बा॒ध्यते । // स सर्वत्र सुख॑मेध॒ते ।
+Sa Sarvavighnairna Badhyate | // Sa Sarvatra Sukhamedhate |
+स पञ्चमहापापा᳚त् प्रमु॒च्यते ।
+Sa Panchamahapapat Pramuchyate |
+सा॒यम॑धीया॒नो॒ दिवसकृतं पापं॑ नाश॒यति ।
+Sayamadhiyano Divasakrutam Papam Nashayati |
+प्रा॒तर॑धीया॒नो॒ रात्रि॑कृतं पापं॑ नाश॒यति ।
+Prataradhiyano Ratrikrutam Papam Nashayati |
+सायं प्रातः प्र॑युञ्जा॒नो॒ पापोऽपा॑पो भ॒वति ।
+Sayam Pratah Prayunjano Papopapo Bhavati |
+सर्वत्राधीयानोऽपवि॑घ्नो भ॒वति ।
+Sarvatradhiyanopavighno Bhavati |
+धर्मार्थकाममोक्षं॑ च वि॒न्दति ।
+Dharmarthakamamoksham Cha Vindati |
+इदमथर्वशीर्षमशिष्याय॑ न दे॒यम् ।
+Idamatharvashirshamashishyaya Na Deyam |
+यो यदि मो॑हाद् दा॒स्यति // स पापी॑यान् भ॒वति ।
+Yo Yadi Mohad Dasyati // Sa Papiyan Bhavati |
+सहस्रावर्तनाद्यं यं काम॑मधी॒ते // तं तमने॑न सा॒धयेत् ॥ ११ ॥
+Sahasravartanadyam Yam Kamamadhite // Tam Tamanena Sadhayet || 11 ||
+
+[para 12]
+अनेन गणपतिम॑भिषि॒ञ्चति // स वा॑ग्मी भ॒वति ।
+Anena Ganapatimabhishinchati // Sa Vagmi Bhavati |
+चतुर्थ्यामन॑श्नन् ज॒पति // स विद्या॑वान् भ॒वति ।
+Chaturthyamanashnan Japati // Sa Vidyavan Bhavati |
+इत्यथर्व॑णवा॒क्यम् ।
+Ityatharvanavakyam |
+ब्रह्माद्या॒वर॑णं वि॒द्यान्न बिभेति // कदा॑चने॒ति ॥ १२ ॥
+Brahmadyavaranam Vidyanna Bibheti // Kadachaneti || 12 ||
+
+[13]
+यो दूर्वाङ्कु॑रैर्य॒जति // स वैश्रवणोप॑मो भ॒वति ।
+Yo Durvankurairyajati // Sa Vaishravanopamo Bhavati |
+यो ला॑जैर्य॒जति स यशो॑वान् भ॒वति ।
+Yo Lajairyajati Sa Yashovan Bhavati |
+स मेधा॑वान् भ॒वति ।
+Sa Medhavan Bhavati |
+यो मोदकसहस्रे॑ण य॒जति // स वाञ्छितफलम॑वाप्नो॒ति ।
+Yo Modakasahasrena Yajati // Sa Vanchhitaphalamavapnoti |
+यः साज्य समि॑द्भिर्य॒जति
+Yah Sajya Samidbhiryajati
+स सर्वं लभते स स॑र्वं ल॒भते ॥ १३ ॥
+Sa Sarvam Labhate Sa Sarvam Labhate || 13 ||
+
+[14]
+अष्टौ ब्राह्मणान् सम्यग् ग्रा॑हयि॒त्वा // सूर्यवर्च॑स्वी भ॒वति ।
+Ashtau Brahmanan Samyag Grahayitva // Suryavarchasvi Bhavati |
+सूर्यग्रहे म॑हान॒द्यां प्रतिमासन्निधौ वा // ज॒प्त्वा सिद्धम॑न्त्रो भ॒वति ।
+Suryagrahe Mahanadyam Pratimasannidhau Va // Japtva Siddhamantro Bhavati |
+महाविघ्ना᳚त् प्रमु॒च्यते । // महादोषा᳚त् प्रमु॒च्यते ।
+Mahavighnat Pramuchyate | // Mahadoshat Pramuchyate |
+महाप्रत्यवाया᳚त् प्रमु॒च्यते ।
+Mahapratyavayat Pramuchyate |
+स सर्वविद्भवति स सर्व॑विद्भ॒वति ।
+Sa Sarvavidbhavati Sa Sarvavidbhavati |
+य ए॑वं वे॒द । इत्यु॑प॒निष॑त् ॥ १४ ॥
+Ya Evam Veda | Ityupanishat || 14 ||
+
+[dhrupad]
+ॐ भ॒द्रं कर्णे॑भिः शृणु॒याम॑ देवाः ।
+Om Bhadram Karnebhih Shrunuyama Devah |
+भ॒द्रं प॑श्येमा॒क्षभि॒र्यज॑त्राः ।
+Bhadram Pashyemakshabhiryajatrah |
+स्थि॒रैरङ्गै᳚स्तुष्टु॒वाग्ं स॑स्त॒नूभिः॑ ।
+Sthirairangaistushtuvagm Sastanubhih |
+व्यशे॑म दे॒वहि॑तं॒ यदायुः॑ ।
+Vyashema Devahitam Yadayuh |
+स्व॒स्ति न॒ इन्द्रो॑ वृ॒द्धश्र॑वाः ।
+Svasti Na Indro Vruddhashravah |
+स्व॒स्ति नः॑ पू॒षा वि॒श्ववे॑दाः ।
+Svasti Nah Pusha Vishvavedah |
+स्व॒स्ति न॒स्तार्क्ष्यो॒ अरि॑ष्टनेमिः ।
+Svasti Nastarkshyo Arishtanemih |
+स्व॒स्ति नो॒ बृह॒स्पति॑र्दधातु ॥
+Svasti No Bruhaspatirdadhatu ||
+
+[dhrupad]
+॥ ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+|| Om Shantih Shantih Shantih ||

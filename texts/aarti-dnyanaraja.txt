@@ -1,0 +1,38 @@
+id: aarti-dnyanaraja
+title: ज्ञानेश्वरांची आरती
+title-en: Dnyaneshwar Aarti
+category: aarti
+language: mr
+legacy-id: a6
+line-ids: s6l
+refrain: every-verse
+credit: रचना : रामा जनार्दन
+credit-en: By Rama Janardan
+---
+[dhrupad]
+आरती ज्ञानराजा ॥ धृ. ॥
+Aarti Dnyanaraja || Dhr. ||
+
+[1]
+आरती ज्ञानराजा ।¦ // हो महाकैवल्यतेजा, कैवल्यतेजा ।
+Aarti Dnyanaraja | Ho Mahakaivalyateja, Kaivalyateja |
+सेविती साधुसंत ।¦ // हो मनु वेधला माझा, वेधला माझा ॥
+Seviti Sadhusant | Ho Manu Vedhala Majha, Vedhala Majha ||
+
+[2]
+लोपलें ज्ञान जगीं ।¦ // हित नेणती कोणी, नेणती कोणी ।
+Lopale Dnyan Jagi | Hita Nenati Koni, Nenati Koni |
+अवतार पांडुरंग ।¦ // नाम ठेविलें ज्ञानी, ठेविलें ज्ञानी ॥
+Avatar Pandurang | Nam Thevile Dnyani, Thevile Dnyani ||
+
+[3]
+कनकाचें ताट करीं ।¦ // उभ्या गोपिका नारी, गोपिका नारी ।
+Kanakache Taat Kari | Ubhya Gopika Nari, Gopika Nari |
+नारद तुंबरु हो ।¦ // साम गायन करी, गायन करी ॥
+Narad Tumbaru Ho | Saama Gaayan Kari, Gaayan Kari ||
+
+[4]
+प्रगट गुह्य बोले ।¦ // विश्व ब्रह्मची केलें, ब्रह्मची केलें ।
+Pragat Guhya Bole | Vishwa Brahmachi Kele, Brahmachi Kele |
+रामा जनार्दनी ।¦ // पायीं मस्तक ठेविलें, मस्तक ठेविलें ॥
+Rama Janardani | Paayi Mastak Thevile, Mastak Thevile ||

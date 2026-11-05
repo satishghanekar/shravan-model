@@ -14,3 +14,15 @@ models/
 .venv/
 __pycache__/
 .DS_Store
+# Clips and alignments made from the recordings: private like the audio itself
+work/
+# The checks' caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+# Clips and alignments made from the recordings: private like the audio itself
+work/
+# The checks' caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/

@@ -1,0 +1,62 @@
+id: stotra-shant-ho-shriguru
+title: शांत हो श्रीगुरु
+title-en: Shant Ho Shriguru
+category: stotra
+language: mr
+refrain: every-verse
+credit: रचना : [श्री वासुदेवानंद सरस्वती (टेंबे स्वामी)](https://mr.wikipedia.org/wiki/वासुदेवानंद_सरस्वती) (१८५४–१९१४)
+credit-en: By [Shri Vasudevanand Saraswati (Tembe Swami)](https://en.wikipedia.org/wiki/Vasudevanand_Saraswati) (1854–1914)
+---
+[dhrupad]
+शांत हो श्रीगुरु दत्ता ¦मम चित्ता शमवी आता ॥ धृ ॥
+Shant Ho Shriguru Datta Mama Chitta Shamavi Aata || Dhr. ||
+
+[1]
+तूं केवळ माता जनिता, ¦सर्वथा तूं हितकर्ता ।
+Tun Keval Mata Janita, Sarvatha Tun Hitakarta |
+तूं आप्त स्वजन भ्राता, ¦सर्वथा तूंची त्राता ॥ चाल ॥
+Tun Aapta Svajan Bhrata, Sarvatha Tunchi Trata || Chaal ||
+भय कर्ता तूं भय हर्ता । ¦दंडधर्ता तूं परिपाता ॥
+Bhay Karta Tun Bhay Harta | Dandadharta Tun Paripata ||
+तुज वाचुंनि न दुजी वार्ता । ¦तूं आर्ता आश्रय दाता ॥
+Tuj Vachunni Na Duji Varta | Tun Aarta Aashray Data ||
+
+[2]
+अपराधास्तव गुरुनाथा, ¦जरी दंडा धरिसी यथार्था ।
+Aparadhastav Gurunatha, Jari Danda Dharisi Yathartha |
+तरी आम्ही गाऊनि गाथा, ¦तव चरणी नमवू माथा ॥ चाल ॥
+Tari Aamhi Gauni Gatha, Tav Charani Namavu Matha || Chaal ||
+तूं तथापि दंडिसि देवा । ¦कोणाचा मग करु धावा ॥
+Tun Tathapi Dandisi Deva | Konacha Mag Karu Dhava ||
+सोडविना दुसरा तेंव्हा । ¦कोण दत्ता आम्हां त्राता ॥
+Sodavina Dusara Tenvha | Kon Datta Aamhan Trata ||
+
+[3]
+तूं नटसा होऊनि कोपी, ¦दंडिताहि आम्ही पापी ।
+Tun Natasa Houni Kopi, Danditahi Aamhi Papi |
+पुनरपिही चुकता तथापि, ¦आम्हांवरी नच संतापी ॥ चाल ॥
+Punarapihi Chukata Tathapi, Aamhanvari Nach Santapi || Chaal ||
+गच्छतः स्खलनं क्वापि । ¦असे मानुनि नच हो कोपी ॥
+Gachchhatah Skhalanam Kvapi | Ase Manuni Nach Ho Kopi ||
+निज कृपालेशा ओपी । ¦आम्हावरि तूं भगवंता ॥
+Nij Krupalesha Opi | Aamhavari Tun Bhagavanta ||
+
+[4]
+तवपदरी असता ताता, ¦आडमार्गी पाऊल पडता ।
+Tavapadari Asata Tata, Aadamargi Paul Padata |
+सांभाळुनि मार्गावरता, ¦आणिता न दुजा त्राता ॥ चाल ॥
+Sambhaluni Margavarata, Aanita Na Duja Trata || Chaal ||
+निज बिरुदा आणुनि चित्ता । ¦तूं पतित पावन दत्ता ॥
+Nij Biruda Aanuni Chitta | Tun Patit Pavan Datta ||
+वळे आता आम्हावरता । ¦करुणाघन तूं गुरुनाथा ॥
+Vale Aata Aamhavarata | Karunaghan Tun Gurunatha ||
+
+[5]
+सहकुटूंब सहपरिवार, ¦दास आम्ही हे घरदार ।
+Sahakutumb Sahaparivar, Das Aamhi He Gharadar |
+तव पदीं अर्पू असार, ¦संसाराहित हा भार ॥ चाल ॥
+Tav Padin Arpu Asar, Sansarahit Ha Bhar || Chaal ||
+परिहरिसी करुणासिंधो । ¦तूं दीनानाथ सुबंधो ॥
+Pariharisi Karunasindho | Tun Dinanath Subandho ||
+आम्हां अघलेश न बाधो । ¦वासुदेव प्रार्थित दत्ता ॥
+Aamhan Aghalesh Na Badho | Vasudev Prarthit Datta ||

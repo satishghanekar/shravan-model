@@ -1,0 +1,58 @@
+id: aarti-lavathavati-vikrala
+title: शंकराची आरती
+title-en: Shankar Aarti
+category: aarti
+language: mr
+legacy-id: a4
+line-ids: s4l
+refrain: every-verse
+credit: रचना : [समर्थ रामदास](https://mr.wikipedia.org/wiki/समर्थ_रामदास_स्वामी) (१६०८–१६८२)
+credit-en: By [Samarth Ramdas](https://en.wikipedia.org/wiki/Samarth_Ramdas) (1608–1682)
+---
+[dhrupad]
+जय देव जय देव जय श्रीशंकरा ।
+Jai Dev Jai Dev Jai Shri Shankara |
+आरती ओवाळू तुज कर्पूरगौरा ।
+Aarti Ovalu Tuja Karpuragaura |
+जय देव जय देव ॥ धृ. ॥
+Jai Dev Jai Dev || Dhr. ||
+
+[1]
+लवथवती विक्राळा ब्रह्मांडी माळा ।
+Lavathavati Vikrala Brahmandi Mala |
+विषे कंठ काळा त्रिनेत्री ज्वाळा ।
+Vishe Kantha Kala Trinetri Jwala |
+लावण्य सुंदर मस्तकी बाळा ।
+Lavanya Sundar Mastaki Bala |
+तेथुनिया जल निर्मळ वाहे झुळझुळा ॥
+Tethuniya Jal Nirmal Vahe Jhulajhula ||
+
+[2]
+कर्पूरगौरा भोळा नयनी विशाळा ।
+Karpuragaura Bhola Nayani Vishala |
+अर्धांगी पार्वती सुमनांच्या माळा ।
+Ardhangi Parvati Sumananchya Mala |
+विभूतीचे उधळण शितिकंठ नीळा ।
+Vibhutiche Udhalana Shitikanth Nila |
+ऐसा शंकर शोभे उमा वेल्हाळा ॥
+Aisa Shankar Shobhe Uma Velhala ||
+
+[3]
+देवी दैत्यी सागरमंथन पै केले ।
+Devi Daityi Sagarmanthan Pai Kele |
+त्यामाजी अवचित हळाहळ जे उठले ।
+Tyamaji Avachit Halahal Je Uthale |
+ते त्वा असुरपणे प्राशन केले ।
+Te Tva Asurapane Prashan Kele |
+नीलकंठ नाम प्रसिद्ध झाले ॥
+Nilakanth Nam Prasiddha Jhale ||
+
+[4]
+व्याघ्रांबर फणिवरधर सुंदर मदनारी ।
+Vyaghrambar Phanivardhar Sundar Madanari |
+पंचानन मनमोहन मुनिजन सुखकारी ।
+Panchanan Manmohan Munijan Sukhakari |
+शतकोटीचे बीज वाचे उच्चारी ।
+Shatakotiche Beej Vache Uchchari |
+रघुकुळटिळक रामदासा अंतरी ॥
+Raghukulatilak Ramdasa Antari ||

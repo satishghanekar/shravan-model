@@ -1,0 +1,58 @@
+id: aarti-yei-o-vitthale
+title: विठ्ठलाची आरती
+title-en: Vitthal Aarti
+category: aarti
+language: mr
+legacy-id: a7
+line-ids: s7l
+line-id-exceptions: s7l4=s7l4r
+refrain: every-verse
+refrain-before-first: yes
+credit: रचना : विष्णुदास नामा
+credit-en: By Vishnudas Nama
+credit-note: ([संत नामदेवांची](https://mr.wikipedia.org/wiki/नामदेव), अशीही मान्यता)
+credit-note-en: (also credited to [Sant Namdev](https://en.wikipedia.org/wiki/Namdev))
+---
+[dhrupad]
+येई ओ विठ्ठले माझी माऊली ये ।¦ // येई ओ विठ्ठले माझी माऊली ये ॥ धृ. ॥
+Yei O Vitthale Majhi Maauli Ye | // Yei O Vitthale Majhi Maauli Ye || Dhr. ||
+
+[dhrupad repeated]
+येई ओ विठ्ठले माझी माऊली ये ।¦ // येई ओ विठ्ठले माझी माऊली ये ॥ धृ. ॥
+Yei O Vitthale Majhi Maauli Ye | // Yei O Vitthale Majhi Maauli Ye || Dhr. ||
+
+[1]
+निढळावरी कर, ¦निढळावरी कर ठेवुनी वाट मी पाहे ।
+Nidhalavari Kar, Nidhalavari Kar Thevuni Vaat Mi Pahe |
+हो देवा वाट मी पाहे ॥
+Ho Deva Vaat Mi Pahe ||
+
+[2]
+आलिया गेलीया हातीं धाडी निरोप ।
+Aaliya Geliya Haati Dhadi Nirop |
+आलिया गेलीया हातीं धाडी निरोप ।
+Aaliya Geliya Haati Dhadi Nirop |
+पंढरपुरी आहे, ¦पंढरपुरी आहे माझा मायबाप ।
+Pandharpuri Aahe, Pandharpuri Aahe Majha Maaybaap |
+हो माझा मायबाप ॥
+Ho Majha Maaybaap ||
+
+[3]
+पिवळा पीतांबर कैसा गगनी झळकला ।
+Pivala Pitaambar Kaisa Gagani Jhalakala |
+पिवळा पीतांबर कैसा गगनी झळकला ।
+Pivala Pitaambar Kaisa Gagani Jhalakala |
+गरुडावरी बैसोनी, ¦गरुडावरी बैसोनी माझा कैवारी आला ।
+Garudavari Baisoni, Garudavari Baisoni Majha Kaivari Aala |
+हो माझा कैवारी आला ॥
+Ho Majha Kaivari Aala ||
+
+[4]
+विठोबाचे राज आम्हां नित्य दिपवाळी ।
+Vithobache Raaj Aamha Nitya Dipavali |
+विठोबाचे राज आम्हां नित्य दिपवाळी ।
+Vithobache Raaj Aamha Nitya Dipavali |
+विष्णुदास नामा, ¦विष्णुदास नामा जीवेभावे ओवाळी ।
+Vishnudas Naama, Vishnudas Naama Jivebhave Owaali |
+हो जीवेभावे ओवाळी ॥
+Ho Jivebhave Owaali ||

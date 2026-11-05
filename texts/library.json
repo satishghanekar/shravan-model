@@ -1,0 +1,505 @@
+{
+ "texts": [
+  {
+   "id": "vedic-chant-atharvashirsha",
+   "file": "texts/vedic-chant-atharvashirsha.txt",
+   "title": "गणपत्यथर्वशीर्षोपनिषत्",
+   "titleEn": "Ganapati Atharvashirsha",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 103
+  },
+  {
+   "id": "vedic-chant-purusha-suktam",
+   "file": "texts/vedic-chant-purusha-suktam.txt",
+   "title": "पुरुषसूक्तम्",
+   "titleEn": "Purusha Suktam",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 112
+  },
+  {
+   "id": "vedic-chant-shri-sukta",
+   "file": "texts/vedic-chant-shri-sukta.txt",
+   "title": "श्रीसूक्त",
+   "titleEn": "Shri Sukta",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 84
+  },
+  {
+   "id": "vedic-chant-laghunyasa",
+   "file": "texts/vedic-chant-laghunyasa.txt",
+   "title": "लघुन्यासः",
+   "titleEn": "Laghunyasa",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 83
+  },
+  {
+   "id": "vedic-chant-shree-rudra",
+   "file": "texts/vedic-chant-shree-rudra.txt",
+   "title": "श्री रुद्रप्रश्नः",
+   "titleEn": "Shree Rudra",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 278
+  },
+  {
+   "id": "vedic-chant-durga-suktam",
+   "file": "texts/vedic-chant-durga-suktam.txt",
+   "title": "दुर्गा सूक्तम्",
+   "titleEn": "Durga Suktam",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 17
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam",
+   "file": "texts/vedic-chant-pavamana-suktam.txt",
+   "title": "पवमानसूक्तम्",
+   "titleEn": "Pavamana Suktam",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 1277
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama",
+   "file": "texts/vedic-chant-lalita-sahasranama.txt",
+   "title": "श्रीललितासहस्रनामस्तोत्रम्",
+   "titleEn": "Shri Lalita Sahasranama",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 394
+  },
+  {
+   "id": "vedic-chant-mantra-pushpanjali",
+   "file": "texts/vedic-chant-mantra-pushpanjali.txt",
+   "title": "मन्त्रपुष्पाञ्जलिः",
+   "titleEn": "Mantra Pushpanjali",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 14
+  },
+  {
+   "id": "aarti-sukhkarta",
+   "file": "texts/aarti-sukhkarta.txt",
+   "title": "सुखकर्ता दुःखहर्ता",
+   "titleEn": "Sukhkarta Dukhharta",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 15
+  },
+  {
+   "id": "aarti-shendur-lal-chadhayo",
+   "file": "texts/aarti-shendur-lal-chadhayo.txt",
+   "title": "शेंदुर लाल चढ़ायो",
+   "titleEn": "Shendur Laal Chadhayo",
+   "category": "aarti",
+   "language": "hi",
+   "lines": 15
+  },
+  {
+   "id": "aarti-durge-durghat-bhari",
+   "file": "texts/aarti-durge-durghat-bhari.txt",
+   "title": "देवीची आरती",
+   "titleEn": "Devi Aarti",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 15
+  },
+  {
+   "id": "aarti-lavathavati-vikrala",
+   "file": "texts/aarti-lavathavati-vikrala.txt",
+   "title": "शंकराची आरती",
+   "titleEn": "Shankar Aarti",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 19
+  },
+  {
+   "id": "aarti-trigunatmak-traimurti",
+   "file": "texts/aarti-trigunatmak-traimurti.txt",
+   "title": "दत्ताची आरती",
+   "titleEn": "Dattatreya Aarti",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 19
+  },
+  {
+   "id": "aarti-dnyanaraja",
+   "file": "texts/aarti-dnyanaraja.txt",
+   "title": "ज्ञानेश्वरांची आरती",
+   "titleEn": "Dnyaneshwar Aarti",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 9
+  },
+  {
+   "id": "aarti-yei-o-vitthale",
+   "file": "texts/aarti-yei-o-vitthale.txt",
+   "title": "विठ्ठलाची आरती",
+   "titleEn": "Vitthal Aarti",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 16
+  },
+  {
+   "id": "aarti-ghalin-lotangan",
+   "file": "texts/aarti-ghalin-lotangan.txt",
+   "title": "घालीन लोटांगण",
+   "titleEn": "Ghalin Lotangan",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 18
+  },
+  {
+   "id": "aarti-jai-ganesh-deva",
+   "file": "texts/aarti-jai-ganesh-deva.txt",
+   "title": "आरती जय गणेश देवा",
+   "titleEn": "Aarti Jai Ganesh Deva",
+   "category": "aarti",
+   "language": "hi",
+   "lines": 10
+  },
+  {
+   "id": "aarti-jai-jagdish-hare",
+   "file": "texts/aarti-jai-jagdish-hare.txt",
+   "title": "आरती जय जगदीश हरे",
+   "titleEn": "Aarti Jai Jagdish Hare",
+   "category": "aarti",
+   "language": "hi",
+   "lines": 30
+  },
+  {
+   "id": "aarti-jaydeva-jaydeva-samartha",
+   "file": "texts/aarti-jaydeva-jaydeva-samartha.txt",
+   "title": "जयदेवा जयदेवा जय जय समर्था",
+   "titleEn": "Jayadeva Jayadeva Jay Jay Samartha",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 14
+  },
+  {
+   "id": "aarti-jay-jay-aarti-shrigururaya",
+   "file": "texts/aarti-jay-jay-aarti-shrigururaya.txt",
+   "title": "जय जय आरती श्रीगुरुराया",
+   "titleEn": "Jay Jay Aarti Shrigururaya",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 8
+  },
+  {
+   "id": "aarti-ovaloon-aarti-chaitanyabrahma",
+   "file": "texts/aarti-ovaloon-aarti-chaitanyabrahma.txt",
+   "title": "ओवाळूं आरती सद्‌गुरु चैतन्यब्रह्मा",
+   "titleEn": "Ovalun Aarti Sadguru Chaitanyabrahma",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 11
+  },
+  {
+   "id": "aarti-kariton-guruvar",
+   "file": "texts/aarti-kariton-guruvar.txt",
+   "title": "आरती करितों गुरुवर",
+   "titleEn": "Aarti Kariton Guruvar",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 11
+  },
+  {
+   "id": "aarti-dhanya-jagin-guruvarya",
+   "file": "texts/aarti-dhanya-jagin-guruvarya.txt",
+   "title": "धन्य जगीं या गुरुवर्य हे मारुतिअवतार",
+   "titleEn": "Dhanya Jagin Ya Guruvarya He Marutiavatar",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 18
+  },
+  {
+   "id": "aarti-belaguve",
+   "file": "texts/aarti-belaguve.txt",
+   "title": "आरती बेळगुवे",
+   "titleEn": "Aarti Belaguve",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 12
+  },
+  {
+   "id": "aarti-svastha-karin-shayan",
+   "file": "texts/aarti-svastha-karin-shayan.txt",
+   "title": "स्वस्थ करीं शयन प्रभो मंचकावरी",
+   "titleEn": "Svastha Karin Shayan Prabho Manchakavari",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 11
+  },
+  {
+   "id": "aarti-ovaloo-sapreme-aarti",
+   "file": "texts/aarti-ovaloo-sapreme-aarti.txt",
+   "title": "आरती श्री नानामहाराजांची",
+   "titleEn": "Aarti Shri Nana Maharajanchi",
+   "category": "aarti",
+   "language": "mr",
+   "lines": 20
+  },
+  {
+   "id": "stotra-maruti-stotra",
+   "file": "texts/stotra-maruti-stotra.txt",
+   "title": "मारुती स्तोत्र",
+   "titleEn": "Maruti Stotra",
+   "category": "stotra",
+   "language": "mr",
+   "lines": 35
+  },
+  {
+   "id": "stotra-hanuman-chalisa",
+   "file": "texts/stotra-hanuman-chalisa.txt",
+   "title": "श्री हनुमान चालीसा",
+   "titleEn": "Shri Hanuman Chalisa",
+   "category": "stotra",
+   "language": "hi",
+   "lines": 86
+  },
+  {
+   "id": "stotra-ram-raksha",
+   "file": "texts/stotra-ram-raksha.txt",
+   "title": "श्रीरामरक्षास्तोत्रम्",
+   "titleEn": "Shri Ram Raksha Stotra",
+   "category": "stotra",
+   "language": "sa",
+   "lines": 100
+  },
+  {
+   "id": "stotra-shant-ho-shriguru",
+   "file": "texts/stotra-shant-ho-shriguru.txt",
+   "title": "शांत हो श्रीगुरु",
+   "titleEn": "Shant Ho Shriguru",
+   "category": "stotra",
+   "language": "mr",
+   "lines": 21
+  },
+  {
+   "id": "stotra-shriguru-datta-jay",
+   "file": "texts/stotra-shriguru-datta-jay.txt",
+   "title": "श्रीगुरु दत्ता जय",
+   "titleEn": "Shriguru Datta Jay",
+   "category": "stotra",
+   "language": "mr",
+   "lines": 6
+  },
+  {
+   "id": "stotra-jay-karunaghan-nij",
+   "file": "texts/stotra-jay-karunaghan-nij.txt",
+   "title": "जय करुणाघन निज",
+   "titleEn": "Jay Karunaghan Nij",
+   "category": "stotra",
+   "language": "mr",
+   "lines": 6
+  },
+  {
+   "id": "stotra-ghorakashtoddharan",
+   "file": "texts/stotra-ghorakashtoddharan.txt",
+   "title": "घोरकष्टोद्धरणस्तोत्रम्",
+   "titleEn": "Ghorakashtoddharan Stotra",
+   "category": "stotra",
+   "language": "sa",
+   "lines": 14
+  },
+  {
+   "id": "stotra-vandu-guruchya-charanarvinda",
+   "file": "texts/stotra-vandu-guruchya-charanarvinda.txt",
+   "title": "वंदू गुरुच्या चरणारविंदा",
+   "titleEn": "Vandu Guruchya Charanaravinda",
+   "category": "stotra",
+   "language": "mr",
+   "lines": 16
+  },
+  {
+   "id": "stotra-martand-bavani",
+   "file": "texts/stotra-martand-bavani.txt",
+   "title": "श्री मार्तण्ड बावनी",
+   "titleEn": "Shri Martand Bavani",
+   "category": "stotra",
+   "language": "hi",
+   "lines": 54
+  },
+  {
+   "id": "stotra-sadguru-vandana",
+   "file": "texts/stotra-sadguru-vandana.txt",
+   "title": "श्री सदगुरु वंदना",
+   "titleEn": "Shri Sadguru Vandana",
+   "category": "stotra",
+   "language": "mr",
+   "lines": 49
+  },
+  {
+   "id": "ashtak-sadguru-padukashtak",
+   "file": "texts/ashtak-sadguru-padukashtak.txt",
+   "title": "श्रीसद्गुरुपादुकाष्टक",
+   "titleEn": "Shrisadgurupadukashtak",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 41
+  },
+  {
+   "id": "ashtak-ananyata-maj-ghado",
+   "file": "texts/ashtak-ananyata-maj-ghado.txt",
+   "title": "अनन्यता मज घडो स्वानंदरूपीं",
+   "titleEn": "Ananyata Maj Ghado Svanandarupin",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 104
+  },
+  {
+   "id": "ashtak-anudin-anutapen",
+   "file": "texts/ashtak-anudin-anutapen.txt",
+   "title": "अनुदिन अनुतापें तापलों",
+   "titleEn": "Anudin Anutapen Tapalon",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 61
+  },
+  {
+   "id": "ashtak-monday",
+   "file": "texts/ashtak-monday.txt",
+   "title": "सोमवार – नसे भक्ति ना",
+   "titleEn": "Monday – Nase Bhakti Na",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 25
+  },
+  {
+   "id": "ashtak-tuesday",
+   "file": "texts/ashtak-tuesday.txt",
+   "title": "मंगळवार – उदासीन हे वृत्ति",
+   "titleEn": "Tuesday – Udasin He Vrutti",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 37
+  },
+  {
+   "id": "ashtak-wednesday",
+   "file": "texts/ashtak-wednesday.txt",
+   "title": "बुधवार – युक्ति नाहीं बुद्धि",
+   "titleEn": "Wednesday – Yukti Nahin Buddhi",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 37
+  },
+  {
+   "id": "ashtak-thursday",
+   "file": "texts/ashtak-thursday.txt",
+   "title": "गुरुवार – समाधान साधूजनाचेनि योगें",
+   "titleEn": "Thursday – Samadhan Sadhujanacheni Yogen",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 41
+  },
+  {
+   "id": "ashtak-friday",
+   "file": "texts/ashtak-friday.txt",
+   "title": "शुक्रवार – उदासीन हा काळ",
+   "titleEn": "Friday – Udasin Ha Kal",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 17
+  },
+  {
+   "id": "ashtak-saturday",
+   "file": "texts/ashtak-saturday.txt",
+   "title": "शनिवार – तुझिया वियोगें जीवित्व",
+   "titleEn": "Saturday – Tujhiya Viyogen Jivitva",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 21
+  },
+  {
+   "id": "ashtak-sunday",
+   "file": "texts/ashtak-sunday.txt",
+   "title": "रविवार – असंख्यात ते भक्त",
+   "titleEn": "Sunday – Asankhyat Te Bhakta",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 33
+  },
+  {
+   "id": "ashtak-haachi-subodh",
+   "file": "texts/ashtak-haachi-subodh.txt",
+   "title": "हाचि सुबोध गुरूंचा",
+   "titleEn": "Hachi Subodh Guruncha",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 28
+  },
+  {
+   "id": "ashtak-brahmachaitanya-sarikha",
+   "file": "texts/ashtak-brahmachaitanya-sarikha.txt",
+   "title": "श्रीब्रह्मचैतन्यासारिखा नाहीं पाहिला",
+   "titleEn": "Shribrahmachaitanyasarikha Nahin Pahila",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 20
+  },
+  {
+   "id": "ashtak-swami-majha-pahila",
+   "file": "texts/ashtak-swami-majha-pahila.txt",
+   "title": "स्वामी माझा पाहिला",
+   "titleEn": "Svami Majha Pahila",
+   "category": "ashtak",
+   "language": "mr",
+   "lines": 23
+  },
+  {
+   "id": "ashtak-surya-ashtakam",
+   "file": "texts/ashtak-surya-ashtakam.txt",
+   "title": "श्री सूर्याष्टकम्",
+   "titleEn": "Shri Surya Ashtakam",
+   "category": "ashtak",
+   "language": "sa",
+   "lines": 24
+  }
+ ],
+ "pageLanguage": "mr",
+ "languages": {
+  "sa": {
+   "mr": "संस्कृत",
+   "en": "Sanskrit"
+  },
+  "mr": {
+   "mr": "मराठी",
+   "en": "Marathi"
+  },
+  "hi": {
+   "mr": "हिंदी",
+   "en": "Hindi"
+  }
+ },
+ "refrain": {
+  "label": {
+   "mr": "ध्रुपद (प्रत्येक कडव्यानंतर म्हणावे)",
+   "en": "Refrain (sung after every verse)"
+  },
+  "note": {
+   "mr": "↻ ध्रुपद",
+   "en": "Refrain"
+  }
+ },
+ "ui": {
+  "prev": {
+   "mr": "मागील",
+   "en": "Previous"
+  },
+  "next": {
+   "mr": "पुढील",
+   "en": "Next"
+  }
+ },
+ "wiki": {
+  "kn": {
+   "https://mr.wikipedia.org/wiki/एकनाथ": "https://kn.wikipedia.org/wiki/ಸಂತ_ಏಕನಾಥ್",
+   "https://mr.wikipedia.org/wiki/नामदेव": "https://kn.wikipedia.org/wiki/ನಾಮ್‍ದೇವ್",
+   "https://mr.wikipedia.org/wiki/समर्थ_रामदास_स्वामी": "https://kn.wikipedia.org/wiki/ಸಮರ್ಥ_ರಾಮದಾಸರು"
+  }
+ }
+}

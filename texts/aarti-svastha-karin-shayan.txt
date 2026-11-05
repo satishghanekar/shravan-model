@@ -1,0 +1,37 @@
+id: aarti-svastha-karin-shayan
+title: स्वस्थ करीं शयन प्रभो मंचकावरी
+title-en: Svastha Karin Shayan Prabho Manchakavari
+category: aarti
+language: mr
+refrain: every-verse
+refrain-before-first: yes
+---
+[dhrupad]
+स्वस्थ करीं शयन प्रभो मंचकावरी ।
+Svastha Karin Shayan Prabho Manchakavari |
+श्रीसद्‌गुरुमहाराज पाहूं डोळेभरी ॥ धृ. ॥
+Shrisadgurumaharaj Pahun Dolebhari || Dhr. ||
+
+[1]
+चिन्मय तूं परमात्मा अससि तत्त्वतां ।
+Chinmay Tun Paramatma Asasi Tattvatan |
+व्यवहरसी संतमिसें प्रगटुनी आतां ।
+Vyavaharasi Santamisen Pragatuni Aatan |
+उघडें परब्रह्मचि हे मूर्ति गोजिरी ॥
+Ughaden Parabrahmachi He Murti Gojiri ||
+
+[2]
+देहगुणातीतचि तूं पतितपावना ।
+Dehagunatitachi Tun Patitapavana |
+म्हणवुनि तनु झिजवुनिया सुखविसी जनां ।
+Mhanavuni Tanu Jhijavuniya Sukhavisi Janan |
+पहावेना, विश्रांती घेई क्षणभरी ॥
+Pahavena, Vishranti Ghei Kshanabhari ||
+
+[3]
+भूतदया शांति तव पाय सेविती ।
+Bhutadaya Shanti Tav Pay Seviti |
+सहजावस्था दक्षताहि वारा घालिती ।
+Sahajavastha Dakshatahi Vara Ghaliti |
+महाभागवत प्रार्थी कांहीं चाकरी ॥
+Mahabhagavat Prarthi Kanhin Chakari ||

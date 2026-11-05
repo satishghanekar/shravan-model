@@ -1,0 +1,43 @@
+id: aarti-jaydeva-jaydeva-samartha
+title: जयदेवा जयदेवा जय जय समर्था
+title-en: Jayadeva Jayadeva Jay Jay Samartha
+category: aarti
+language: mr
+refrain: every-verse
+refrain-before-first: yes
+---
+[dhrupad]
+जयदेवा जयदेवा जय जय समर्था ॥
+Jayadeva Jayadeva Jay Jay Samartha ||
+श्रीब्रह्मचैतन्या सद्गुरुनाथा । जयदेवा जयदेवा ॥ धृ. ॥
+Shribrahmachaitanya Sadgurunatha | Jayadeva Jayadeva || Dhr. ||
+
+[1]
+तू अनिर्वचनीय परमात्मा अससी ।
+Tu Anirvachaniy Paramatma Asasi |
+लोकोद्धारासाठी नरतनु धरिलासी ।
+Lokoddharasathi Naratanu Dharilasi |
+माणगंगातीरी प्रगट झालासी ॥
+Managangatiri Pragat Jhalasi ||
+गोंदवले ग्रामी कुलकर्णीवंशी ॥
+Gondavale Grami Kulakarnivanshi ||
+
+[2]
+शरणागतासी त्वां निजसुख दिधले ।
+Sharanagatasi Tvan Nijasukh Didhale |
+दीनालागी कृत्य अद्भुत केले ।
+Dinalagi Krutya Adbhut Kele |
+जागोजागी राममंदिर निर्मियेले ।
+Jagojagi Ramamandir Nirmiyele |
+भूमंडळी रामनामा गर्जविले ॥
+Bhumandali Ramanama Garjavile ||
+
+[3]
+तू सच्चिदानंद तू स्वयंज्योति ।
+Tu Sachchidanand Tu Svayanjyoti |
+भावे ओंवाळितो कर्पुर आरती ॥
+Bhave Onvalito Karpur Aarti ||
+महाभागवताची तव पायीं प्रीती ।
+Mahabhagavatachi Tav Payin Priti |
+घ्यावी सेवा सदा हीच विनंती ॥
+Ghyavi Seva Sada Hich Vinanti ||

@@ -1,0 +1,3848 @@
+id: vedic-chant-pavamana-suktam
+title: पवमानसूक्तम्
+title-en: Pavamana Suktam
+category: vedic-chant
+language: sa
+layout: prose
+credit: [ऋग्वेद, मण्डल ९](https://mr.wikipedia.org/wiki/ऋग्वेद)
+credit-en: [Rigveda, Mandala 9](https://en.wikipedia.org/wiki/Mandala_9)
+---
+[dhrupad]
+॥ पवमानसूक्तम् ॥
+|| Pavamanasuktam ||
+
+[dhrupad]
+गणानां᳚ त्वा ग॒णप॑तिं हवामहे क॒विं क॑वी॒नामु॑प॒मश्र॑वस्तमम् ।
+Gananam Tva Ganapatim Havamahe Kavim Kavinamupamashravastamam |
+ज्ये॒ष्ठ॒राजं॒ ब्रह्म॑णां ब्रह्मणस्पत॒ आ नः॑ शृ॒ण्वन्नू॒तिभिः॑ सीद॒ साद॑नम् ॥
+Jyeshtharajam Brahmanam Brahmanaspata A Nah Shrunvannutibhih Sida Sadanam ||
+
+[dhrupad]
+प्र णो᳚ दे॒वी सर॑स्वती॒ वाजे᳚भिर्वा॒जिनी᳚वती ।
+Pra No Devi Sarasvati Vajebhirvajinivati |
+धी॒नाम॑वि॒त्र्य॑वतु ॥
+Dhinamavitryavatu ||
+
+[dhrupad]
+वेद॒ वात॑स्य वर्त॒निमु॒रोरृ॒ष्वस्य॑ बृह॒तः ।
+Veda Vatasya Vartanimurorrushvasya Bruhatah |
+वेदा॒ ये अ॒ध्यास॑ते ॥
+Veda Ye Adhyasate ||
+
+[dhrupad]
+श॒तधा᳚र॒मुत्स॒मक्षी᳚यमाणं विप॒श्चितं᳚ पि॒तरं॒ वक्त्वा᳚नाम् ।
+Shatadharamutsamakshiyamanam Vipashchitam Pitaram Vaktvanam |
+मे॒ळिं मद᳚न्तं पि॒त्रोरु॒पस्थे॒ तं रो᳚दसी पिपृतं सत्य॒वाच᳚म् ॥
+Melim Madantam Pitrorupasthe Tam Rodasi Piprutam Satyavacham ||
+
+[dhrupad]
+ऋ॒चो अ॒क्षरे᳚ पर॒मे व्यो᳚म॒न् यस्मि᳚न् दे॒वा अधि॒ विश्वे᳚ निषे॒दुः ।
+Rucho Akshare Parame Vyoman Yasmin Deva Adhi Vishve Nisheduh |
+यस्तन्न वेद॒ किमृ॒चा क॑रिष्यति॒ य इत्तद्वि॒दुस्त इ॒मे समा᳚सते ॥
+Yastanna Veda Kimrucha Karishyati Ya Ittadvidusta Ime Samasate ||
+
+[dhrupad]
+॥ अथ पवमानसूक्तम् ॥
+|| Atha Pavamanasuktam ||
+
+[para 1]
+स्वादि॑ष्ठया॒ मदि॑ष्ठया॒ पव॑स्व सोम॒ धार॑या ।
+Svadishthaya Madishthaya Pavasva Soma Dharaya |
+इन्द्रा᳚य॒ पात॑वे सु॒तः ॥ ९.००१.०१ ॥
+Indraya Patave Sutah || 9.001.01 ||
+
+[2]
+र॒क्षो॒हा वि॒श्वच॑र्षणिर॒भि योनि॒मयो᳚हतम् ।
+Rakshoha Vishvacharshanirabhi Yonimayohatam |
+द्रुणा᳚ स॒धस्थ॒मास॑दत् ॥ ९.००१.०२ ॥
+Druna Sadhasthamasadat || 9.001.02 ||
+
+[3]
+व॒रि॒वो॒धात॑मो भव॒ मंहि॑ष्ठो वृत्र॒हन्त॑मः ।
+Varivodhatamo Bhava Mamhishtho Vrutrahantamah |
+पर्षि॒ राधो᳚ म॒घोना᳚म् ॥ ९.००१.०३ ॥
+Parshi Radho Maghonam || 9.001.03 ||
+
+[4]
+अ॒भ्य॑र्ष म॒हानां᳚ दे॒वानां᳚ वी॒तिमन्ध॑सा ।
+Abhyarsha Mahanam Devanam Vitimandhasa |
+अ॒भि वाज॑मु॒त श्रवः॑ ॥ ९.००१.०४ ॥
+Abhi Vajamuta Shravah || 9.001.04 ||
+
+[5]
+त्वामच्छा᳚ चरामसि॒ तदिदर्थं᳚ दि॒वेदि॑वे ।
+Tvamachchha Charamasi Tadidartham Divedive |
+इन्दो॒ त्वे न॑ आ॒शसः॑ ॥ ९.००१.०५ ॥
+Indo Tve Na Ashasah || 9.001.05 ||
+
+[6]
+पु॒नाति॑ ते परि॒स्रुतं॒ सोमं॒ सूर्य॑स्य दुहि॒ता ।
+Punati Te Parisrutam Somam Suryasya Duhita |
+वारे᳚ण॒ शश्व॑ता॒ तना᳚ ॥ ९.००१.०६ ॥
+Varena Shashvata Tana || 9.001.06 ||
+
+[7]
+तमी॒मण्वी᳚ सम॒र्य आ गृ॒भ्णन्ति॒ योष॑णो॒ दश॑ ।
+Tamimanvi Samarya A Grubhnanti Yoshano Dasha |
+स्वसा᳚रः॒ पार्ये᳚ दि॒वि ॥ ९.००१.०७ ॥
+Svasarah Parye Divi || 9.001.07 ||
+
+[8]
+तमीं᳚ हिन्वन्त्य॒ग्रुवो॒ धम᳚न्ति बाकु॒रं दृतिम्᳚ ।
+Tamim Hinvantyagruvo Dhamanti Bakuram Drutim |
+त्रि॒धातु॑ वार॒णं मधु॑ ॥ ९.००१.०८ ॥
+Tridhatu Varanam Madhu || 9.001.08 ||
+
+[9]
+अ॒भी३॒॑ ममघ्न्या᳚ उ॒त श्री॒णन्ति॑ धे॒नवः॒ शिशुम्᳚ ।
+Abhi Mamaghnya Uta Shrinanti Dhenavah Shishum |
+सोम॒मिन्द्रा᳚य॒ पात॑वे ॥ ९.००१.०९ ॥
+Somamindraya Patave || 9.001.09 ||
+
+[10]
+अ॒स्येदिन्द्रो॒ मदे॒ष्वा विश्वा᳚ वृ॒त्राणि॑ जिघ्नते ।
+Asyedindro Madeshva Vishva Vrutrani Jighnate |
+शूरो᳚ म॒घा च॑ मंहते ॥ ९.००१.१० ॥
+Shuro Magha Cha Mamhate || 9.001.10 ||
+
+[para 11]
+पव॑स्व देव॒वीरति॑ प॒वित्रं᳚ सोम॒ रंह्या᳚ ।
+Pavasva Devavirati Pavitram Soma Ramhya |
+इन्द्र॑मिन्दो॒ वृषा वि॑श ॥ ९.००२.०१ ॥
+Indramindo Vrusha Visha || 9.002.01 ||
+
+[12]
+आ व॑च्यस्व॒ महि॒ प्सरो॒ वृषे᳚न्दो द्यु॒म्नव॑त्तमः ।
+A Vachyasva Mahi Psaro Vrushendo Dyumnavattamah |
+आ योनिं᳚ धर्ण॒सिः स॑दः ॥ ९.००२.०२ ॥
+A Yonim Dharnasih Sadah || 9.002.02 ||
+
+[13]
+अधु॑क्षत प्रि॒यं मधु॒ धारा᳚ सु॒तस्य॑ वे॒धसः॑ ।
+Adhukshata Priyam Madhu Dhara Sutasya Vedhasah |
+अ॒पो व॑सिष्ट सु॒क्रतुः॑ ॥ ९.००२.०३ ॥
+Apo Vasishta Sukratuh || 9.002.03 ||
+
+[14]
+म॒हान्तं᳚ त्वा म॒हीरन्वापो᳚ अर्षन्ति॒ सिन्ध॑वः ।
+Mahantam Tva Mahiranvapo Arshanti Sindhavah |
+यद्गोभि॑र्वासयि॒ष्यसे᳚ ॥ ९.००२.०४ ॥
+Yadgobhirvasayishyase || 9.002.04 ||
+
+[15]
+स॒मु॒द्रो अ॒प्सु मा᳚मृजे विष्ट॒म्भो ध॒रुणो᳚ दि॒वः ।
+Samudro Apsu Mamruje Vishtambho Dharuno Divah |
+सोम॑ प॒वित्रे᳚ अस्म॒युः ॥ ९.००२.०५ ॥
+Soma Pavitre Asmayuh || 9.002.05 ||
+
+[16]
+अचि॑क्रद॒द्वृषा॒ हरि॑र्म॒हान्मि॒त्रो न द॑र्श॒तः ।
+Achikradadvrusha Harirmahanmitro Na Darshatah |
+सं सूर्ये᳚ण रोचते ॥ ९.००२.०६ ॥
+Sam Suryena Rochate || 9.002.06 ||
+
+[17]
+गिर॑स्त इन्द॒ ओज॑सा मर्मृ॒ज्यन्ते᳚ अप॒स्युवः॑ ।
+Girasta Inda Ojasa Marmrujyante Apasyuvah |
+याभि॒र्मदा᳚य॒ शुम्भ॑से ॥ ९.००२.०७ ॥
+Yabhirmadaya Shumbhase || 9.002.07 ||
+
+[18]
+तं त्वा॒ मदा᳚य॒ घृष्व॑य उलोककृ॒त्नुमी᳚महे ।
+Tam Tva Madaya Ghrushvaya Ulokakrutnumimahe |
+तव॒ प्रश॑स्तयो म॒हीः ॥ ९.००२.०८ ॥
+Tava Prashastayo Mahih || 9.002.08 ||
+
+[19]
+अ॒स्मभ्य॑मिन्दविन्द्र॒युर्मध्व॑ पवस्व॒ धार॑या ।
+Asmabhyamindavindrayurmadhva Pavasva Dharaya |
+प॒र्जन्यो᳚ वृष्टि॒मां इ॑व ॥ ९.००२.०९ ॥
+Parjanyo Vrushtimam Iva || 9.002.09 ||
+
+[20]
+गो॒षा इ᳚न्दो नृ॒षा अ॑स्यश्व॒सा वा᳚ज॒सा उ॒त ।
+Gosha Indo Nrusha Asyashvasa Vajasa Uta |
+आ॒त्मा य॒ज्ञस्य॑ पू॒र्व्यः ॥ ९.००२.१० ॥
+Atma Yadnyasya Purvyah || 9.002.10 ||
+
+[para 21]
+ए॒ष दे॒वो अम॑र्त्यः पर्ण॒वीरि॑व दीयति ।
+Esha Devo Amartyah Parnaviriva Diyati |
+अ॒भि द्रोणा᳚न्या॒सदम्᳚ ॥ ९.००३.०१ ॥
+Abhi Dronanyasadam || 9.003.01 ||
+
+[22]
+ए॒ष दे॒वो वि॒पा कृ॒तोऽति॒ ह्वरां᳚सि धावति ।
+Esha Devo Vipa Krutoti Hvaramsi Dhavati |
+पव॑मानो॒ अदा᳚भ्यः ॥ ९.००३.०२ ॥
+Pavamano Adabhyah || 9.003.02 ||
+
+[23]
+ए॒ष दे॒वो वि॑प॒न्युभि॒ पव॑मान ऋता॒युभिः॑ ।
+Esha Devo Vipanyubhi Pavamana Rutayubhih |
+हरि॒र्वाजा᳚य मृज्यते ॥ ९.००३.०३ ॥
+Harirvajaya Mrujyate || 9.003.03 ||
+
+[24]
+ए॒ष विश्वा᳚नि॒ वार्या॒ शूरो॒ यन्नि॑व॒ सत्व॑भिः ।
+Esha Vishvani Varya Shuro Yanniva Satvabhih |
+पव॑मानः सिषासति ॥ ९.००३.०४ ॥
+Pavamanah Sishasati || 9.003.04 ||
+
+[25]
+ए॒ष दे॒वो र॑थर्यति॒ पव॑मानो दशस्यति ।
+Esha Devo Ratharyati Pavamano Dashasyati |
+आ॒विष्कृ॑णोति वग्व॒नुम् ॥ ९.००३.०५ ॥
+Avishkrunoti Vagvanum || 9.003.05 ||
+
+[26]
+ए॒ष विप्रै᳚र॒भिष्टु॑तो॒ऽपो दे॒वो वि गा᳚हते ।
+Esha Viprairabhishtutopo Devo Vi Gahate |
+दध॒द्रत्ना᳚नि दा॒शुषे᳚ ॥ ९.००३.०६ ॥
+Dadhadratnani Dashushe || 9.003.06 ||
+
+[27]
+ए॒ष दिवं॒ वि धा᳚वति ति॒रो रजां᳚सि॒ धार॑या ।
+Esha Divam Vi Dhavati Tiro Rajamsi Dharaya |
+पव॑मान॒ कनि॑क्रदत् ॥ ९.००३.०७ ॥
+Pavamana Kanikradat || 9.003.07 ||
+
+[28]
+ए॒ष दिवं॒ व्यास॑रत्ति॒रो रजां॒स्यस्पृ॑तः ।
+Esha Divam Vyasarattiro Rajamsyasprutah |
+पव॑मानः स्वध्व॒रः ॥ ९.००३.०८ ॥
+Pavamanah Svadhvarah || 9.003.08 ||
+
+[29]
+ए॒ष प्र॒त्नेन॒ जन्म॑ना दे॒वो दे॒वेभ्य॑ सु॒तः ।
+Esha Pratnena Janmana Devo Devebhya Sutah |
+हरि॑ प॒वित्रे᳚ अर्षति ॥ ९.००३.०९ ॥
+Hari Pavitre Arshati || 9.003.09 ||
+
+[30]
+ए॒ष उ॒ स्य पु॑रुव्र॒तो ज॑ज्ञा॒नो ज॒नय॒न्निषः॑ ।
+Esha U Sya Puruvrato Jadnyano Janayannishah |
+धार॑या पवते सु॒तः ॥ ९.००३.१० ॥
+Dharaya Pavate Sutah || 9.003.10 ||
+
+[para 31]
+सना᳚ च सोम॒ जेषि॑ च॒ पव॑मान॒ महि॒ श्रवः॑ ।
+Sana Cha Soma Jeshi Cha Pavamana Mahi Shravah |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०१ ॥
+Atha No Vasyasaskrudhi || 9.004.01 ||
+
+[32]
+सना॒ ज्योति॒ सना॒ स्व१॒॑ र्विश्वा᳚ च सोम॒ सौभ॑गा ।
+Sana Jyoti Sana Sva1 Rvishva Cha Soma Saubhaga |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०२ ॥
+Atha No Vasyasaskrudhi || 9.004.02 ||
+
+[33]
+सना॒ दक्ष॑मु॒त क्रतु॒मप॑ सोम॒ मृधो᳚ जहि ।
+Sana Dakshamuta Kratumapa Soma Mrudho Jahi |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०३ ॥
+Atha No Vasyasaskrudhi || 9.004.03 ||
+
+[34]
+पवी᳚तारः पुनी॒तन॒ सोम॒मिन्द्रा᳚य॒ पात॑वे ।
+Pavitarah Punitana Somamindraya Patave |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०४ ॥
+Atha No Vasyasaskrudhi || 9.004.04 ||
+
+[35]
+त्वं सूर्ये᳚ न॒ आ भ॑ज॒ तव॒ क्रत्वा॒ तवो॒तिभिः॑ ।
+Tvam Surye Na A Bhaja Tava Kratva Tavotibhih |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०५ ॥
+Atha No Vasyasaskrudhi || 9.004.05 ||
+
+[36]
+तव॒ क्रत्वा॒ तवो॒तिभि॒र्ज्योक्प॑श्येम॒ सूर्यम्᳚ ।
+Tava Kratva Tavotibhirjyokpashyema Suryam |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०६ ॥
+Atha No Vasyasaskrudhi || 9.004.06 ||
+
+[37]
+अ॒भ्य॑र्ष स्वायुध॒ सोम॑ द्वि॒बर्ह॑सं र॒यिम् ।
+Abhyarsha Svayudha Soma Dvibarhasam Rayim |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०७ ॥
+Atha No Vasyasaskrudhi || 9.004.07 ||
+
+[38]
+अ॒भ्य१॒॑ र्षान॑पच्युतो र॒यिं स॒मत्सु॑ सास॒हिः ।
+Abhya1 Rshanapachyuto Rayim Samatsu Sasahih |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०८ ॥
+Atha No Vasyasaskrudhi || 9.004.08 ||
+
+[39]
+त्वां य॒ज्ञैर॑वीवृध॒न्पव॑मान॒ विध᳚र्मणि ।
+Tvam Yadnyairavivrudhanpavamana Vidharmani |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.०९ ॥
+Atha No Vasyasaskrudhi || 9.004.09 ||
+
+[40]
+र॒यिं न॑श्चि॒त्रम॒श्विन॒मिन्दो᳚ वि॒श्वायु॒मा भ॑र ।
+Rayim Nashchitramashvinamindo Vishvayuma Bhara |
+अथा᳚ नो॒ वस्य॑सस्कृधि ॥ ९.००४.१० ॥
+Atha No Vasyasaskrudhi || 9.004.10 ||
+
+[para 41]
+समि॑द्धो वि॒श्वत॒स्पति॒ पव॑मानो॒ वि रा᳚जति ।
+Samiddho Vishvataspati Pavamano Vi Rajati |
+प्री॒णन्वृषा॒ कनि॑क्रदत् ॥ ९.००५.०१ ॥
+Prinanvrusha Kanikradat || 9.005.01 ||
+
+[42]
+तनू॒नपा॒त्पव॑मानः॒ शृंगे॒ शिशा᳚नो अर्षति ।
+Tanunapatpavamanah Shrunge Shishano Arshati |
+अ॒न्तरि॑क्षेण॒ रार॑जत् ॥ ९.००५.०२ ॥
+Antarikshena Rarajat || 9.005.02 ||
+
+[43]
+ई॒ळेन्यः॒ पव॑मानो र॒यिर्वि रा᳚जति द्यु॒मान् ।
+Ilenyah Pavamano Rayirvi Rajati Dyuman |
+मधो॒र्धारा᳚भि॒रोज॑सा ॥ ९.००५.०३ ॥
+Madhordharabhirojasa || 9.005.03 ||
+
+[44]
+ब॒र्हिः प्रा॒चीन॒मोज॑सा॒ पव॑मानः स्तृ॒णन्हरिः॑ ।
+Barhih Prachinamojasa Pavamanah Strunanharih |
+दे॒वेषु॑ दे॒व ई᳚यते ॥ ९.००५.०४ ॥
+Deveshu Deva Iyate || 9.005.04 ||
+
+[45]
+उदातै᳚र्जिहते बृ॒हद्‌द्वारो᳚ दे॒वीर्हि॑र॒ण्ययीः᳚ ।
+Udatairjihate Bruhaddvaro Devirhiranyayih |
+पव॑मानेन॒ सुष्टु॑ताः ॥ ९.००५.०५ ॥
+Pavamanena Sushtutah || 9.005.05 ||
+
+[46]
+सु॒शि॒ल्पे बृ॑ह॒ती म॒ही पव॑मानो वृषण्यति ।
+Sushilpe Bruhati Mahi Pavamano Vrushanyati |
+नक्तो॒षासा॒ न द॑र्श॒ते ॥ ९.००५.०६ ॥
+Naktoshasa Na Darshate || 9.005.06 ||
+
+[47]
+उ॒भा दे॒वा नृ॒चक्ष॑सा॒ होता᳚रा॒ दैव्या᳚ हुवे ।
+Ubha Deva Nruchakshasa Hotara Daivya Huve |
+पव॑मान॒ इन्द्रो॒ वृषा᳚ ॥ ९.००५.०७ ॥
+Pavamana Indro Vrusha || 9.005.07 ||
+
+[48]
+भार॑ती॒ पव॑मानस्य॒ सर॑स्व॒तीळा᳚ म॒ही ।
+Bharati Pavamanasya Sarasvatila Mahi |
+इ॒मं नो᳚ य॒ज्ञमा ग॑मन्ति॒स्रो दे॒वीः सु॒पेश॑सः ॥ ९.००५.०८ ॥
+Imam No Yadnyama Gamantisro Devih Supeshasah || 9.005.08 ||
+
+[49]
+त्वष्टा᳚रमग्र॒जां गो॒पां पु॑रो॒यावा᳚न॒मा हु॑वे ।
+Tvashtaramagrajam Gopam Puroyavanama Huve |
+इन्दु॒रिन्द्रो॒ वृषा॒ हरिः॒ पव॑मानः प्र॒जाप॑तिः ॥ ९.००५.०९ ॥
+Indurindro Vrusha Harih Pavamanah Prajapatih || 9.005.09 ||
+
+[50]
+वन॒स्पतिं᳚ पवमान॒ मध्वा॒ समं᳚ग्धि॒ धार॑या ।
+Vanaspatim Pavamana Madhva Samangdhi Dharaya |
+स॒हस्र॑वल्शं॒ हरि॑तं॒ भ्राज॑मानं हिर॒ण्ययम्᳚ ॥ ९.००५.१० ॥
+Sahasravalsham Haritam Bhrajamanam Hiranyayam || 9.005.10 ||
+
+[51]
+विश्वे᳚ देवा॒ स्वाहा᳚कृतिं॒ पव॑मान॒स्या ग॑त ।
+Vishve Deva Svahakrutim Pavamanasya Gata |
+वा॒युर्बृह॒स्पति॒ सूर्यो॒ऽग्निरिन्द्र॑ स॒जोष॑सः ॥ ९.००५.११
+Vayurbruhaspati Suryognirindra Sajoshasah || 9.005.11
+
+[para 52]
+म॒न्द्रया᳚ सोम॒ धार॑या॒ वृषा᳚ पवस्व देव॒युः ।
+Mandraya Soma Dharaya Vrusha Pavasva Devayuh |
+अव्यो॒ वारे᳚ष्वस्म॒युः ॥ ९.००६.०१ ॥
+Avyo Vareshvasmayuh || 9.006.01 ||
+
+[53]
+अ॒भि त्यं मद्यं॒ मद॒मिन्द॒विन्द्र॒ इति॑ क्षर ।
+Abhi Tyam Madyam Madamindavindra Iti Kshara |
+अ॒भि वा॒जिनो॒ अर्व॑तः ॥ ९.००६.०२ ॥
+Abhi Vajino Arvatah || 9.006.02 ||
+
+[54]
+अ॒भि त्यं पू॒र्व्यं मदं᳚ सुवा॒नो अ॑र्ष प॒वित्र॒ आ ।
+Abhi Tyam Purvyam Madam Suvano Arsha Pavitra A |
+अ॒भि वाज॑मु॒त श्रवः॑ ॥ ९.००६.०३ ॥
+Abhi Vajamuta Shravah || 9.006.03 ||
+
+[55]
+अनु॑ द्र॒प्सास॒ इन्द॑व॒ आपो॒ न प्र॒वता᳚सरन् ।
+Anu Drapsasa Indava Apo Na Pravatasaran |
+पु॒ना॒ना इन्द्र॑माशत ॥ ९.००६.०४ ॥
+Punana Indramashata || 9.006.04 ||
+
+[56]
+यमत्य॑मिव वा॒जिनं᳚ मृ॒जन्ति॒ योष॑णो॒ दश॑ ।
+Yamatyamiva Vajinam Mrujanti Yoshano Dasha |
+वने॒ क्रीळ᳚न्त॒मत्य॑विम् ॥ ९.००६.०५ ॥
+Vane Krilantamatyavim || 9.006.05 ||
+
+[57]
+तं गोभि॒र्वृष॑णं॒ रसं॒ मदा᳚य दे॒ववी᳚तये ।
+Tam Gobhirvrushanam Rasam Madaya Devavitaye |
+सु॒तं भरा᳚य॒ सं सृ॑ज ॥ ९.००६.०६ ॥
+Sutam Bharaya Sam Sruja || 9.006.06 ||
+
+[58]
+दे॒वो दे॒वाय॒ धार॒येन्द्रा᳚य पवते सु॒तः ।
+Devo Devaya Dharayendraya Pavate Sutah |
+पयो॒ यद॑स्य पी॒पय॑त् ॥ ९.००६.०७ ॥
+Payo Yadasya Pipayat || 9.006.07 ||
+
+[59]
+आ॒त्मा य॒ज्ञस्य॒ रंह्या᳚ सुष्वा॒णः प॑वते सु॒तः ।
+Atma Yadnyasya Ramhya Sushvanah Pavate Sutah |
+प्र॒त्नं नि पा᳚ति॒ काव्यम्᳚ ॥ ९.००६.०८ ॥
+Pratnam Ni Pati Kavyam || 9.006.08 ||
+
+[60]
+ए॒वा पु॑ना॒न इ᳚न्द्र॒युर्मदं᳚ मदिष्ठ वी॒तये᳚ ।
+Eva Punana Indrayurmadam Madishtha Vitaye |
+गुहा᳚ चिद्दधिषे॒ गिरः॑ ॥ ९.००६.०९ ॥
+Guha Chiddadhishe Girah || 9.006.09 ||
+
+[para 61]
+असृ॑ग्र॒मिन्द॑वः प॒था धर्म᳚न्नृ॒तस्य॑ सु॒श्रियः॑ ।
+Asrugramindavah Patha Dharmannrutasya Sushriyah |
+वि॒दा॒ना अ॑स्य॒ योज॑नम् ॥ ९.००७.०१ ॥
+Vidana Asya Yojanam || 9.007.01 ||
+
+[62]
+प्र धारा॒ मध्वो᳚ अग्रि॒यो म॒हीर॒पो वि गा᳚हते ।
+Pra Dhara Madhvo Agriyo Mahirapo Vi Gahate |
+ह॒विर्ह॒विष्षु॒ वन्द्यः॑ ॥ ९.००७.०२ ॥
+Havirhavishshu Vandyah || 9.007.02 ||
+
+[63]
+प्र यु॒जो वा॒चो अ॑ग्रि॒यो वृषाव॑ चक्रद॒द्वने᳚ ।
+Pra Yujo Vacho Agriyo Vrushava Chakradadvane |
+सद्मा॒भि स॒त्यो अ॑ध्व॒रः ॥ ९.००७.०३ ॥
+Sadmabhi Satyo Adhvarah || 9.007.03 ||
+
+[64]
+परि॒ यत्काव्या᳚ क॒विर्नृ॒म्णा वसा᳚नो॒ अर्ष॑ति ।
+Pari Yatkavya Kavirnrumna Vasano Arshati |
+स्व॑र्वा॒जी सि॑षासति ॥ ९.००७.०४ ॥
+Svarvaji Sishasati || 9.007.04 ||
+
+[65]
+पव॑मानो अ॒भि स्पृधो॒ विशो॒ राजे᳚व सीदति ।
+Pavamano Abhi Sprudho Visho Rajeva Sidati |
+यदी᳚मृ॒ण्वन्ति॑ वे॒धसः॑ ॥ ९.००७.०५ ॥
+Yadimrunvanti Vedhasah || 9.007.05 ||
+
+[66]
+अव्यो॒ वारे॒ परि॑ प्रि॒यो हरि॒र्वने᳚षु सीदति ।
+Avyo Vare Pari Priyo Harirvaneshu Sidati |
+रे॒भो व॑नुष्यते म॒ती ॥ ९.००७.०६ ॥
+Rebho Vanushyate Mati || 9.007.06 ||
+
+[67]
+स वा॒युमिन्द्र॑म॒श्विना᳚ सा॒कं मदे᳚न गच्छति ।
+Sa Vayumindramashvina Sakam Madena Gachchhati |
+रणा॒ यो अ॑स्य॒ धर्म॑भिः ॥ ९.००७.०७ ॥
+Rana Yo Asya Dharmabhih || 9.007.07 ||
+
+[68]
+आ मि॒त्रावरु॑णा॒ भगं॒ मध्व॑ पवन्त ऊ॒र्मयः॑ ।
+A Mitravaruna Bhagam Madhva Pavanta Urmayah |
+वि॒दा॒ना अ॑स्य॒ शक्म॑भिः ॥ ९.००७.०८ ॥
+Vidana Asya Shakmabhih || 9.007.08 ||
+
+[69]
+अ॒स्मभ्यं᳚ रोदसी र॒यिं मध्वो॒ वाज॑स्य सा॒तये᳚ ।
+Asmabhyam Rodasi Rayim Madhvo Vajasya Sataye |
+श्रवो॒ वसू᳚नि॒ सं जि॑तम् ॥ ९.००७.०९ ॥
+Shravo Vasuni Sam Jitam || 9.007.09 ||
+
+[para 70]
+ए॒ते सोमा᳚ अ॒भि प्रि॒यमिन्द्र॑स्य॒ काम॑मक्षरन् ।
+Ete Soma Abhi Priyamindrasya Kamamaksharan |
+वर्ध᳚न्तो अस्य वी॒र्यम्᳚ ॥ ९.००८.०१ ॥
+Vardhanto Asya Viryam || 9.008.01 ||
+
+[71]
+पु॒ना॒नास॑श्चमू॒षदो॒ गच्छ᳚न्तो वा॒युम॒श्विना᳚ ।
+Punanasashchamushado Gachchhanto Vayumashvina |
+ते नो᳚ धान्तु सु॒वीर्यम्᳚ ॥ ९.००८.०२ ॥
+Te No Dhantu Suviryam || 9.008.02 ||
+
+[72]
+इन्द्र॑स्य सोम॒ राध॑से पुना॒नो हार्दि॑ चोदय ।
+Indrasya Soma Radhase Punano Hardi Chodaya |
+ऋ॒तस्य॒ योनि॑मा॒सदम्᳚ ॥ ९.००८.०३ ॥
+Rutasya Yonimasadam || 9.008.03 ||
+
+[73]
+मृ॒जन्ति॑ त्वा॒ दश॒ क्षिपो᳚ हि॒न्वन्ति॑ स॒प्त धी॒तयः॑ ।
+Mrujanti Tva Dasha Kshipo Hinvanti Sapta Dhitayah |
+अनु॒ विप्रा᳚ अमादिषुः ॥ ९.००८.०४ ॥
+Anu Vipra Amadishuh || 9.008.04 ||
+
+[74]
+दे॒वेभ्य॑स्त्वा॒ मदा᳚य॒ कं सृ॑जा॒नमति॑ मे॒ष्यः॑ ।
+Devebhyastva Madaya Kam Srujanamati Meshyah |
+सं गोभि॑र्वासयामसि ॥ ९.००८.०५ ॥
+Sam Gobhirvasayamasi || 9.008.05 ||
+
+[75]
+पु॒ना॒नः क॒लशे॒ष्वा वस्त्रा᳚ण्यरु॒षो हरिः॑ ।
+Punanah Kalasheshva Vastranyarusho Harih |
+परि॒ गव्या᳚न्यव्यत ॥ ९.००८.०६ ॥
+Pari Gavyanyavyata || 9.008.06 ||
+
+[76]
+म॒घोन॒ आ प॑वस्व नो ज॒हि विश्वा॒ अप॒ द्विषः॑ ।
+Maghona A Pavasva No Jahi Vishva Apa Dvishah |
+इन्दो॒ सखा᳚य॒मा वि॑श ॥ ९.००८.०७ ॥
+Indo Sakhayama Visha || 9.008.07 ||
+
+[77]
+वृ॒ष्टिं दि॒वः परि॑ स्रव द्यु॒म्नं पृ॑थि॒व्या अधि॑ ।
+Vrushtim Divah Pari Srava Dyumnam Pruthivya Adhi |
+सहो᳚ नः सोम पृ॒त्सु धाः᳚ ॥ ९.००८.०८ ॥
+Saho Nah Soma Prutsu Dhah || 9.008.08 ||
+
+[78]
+नृ॒चक्ष॑सं त्वा व॒यमिन्द्र॑पीतं स्व॒र्विदम्᳚ ।
+Nruchakshasam Tva Vayamindrapitam Svarvidam |
+भ॒क्षी॒महि॑ प्र॒जामिषम्᳚ ॥ ९.००८.०९ ॥
+Bhakshimahi Prajamisham || 9.008.09 ||
+
+[para 79]
+परि॑ प्रि॒या दि॒वः क॒विर्वयां᳚सि न॒प्त्यो᳚र्हि॒तः ।
+Pari Priya Divah Kavirvayamsi Naptyorhitah |
+सु॒वा॒नो या᳚ति क॒विक्र॑तुः ॥ ९.००९.०१ ॥
+Suvano Yati Kavikratuh || 9.009.01 ||
+
+[80]
+प्रप्र॒ क्षया᳚य॒ पन्य॑से॒ जना᳚य॒ जुष्टो᳚ अ॒द्रुहे᳚ ।
+Prapra Kshayaya Panyase Janaya Jushto Adruhe |
+वी॒त्य॑र्ष॒ चनि॑ष्ठया ॥ ९.००९.०२ ॥
+Vityarsha Chanishthaya || 9.009.02 ||
+
+[81]
+स सू॒नुर्मा॒तरा॒ शुचि॑र्जा॒तो जा॒ते अ॑रोचयत् ।
+Sa Sunurmatara Shuchirjato Jate Arochayat |
+म॒हान्म॒ही ऋ॑ता॒वृधा᳚ ॥ ९.००९.०३ ॥
+Mahanmahi Rutavrudha || 9.009.03 ||
+
+[82]
+स स॒प्त धी॒तिभि॑र्हि॒तो न॒द्यो᳚ अजिन्वद॒द्रुहः॑ ।
+Sa Sapta Dhitibhirhito Nadyo Ajinvadadruhah |
+या एक॒मक्षि॑ वावृ॒धुः ॥ ९.००९.०४ ॥
+Ya Ekamakshi Vavrudhuh || 9.009.04 ||
+
+[83]
+ता अ॒भि सन्त॒मस्तृ॑तं म॒हे युवा᳚न॒मा द॑धुः ।
+Ta Abhi Santamastrutam Mahe Yuvanama Dadhuh |
+इन्दु॑मिन्द्र॒ तव॑ व्र॒ते ॥ ९.००९.०५ ॥
+Indumindra Tava Vrate || 9.009.05 ||
+
+[84]
+अ॒भि वह्नि॒रम॑र्त्यः स॒प्त प॑श्यति॒ वाव॑हिः ।
+Abhi Vahniramartyah Sapta Pashyati Vavahih |
+क्रिवि॑र्दे॒वीर॑तर्पयत् ॥ ९.००९.०६ ॥
+Krivirdeviratarpayat || 9.009.06 ||
+
+[85]
+अवा॒ कल्पे᳚षु नः पुम॒स्तमां᳚सि सोम॒ योध्या᳚ ।
+Ava Kalpeshu Nah Pumastamamsi Soma Yodhya |
+तानि॑ पुनान जंघनः ॥ ९.००९.०७ ॥
+Tani Punana Janghanah || 9.009.07 ||
+
+[86]
+नू नव्य॑से॒ नवी᳚यसे सू॒क्ताय॑ साधया प॒थः ।
+Nu Navyase Naviyase Suktaya Sadhaya Pathah |
+प्र॒त्न॒वद्रो᳚चया॒ रुचः॑ ॥ ९.००९.०८ ॥
+Pratnavadrochaya Ruchah || 9.009.08 ||
+
+[87]
+पव॑मान॒ महि॒ श्रवो॒ गामश्वं᳚ रासि वी॒रव॑त् ।
+Pavamana Mahi Shravo Gamashvam Rasi Viravat |
+सना᳚ मे॒धां सना॒ स्वः॑ ॥ ९.००९.०९ ॥
+Sana Medham Sana Svah || 9.009.09 ||
+
+[para 88]
+प्र स्वा॒नासो॒ रथा᳚ इ॒वार्व᳚न्तो॒ न श्र॑व॒स्यवः॑ ।
+Pra Svanaso Ratha Ivarvanto Na Shravasyavah |
+सोमा᳚सो रा॒ये अ॑क्रमुः ॥ ९.०१०.०१ ॥
+Somaso Raye Akramuh || 9.010.01 ||
+
+[89]
+हि॒न्वा॒नासो॒ रथा᳚ इव दधन्वि॒रे गभ॑स्त्योः ।
+Hinvanaso Ratha Iva Dadhanvire Gabhastyoh |
+भरा᳚सः का॒रिणा᳚मिव ॥ ९.०१०.०२ ॥
+Bharasah Karinamiva || 9.010.02 ||
+
+[90]
+राजा᳚नो॒ न प्रश॑स्तिभि॒ सोमा᳚सो॒ गोभि॑रंजते ।
+Rajano Na Prashastibhi Somaso Gobhiranjate |
+य॒ज्ञो न स॒प्त धा॒तृभिः॑ ॥ ९.०१०.०३ ॥
+Yadnyo Na Sapta Dhatrubhih || 9.010.03 ||
+
+[91]
+परि॑ सुवा॒नास॒ इन्द॑वो॒ मदा᳚य ब॒र्हणा᳚ गि॒रा ।
+Pari Suvanasa Indavo Madaya Barhana Gira |
+सु॒ता अ॑र्षन्ति॒ धार॑या ॥ ९.०१०.०४ ॥
+Suta Arshanti Dharaya || 9.010.04 ||
+
+[92]
+आ॒पा॒नासो᳚ वि॒वस्व॑तो॒ जन᳚न्त उ॒षसो॒ भगम्᳚ ।
+Apanaso Vivasvato Jananta Ushaso Bhagam |
+सूरा॒ अण्वं॒ वि त᳚न्वते ॥ ९.०१०.०५ ॥
+Sura Anvam Vi Tanvate || 9.010.05 ||
+
+[93]
+अप॒ द्वारा᳚ मती॒नां प्र॒त्ना ऋ᳚ण्वन्ति का॒रवः॑ ।
+Apa Dvara Matinam Pratna Runvanti Karavah |
+वृष्णो॒ हर॑स आ॒यवः॑ ॥ ९.०१०.०६ ॥
+Vrushno Harasa Ayavah || 9.010.06 ||
+
+[94]
+स॒मी॒ची॒नास॑ आसते॒ होता᳚रः स॒प्तजा᳚मयः ।
+Samichinasa Asate Hotarah Saptajamayah |
+प॒दमेक॑स्य॒ पिप्र॑तः ॥ ९.०१०.०७ ॥
+Padamekasya Pipratah || 9.010.07 ||
+
+[95]
+नाभा॒ नाभिं᳚ न॒ आ द॑दे॒ चक्षु॑श्चि॒त्सूर्ये॒ सचा᳚ ।
+Nabha Nabhim Na A Dade Chakshushchitsurye Sacha |
+क॒वेरप॑त्य॒मा दु॑हे ॥ ९.०१०.०८ ॥
+Kaverapatyama Duhe || 9.010.08 ||
+
+[96]
+अ॒भि प्रि॒या दि॒वस्प॒दम॑ध्व॒र्युभि॒र्गुहा᳚ हि॒तम् ।
+Abhi Priya Divaspadamadhvaryubhirguha Hitam |
+सूर॑ पश्यति॒ चक्ष॑सा ॥ ९.०१०.०९ ॥
+Sura Pashyati Chakshasa || 9.010.09 ||
+
+[para 97]
+उपा᳚स्मै गायता नर॒ पव॑माना॒येन्द॑वे ।
+Upasmai Gayata Nara Pavamanayendave |
+अ॒भि दे॒वां इय॑क्षते ॥ ९.०११.०१ ॥
+Abhi Devam Iyakshate || 9.011.01 ||
+
+[98]
+अ॒भि ते॒ मधु॑ना॒ पयोऽथ᳚र्वाणो अशिश्रयुः ।
+Abhi Te Madhuna Payotharvano Ashishrayuh |
+दे॒वं दे॒वाय॑ देव॒यु ॥ ९.०११.०२ ॥
+Devam Devaya Devayu || 9.011.02 ||
+
+[99]
+स न॑ पवस्व॒ शं गवे॒ शं जना᳚य॒ शमर्व॑ते ।
+Sa Na Pavasva Sham Gave Sham Janaya Shamarvate |
+शं रा᳚ज॒न्नोष॑धीभ्यः ॥ ९.०११.०३ ॥
+Sham Rajannoshadhibhyah || 9.011.03 ||
+
+[100]
+ब॒भ्रवे॒ नु स्वत॑वसेऽरु॒णाय॑ दिवि॒स्पृशे᳚ ।
+Babhrave Nu Svatavaserunaya Divisprushe |
+सोमा᳚य गा॒थम॑र्चत ॥ ९.०११.०४ ॥
+Somaya Gathamarchata || 9.011.04 ||
+
+[101]
+हस्त॑च्युतेभि॒रद्रि॑भिः सु॒तं सोमं᳚ पुनीतन ।
+Hastachyutebhiradribhih Sutam Somam Punitana |
+मधा॒वा धा᳚वता॒ मधु॑ ॥ ९.०११.०५ ॥
+Madhava Dhavata Madhu || 9.011.05 ||
+
+[102]
+नम॒सेदुप॑ सीदत द॒ध्नेद॒भि श्री᳚णीतन ।
+Namasedupa Sidata Dadhnedabhi Shrinitana |
+इन्दु॒मिन्द्रे᳚ दधातन ॥ ९.०११.०६ ॥
+Indumindre Dadhatana || 9.011.06 ||
+
+[103]
+अ॒मि॒त्र॒हा विच॑र्षणि॒ पव॑स्व सोम॒ शं गवे᳚ ।
+Amitraha Vicharshani Pavasva Soma Sham Gave |
+दे॒वेभ्यो᳚ अनुकाम॒कृत् ॥ ९.०११.०७ ॥
+Devebhyo Anukamakrut || 9.011.07 ||
+
+[104]
+इन्द्रा᳚य सोम॒ पात॑वे॒ मदा᳚य॒ परि॑ षिच्यसे ।
+Indraya Soma Patave Madaya Pari Shichyase |
+म॒न॒श्चिन्मन॑स॒स्पतिः॑ ॥ ९.०११.०८ ॥
+Manashchinmanasaspatih || 9.011.08 ||
+
+[105]
+पव॑मान सु॒वीर्यं᳚ र॒यिं सो᳚म रिरीहि नः ।
+Pavamana Suviryam Rayim Soma Ririhi Nah |
+इन्द॒विन्द्रे᳚ण नो यु॒जा ॥ ९.०११.०९
+Indavindrena No Yuja || 9.011.09
+
+[para 106]
+सोमा᳚ असृग्र॒मिन्द॑वः सु॒ता ऋ॒तस्य॒ साद॑ने ।
+Soma Asrugramindavah Suta Rutasya Sadane |
+इन्द्रा᳚य॒ मधु॑मत्तमाः ॥ ९.०१२.०१ ॥
+Indraya Madhumattamah || 9.012.01 ||
+
+[107]
+अ॒भि विप्रा᳚ अनूषत॒ गावो᳚ व॒त्सं न मा॒तरः॑ ।
+Abhi Vipra Anushata Gavo Vatsam Na Matarah |
+इन्द्रं॒ सोम॑स्य पी॒तये᳚ ॥ ९.०१२.०२ ॥
+Indram Somasya Pitaye || 9.012.02 ||
+
+[108]
+म॒द॒च्युत्क्षे᳚ति॒ साद॑ने॒ सिन्धो᳚रू॒र्मा वि॑प॒श्चित् ।
+Madachyutksheti Sadane Sindhorurma Vipashchit |
+सोमो᳚ गौ॒री अधि॑ श्रि॒तः ॥ ९.०१२.०३ ॥
+Somo Gauri Adhi Shritah || 9.012.03 ||
+
+[109]
+दि॒वो नाभा᳚ विचक्ष॒णोऽव्यो॒ वारे᳚ महीयते ।
+Divo Nabha Vichakshanovyo Vare Mahiyate |
+सोमो॒ यः सु॒क्रतु॑ क॒विः ॥ ९.०१२.०४ ॥
+Somo Yah Sukratu Kavih || 9.012.04 ||
+
+[110]
+यः सोम॑ क॒लशे॒ष्वां अ॒न्तः प॒वित्र॒ आहि॑तः ।
+Yah Soma Kalasheshvam Antah Pavitra Ahitah |
+तमिन्दु॒ परि॑ षस्वजे ॥ ९.०१२.०५ ॥
+Tamindu Pari Shasvaje || 9.012.05 ||
+
+[111]
+प्र वाच॒मिन्दु॑रिष्यति समु॒द्रस्याधि॑ वि॒ष्टपि॑ ।
+Pra Vachamindurishyati Samudrasyadhi Vishtapi |
+जिन्व॒न्कोशं᳚ मधु॒श्चुतम्᳚ ॥ ९.०१२.०६ ॥
+Jinvankosham Madhushchutam || 9.012.06 ||
+
+[112]
+नित्य॑स्तोत्रो॒ वन॒स्पति॑र्धी॒नाम॒न्तः स॑ब॒र्दुघः॑ ।
+Nityastotro Vanaspatirdhinamantah Sabardughah |
+हि॒न्वा॒नो मानु॑षा यु॒गा ॥ ९.०१२.०७ ॥
+Hinvano Manusha Yuga || 9.012.07 ||
+
+[113]
+अ॒भि प्रि॒या दि॒वस्प॒दा सोमो᳚ हिन्वा॒नो अ॑र्षति ।
+Abhi Priya Divaspada Somo Hinvano Arshati |
+विप्र॑स्य॒ धार॑या क॒विः ॥ ९.०१२.०८ ॥
+Viprasya Dharaya Kavih || 9.012.08 ||
+
+[114]
+आ प॑वमान धारय र॒यिं स॒हस्र॑वर्चसम् ।
+A Pavamana Dharaya Rayim Sahasravarchasam |
+अ॒स्मे इ᳚न्दो स्वा॒भुवम्᳚ ॥ ९.०१२.०९
+Asme Indo Svabhuvam || 9.012.09
+
+[para 115]
+सोम॑ पुना॒नो अ॑र्षति स॒हस्र॑धारो॒ अत्य॑विः ।
+Soma Punano Arshati Sahasradharo Atyavih |
+वा॒योरिन्द्र॑स्य निष्कृ॒तम् ॥ ९.०१३.०१ ॥
+Vayorindrasya Nishkrutam || 9.013.01 ||
+
+[116]
+पव॑मानमवस्यवो॒ विप्र॑म॒भि प्र गा᳚यत ।
+Pavamanamavasyavo Vipramabhi Pra Gayata |
+सु॒ष्वा॒णं दे॒ववी᳚तये ॥ ९.०१३.०२ ॥
+Sushvanam Devavitaye || 9.013.02 ||
+
+[117]
+पव᳚न्ते॒ वाज॑सातये॒ सोमा᳚ स॒हस्र॑पाजसः ।
+Pavante Vajasataye Soma Sahasrapajasah |
+गृ॒णा॒ना दे॒ववी᳚तये ॥ ९.०१३.०३ ॥
+Grunana Devavitaye || 9.013.03 ||
+
+[118]
+उ॒त नो॒ वाज॑सातये॒ पव॑स्व बृह॒तीरिषः॑ ।
+Uta No Vajasataye Pavasva Bruhatirishah |
+द्यु॒मदि᳚न्दो सु॒वीर्यम्᳚ ॥ ९.०१३.०४ ॥
+Dyumadindo Suviryam || 9.013.04 ||
+
+[119]
+ते न॑ सह॒स्रिणं᳚ र॒यिं पव᳚न्ता॒मा सु॒वीर्यम्᳚ ।
+Te Na Sahasrinam Rayim Pavantama Suviryam |
+सु॒वा॒ना दे॒वास॒ इन्द॑वः ॥ ९.०१३.०५ ॥
+Suvana Devasa Indavah || 9.013.05 ||
+
+[120]
+अत्या᳚ हिया॒ना न हे॒तृभि॒रसृ॑ग्रं॒ वाज॑सातये ।
+Atya Hiyana Na Hetrubhirasrugram Vajasataye |
+वि वार॒मव्य॑मा॒शवः॑ ॥ ९.०१३.०६ ॥
+Vi Varamavyamashavah || 9.013.06 ||
+
+[121]
+वा॒श्रा अ॑र्ष॒न्तीन्द॑वो॒ऽभि व॒त्सं न धे॒नवः॑ ।
+Vashra Arshantindavobhi Vatsam Na Dhenavah |
+द॒ध॒न्वि॒रे गभ॑स्त्योः ॥ ९.०१३.०७ ॥
+Dadhanvire Gabhastyoh || 9.013.07 ||
+
+[122]
+जुष्ट॒ इन्द्रा᳚य मत्स॒रः पव॑मान॒ कनि॑क्रदत् ।
+Jushta Indraya Matsarah Pavamana Kanikradat |
+विश्वा॒ अप॒ द्विषो᳚ जहि ॥ ९.०१३.०८ ॥
+Vishva Apa Dvisho Jahi || 9.013.08 ||
+
+[123]
+अ॒प॒घ्नन्तो॒ अरा᳚व्ण॒ पव॑मानाः स्व॒र्दृशः॑ ।
+Apaghnanto Aravna Pavamanah Svardrushah |
+योना᳚वृ॒तस्य॑ सीदत ॥ ९.०१३.०९ ॥
+Yonavrutasya Sidata || 9.013.09 ||
+
+[para 124]
+परि॒ प्रासि॑ष्यदत्क॒विः सिन्धो᳚रू॒र्मावधि॑ श्रि॒तः ।
+Pari Prasishyadatkavih Sindhorurmavadhi Shritah |
+का॒रं बिभ्र॑त्पुरु॒स्पृहम्᳚ ॥ ९.०१४.०१ ॥
+Karam Bibhratpuruspruham || 9.014.01 ||
+
+[125]
+गि॒रा यदी॒ सब᳚न्धव॒ पञ्च॒ व्राता᳚ अप॒स्यवः॑ ।
+Gira Yadi Sabandhava Pancha Vrata Apasyavah |
+प॒रि॒ष्कृ॒ण्वन्ति॑ धर्ण॒सिम् ॥ ९.०१४.०२ ॥
+Parishkrunvanti Dharnasim || 9.014.02 ||
+
+[126]
+आद॑स्य शु॒ष्मिणो॒ रसे॒ विश्वे᳚ दे॒वा अ॑मत्सत ।
+Adasya Shushmino Rase Vishve Deva Amatsata |
+यदी॒ गोभि॑र्वसा॒यते᳚ ॥ ९.०१४.०३ ॥
+Yadi Gobhirvasayate || 9.014.03 ||
+
+[127]
+नि॒रि॒णा॒नो वि धा᳚वति॒ जह॒च्छर्या᳚णि॒ तान्वा᳚ ।
+Nirinano Vi Dhavati Jahachchharyani Tanva |
+अत्रा॒ सं जि॑घ्नते यु॒जा ॥ ९.०१४.०४ ॥
+Atra Sam Jighnate Yuja || 9.014.04 ||
+
+[128]
+न॒प्तीभि॒र्यो वि॒वस्व॑तः शु॒भ्रो न मा᳚मृ॒जे युवा᳚ ।
+Naptibhiryo Vivasvatah Shubhro Na Mamruje Yuva |
+गाः कृ᳚ण्वा॒नो न नि॒र्णिजम्᳚ ॥ ९.०१४.०५ ॥
+Gah Krunvano Na Nirnijam || 9.014.05 ||
+
+[129]
+अति॑ श्रि॒ती ति॑र॒श्चता᳚ ग॒व्या जि॑गा॒त्यण्व्या᳚ ।
+Ati Shriti Tirashchata Gavya Jigatyanvya |
+व॒ग्नुमि॑यर्ति॒ यं वि॒दे ॥ ९.०१४.०६ ॥
+Vagnumiyarti Yam Vide || 9.014.06 ||
+
+[130]
+अ॒भि क्षिप॒ सम॑ग्मत म॒र्जय᳚न्तीरि॒षस्पतिम्᳚ ।
+Abhi Kshipa Samagmata Marjayantirishaspatim |
+पृ॒ष्ठा गृ॑भ्णत वा॒जिनः॑ ॥ ९.०१४.०७ ॥
+Prushtha Grubhnata Vajinah || 9.014.07 ||
+
+[131]
+परि॑ दि॒व्यानि॒ मर्मृ॑श॒द्विश्वा᳚नि सोम॒ पार्थि॑वा ।
+Pari Divyani Marmrushadvishvani Soma Parthiva |
+वसू᳚नि याह्यस्म॒युः ॥ ९.०१४.०८ ॥
+Vasuni Yahyasmayuh || 9.014.08 ||
+
+[para 132]
+ए॒ष धि॒या या॒त्यण्व्या॒ शूरो॒ रथे᳚भिरा॒शुभिः॑ ।
+Esha Dhiya Yatyanvya Shuro Rathebhirashubhih |
+गच्छ॒न्निन्द्र॑स्य निष्कृ॒तम् ॥ ९.०१५.०१ ॥
+Gachchhannindrasya Nishkrutam || 9.015.01 ||
+
+[133]
+ए॒ष पु॒रू धि॑यायते बृह॒ते दे॒वता᳚तये ।
+Esha Puru Dhiyayate Bruhate Devatataye |
+यत्रा॒मृता᳚स॒ आस॑ते ॥ ९.०१५.०२ ॥
+Yatramrutasa Asate || 9.015.02 ||
+
+[134]
+ए॒ष हि॒तो वि नी॑यते॒ऽन्तः शु॒भ्राव॑ता प॒था ।
+Esha Hito Vi Niyatentah Shubhravata Patha |
+यदी᳚ तुं॒जन्ति॒ भूर्ण॑यः ॥ ९.०१५.०३ ॥
+Yadi Tunjanti Bhurnayah || 9.015.03 ||
+
+[135]
+ए॒ष शृंगा᳚णि॒ दोधु॑व॒च्छिशी᳚ते यू॒थ्यो॒३॒॑ वृषा᳚ ।
+Esha Shrungani Dodhuvachchhishite Yuthyo Vrusha |
+नृ॒म्णा दधा᳚न॒ ओज॑सा ॥ ९.०१५.०४ ॥
+Nrumna Dadhana Ojasa || 9.015.04 ||
+
+[136]
+ए॒ष रु॒क्मिभि॑रीयते वा॒जी शु॒भ्रेभि॑रं॒शुभिः॑ ।
+Esha Rukmibhiriyate Vaji Shubhrebhiramshubhih |
+पति॒ सिन्धू᳚नां॒ भव᳚न् ॥ ९.०१५.०५ ॥
+Pati Sindhunam Bhavan || 9.015.05 ||
+
+[137]
+ए॒ष वसू᳚नि पिब्द॒ना परु॑षा ययि॒वां अति॑ ।
+Esha Vasuni Pibdana Parusha Yayivam Ati |
+अव॒ शादे᳚षु गच्छति ॥ ९.०१५.०६ ॥
+Ava Shadeshu Gachchhati || 9.015.06 ||
+
+[138]
+ए॒तं मृ॑जन्ति॒ मर्ज्य॒मुप॒ द्रोणे᳚ष्वा॒यवः॑ ।
+Etam Mrujanti Marjyamupa Droneshvayavah |
+प्र॒च॒क्रा॒णं म॒हीरिषः॑ ॥ ९.०१५.०७ ॥
+Prachakranam Mahirishah || 9.015.07 ||
+
+[139]
+ए॒तमु॒ त्यं दश॒ क्षिपो᳚ मृ॒जन्ति॑ स॒प्त धी॒तयः॑ ।
+Etamu Tyam Dasha Kshipo Mrujanti Sapta Dhitayah |
+स्वा॒यु॒धं म॒दिन्त॑मम् ॥ ९.०१५.०८ ॥
+Svayudham Madintamam || 9.015.08 ||
+
+[para 140]
+प्र ते᳚ सो॒तार॑ ओ॒ण्यो॒३॒॑ रसं॒ मदा᳚य॒ घृष्व॑ये ।
+Pra Te Sotara Onyo Rasam Madaya Ghrushvaye |
+सर्गो॒ न त॒क्त्येत॑शः ॥ ९.०१६.०१ ॥
+Sargo Na Taktyetashah || 9.016.01 ||
+
+[141]
+क्रत्वा॒ दक्ष॑स्य र॒थ्य॑म॒पो वसा᳚न॒मन्ध॑सा ।
+Kratva Dakshasya Rathyamapo Vasanamandhasa |
+गो॒षामण्वे᳚षु सश्चिम ॥ ९.०१६.०२ ॥
+Goshamanveshu Sashchima || 9.016.02 ||
+
+[142]
+अन॑प्तम॒प्सु दु॒ष्टरं॒ सोमं᳚ प॒वित्र॒ आ सृ॑ज ।
+Anaptamapsu Dushtaram Somam Pavitra A Sruja |
+पु॒नी॒हीन्द्रा᳚य॒ पात॑वे ॥ ९.०१६.०३ ॥
+Punihindraya Patave || 9.016.03 ||
+
+[143]
+प्र पु॑ना॒नस्य॒ चेत॑सा॒ सोमः॑ प॒वित्रे᳚ अर्षति ।
+Pra Punanasya Chetasa Somah Pavitre Arshati |
+क्रत्वा᳚ स॒धस्थ॒मास॑दत् ॥ ९.०१६.०४ ॥
+Kratva Sadhasthamasadat || 9.016.04 ||
+
+[144]
+प्र त्वा॒ नमो᳚भि॒रिन्द॑व॒ इन्द्र॒ सोमा᳚ असृक्षत ।
+Pra Tva Namobhirindava Indra Soma Asrukshata |
+म॒हे भरा᳚य का॒रिणः॑ ॥ ९.०१६.०५ ॥
+Mahe Bharaya Karinah || 9.016.05 ||
+
+[145]
+पु॒ना॒नो रू॒पे अ॒व्यये॒ विश्वा॒ अर्ष᳚न्न॒भि श्रियः॑ ।
+Punano Rupe Avyaye Vishva Arshannabhi Shriyah |
+शूरो॒ न गोषु॑ तिष्ठति ॥ ९.०१६.०६ ॥
+Shuro Na Goshu Tishthati || 9.016.06 ||
+
+[146]
+दि॒वो न सानु॑ पि॒प्युषी॒ धारा᳚ सु॒तस्य॑ वे॒धसः॑ ।
+Divo Na Sanu Pipyushi Dhara Sutasya Vedhasah |
+वृथा᳚ प॒वित्रे᳚ अर्षति ॥ ९.०१६.०७ ॥
+Vrutha Pavitre Arshati || 9.016.07 ||
+
+[147]
+त्वं सो᳚म विप॒श्चितं॒ तना᳚ पुना॒न आ॒युषु॑ ।
+Tvam Soma Vipashchitam Tana Punana Ayushu |
+अव्यो॒ वारं॒ वि धा᳚वसि ॥ ९.०१६.०८ ॥
+Avyo Varam Vi Dhavasi || 9.016.08 ||
+
+[para 148]
+प्र नि॒म्नेने᳚व॒ सिन्ध॑वो॒ घ्नन्तो᳚ वृ॒त्राणि॒ भूर्ण॑यः ।
+Pra Nimneneva Sindhavo Ghnanto Vrutrani Bhurnayah |
+सोमा᳚ असृग्रमा॒शवः॑ ॥ ९.०१७.०१ ॥
+Soma Asrugramashavah || 9.017.01 ||
+
+[149]
+अ॒भि सु॑वा॒नास॒ इन्द॑वो वृ॒ष्टय॑ पृथि॒वीमि॑व ।
+Abhi Suvanasa Indavo Vrushtaya Pruthivimiva |
+इन्द्रं॒ सोमा᳚सो अक्षरन् ॥ ९.०१७.०२ ॥
+Indram Somaso Aksharan || 9.017.02 ||
+
+[150]
+अत्यू᳚र्मिर्मत्स॒रो मद॒ सोम॑ प॒वित्रे᳚ अर्षति ।
+Atyurmirmatsaro Mada Soma Pavitre Arshati |
+वि॒घ्नन्रक्षां᳚सि देव॒युः ॥ ९.०१७.०३ ॥
+Vighnanrakshamsi Devayuh || 9.017.03 ||
+
+[151]
+आ क॒लशे᳚षु धावति प॒वित्रे॒ परि॑ षिच्यते ।
+A Kalasheshu Dhavati Pavitre Pari Shichyate |
+उ॒क्थैर्य॒ज्ञेषु॑ वर्धते ॥ ९.०१७.०४ ॥
+Ukthairyadnyeshu Vardhate || 9.017.04 ||
+
+[152]
+अति॒ त्री सो᳚म रोच॒ना रोह॒न्न भ्रा᳚जसे॒ दिवम्᳚ ।
+Ati Tri Soma Rochana Rohanna Bhrajase Divam |
+इ॒ष्णन्सूर्यं॒ न चो᳚दयः ॥ ९.०१७.०५ ॥
+Ishnansuryam Na Chodayah || 9.017.05 ||
+
+[153]
+अ॒भि विप्रा᳚ अनूषत मू॒र्धन्य॒ज्ञस्य॑ का॒रवः॑ ।
+Abhi Vipra Anushata Murdhanyadnyasya Karavah |
+दधा᳚ना॒श्चक्ष॑सि प्रि॒यम् ॥ ९.०१७.०६ ॥
+Dadhanashchakshasi Priyam || 9.017.06 ||
+
+[154]
+तमु॑ त्वा वा॒जिनं॒ नरो᳚ धी॒भिर्विप्रा᳚ अव॒स्यवः॑ ।
+Tamu Tva Vajinam Naro Dhibhirvipra Avasyavah |
+मृ॒जन्ति॑ दे॒वता᳚तये ॥ ९.०१७.०७ ॥
+Mrujanti Devatataye || 9.017.07 ||
+
+[155]
+मधो॒र्धारा॒मनु॑ क्षर ती॒व्रः स॒धस्थ॒मास॑दः ।
+Madhordharamanu Kshara Tivrah Sadhasthamasadah |
+चारु॑रृ॒ताय॑ पी॒तये᳚ ॥ ९.०१७.०८ ॥
+Charurrutaya Pitaye || 9.017.08 ||
+
+[para 156]
+परि॑ सुवा॒नो गि॑रि॒ष्ठाः प॒वित्रे॒ सोमो᳚ अक्षाः ।
+Pari Suvano Girishthah Pavitre Somo Akshah |
+मदे᳚षु सर्व॒धा अ॑सि ॥ ९.०१८.०१॥
+Madeshu Sarvadha Asi || 9.018.01 ||
+
+[157]
+त्वं विप्र॒स्त्वं क॒विर्मधु॒ प्र जा॒तमन्ध॑सः ।
+Tvam Viprastvam Kavirmadhu Pra Jatamandhasah |
+मदे᳚षु सर्व॒धा अ॑सि ॥ ९.०१८.०२॥
+Madeshu Sarvadha Asi || 9.018.02 ||
+
+[158]
+तव॒ विश्वे᳚ स॒जोष॑सो दे॒वास॑ पी॒तिमा᳚शत ।
+Tava Vishve Sajoshaso Devasa Pitimashata |
+मदे᳚षु सर्व॒धा अ॑सि ॥ ९.०१८.०३ ॥
+Madeshu Sarvadha Asi || 9.018.03 ||
+
+[159]
+आ यो विश्वा᳚नि॒ वार्या॒ वसू᳚नि॒ हस्त॑योर्द॒धे ।
+A Yo Vishvani Varya Vasuni Hastayordadhe |
+मदे᳚षु सर्व॒धा अ॑सि ॥ ९.०१८.०४ ॥
+Madeshu Sarvadha Asi || 9.018.04 ||
+
+[160]
+य इ॒मे रोद॑सी म॒ही सं मा॒तरे᳚व॒ दोह॑ते ।
+Ya Ime Rodasi Mahi Sam Matareva Dohate |
+मदे᳚षु सर्व॒धा अ॑सि ॥ ९.०१८.०५ ॥
+Madeshu Sarvadha Asi || 9.018.05 ||
+
+[161]
+परि॒ यो रोद॑सी उ॒भे स॒द्यो वाजे᳚भि॒रर्ष॑ति ।
+Pari Yo Rodasi Ubhe Sadyo Vajebhirarshati |
+मदे᳚षु सर्व॒धा अ॑सि ॥ ९.०१८.०६ ॥
+Madeshu Sarvadha Asi || 9.018.06 ||
+
+[162]
+स शु॒ष्मी क॒लशे॒ष्वा पु॑ना॒नो अ॑चिक्रदत् ।
+Sa Shushmi Kalasheshva Punano Achikradat |
+मदे᳚षु सर्व॒धा अ॑सि ॥ ९.०१८.०७ ॥
+Madeshu Sarvadha Asi || 9.018.07 ||
+
+[para 163]
+यत्सो᳚म चि॒त्रमु॒क्थ्यं᳚ दि॒व्यं पार्थि॑वं॒ वसु॑ ।
+Yatsoma Chitramukthyam Divyam Parthivam Vasu |
+तन्न॑ पुना॒न आ भ॑र ॥ ९.०१९.०१ ॥
+Tanna Punana A Bhara || 9.019.01 ||
+
+[164]
+यु॒वं हि स्थः स्व॑र्पती॒ इन्द्र॑श्च सोम॒ गोप॑ती ।
+Yuvam Hi Sthah Svarpati Indrashcha Soma Gopati |
+ई॒शा॒ना पि॑प्यतं॒ धियः॑ ॥ ९.०१९.०२ ॥
+Ishana Pipyatam Dhiyah || 9.019.02 ||
+
+[165]
+वृषा᳚ पुना॒न आ॒युषु॑ स्त॒नय॒न्नधि॑ ब॒र्हिषि॑ ।
+Vrusha Punana Ayushu Stanayannadhi Barhishi |
+हरि॒ सन्योनि॒मास॑दत् ॥ ९.०१९.०३ ॥
+Hari Sanyonimasadat || 9.019.03 ||
+
+[166]
+अवा᳚वशन्त धी॒तयो᳚ वृष॒भस्याधि॒ रेत॑सि ।
+Avavashanta Dhitayo Vrushabhasyadhi Retasi |
+सू॒नोर्व॒त्सस्य॑ मा॒तरः॑ ॥ ९.०१९.०४ ॥
+Sunorvatsasya Matarah || 9.019.04 ||
+
+[167]
+कु॒विद्वृ॑ष॒ण्यन्ती᳚भ्यः पुना॒नो गर्भ॑मा॒दध॑त् ।
+Kuvidvrushanyantibhyah Punano Garbhamadadhat |
+याः शु॒क्रं दु॑ह॒ते पयः॑ ॥ ९.०१९.०५ ॥
+Yah Shukram Duhate Payah || 9.019.05 ||
+
+[168]
+उप॑ शिक्षापत॒स्थुषो᳚ भि॒यस॒मा धे᳚हि॒ शत्रु॑षु ।
+Upa Shikshapatasthusho Bhiyasama Dhehi Shatrushu |
+पव॑मान वि॒दा र॒यिम् ॥ ९.०१९.०६ ॥
+Pavamana Vida Rayim || 9.019.06 ||
+
+[169]
+नि शत्रो᳚ सोम॒ वृष्ण्यं॒ नि शुष्मं॒ नि वय॑स्तिर ।
+Ni Shatro Soma Vrushnyam Ni Shushmam Ni Vayastira |
+दू॒रे वा᳚ स॒तो अन्ति॑ वा ॥ ९.०१९.०७ ॥
+Dure Va Sato Anti Va || 9.019.07 ||
+
+[para 170]
+प्र क॒विर्दे॒ववी᳚त॒येऽव्यो॒ वारे᳚भिरर्षति ।
+Pra Kavirdevavitayevyo Varebhirarshati |
+सा॒ह्वान्विश्वा᳚ अ॒भि स्पृधः॑ ॥ ९.०२०.०१ ॥
+Sahvanvishva Abhi Sprudhah || 9.020.01 ||
+
+[171]
+स हि ष्मा᳚ जरि॒तृभ्य॒ आ वाजं॒ गोम᳚न्त॒मिन्व॑ति ।
+Sa Hi Shma Jaritrubhya A Vajam Gomantaminvati |
+पव॑मानः सह॒स्रिणम्᳚ ॥ ९.०२०.०२ ॥
+Pavamanah Sahasrinam || 9.020.02 ||
+
+[172]
+परि॒ विश्वा᳚नि॒ चेत॑सा मृ॒शसे॒ पव॑से म॒ती ।
+Pari Vishvani Chetasa Mrushase Pavase Mati |
+स न॑ सोम॒ श्रवो᳚ विदः ॥ ९.०२०.०३ ॥
+Sa Na Soma Shravo Vidah || 9.020.03 ||
+
+[173]
+अ॒भ्य॑र्ष बृ॒हद्यशो᳚ म॒घव॑द्‌भ्यो ध्रु॒वं र॒यिम् ।
+Abhyarsha Bruhadyasho Maghavadbhyo Dhruvam Rayim |
+इषं᳚ स्तो॒तृभ्य॒ आ भ॑र ॥ ९.०२०.०४ ॥
+Isham Stotrubhya A Bhara || 9.020.04 ||
+
+[174]
+त्वं राजे᳚व सुव्र॒तो गिर॑ सो॒मा वि॑वेशिथ ।
+Tvam Rajeva Suvrato Gira Soma Viveshitha |
+पु॒ना॒नो व᳚ह्ने अद्भुत ॥ ९.०२०.०५ ॥
+Punano Vahne Adbhuta || 9.020.05 ||
+
+[175]
+स वह्नि॑र॒प्सु दु॒ष्टरो᳚ मृ॒ज्यमा᳚नो॒ गभ॑स्त्योः ।
+Sa Vahnirapsu Dushtaro Mrujyamano Gabhastyoh |
+सोम॑श्च॒मूषु॑ सीदति ॥ ९.०२०.०६ ॥
+Somashchamushu Sidati || 9.020.06 ||
+
+[176]
+क्री॒ळुर्म॒खो न मं᳚ह॒युः प॒वित्रं᳚ सोम गच्छसि ।
+Krilurmakho Na Mamhayuh Pavitram Soma Gachchhasi |
+दध॑त्स्तो॒त्रे सु॒वीर्यम्᳚ ॥ ९.०२०.०७ ॥
+Dadhatstotre Suviryam || 9.020.07 ||
+
+[para 177]
+ए॒ते धा᳚व॒न्तीन्द॑व॒ सोमा॒ इन्द्रा᳚य॒ घृष्व॑यः ।
+Ete Dhavantindava Soma Indraya Ghrushvayah |
+म॒त्स॒रास॑ स्व॒र्विदः॑ ॥ ९.०२१.०१ ॥
+Matsarasa Svarvidah || 9.021.01 ||
+
+[178]
+प्र॒वृ॒ण्वन्तो᳚ अभि॒युज॒ सुष्व॑ये वरिवो॒विदः॑ ।
+Pravrunvanto Abhiyuja Sushvaye Varivovidah |
+स्व॒यं स्तो॒त्रे व॑य॒स्कृतः॑ ॥ ९.०२१.०२ ॥
+Svayam Stotre Vayaskrutah || 9.021.02 ||
+
+[179]
+वृथा॒ क्रीळ᳚न्त॒ इन्द॑वः स॒धस्थ॑म॒भ्येक॒मित् ।
+Vrutha Krilanta Indavah Sadhasthamabhyekamit |
+सिन्धो᳚रू॒र्मा व्य॑क्षरन् ॥ ९.०२१.०३ ॥
+Sindhorurma Vyaksharan || 9.021.03 ||
+
+[180]
+ए॒ते विश्वा᳚नि॒ वार्या॒ पव॑मानास आशत ।
+Ete Vishvani Varya Pavamanasa Ashata |
+हि॒ता न सप्त॑यो॒ रथे᳚ ॥ ९.०२१.०४ ॥
+Hita Na Saptayo Rathe || 9.021.04 ||
+
+[181]
+आस्मि᳚न्पि॒शंग॑मिन्दवो॒ दधा᳚ता वे॒नमा॒दिशे᳚ ।
+Asminpishangamindavo Dadhata Venamadishe |
+यो अ॒स्मभ्य॒मरा᳚वा ॥ ९.०२१.०५ ॥
+Yo Asmabhyamarava || 9.021.05 ||
+
+[182]
+ऋ॒भुर्न रथ्यं॒ नवं॒ दधा᳚ता॒ केत॑मा॒दिशे᳚ ।
+Rubhurna Rathyam Navam Dadhata Ketamadishe |
+शु॒क्राः प॑वध्व॒मर्ण॑सा ॥ ९.०२१.०६ ॥
+Shukrah Pavadhvamarnasa || 9.021.06 ||
+
+[183]
+ए॒त उ॒ त्ये अ॑वीवश॒न्काष्ठां᳚ वा॒जिनो᳚ अक्रत ।
+Eta U Tye Avivashankashtham Vajino Akrata |
+स॒तः प्रासा᳚विषुर्म॒तिम् ॥ ९.०२१.०७ ॥
+Satah Prasavishurmatim || 9.021.07 ||
+
+[para 184]
+ए॒ते सोमा᳚स आ॒शवो॒ रथा᳚ इव॒ प्र वा॒जिनः॑ ।
+Ete Somasa Ashavo Ratha Iva Pra Vajinah |
+सर्गा᳚ सृ॒ष्टा अ॑हेषत ॥ ९.०२२.०१ ॥
+Sarga Srushta Aheshata || 9.022.01 ||
+
+[185]
+ए॒ते वाता᳚ इवो॒रव॑ प॒र्जन्य॑स्येव वृ॒ष्टयः॑ ।
+Ete Vata Ivorava Parjanyasyeva Vrushtayah |
+अ॒ग्नेरि॑व भ्र॒मा वृथा᳚ ॥ ९.०२२.०२ ॥
+Agneriva Bhrama Vrutha || 9.022.02 ||
+
+[186]
+ए॒ते पू॒ता वि॑प॒श्चित॒ सोमा᳚सो॒ दध्या᳚शिरः ।
+Ete Puta Vipashchita Somaso Dadhyashirah |
+वि॒पा व्या᳚नशु॒र्धियः॑ ॥ ९.०२२.०३ ॥
+Vipa Vyanashurdhiyah || 9.022.03 ||
+
+[187]
+ए॒ते मृ॒ष्टा अम॑र्त्याः ससृ॒वांसो॒ न श॑श्रमुः ।
+Ete Mrushta Amartyah Sasruvamso Na Shashramuh |
+इय॑क्षन्तः प॒थो रजः॑ ॥ ९.०२२.०४ ॥
+Iyakshantah Patho Rajah || 9.022.04 ||
+
+[188]
+ए॒ते पृ॒ष्ठानि॒ रोद॑सोर्विप्र॒यन्तो॒ व्या᳚नशुः ।
+Ete Prushthani Rodasorviprayanto Vyanashuh |
+उ॒तेदमु॑त्त॒मं रजः॑ ॥ ९.०२२.०५ ॥
+Utedamuttamam Rajah || 9.022.05 ||
+
+[189]
+तन्तुं᳚ तन्वा॒नमु॑त्त॒ममनु॑ प्र॒वत॑ आशत ।
+Tantum Tanvanamuttamamanu Pravata Ashata |
+उ॒तेदमु॑त्त॒माय्यम्᳚ ॥ ९.०२२.०६ ॥
+Utedamuttamayyam || 9.022.06 ||
+
+[190]
+त्वं सो᳚म प॒णिभ्य॒ आ वसु॒ गव्या᳚नि धारयः ।
+Tvam Soma Panibhya A Vasu Gavyani Dharayah |
+त॒तं तन्तु॑मचिक्रदः ॥ ९.०२२.०७ ॥
+Tatam Tantumachikradah || 9.022.07 ||
+
+[para 191]
+सोमा᳚ असृग्रमा॒शवो॒ मधो॒र्मद॑स्य॒ धार॑या ।
+Soma Asrugramashavo Madhormadasya Dharaya |
+अ॒भि विश्वा᳚नि॒ काव्या᳚ ॥ ९.०२३.०१ ॥
+Abhi Vishvani Kavya || 9.023.01 ||
+
+[192]
+अनु॑ प्र॒त्नास॑ आ॒यव॑ प॒दं नवी᳚यो अक्रमुः ।
+Anu Pratnasa Ayava Padam Naviyo Akramuh |
+रु॒चे ज॑नन्त॒ सूर्यम्᳚ ॥ ९.०२३.०२ ॥
+Ruche Jananta Suryam || 9.023.02 ||
+
+[193]
+आ प॑वमान नो भरा॒र्यो अदा᳚शुषो॒ गयम्᳚ ।
+A Pavamana No Bhararyo Adashusho Gayam |
+कृ॒धि प्र॒जाव॑ती॒रिषः॑ ॥ ९.०२३.०३ ॥
+Krudhi Prajavatirishah || 9.023.03 ||
+
+[194]
+अ॒भि सोमा᳚स आ॒यव॒ पव᳚न्ते॒ मद्यं॒ मदम्᳚ ।
+Abhi Somasa Ayava Pavante Madyam Madam |
+अ॒भि कोशं᳚ मधु॒श्चुतम्᳚ ॥ ९.०२३.०४ ॥
+Abhi Kosham Madhushchutam || 9.023.04 ||
+
+[195]
+सोमो᳚ अर्षति धर्ण॒सिर्दधा᳚न इन्द्रि॒यं रसम्᳚ ।
+Somo Arshati Dharnasirdadhana Indriyam Rasam |
+सु॒वीरो᳚ अभिशस्ति॒पाः ॥ ९.०२३.०५ ॥
+Suviro Abhishastipah || 9.023.05 ||
+
+[196]
+इन्द्रा᳚य सोम पवसे दे॒वेभ्य॑ सध॒माद्यः॑ ।
+Indraya Soma Pavase Devebhya Sadhamadyah |
+इन्दो॒ वाजं᳚ सिषाससि ॥ ९.०२३.०६ ॥
+Indo Vajam Sishasasi || 9.023.06 ||
+
+[197]
+अ॒स्य पी॒त्वा मदा᳚ना॒मिन्द्रो᳚ वृ॒त्राण्य॑प्र॒ति ।
+Asya Pitva Madanamindro Vrutranyaprati |
+ज॒घान॑ ज॒घन॑च्च॒ नु ॥ ९.०२३.०७ ॥
+Jaghana Jaghanachcha Nu || 9.023.07 ||
+
+[para 198]
+प्र सोमा᳚सो अधन्विषु॒ पव॑मानास॒ इन्द॑वः ।
+Pra Somaso Adhanvishu Pavamanasa Indavah |
+श्री॒णा॒ना अ॒प्सु मृं᳚जत ॥ ९.०२४.०१ ॥
+Shrinana Apsu Mrunjata || 9.024.01 ||
+
+[199]
+अ॒भि गावो᳚ अधन्विषु॒रापो॒ न प्र॒वता᳚ य॒तीः ।
+Abhi Gavo Adhanvishurapo Na Pravata Yatih |
+पु॒ना॒ना इन्द्र॑माशत ॥ ९.०२४.०२ ॥
+Punana Indramashata || 9.024.02 ||
+
+[200]
+प्र प॑वमान धन्वसि॒ सोमेन्द्रा᳚य॒ पात॑वे ।
+Pra Pavamana Dhanvasi Somendraya Patave |
+नृभि॑र्य॒तो वि नी᳚यसे ॥ ९.०२४.०३ ॥
+Nrubhiryato Vi Niyase || 9.024.03 ||
+
+[201]
+त्वं सो᳚म नृ॒माद॑न॒ पव॑स्व चर्षणी॒सहे᳚ ।
+Tvam Soma Nrumadana Pavasva Charshanisahe |
+सस्नि॒र्यो अ॑नु॒माद्यः॑ ॥ ९.०२४.०४ ॥
+Sasniryo Anumadyah || 9.024.04 ||
+
+[202]
+इन्दो॒ यदद्रि॑भिः सु॒तः प॒वित्रं᳚ परि॒धाव॑सि ।
+Indo Yadadribhih Sutah Pavitram Paridhavasi |
+अर॒मिन्द्र॑स्य॒ धाम्ने᳚ ॥ ९.०२४.०५ ॥
+Aramindrasya Dhamne || 9.024.05 ||
+
+[203]
+पव॑स्व वृत्रहन्तमो॒क्थेभि॑रनु॒माद्यः॑ ।
+Pavasva Vrutrahantamokthebhiranumadyah |
+शुचि॑ पाव॒को अद्भु॑तः ॥ ९.०२४.०६ ॥
+Shuchi Pavako Adbhutah || 9.024.06 ||
+
+[204]
+शुचि॑ पाव॒क उ॑च्यते॒ सोम॑ सु॒तस्य॒ मध्वः॑ ।
+Shuchi Pavaka Uchyate Soma Sutasya Madhvah |
+दे॒वा॒वीर॑घशंस॒हा ॥ ९.०२४.०७ ॥
+Devaviraghashamsaha || 9.024.07 ||
+
+[para 205]
+पव॑स्व दक्ष॒साध॑नो दे॒वेभ्य॑ पी॒तये᳚ हरे ।
+Pavasva Dakshasadhano Devebhya Pitaye Hare |
+म॒रुद्‌भ्यो᳚ वा॒यवे॒ मदः॑ ॥ ९.०२५.०१ ॥
+Marudbhyo Vayave Madah || 9.025.01 ||
+
+[206]
+पव॑मान धि॒या हि॒तो॒॑३॒ऽभि योनिं॒ कनि॑क्रदत् ।
+Pavamana Dhiya Hitobhi Yonim Kanikradat |
+धर्म॑णा वा॒युमा वि॑श ॥ ९.०२५.०२ ॥
+Dharmana Vayuma Visha || 9.025.02 ||
+
+[207]
+सं दे॒वैः शो᳚भते॒ वृषा᳚ क॒विर्योना॒वधि॑ प्रि॒यः ।
+Sam Devaih Shobhate Vrusha Kaviryonavadhi Priyah |
+वृ॒त्र॒हा दे᳚व॒वीत॑मः ॥ ९.०२५.०३ ॥
+Vrutraha Devavitamah || 9.025.03 ||
+
+[208]
+विश्वा᳚ रू॒पाण्या᳚वि॒शन्पु॑ना॒नो या᳚ति हर्य॒तः ।
+Vishva Rupanyavishanpunano Yati Haryatah |
+यत्रा॒मृता᳚स॒ आस॑ते ॥ ९.०२५.०४ ॥
+Yatramrutasa Asate || 9.025.04 ||
+
+[209]
+अ॒रु॒षो ज॒नय॒न्गिर॒ सोम॑ पवत आयु॒षक् ।
+Arusho Janayangira Soma Pavata Ayushak |
+इन्द्रं॒ गच्छ᳚न्क॒विक्र॑तुः ॥ ९.०२५.०५ ॥
+Indram Gachchhankavikratuh || 9.025.05 ||
+
+[210]
+आ प॑वस्व मदिन्तम प॒वित्रं॒ धार॑या कवे ।
+A Pavasva Madintama Pavitram Dharaya Kave |
+अ॒र्कस्य॒ योनि॑मा॒सदम्᳚ ॥ ९.०२५.०६
+Arkasya Yonimasadam || 9.025.06
+
+[para 211]
+तम॑मृक्षन्त वा॒जिन॑मु॒पस्थे॒ अदि॑ते॒रधि॑ ।
+Tamamrukshanta Vajinamupasthe Aditeradhi |
+विप्रा᳚सो॒ अण्व्या᳚ धि॒या ॥ ९.०२६.०१ ॥
+Vipraso Anvya Dhiya || 9.026.01 ||
+
+[212]
+तं गावो᳚ अ॒भ्य॑नूषत स॒हस्र॑धार॒मक्षि॑तम् ।
+Tam Gavo Abhyanushata Sahasradharamakshitam |
+इन्दुं᳚ ध॒र्तार॒मा दि॒वः ॥ ९.०२६.०२ ॥
+Indum Dhartarama Divah || 9.026.02 ||
+
+[213]
+तं वे॒धां मे॒धया᳚ह्य॒न्पव॑मान॒मधि॒ द्यवि॑ ।
+Tam Vedham Medhayahyanpavamanamadhi Dyavi |
+ध॒र्ण॒सिं भूरि॑धायसम् ॥ ९.०२६.०३ ॥
+Dharnasim Bhuridhayasam || 9.026.03 ||
+
+[214]
+तम॑ह्यन्भु॒रिजो᳚र्धि॒या सं॒वसा᳚नं वि॒वस्व॑तः ।
+Tamahyanbhurijordhiya Samvasanam Vivasvatah |
+पतिं᳚ वा॒चो अदा᳚भ्यम् ॥ ९.०२६.०४ ॥
+Patim Vacho Adabhyam || 9.026.04 ||
+
+[215]
+तं साना॒वधि॑ जा॒मयो॒ हरिं᳚ हिन्व॒न्त्यद्रि॑भिः ।
+Tam Sanavadhi Jamayo Harim Hinvantyadribhih |
+ह॒र्य॒तं भूरि॑चक्षसम् ॥ ९.०२६.०५ ॥
+Haryatam Bhurichakshasam || 9.026.05 ||
+
+[216]
+तं त्वा᳚ हिन्वन्ति वे॒धस॒ पव॑मान गिरा॒वृधम्᳚ ।
+Tam Tva Hinvanti Vedhasa Pavamana Giravrudham |
+इन्द॒विन्द्रा᳚य मत्स॒रम् ॥ ९.०२६.०६ ॥
+Indavindraya Matsaram || 9.026.06 ||
+
+[para 217]
+ए॒ष क॒विर॒भिष्टु॑तः प॒वित्रे॒ अधि॑ तोशते ।
+Esha Kavirabhishtutah Pavitre Adhi Toshate |
+पु॒ना॒नो घ्नन्नप॒ स्रिधः॑ ॥ ९.०२७.०१ ॥
+Punano Ghnannapa Sridhah || 9.027.01 ||
+
+[218]
+ए॒ष इन्द्रा᳚य वा॒यवे᳚ स्व॒र्जित्परि॑ षिच्यते ।
+Esha Indraya Vayave Svarjitpari Shichyate |
+प॒वित्रे᳚ दक्ष॒साध॑नः ॥ ९.०२७.०२ ॥
+Pavitre Dakshasadhanah || 9.027.02 ||
+
+[219]
+ए॒ष नृभि॒र्वि नी᳚यते दि॒वो मू॒र्धा वृषा᳚ सु॒तः ।
+Esha Nrubhirvi Niyate Divo Murdha Vrusha Sutah |
+सोमो॒ वने᳚षु विश्व॒वित् ॥ ९.०२७.०३ ॥
+Somo Vaneshu Vishvavit || 9.027.03 ||
+
+[220]
+ए॒ष ग॒व्युर॑चिक्रद॒त्पव॑मानो हिरण्य॒युः ।
+Esha Gavyurachikradatpavamano Hiranyayuh |
+इन्दुः॑ सत्रा॒जिदस्तृ॑तः ॥ ९.०२७.०४ ॥
+Induh Satrajidastrutah || 9.027.04 ||
+
+[221]
+ए॒ष सूर्ये᳚ण हासते॒ पव॑मानो॒ अधि॒ द्यवि॑ ।
+Esha Suryena Hasate Pavamano Adhi Dyavi |
+प॒वित्रे᳚ मत्स॒रो मदः॑ ॥ ९.०२७.०५ ॥
+Pavitre Matsaro Madah || 9.027.05 ||
+
+[222]
+ए॒ष शु॒ष्म्य॑सिष्यदद॒न्तरि॑क्षे॒ वृषा॒ हरिः॑ ।
+Esha Shushmyasishyadadantarikshe Vrusha Harih |
+पु॒ना॒न इन्दु॒रिन्द्र॒मा ॥ ९.०२७.०६ ॥
+Punana Indurindrama || 9.027.06 ||
+
+[para 223]
+ए॒ष वा॒जी हि॒तो नृभि॑र्विश्व॒विन्मन॑स॒स्पतिः॑ ।
+Esha Vaji Hito Nrubhirvishvavinmanasaspatih |
+अव्यो॒ वारं॒ वि धा᳚वति ॥ ९.०२८.०१ ॥
+Avyo Varam Vi Dhavati || 9.028.01 ||
+
+[224]
+ए॒ष प॒वित्रे᳚ अक्षर॒त्सोमो᳚ दे॒वेभ्य॑ सु॒तः ।
+Esha Pavitre Aksharatsomo Devebhya Sutah |
+विश्वा॒ धामा᳚न्यावि॒शन् ॥ ९.०२८.०२ ॥
+Vishva Dhamanyavishan || 9.028.02 ||
+
+[225]
+ए॒ष दे॒वः शु॑भाय॒तेऽधि॒ योना॒वम॑र्त्यः ।
+Esha Devah Shubhayatedhi Yonavamartyah |
+वृ॒त्र॒हा दे᳚व॒वीत॑मः ॥ ९.०२८.०३ ॥
+Vrutraha Devavitamah || 9.028.03 ||
+
+[226]
+ए॒ष वृषा॒ कनि॑क्रदद्द॒शभि॑र्जा॒मिभि॑र्य॒तः ।
+Esha Vrusha Kanikradaddashabhirjamibhiryatah |
+अ॒भि द्रोणा᳚नि धावति ॥ ९.०२८.०४ ॥
+Abhi Dronani Dhavati || 9.028.04 ||
+
+[227]
+ए॒ष सूर्य॑मरोचय॒त्पव॑मानो॒ विच॑र्षणिः ।
+Esha Suryamarochayatpavamano Vicharshanih |
+विश्वा॒ धामा᳚नि विश्व॒वित् ॥ ९.०२८.०५ ॥
+Vishva Dhamani Vishvavit || 9.028.05 ||
+
+[228]
+ए॒ष शु॒ष्म्यदा᳚भ्य॒ सोम॑ पुना॒नो अ॑र्षति ।
+Esha Shushmyadabhya Soma Punano Arshati |
+दे॒वा॒वीर॑घशंस॒हा ॥ ९.०२८.०६ ॥
+Devaviraghashamsaha || 9.028.06 ||
+
+[para 229]
+प्रास्य॒ धारा᳚ अक्षर॒न्वृष्ण॑ सु॒तस्यौज॑सा ।
+Prasya Dhara Aksharanvrushna Sutasyaujasa |
+दे॒वां अनु॑ प्र॒भूष॑तः ॥ ९.०२९.०१ ॥
+Devam Anu Prabhushatah || 9.029.01 ||
+
+[230]
+सप्तिं᳚ मृजन्ति वे॒धसो᳚ गृ॒णन्त॑ का॒रवो᳚ गि॒रा ।
+Saptim Mrujanti Vedhaso Grunanta Karavo Gira |
+ज्योति॑र्जज्ञा॒नमु॒क्थ्यम्᳚ ॥ ९.०२९.०२ ॥
+Jyotirjadnyanamukthyam || 9.029.02 ||
+
+[231]
+सु॒षहा᳚ सोम॒ तानि॑ ते पुना॒नाय॑ प्रभूवसो ।
+Sushaha Soma Tani Te Punanaya Prabhuvaso |
+वर्धा᳚ समु॒द्रमु॒क्थ्य॑म् ॥ ९.०२९.०३ ॥
+Vardha Samudramukthyam || 9.029.03 ||
+
+[232]
+विश्वा॒ वसू᳚नि सं॒जय॒न्पव॑स्व सोम॒ धार॑या ।
+Vishva Vasuni Sanjayanpavasva Soma Dharaya |
+इ॒नु द्वेषां᳚सि स॒ध्र्य॑क् ॥ ९.०२९.०४ ॥
+Inu Dveshamsi Sadhryak || 9.029.04 ||
+
+[233]
+रक्षा॒ सु नो॒ अर॑रुषः स्व॒नात्स॑मस्य॒ कस्य॑ चित् ।
+Raksha Su No Ararushah Svanatsamasya Kasya Chit |
+नि॒दो यत्र॑ मुमु॒च्महे᳚ ॥ ९.०२९.०५ ॥
+Nido Yatra Mumuchmahe || 9.029.05 ||
+
+[234]
+एन्दो॒ पार्थि॑वं र॒यिं दि॒व्यं प॑वस्व॒ धार॑या ।
+Endo Parthivam Rayim Divyam Pavasva Dharaya |
+द्यु॒मन्तं॒ शुष्म॒मा भ॑र ॥ ९.०२९.०६ ॥
+Dyumantam Shushmama Bhara || 9.029.06 ||
+
+[para 235]
+प्र धारा᳚ अस्य शु॒ष्मिणो॒ वृथा᳚ प॒वित्रे᳚ अक्षरन् ।
+Pra Dhara Asya Shushmino Vrutha Pavitre Aksharan |
+पु॒ना॒नो वाच॑मिष्यति ॥ ९.०३०.०१ ॥
+Punano Vachamishyati || 9.030.01 ||
+
+[236]
+इन्दु॑र्हिया॒नः सो॒तृभि॑र्मृ॒ज्यमा᳚नः॒ कनि॑क्रदत् ।
+Indurhiyanah Sotrubhirmrujyamanah Kanikradat |
+इय॑र्ति व॒ग्नुमि᳚न्द्रि॒यम् ॥ ९.०३०.०२ ॥
+Iyarti Vagnumindriyam || 9.030.02 ||
+
+[237]
+आ न॒ शुष्मं᳚ नृ॒षाह्यं᳚ वी॒रव᳚न्तं पुरु॒स्पृहम्᳚ ।
+A Na Shushmam Nrushahyam Viravantam Puruspruham |
+पव॑स्व सोम॒ धार॑या ॥ ९.०३०.०३ ॥
+Pavasva Soma Dharaya || 9.030.03 ||
+
+[238]
+प्र सोमो॒ अति॒ धार॑या॒ पव॑मानो असिष्यदत् ।
+Pra Somo Ati Dharaya Pavamano Asishyadat |
+अ॒भि द्रोणा᳚न्या॒सदम्᳚ ॥ ९.०३०.०४ ॥
+Abhi Dronanyasadam || 9.030.04 ||
+
+[239]
+अ॒प्सु त्वा॒ मधु॑मत्तमं॒ हरिं᳚ हिन्व॒न्त्यद्रि॑भिः ।
+Apsu Tva Madhumattamam Harim Hinvantyadribhih |
+इन्द॒विन्द्रा᳚य पी॒तये᳚ ॥ ९.०३०.०५ ॥
+Indavindraya Pitaye || 9.030.05 ||
+
+[240]
+सु॒नोता॒ मधु॑मत्तमं॒ सोम॒मिन्द्रा᳚य व॒ज्रिणे᳚ ।
+Sunota Madhumattamam Somamindraya Vajrine |
+चारुं॒ शर्धा᳚य मत्स॒रम् ॥ ९.०३०.०६ ॥
+Charum Shardhaya Matsaram || 9.030.06 ||
+
+[para 241]
+प्र सोमा᳚सः स्वा॒ध्य१॒॑ः पव॑मानासो अक्रमुः ।
+Pra Somasah Svadhya1h Pavamanaso Akramuh |
+र॒यिं कृ᳚ण्वन्ति॒ चेत॑नम् ॥ ९.०३१.०१ ॥
+Rayim Krunvanti Chetanam || 9.031.01 ||
+
+[242]
+दि॒वस्पृ॑थि॒व्या अधि॒ भवे᳚न्दो द्युम्न॒वर्ध॑नः ।
+Divaspruthivya Adhi Bhavendo Dyumnavardhanah |
+भवा॒ वाजा᳚नां॒ पतिः॑ ॥ ९.०३१.०२ ॥
+Bhava Vajanam Patih || 9.031.02 ||
+
+[243]
+तुभ्यं॒ वाता᳚ अभि॒प्रिय॒स्तुभ्य॑मर्षन्ति॒ सिन्ध॑वः ।
+Tubhyam Vata Abhipriyastubhyamarshanti Sindhavah |
+सोम॒ वर्ध᳚न्ति ते॒ महः॑ ॥ ९.०३१.०३ ॥
+Soma Vardhanti Te Mahah || 9.031.03 ||
+
+[244]
+आ प्या᳚यस्व॒ समे᳚तु ते वि॒श्वत᳚ सोम॒ वृष्ण्यम्᳚ ।
+A Pyayasva Sametu Te Vishvata Soma Vrushnyam |
+भवा॒ वाज॑स्य संग॒थे ॥ ९.०३१.०४ ॥
+Bhava Vajasya Sangathe || 9.031.04 ||
+
+[245]
+तुभ्यं॒ गावो᳚ घृ॒तं पयो॒ बभ्रो᳚ दुदु॒ह्रे अक्षि॑तम् ।
+Tubhyam Gavo Ghrutam Payo Babhro Duduhre Akshitam |
+वर्षि॑ष्ठे॒ अधि॒ सान॑वि ॥ ९.०३१.०५ ॥
+Varshishthe Adhi Sanavi || 9.031.05 ||
+
+[246]
+स्वा॒यु॒धस्य॑ ते स॒तो भुव॑नस्य पते व॒यम् ।
+Svayudhasya Te Sato Bhuvanasya Pate Vayam |
+इन्दो᳚ सखि॒त्वमु॑श्मसि ॥ ९.०३१.०६ ॥
+Indo Sakhitvamushmasi || 9.031.06 ||
+
+[para 247]
+प्र सोमा᳚सो मद॒च्युत॒ श्रव॑से नो म॒घोनः॑ ।
+Pra Somaso Madachyuta Shravase No Maghonah |
+सु॒ता वि॒दथे᳚ अक्रमुः ॥ ९.०३२.०१ ॥
+Suta Vidathe Akramuh || 9.032.01 ||
+
+[248]
+आदीं᳚ त्रि॒तस्य॒ योष॑णो॒ हरिं᳚ हिन्व॒न्त्यद्रि॑भिः ।
+Adim Tritasya Yoshano Harim Hinvantyadribhih |
+इन्दु॒मिन्द्रा᳚य पी॒तये᳚ ॥ ९.०३२.०२ ॥
+Indumindraya Pitaye || 9.032.02 ||
+
+[249]
+आदीं᳚ हं॒सो यथा᳚ ग॒णं विश्व॑स्यावीवशन्म॒तिम् ।
+Adim Hamso Yatha Ganam Vishvasyavivashanmatim |
+अत्यो॒ न गोभि॑रज्यते ॥ ९.०३२.०३ ॥
+Atyo Na Gobhirajyate || 9.032.03 ||
+
+[250]
+उ॒भे सो᳚माव॒चाक॑शन्मृ॒गो न त॒क्तो अ॑र्षसि ।
+Ubhe Somavachakashanmrugo Na Takto Arshasi |
+सीद᳚न्नृ॒तस्य॒ योनि॒मा ॥ ९.०३२.०४ ॥
+Sidannrutasya Yonima || 9.032.04 ||
+
+[251]
+अ॒भि गावो᳚ अनूषत॒ योषा᳚ जा॒रमि॑व प्रि॒यम् ।
+Abhi Gavo Anushata Yosha Jaramiva Priyam |
+अग᳚न्ना॒जिं यथा᳚ हि॒तम् ॥ ९.०३२.०५ ॥
+Agannajim Yatha Hitam || 9.032.05 ||
+
+[252]
+अ॒स्मे धे᳚हि द्यु॒मद्यशो᳚ म॒घव॑द्‌भ्यश्च॒ मह्यं᳚ च ।
+Asme Dhehi Dyumadyasho Maghavadbhyashcha Mahyam Cha |
+स॒निं मे॒धामु॒त श्रवः॑ ॥ ९.०३२.०६ ॥
+Sanim Medhamuta Shravah || 9.032.06 ||
+
+[para 253]
+प्र सोमा᳚सो विप॒श्चितो॒ऽपां न य॑न्त्यू॒र्मयः॑ ।
+Pra Somaso Vipashchitopam Na Yantyurmayah |
+वना᳚नि महि॒षा इ॑व ॥ ९.०३३.०१ ॥
+Vanani Mahisha Iva || 9.033.01 ||
+
+[254]
+अ॒भि द्रोणा᳚नि ब॒भ्रव॑ शु॒क्रा ऋ॒तस्य॒ धार॑या ।
+Abhi Dronani Babhrava Shukra Rutasya Dharaya |
+वाजं॒ गोम᳚न्तमक्षरन् ॥ ९.०३३.०२ ॥
+Vajam Gomantamaksharan || 9.033.02 ||
+
+[255]
+सु॒ता इन्द्रा᳚य वा॒यवे॒ वरु॑णाय म॒रुद्‌भ्यः॑ ।
+Suta Indraya Vayave Varunaya Marudbhyah |
+सोमा᳚ अर्षन्ति॒ विष्ण॑वे ॥ ९.०३३.०३ ॥
+Soma Arshanti Vishnave || 9.033.03 ||
+
+[256]
+ति॒स्रो वाच॒ उदी᳚रते॒ गावो᳚ मिमन्ति धे॒नवः॑ ।
+Tisro Vacha Udirate Gavo Mimanti Dhenavah |
+हरि॑रेति॒ कनि॑क्रदत् ॥ ९.०३३.०४ ॥
+Harireti Kanikradat || 9.033.04 ||
+
+[257]
+अ॒भि ब्रह्मी᳚रनूषत य॒ह्वीरृ॒तस्य॑ मा॒तरः॑ ।
+Abhi Brahmiranushata Yahvirrutasya Matarah |
+म॒र्मृ॒ज्यन्ते᳚ दि॒वः शिशुम्᳚ ॥ ९.०३३.०५ ॥
+Marmrujyante Divah Shishum || 9.033.05 ||
+
+[258]
+रा॒यः स॑मु॒द्रांश्च॒तुरो॒ऽस्मभ्यं᳚ सोम वि॒श्वतः॑ ।
+Rayah Samudramshchaturosmabhyam Soma Vishvatah |
+आ प॑वस्व सह॒स्रिणः॑ ॥ ९.०३३.०६ ॥
+A Pavasva Sahasrinah || 9.033.06 ||
+
+[para 259]
+प्र सु॑वा॒नो धार॑या॒ तनेन्दु॑र्हिन्वा॒नो अ॑र्षति ।
+Pra Suvano Dharaya Tanendurhinvano Arshati |
+रु॒जद्दृ॒ळ्हा व्योज॑सा ॥ ९.०३४.०१ ॥
+Rujaddrulha Vyojasa || 9.034.01 ||
+
+[260]
+सु॒त इन्द्रा᳚य वा॒यवे॒ वरु॑णाय म॒रुद्‌भ्यः॑ ।
+Suta Indraya Vayave Varunaya Marudbhyah |
+सोमो᳚ अर्षति॒ विष्ण॑वे ॥ ९.०३४.०२ ॥
+Somo Arshati Vishnave || 9.034.02 ||
+
+[261]
+वृषा᳚णं॒ वृष॑भिर्य॒तं सु॒न्वन्ति॒ सोम॒मद्रि॑भिः ।
+Vrushanam Vrushabhiryatam Sunvanti Somamadribhih |
+दु॒हन्ति॒ शक्म॑ना॒ पयः॑ ॥ ९.०३४.०३ ॥
+Duhanti Shakmana Payah || 9.034.03 ||
+
+[262]
+भुव॑त्त्रि॒तस्य॒ मर्ज्यो॒ भुव॒दिन्द्रा᳚य मत्स॒रः ।
+Bhuvattritasya Marjyo Bhuvadindraya Matsarah |
+सं रू॒पैर॑ज्यते॒ हरिः॑ ॥ ९.०३४.०४ ॥
+Sam Rupairajyate Harih || 9.034.04 ||
+
+[263]
+अ॒भीमृ॒तस्य॑ वि॒ष्टपं᳚ दुह॒ते पृश्नि॑मातरः ।
+Abhimrutasya Vishtapam Duhate Prushnimatarah |
+चारु॑ प्रि॒यत॑मं ह॒विः ॥ ९.०३४.०५ ॥
+Charu Priyatamam Havih || 9.034.05 ||
+
+[264]
+समे᳚न॒मह्रु॑ता इ॒मा गिरो᳚ अर्षन्ति स॒स्रुतः॑ ।
+Samenamahruta Ima Giro Arshanti Sasrutah |
+धे॒नूर्वा॒श्रो अ॑वीवशत् ॥ ९.०३४.०६ ॥
+Dhenurvashro Avivashat || 9.034.06 ||
+
+[para 265]
+आ न॑ पवस्व॒ धार॑या॒ पव॑मान र॒यिं पृ॒थुम् ।
+A Na Pavasva Dharaya Pavamana Rayim Pruthum |
+यया॒ ज्योति॑र्वि॒दासि॑ नः ॥ ९.०३५.०१ ॥
+Yaya Jyotirvidasi Nah || 9.035.01 ||
+
+[266]
+इन्दो᳚ समुद्रमींखय॒ पव॑स्व विश्वमेजय ।
+Indo Samudraminkhaya Pavasva Vishvamejaya |
+रा॒यो ध॒र्ता न॒ ओज॑सा ॥ ९.०३५.०२ ॥
+Rayo Dharta Na Ojasa || 9.035.02 ||
+
+[267]
+त्वया᳚ वी॒रेण॑ वीरवो॒ऽभि ष्या᳚म पृतन्य॒तः ।
+Tvaya Virena Viravobhi Shyama Prutanyatah |
+क्षरा᳚ णो अ॒भि वार्यम्᳚ ॥ ९.०३५.०३ ॥
+Kshara No Abhi Varyam || 9.035.03 ||
+
+[268]
+प्र वाज॒मिन्दु॑रिष्यति॒ सिषा᳚सन्वाज॒सा ऋषिः॑ ।
+Pra Vajamindurishyati Sishasanvajasa Rushih |
+व्र॒ता वि॑दा॒न आयु॑धा ॥ ९.०३५.०४ ॥
+Vrata Vidana Ayudha || 9.035.04 ||
+
+[269]
+तं गी॒र्भिर्वा᳚चमींख॒यं पु॑ना॒नं वा᳚सयामसि ।
+Tam Girbhirvachaminkhayam Punanam Vasayamasi |
+सोमं॒ जन॑स्य॒ गोप॑तिम् ॥ ९.०३५.०५ ॥
+Somam Janasya Gopatim || 9.035.05 ||
+
+[270]
+विश्वो॒ यस्य॑ व्र॒ते जनो᳚ दा॒धार॒ धर्म॑ण॒स्पतेः᳚ ।
+Vishvo Yasya Vrate Jano Dadhara Dharmanaspateh |
+पु॒ना॒नस्य॑ प्र॒भूव॑सोः ॥ ९.०३५.०६ ॥
+Punanasya Prabhuvasoh || 9.035.06 ||
+
+[para 271]
+अस॑र्जि॒ रथ्यो᳚ यथा प॒वित्रे᳚ च॒म्वो᳚ सु॒तः ।
+Asarji Rathyo Yatha Pavitre Chamvo Sutah |
+कार्ष्म᳚न्वा॒जी न्य॑क्रमीत् ॥ ९.०३६.०१ ॥
+Karshmanvaji Nyakramit || 9.036.01 ||
+
+[272]
+स वह्नि॑ सोम॒ जागृ॑वि॒ पव॑स्व देव॒वीरति॑ ।
+Sa Vahni Soma Jagruvi Pavasva Devavirati |
+अ॒भि कोशं᳚ मधु॒श्चुतम्᳚ ॥ ९.०३६.०२ ॥
+Abhi Kosham Madhushchutam || 9.036.02 ||
+
+[273]
+स नो॒ ज्योतीं᳚षि पूर्व्य॒ पव॑मान॒ वि रो᳚चय ।
+Sa No Jyotimshi Purvya Pavamana Vi Rochaya |
+क्रत्वे॒ दक्षा᳚य नो हिनु ॥ ९.०३६.०३ ॥
+Kratve Dakshaya No Hinu || 9.036.03 ||
+
+[274]
+शु॒म्भमा᳚न ऋता॒युभि॑र्मृ॒ज्यमा᳚नो॒ गभ॑स्त्योः ।
+Shumbhamana Rutayubhirmrujyamano Gabhastyoh |
+पव॑ते॒ वारे᳚ अ॒व्यये᳚ ॥ ९.०३६.०४ ॥
+Pavate Vare Avyaye || 9.036.04 ||
+
+[275]
+स विश्वा᳚ दा॒शुषे॒ वसु॒ सोमो᳚ दि॒व्यानि॒ पार्थि॑वा ।
+Sa Vishva Dashushe Vasu Somo Divyani Parthiva |
+पव॑ता॒मान्तरि॑क्ष्या ॥ ९.०३६.०५ ॥
+Pavatamantarikshya || 9.036.05 ||
+
+[276]
+आ दि॒वस्पृ॒ष्ठम॑श्व॒युर्ग॑व्य॒युः सो᳚म रोहसि ।
+A Divasprushthamashvayurgavyayuh Soma Rohasi |
+वी॒र॒युः श॑वसस्पते ॥ ९.०३६.०६ ॥
+Virayuh Shavasaspate || 9.036.06 ||
+
+[para 277]
+स सु॒तः पी॒तये॒ वृषा॒ सोम॑ प॒वित्रे᳚ अर्षति ।
+Sa Sutah Pitaye Vrusha Soma Pavitre Arshati |
+वि॒घ्नन्रक्षां᳚सि देव॒युः ॥ ९.०३७.०१ ॥
+Vighnanrakshamsi Devayuh || 9.037.01 ||
+
+[278]
+स प॒वित्रे᳚ विचक्ष॒णो हरि॑रर्षति धर्ण॒सिः ।
+Sa Pavitre Vichakshano Harirarshati Dharnasih |
+अ॒भि योनिं॒ कनि॑क्रदत् ॥ ९.०३७.०२ ॥
+Abhi Yonim Kanikradat || 9.037.02 ||
+
+[279]
+स वा॒जी रो᳚च॒ना दि॒वः पव॑मानो॒ वि धा᳚वति ।
+Sa Vaji Rochana Divah Pavamano Vi Dhavati |
+र॒क्षो॒हा वार॑म॒व्ययम्᳚ ॥ ९.०३७.०३ ॥
+Rakshoha Varamavyayam || 9.037.03 ||
+
+[280]
+स त्रि॒तस्याधि॒ सान॑वि॒ पव॑मानो अरोचयत् ।
+Sa Tritasyadhi Sanavi Pavamano Arochayat |
+जा॒मिभि॒ सूर्यं᳚ स॒ह ॥ ९.०३७.०४ ॥
+Jamibhi Suryam Saha || 9.037.04 ||
+
+[281]
+स वृ॑त्र॒हा वृषा᳚ सु॒तो व॑रिवो॒विददा᳚भ्यः ।
+Sa Vrutraha Vrusha Suto Varivovidadabhyah |
+सोमो॒ वाज॑मिवासरत् ॥ ९.०३७.०५ ॥
+Somo Vajamivasarat || 9.037.05 ||
+
+[282]
+स दे॒वः क॒विने᳚षि॒तो॒३॒॑ऽभि द्रोणा᳚नि धावति ।
+Sa Devah Kavineshitobhi Dronani Dhavati |
+इन्दु॒रिन्द्रा᳚य मं॒हना᳚ ॥ ९.०३७.०६ ॥
+Indurindraya Mamhana || 9.037.06 ||
+
+[para 283]
+ए॒ष उ॒ स्य वृषा॒ रथोऽव्यो॒ वारे᳚भिरर्षति ।
+Esha U Sya Vrusha Rathovyo Varebhirarshati |
+गच्छ॒न्वाजं᳚ सह॒स्रिणम्᳚ ॥ ९.०३८.०१ ॥
+Gachchhanvajam Sahasrinam || 9.038.01 ||
+
+[284]
+ए॒तं त्रि॒तस्य॒ योष॑णो॒ हरिं᳚ हिन्व॒न्त्यद्रि॑भिः ।
+Etam Tritasya Yoshano Harim Hinvantyadribhih |
+इन्दु॒मिन्द्रा᳚य पी॒तये᳚ ॥ ९.०३८.०२ ॥
+Indumindraya Pitaye || 9.038.02 ||
+
+[285]
+ए॒तं त्यं ह॒रितो॒ दश॑ मर्मृ॒ज्यन्ते᳚ अप॒स्युवः॑ ।
+Etam Tyam Harito Dasha Marmrujyante Apasyuvah |
+याभि॒र्मदा᳚य॒ शुम्भ॑ते ॥ ९.०३८.०३ ॥
+Yabhirmadaya Shumbhate || 9.038.03 ||
+
+[286]
+ए॒ष स्य मानु॑षी॒ष्वा श्ये॒नो न वि॒क्षु सी᳚दति ।
+Esha Sya Manushishva Shyeno Na Vikshu Sidati |
+गच्छं᳚जा॒रो न यो॒षितम्᳚ ॥ ९.०३८.०४ ॥
+Gachchhanjaro Na Yoshitam || 9.038.04 ||
+
+[287]
+ए॒ष स्य मद्यो॒ रसोऽव॑ चष्टे दि॒वः शिशुः॑ ।
+Esha Sya Madyo Rasova Chashte Divah Shishuh |
+य इन्दु॒र्वार॒मावि॑शत् ॥ ९.०३८.०५ ॥
+Ya Indurvaramavishat || 9.038.05 ||
+
+[288]
+ए॒ष स्य पी॒तये᳚ सु॒तो हरि॑रर्षति धर्ण॒सिः ।
+Esha Sya Pitaye Suto Harirarshati Dharnasih |
+क्रन्द॒न्योनि॑म॒भि प्रि॒यम् ॥ ९.०३८.०६ ॥
+Krandanyonimabhi Priyam || 9.038.06 ||
+
+[para 289]
+आ॒शुर॑र्ष बृहन्मते॒ परि॑ प्रि॒येण॒ धाम्ना᳚ ।
+Ashurarsha Bruhanmate Pari Priyena Dhamna |
+यत्र॑ दे॒वा इति॒ ब्रवन्᳚ ॥ ९.०३९.०१ ॥
+Yatra Deva Iti Bravan || 9.039.01 ||
+
+[290]
+प॒रि॒ष्कृ॒ण्वन्ननि॑ष्कृतं॒ जना᳚य या॒तय॒न्निषः॑ ।
+Parishkrunvannanishkrutam Janaya Yatayannishah |
+वृ॒ष्टिं दि॒वः परि॑ स्रव ॥ ९.०३९.०२ ॥
+Vrushtim Divah Pari Srava || 9.039.02 ||
+
+[291]
+सु॒त ए᳚ति प॒वित्र॒ आ त्विषिं॒ दधा᳚न॒ ओज॑सा ।
+Suta Eti Pavitra A Tvishim Dadhana Ojasa |
+वि॒चक्षा᳚णो विरो॒चयन्᳚ ॥ ९.०३९.०३ ॥
+Vichakshano Virochayan || 9.039.03 ||
+
+[292]
+अ॒यं स यो दि॒वस्परि॑ रघु॒यामा᳚ प॒वित्र॒ आ ।
+Ayam Sa Yo Divaspari Raghuyama Pavitra A |
+सिन्धो᳚रू॒र्मा व्यक्ष॑रत् ॥ ९.०३९.०४ ॥
+Sindhorurma Vyaksharat || 9.039.04 ||
+
+[293]
+आ॒विवा᳚सन्परा॒वतो॒ अथो᳚ अर्वा॒वत॑ सु॒तः ।
+Avivasanparavato Atho Arvavata Sutah |
+इन्द्रा᳚य सिच्यते॒ मधु॑ ॥ ९.०३९.०५ ॥
+Indraya Sichyate Madhu || 9.039.05 ||
+
+[294]
+स॒मी॒ची॒ना अ॑नूषत॒ हरिं᳚ हिन्व॒न्त्यद्रि॑भिः ।
+Samichina Anushata Harim Hinvantyadribhih |
+योना᳚वृ॒तस्य॑ सीदत ॥ ९.०३९.०६
+Yonavrutasya Sidata || 9.039.06
+
+[para 295]
+पु॒ना॒नो अ॑क्रमीद॒भि विश्वा॒ मृधो॒ विच॑र्षणिः ।
+Punano Akramidabhi Vishva Mrudho Vicharshanih |
+शु॒म्भन्ति॒ विप्रं᳚ धी॒तिभिः॑ ॥ ९.०४०.०१ ॥
+Shumbhanti Vipram Dhitibhih || 9.040.01 ||
+
+[296]
+आ योनि॑मरु॒णो रु॑ह॒द्गम॒दिन्द्रं॒ वृषा᳚ सु॒तः ।
+A Yonimaruno Ruhadgamadindram Vrusha Sutah |
+ध्रु॒वे सद॑सि सीदति ॥ ९.०४०.०२ ॥
+Dhruve Sadasi Sidati || 9.040.02 ||
+
+[297]
+नू नो᳚ र॒यिं म॒हामि᳚न्दो॒ऽस्मभ्यं᳚ सोम वि॒श्वतः॑ ।
+Nu No Rayim Mahamindosmabhyam Soma Vishvatah |
+आ प॑वस्व सह॒स्रिणम्᳚ ॥ ९.०४०.०३ ॥
+A Pavasva Sahasrinam || 9.040.03 ||
+
+[298]
+विश्वा᳚ सोम पवमान द्यु॒म्नानी᳚न्द॒वा भ॑र ।
+Vishva Soma Pavamana Dyumnanindava Bhara |
+वि॒दाः स॑ह॒स्रिणी॒रिषः॑ ॥ ९.०४०.०४ ॥
+Vidah Sahasrinirishah || 9.040.04 ||
+
+[299]
+स न॑ पुना॒न आ भ॑र र॒यिं स्तो॒त्रे सु॒वीर्यम्᳚ ।
+Sa Na Punana A Bhara Rayim Stotre Suviryam |
+ज॒रि॒तुर्व॑र्धया॒ गिरः॑ ॥ ९.०४०.०५ ॥
+Jariturvardhaya Girah || 9.040.05 ||
+
+[300]
+पु॒ना॒न इ᳚न्द॒वा भ॑र॒ सोम॑ द्वि॒बर्ह॑सं र॒यिम् ।
+Punana Indava Bhara Soma Dvibarhasam Rayim |
+वृष᳚न्निन्दो न उ॒क्थ्यम्᳚ ॥ ९.०४०.०६ ॥
+Vrushannindo Na Ukthyam || 9.040.06 ||
+
+[para 301]
+प्र ये गावो॒ न भूर्ण॑यस्त्वे॒षा अ॒यासो॒ अक्र॑मुः ।
+Pra Ye Gavo Na Bhurnayastvesha Ayaso Akramuh |
+घ्नन्त॑ कृ॒ष्णामप॒ त्वचम्᳚ ॥ ९.०४१.०१ ॥
+Ghnanta Krushnamapa Tvacham || 9.041.01 ||
+
+[302]
+सु॒वि॒तस्य॑ मनाम॒हेऽति॒ सेतुं᳚ दुरा॒व्यम्᳚ ।
+Suvitasya Manamaheti Setum Duravyam |
+सा॒ह्वांसो॒ दस्यु॑मव्र॒तम् ॥ ९.०४१.०२ ॥
+Sahvamso Dasyumavratam || 9.041.02 ||
+
+[303]
+शृ॒ण्वे वृ॒ष्टेरि॑व स्व॒नः पव॑मानस्य शु॒ष्मिणः॑ ।
+Shrunve Vrushteriva Svanah Pavamanasya Shushminah |
+चर᳚न्ति वि॒द्युतो᳚ दि॒वि ॥ ९.०४१.०३ ॥
+Charanti Vidyuto Divi || 9.041.03 ||
+
+[304]
+आ प॑वस्व म॒हीमिषं॒ गोम॑दिन्दो॒ हिर᳚ण्यवत् ।
+A Pavasva Mahimisham Gomadindo Hiranyavat |
+अश्वा᳚व॒द्वाज॑वत्सु॒तः ॥ ९.०४१.०४ ॥
+Ashvavadvajavatsutah || 9.041.04 ||
+
+[305]
+स प॑वस्व विचर्षण॒ आ म॒ही रोद॑सी पृण ।
+Sa Pavasva Vicharshana A Mahi Rodasi Pruna |
+उ॒षाः सूर्यो॒ न र॒श्मिभिः॑ ॥ ९.०४१.०५ ॥
+Ushah Suryo Na Rashmibhih || 9.041.05 ||
+
+[306]
+परि॑ णः शर्म॒यन्त्या॒ धार॑या सोम वि॒श्वतः॑ ।
+Pari Nah Sharmayantya Dharaya Soma Vishvatah |
+सरा᳚ र॒सेव॑ वि॒ष्टपम्᳚ ॥ ९.०४१.०६ ॥
+Sara Raseva Vishtapam || 9.041.06 ||
+
+[para 307]
+ज॒नय᳚न्रोच॒ना दि॒वो ज॒नय᳚न्न॒प्सु सूर्यम्᳚ ।
+Janayanrochana Divo Janayannapsu Suryam |
+वसा᳚नो॒ गा अ॒पो हरिः॑ ॥ ९.०४२.०१ ॥
+Vasano Ga Apo Harih || 9.042.01 ||
+
+[308]
+ए॒ष प्र॒त्नेन॒ मन्म॑ना दे॒वो दे॒वेभ्य॒स्परि॑ ।
+Esha Pratnena Manmana Devo Devebhyaspari |
+धार॑या पवते सु॒तः ॥ ९.०४२.०२ ॥
+Dharaya Pavate Sutah || 9.042.02 ||
+
+[309]
+वा॒वृ॒धा॒नाय॒ तूर्व॑ये॒ पव᳚न्ते॒ वाज॑सातये ।
+Vavrudhanaya Turvaye Pavante Vajasataye |
+सोमा᳚ स॒हस्र॑पाजसः ॥ ९.०४२.०३ ॥
+Soma Sahasrapajasah || 9.042.03 ||
+
+[310]
+दु॒हा॒नः प्र॒त्नमित्पयः॑ प॒वित्रे॒ परि॑ षिच्यते ।
+Duhanah Pratnamitpayah Pavitre Pari Shichyate |
+क्रन्द᳚न्दे॒वां अ॑जीजनत् ॥ ९.०४२.०४ ॥
+Krandandevam Ajijanat || 9.042.04 ||
+
+[311]
+अ॒भि विश्वा᳚नि॒ वार्या॒भि दे॒वां ऋ॑ता॒वृधः॑ ।
+Abhi Vishvani Varyabhi Devam Rutavrudhah |
+सोम॑ पुना॒नो अ॑र्षति ॥ ९.०४२.०५ ॥
+Soma Punano Arshati || 9.042.05 ||
+
+[312]
+गोम᳚न्नः सोम वी॒रव॒दश्वा᳚व॒द्वाज॑वत्सु॒तः ।
+Gomannah Soma Viravadashvavadvajavatsutah |
+पव॑स्व बृह॒तीरिषः॑ ॥ ९.०४२.०६ ॥
+Pavasva Bruhatirishah || 9.042.06 ||
+
+[para 313]
+यो अत्य॑ इव मृ॒ज्यते॒ गोभि॒र्मदा᳚य हर्य॒तः ।
+Yo Atya Iva Mrujyate Gobhirmadaya Haryatah |
+तं गी॒र्भिर्वा᳚सयामसि ॥ ९.०४३.०१ ॥
+Tam Girbhirvasayamasi || 9.043.01 ||
+
+[314]
+तं नो॒ विश्वा᳚ अव॒स्युवो॒ गिर॑ शुम्भन्ति पू॒र्वथा᳚ ।
+Tam No Vishva Avasyuvo Gira Shumbhanti Purvatha |
+इन्दु॒मिन्द्रा᳚य पी॒तये᳚ ॥ ९.०४३.०२ ॥
+Indumindraya Pitaye || 9.043.02 ||
+
+[315]
+पु॒ना॒नो या᳚ति हर्य॒तः सोमो᳚ गी॒र्भिः परि॑ष्कृतः ।
+Punano Yati Haryatah Somo Girbhih Parishkrutah |
+विप्र॑स्य॒ मेध्या᳚तिथेः ॥ ९.०४३.०३ ॥
+Viprasya Medhyatitheh || 9.043.03 ||
+
+[316]
+पव॑मान वि॒दा र॒यिम॒स्मभ्यं᳚ सोम सु॒श्रियम्᳚ ।
+Pavamana Vida Rayimasmabhyam Soma Sushriyam |
+इन्दो᳚ स॒हस्र॑वर्चसम् ॥ ९.०४३.०४ ॥
+Indo Sahasravarchasam || 9.043.04 ||
+
+[317]
+इन्दु॒रत्यो॒ न वा᳚ज॒सृत्कनि॑क्रन्ति प॒वित्र॒ आ ।
+Induratyo Na Vajasrutkanikranti Pavitra A |
+यदक्षा॒रति॑ देव॒युः ॥ ९.०४३.०५॥
+Yadaksharati Devayuh || 9.043.05 ||
+
+[318]
+पव॑स्व॒ वाज॑सातये॒ विप्र॑स्य गृण॒तो वृ॒धे ।
+Pavasva Vajasataye Viprasya Grunato Vrudhe |
+सोम॒ रास्व॑ सु॒वीर्यम्᳚ ॥ ९.०४३.०६॥
+Soma Rasva Suviryam || 9.043.06 ||
+
+[para 319]
+प्र ण॑ इन्दो म॒हे तन॑ ऊ॒र्मिं न बिभ्र॑दर्षसि ।
+Pra Na Indo Mahe Tana Urmim Na Bibhradarshasi |
+अ॒भि दे॒वां अ॒यास्यः॑ ॥ ९.०४४.०१ ॥
+Abhi Devam Ayasyah || 9.044.01 ||
+
+[320]
+म॒ती जु॒ष्टो धि॒या हि॒तः सोमो᳚ हिन्वे परा॒वति॑ ।
+Mati Jushto Dhiya Hitah Somo Hinve Paravati |
+विप्र॑स्य॒ धार॑या क॒विः ॥ ९.०४४.०२ ॥
+Viprasya Dharaya Kavih || 9.044.02 ||
+
+[321]
+अ॒यं दे॒वेषु॒ जागृ॑विः सु॒त ए᳚ति प॒वित्र॒ आ ।
+Ayam Deveshu Jagruvih Suta Eti Pavitra A |
+सोमो᳚ याति॒ विच॑र्षणिः ॥ ९.०४४.०३ ॥
+Somo Yati Vicharshanih || 9.044.03 ||
+
+[322]
+स न॑ पवस्व वाज॒युश्च॑क्रा॒णश्चारु॑मध्व॒रम् ।
+Sa Na Pavasva Vajayushchakranashcharumadhvaram |
+ब॒र्हिष्मां॒ आ वि॑वासति ॥ ९.०४४.०४ ॥
+Barhishmam A Vivasati || 9.044.04 ||
+
+[323]
+स नो॒ भगा᳚य वा॒यवे॒ विप्र॑वीरः स॒दावृ॑धः ।
+Sa No Bhagaya Vayave Vipravirah Sadavrudhah |
+सोमो᳚ दे॒वेष्वा य॑मत् ॥ ९.०४४.०५ ॥
+Somo Deveshva Yamat || 9.044.05 ||
+
+[324]
+स नो᳚ अ॒द्य वसु॑त्तये क्रतु॒विद्गा᳚तु॒वित्त॑मः ।
+Sa No Adya Vasuttaye Kratuvidgatuvittamah |
+वाजं᳚ जेषि॒ श्रवो᳚ बृ॒हत् ॥ ९.०४४.०६ ॥
+Vajam Jeshi Shravo Bruhat || 9.044.06 ||
+
+[para 325]
+स प॑वस्व॒ मदा᳚य॒ कं नृ॒चक्षा᳚ दे॒ववी᳚तये ।
+Sa Pavasva Madaya Kam Nruchaksha Devavitaye |
+इन्द॒विन्द्रा᳚य पी॒तये᳚ ॥ ९.०४५.०१ ॥
+Indavindraya Pitaye || 9.045.01 ||
+
+[326]
+स नो᳚ अर्षा॒भि दू॒त्य१॒॑ं त्वमिन्द्रा᳚य तोशसे ।
+Sa No Arshabhi Dutya1m Tvamindraya Toshase |
+दे॒वान्सखि॑भ्य॒ आ वरम्᳚ ॥ ९.०४५.०२ ॥
+Devansakhibhya A Varam || 9.045.02 ||
+
+[327]
+उ॒त त्वाम॑रु॒णं व॒यं गोभि॑रंज्मो॒ मदा᳚य॒ कम् ।
+Uta Tvamarunam Vayam Gobhiranjmo Madaya Kam |
+वि नो᳚ रा॒ये दुरो᳚ वृधि ॥ ९.०४५.०३ ॥
+Vi No Raye Duro Vrudhi || 9.045.03 ||
+
+[328]
+अत्यू᳚ प॒वित्र॑मक्रमीद्वा॒जी धुरं॒ न याम॑नि ।
+Atyu Pavitramakramidvaji Dhuram Na Yamani |
+इन्दु॑र्दे॒वेषु॑ पत्यते ॥ ९.०४५.०४ ॥
+Indurdeveshu Patyate || 9.045.04 ||
+
+[329]
+समी॒ सखा᳚यो अस्वर॒न्वने॒ क्रीळ᳚न्त॒मत्य॑विम् ।
+Sami Sakhayo Asvaranvane Krilantamatyavim |
+इन्दुं᳚ ना॒वा अ॑नूषत ॥ ९.०४५.०५ ॥
+Indum Nava Anushata || 9.045.05 ||
+
+[330]
+तया᳚ पवस्व॒ धार॑या॒ यया᳚ पी॒तो वि॒चक्ष॑से ।
+Taya Pavasva Dharaya Yaya Pito Vichakshase |
+इन्दो᳚ स्तो॒त्रे सु॒वीर्यम्᳚ ॥ ९.०४५.०६ ॥
+Indo Stotre Suviryam || 9.045.06 ||
+
+[para 331]
+असृ॑ग्रन्दे॒ववी᳚त॒येऽत्या᳚स॒ कृत्व्या᳚ इव ।
+Asrugrandevavitayetyasa Krutvya Iva |
+क्षर᳚न्तः पर्वता॒वृधः॑ ॥ ९.०४६.०१ ॥
+Ksharantah Parvatavrudhah || 9.046.01 ||
+
+[332]
+परि॑ष्कृतास॒ इन्द॑वो॒ योषे᳚व॒ पित्र्या᳚वती ।
+Parishkrutasa Indavo Yosheva Pitryavati |
+वा॒युं सोमा᳚ असृक्षत ॥ ९.०४६.०२ ॥
+Vayum Soma Asrukshata || 9.046.02 ||
+
+[333]
+ए॒ते सोमा᳚स॒ इन्द॑व॒ प्रय॑स्वन्तश्च॒मू सु॒ताः ।
+Ete Somasa Indava Prayasvantashchamu Sutah |
+इन्द्रं᳚ वर्धन्ति॒ कर्म॑भिः ॥ ९.०४६.०३ ॥
+Indram Vardhanti Karmabhih || 9.046.03 ||
+
+[334]
+आ धा᳚वता सुहस्त्यः शु॒क्रा गृ॑भ्णीत म॒न्थिना᳚ ।
+A Dhavata Suhastyah Shukra Grubhnita Manthina |
+गोभि॑ श्रीणीत मत्स॒रम् ॥ ९.०४६.०४ ॥
+Gobhi Shrinita Matsaram || 9.046.04 ||
+
+[335]
+स प॑वस्व धनंजय प्रय॒न्ता राध॑सो म॒हः ।
+Sa Pavasva Dhananjaya Prayanta Radhaso Mahah |
+अ॒स्मभ्यं᳚ सोम गातु॒वित् ॥ ९.०४६.०५ ॥
+Asmabhyam Soma Gatuvit || 9.046.05 ||
+
+[336]
+ए॒तं मृ॑जन्ति॒ मर्ज्यं॒ पव॑मानं॒ दश॒ क्षिपः॑ ।
+Etam Mrujanti Marjyam Pavamanam Dasha Kshipah |
+इन्द्रा᳚य मत्स॒रं मदम्᳚ ॥ ९.०४६.०६
+Indraya Matsaram Madam || 9.046.06
+
+[para 337]
+अ॒या सोम॑ सुकृ॒त्यया᳚ म॒हश्चि॑द॒भ्य॑वर्धत ।
+Aya Soma Sukrutyaya Mahashchidabhyavardhata |
+म॒न्दा॒न उद्वृ॑षायते ॥ ९.०४७.०१ ॥
+Mandana Udvrushayate || 9.047.01 ||
+
+[338]
+कृ॒तानीद॑स्य॒ कर्त्वा॒ चेत᳚न्ते दस्यु॒तर्ह॑णा ।
+Krutanidasya Kartva Chetante Dasyutarhana |
+ऋ॒णा च॑ धृ॒ष्णुश्च॑यते ॥ ९.०४७.०२ ॥
+Runa Cha Dhrushnushchayate || 9.047.02 ||
+
+[339]
+आत्सोम॑ इन्द्रि॒यो रसो॒ वज्र॑ सहस्र॒सा भु॑वत् ।
+Atsoma Indriyo Raso Vajra Sahasrasa Bhuvat |
+उ॒क्थं यद॑स्य॒ जाय॑ते ॥ ९.०४७.०३ ॥
+Uktham Yadasya Jayate || 9.047.03 ||
+
+[340]
+स्व॒यं क॒विर्वि॑ध॒र्तरि॒ विप्रा᳚य॒ रत्न॑मिच्छति ।
+Svayam Kavirvidhartari Vipraya Ratnamichchhati |
+यदी᳚ मर्मृ॒ज्यते॒ धियः॑ ॥ ९.०४७.०४ ॥
+Yadi Marmrujyate Dhiyah || 9.047.04 ||
+
+[341]
+सि॒षा॒सतू᳚ रयी॒णां वाजे॒ष्वर्व॑तामिव ।
+Sishasatu Rayinam Vajeshvarvatamiva |
+भरे᳚षु जि॒ग्युषा᳚मसि ॥ ९.०४७.०५ ॥
+Bhareshu Jigyushamasi || 9.047.05 ||
+
+[para 342]
+तं त्वा᳚ नृ॒म्णानि॒ बिभ्र॑तं स॒धस्थे᳚षु म॒हो दि॒वः ।
+Tam Tva Nrumnani Bibhratam Sadhastheshu Maho Divah |
+चारुं᳚ सुकृ॒त्यये᳚महे ॥ ९.०४८.०१ ॥
+Charum Sukrutyayemahe || 9.048.01 ||
+
+[343]
+संवृ॑क्तधृष्णुमु॒क्थ्यं᳚ म॒हाम॑हिव्रतं॒ मदम्᳚ ।
+Samvruktadhrushnumukthyam Mahamahivratam Madam |
+श॒तं पुरो᳚ रुरु॒क्षण᳚म् ॥ ९.०४८.०२ ॥
+Shatam Puro Rurukshanam || 9.048.02 ||
+
+[344]
+अत॑स्त्वा र॒यिम॒भि राजा᳚नं सुक्रतो दि॒वः ।
+Atastva Rayimabhi Rajanam Sukrato Divah |
+सु॒प॒र्णो अ॑व्य॒थिर्भ॑रत् ॥ ९.०४८.०३ ॥
+Suparno Avyathirbharat || 9.048.03 ||
+
+[345]
+विश्व॑स्मा॒ इत्स्व॑र्दृ॒शे साधा᳚रणं रज॒स्तुरम्᳚ ।
+Vishvasma Itsvardrushe Sadharanam Rajasturam |
+गो॒पामृ॒तस्य॒ विर्भ॑रत् ॥ ९.०४८.०४ ॥
+Gopamrutasya Virbharat || 9.048.04 ||
+
+[346]
+अधा᳚ हिन्वा॒न इ᳚न्द्रि॒यं ज्यायो᳚ महि॒त्वमा᳚नशे ।
+Adha Hinvana Indriyam Jyayo Mahitvamanashe |
+अ॒भि॒ष्टि॒कृद्विच॑र्षणिः ॥ ९.०४८.०५ ॥
+Abhishtikrudvicharshanih || 9.048.05 ||
+
+[para 347]
+पव॑स्व वृ॒ष्टिमा सु नो॒ऽपामू॒र्मिं दि॒वस्परि॑ ।
+Pavasva Vrushtima Su Nopamurmim Divaspari |
+अ॒य॒क्ष्मा बृ॑ह॒तीरिषः॑ ॥ ९.०४९.०१ ॥
+Ayakshma Bruhatirishah || 9.049.01 ||
+
+[348]
+तया᳚ पवस्व॒ धार॑या॒ यया॒ गाव॑ इ॒हागमन्᳚ ।
+Taya Pavasva Dharaya Yaya Gava Ihagaman |
+जन्या᳚स॒ उप॑ नो गृ॒हम् ॥ ९.०४९.०२ ॥
+Janyasa Upa No Gruham || 9.049.02 ||
+
+[349]
+घृ॒तं प॑वस्व॒ धार॑या य॒ज्ञेषु॑ देव॒वीत॑मः ।
+Ghrutam Pavasva Dharaya Yadnyeshu Devavitamah |
+अ॒स्मभ्यं᳚ वृ॒ष्टिमा प॑व ॥ ९.०४९.०३ ॥
+Asmabhyam Vrushtima Pava || 9.049.03 ||
+
+[350]
+स न॑ ऊ॒र्जे व्य१॒॑ व्ययं᳚ प॒वित्रं᳚ धाव॒ धार॑या ।
+Sa Na Urje Vya1 Vyayam Pavitram Dhava Dharaya |
+दे॒वास॑ शृ॒णव॒न्हि कम्᳚ ॥ ९.०४९.०४ ॥
+Devasa Shrunavanhi Kam || 9.049.04 ||
+
+[351]
+पव॑मानो असिष्यद॒द्रक्षां᳚स्यप॒जंघ॑नत् ।
+Pavamano Asishyadadrakshamsyapajanghanat |
+प्र॒त्न॒वद्रो॒चय॒न्रुचः॑ ॥ ९.०४९.०५ ॥
+Pratnavadrochayanruchah || 9.049.05 ||
+
+[para 352]
+उत्ते॒ शुष्मा᳚स ईरते॒ सिन्धो᳚रू॒र्मेरि॑व स्व॒नः ।
+Utte Shushmasa Irate Sindhorurmeriva Svanah |
+वा॒णस्य॑ चोदया प॒विम् ॥ ९.०५०.०१ ॥
+Vanasya Chodaya Pavim || 9.050.01 ||
+
+[353]
+प्र॒स॒वे त॒ उदी᳚रते ति॒स्रो वाचो᳚ मख॒स्युवः॑ ।
+Prasave Ta Udirate Tisro Vacho Makhasyuvah |
+यदव्य॒ एषि॒ सान॑वि ॥ ९.०५०.०२ ॥
+Yadavya Eshi Sanavi || 9.050.02 ||
+
+[354]
+अव्यो॒ वारे॒ परि॑ प्रि॒यं हरिं॑ हिन्व॒न्त्यद्रि॑भिः ।
+Avyo Vare Pari Priyam Harim Hinvantyadribhih |
+पव॑मानं मधु॒श्चुतम्᳚ ॥ ९.०५०.०३ ॥
+Pavamanam Madhushchutam || 9.050.03 ||
+
+[355]
+आ प॑वस्व मदिन्तम प॒वित्रं॒ धार॑या कवे ।
+A Pavasva Madintama Pavitram Dharaya Kave |
+अ॒र्कस्य॒ योनि॑मा॒सद॑म् ॥ ९.०५०.०४ ॥
+Arkasya Yonimasadam || 9.050.04 ||
+
+[356]
+स प॑वस्व मदिन्तम॒ गोभि॑रंजा॒नो अ॒क्तुभिः॑ ।
+Sa Pavasva Madintama Gobhiranjano Aktubhih |
+इन्द॒विन्द्रा᳚य पी॒तये᳚ ॥ ९.०५०.०५ ॥
+Indavindraya Pitaye || 9.050.05 ||
+
+[para 357]
+अध्व॑र्यो॒ अद्रि॑भिः सु॒तं सोमं᳚ प॒वित्र॒ आ सृ॑ज ।
+Adhvaryo Adribhih Sutam Somam Pavitra A Sruja |
+पु॒नी॒हीन्द्रा᳚य॒ पात॑वे ॥ ९.०५१.०१ ॥
+Punihindraya Patave || 9.051.01 ||
+
+[358]
+दि॒वः पी॒यूष॑मुत्त॒मं सोम॒मिन्द्रा᳚य व॒ज्रिणे᳚ ।
+Divah Piyushamuttamam Somamindraya Vajrine |
+सु॒नोता॒ मधु॑मत्तमम् ॥ ९.०५१.०२ ॥
+Sunota Madhumattamam || 9.051.02 ||
+
+[359]
+तव॒ त्य इ᳚न्दो॒ अन्ध॑सो दे॒वा मधो॒र्व्य॑श्नते ।
+Tava Tya Indo Andhaso Deva Madhorvyashnate |
+पव॑मानस्य म॒रुतः॑ ॥ ९.०५१.०३ ॥
+Pavamanasya Marutah || 9.051.03 ||
+
+[360]
+त्वं हि सो᳚म व॒र्धय᳚न्सु॒तो मदा᳚य॒ भूर्ण॑ये ।
+Tvam Hi Soma Vardhayansuto Madaya Bhurnaye |
+वृष᳚न्स्तो॒तार॑मू॒तये᳚ ॥ ९.०५१.०४ ॥
+Vrushanstotaramutaye || 9.051.04 ||
+
+[361]
+अ॒भ्य॑र्ष विचक्षण प॒वित्रं॒ धार॑या सु॒तः ।
+Abhyarsha Vichakshana Pavitram Dharaya Sutah |
+अ॒भि वाज॑मु॒त श्रवः॑ ॥ ९.०५१.०५ ॥
+Abhi Vajamuta Shravah || 9.051.05 ||
+
+[para 362]
+परि॑ द्यु॒क्षः स॒नद्र॑यि॒र्भर॒द्वाजं᳚ नो॒ अन्ध॑सा ।
+Pari Dyukshah Sanadrayirbharadvajam No Andhasa |
+सु॒वा॒नो अ॑र्ष प॒वित्र॒ आ ॥ ९.०५२.०१ ॥
+Suvano Arsha Pavitra A || 9.052.01 ||
+
+[363]
+तव॑ प्र॒त्नेभि॒रध्व॑भि॒रव्यो॒ वारे॒ परि॑ प्रि॒यः ।
+Tava Pratnebhiradhvabhiravyo Vare Pari Priyah |
+स॒हस्र॑धारो या॒त्तना᳚ ॥ ९.०५२.०२ ॥
+Sahasradharo Yattana || 9.052.02 ||
+
+[364]
+च॒रुर्न यस्तमीं᳚ख॒येन्दो॒ न दान॑मींखय ।
+Charurna Yastaminkhayendo Na Danaminkhaya |
+व॒धैर्व॑धस्नवींखय ॥ ९.०५२.०३ ॥
+Vadhairvadhasnavinkhaya || 9.052.03 ||
+
+[365]
+नि शुष्म॑मिन्दवेषां॒ पुरु॑हूत॒ जना᳚नाम् ।
+Ni Shushmamindavesham Puruhuta Jananam |
+यो अ॒स्मां आ॒दिदे᳚शति ॥ ९.०५२.०४ ॥
+Yo Asmam Adideshati || 9.052.04 ||
+
+[366]
+श॒तं न॑ इन्द ऊ॒तिभि॑ स॒हस्रं᳚ वा॒ शुची᳚नाम् ।
+Shatam Na Inda Utibhi Sahasram Va Shuchinam |
+पव॑स्व मंह॒यद्र॑यिः ॥ ९.०५२.०५ ॥
+Pavasva Mamhayadrayih || 9.052.05 ||
+
+[para 367]
+उत्ते॒ शुष्मा᳚सो अस्थू॒ रक्षो᳚ भि॒न्दन्तो᳚ अद्रिवः ।
+Utte Shushmaso Asthu Raksho Bhindanto Adrivah |
+नु॒दस्व॒ याः प॑रि॒स्पृधः॑ ॥ ९.०५३.०१ ॥
+Nudasva Yah Parisprudhah || 9.053.01 ||
+
+[368]
+अ॒या नि॑ज॒घ्निरोज॑सा रथसं॒गे धने᳚ हि॒ते ।
+Aya Nijaghnirojasa Rathasange Dhane Hite |
+स्तवा॒ अबि॑भ्युषा हृ॒दा ॥ ९.०५३.०२ ॥
+Stava Abibhyusha Hruda || 9.053.02 ||
+
+[369]
+अस्य॑ व्र॒तानि॒ नाधृषे॒ पव॑मानस्य दू॒ढ्या᳚ ।
+Asya Vratani Nadhrushe Pavamanasya Dudhya |
+रु॒ज यस्त्वा᳚ पृत॒न्यति॑ ॥ ९.०५३.०३ ॥
+Ruja Yastva Prutanyati || 9.053.03 ||
+
+[370]
+तं हि᳚न्वन्ति मद॒च्युतं॒ हरिं᳚ न॒दीषु॑ वा॒जिनम्᳚ ।
+Tam Hinvanti Madachyutam Harim Nadishu Vajinam |
+इन्दु॒मिन्द्रा᳚य मत्स॒रम् ॥ ९.०५३.०४ ॥
+Indumindraya Matsaram || 9.053.04 ||
+
+[para 371]
+अ॒स्य प्र॒त्नामनु॒ द्युतं᳚ शु॒क्रं दु॑दुह्रे॒ अह्र॑यः ।
+Asya Pratnamanu Dyutam Shukram Duduhre Ahrayah |
+पय॑ सहस्र॒सामृषिम्᳚ ॥ ९.०५४.०१ ॥
+Paya Sahasrasamrushim || 9.054.01 ||
+
+[372]
+अ॒यं सूर्य॑ इवोप॒दृग॒यं सरां᳚सि धावति ।
+Ayam Surya Ivopadrugayam Saramsi Dhavati |
+स॒प्त प्र॒वत॒ आ दिवम्᳚ ॥ ९.०५४.०२ ॥
+Sapta Pravata A Divam || 9.054.02 ||
+
+[373]
+अ॒यं विश्वा᳚नि तिष्ठति पुना॒नो भुव॑नो॒परि॑ ।
+Ayam Vishvani Tishthati Punano Bhuvanopari |
+सोमो᳚ दे॒वो न सूर्यः॑ ॥ ९.०५४.०३ ॥
+Somo Devo Na Suryah || 9.054.03 ||
+
+[374]
+परि॑ णो दे॒ववी᳚तये॒ वाजां᳚ अर्षसि॒ गोम॑तः ।
+Pari No Devavitaye Vajam Arshasi Gomatah |
+पु॒ना॒न इ᳚न्दविन्द्र॒युः ॥ ९.०५४.०४ ॥
+Punana Indavindrayuh || 9.054.04 ||
+
+[para 375]
+यवं᳚यवं नो॒ अन्ध॑सा पु॒ष्टम्पु॑ष्टं॒ परि॑ स्रव ।
+Yavamyavam No Andhasa Pushtampushtam Pari Srava |
+सोम॒ विश्वा᳚ च॒ सौभ॑गा ॥ ९.०५५.०१ ॥
+Soma Vishva Cha Saubhaga || 9.055.01 ||
+
+[376]
+इन्दो॒ यथा॒ तव॒ स्तवो॒ यथा᳚ ते जा॒तमन्ध॑सः ।
+Indo Yatha Tava Stavo Yatha Te Jatamandhasah |
+नि ब॒र्हिषि॑ प्रि॒ये स॑दः ॥ ९.०५५.०२ ॥
+Ni Barhishi Priye Sadah || 9.055.02 ||
+
+[377]
+उ॒त नो᳚ गो॒विद॑श्व॒वित्पव॑स्व सो॒मान्ध॑सा ।
+Uta No Govidashvavitpavasva Somandhasa |
+म॒क्षूत॑मेभि॒रह॑भिः ॥ ९.०५५.०३ ॥
+Makshutamebhirahabhih || 9.055.03 ||
+
+[378]
+यो जि॒नाति॒ न जीय॑ते॒ हन्ति॒ शत्रु॑म॒भीत्य॑ ।
+Yo Jinati Na Jiyate Hanti Shatrumabhitya |
+स प॑वस्व सहस्रजित् ॥ ९.०५५.०४ ॥
+Sa Pavasva Sahasrajit || 9.055.04 ||
+
+[para 379]
+परि॒ सोम॑ ऋ॒तं बृ॒हदा॒शुः प॒वित्रे᳚ अर्षति ।
+Pari Soma Rutam Bruhadashuh Pavitre Arshati |
+वि॒घ्नन्रक्षां᳚सि देव॒युः ॥ ९.०५६.०१ ॥
+Vighnanrakshamsi Devayuh || 9.056.01 ||
+
+[380]
+यत्सोमो॒ वाज॒मर्ष॑ति श॒तं धारा᳚ अप॒स्युवः॑ ।
+Yatsomo Vajamarshati Shatam Dhara Apasyuvah |
+इन्द्र॑स्य स॒ख्यमा᳚वि॒शन् ॥ ९.०५६.०२ ॥
+Indrasya Sakhyamavishan || 9.056.02 ||
+
+[381]
+अ॒भि त्वा॒ योष॑णो॒ दश॑ जा॒रं न क॒न्या᳚नूषत ।
+Abhi Tva Yoshano Dasha Jaram Na Kanyanushata |
+मृ॒ज्यसे᳚ सोम सा॒तये᳚ ॥ ९.०५६.०३ ॥
+Mrujyase Soma Sataye || 9.056.03 ||
+
+[382]
+त्वमिन्द्रा᳚य॒ विष्ण॑वे स्वा॒दुरि᳚न्दो॒ परि॑ स्रव ।
+Tvamindraya Vishnave Svadurindo Pari Srava |
+नृन् स्तो॒तृन् पा॒प्यंह॑सः ॥ ९.०५६.०४ ॥
+Nrun Stotrun Papyamhasah || 9.056.04 ||
+
+[para 383]
+प्र ते॒ धारा᳚ अस॒श्चतो᳚ दि॒वो न य॑न्ति वृ॒ष्टयः॑ ।
+Pra Te Dhara Asashchato Divo Na Yanti Vrushtayah |
+अच्छा॒ वाजं᳚ सह॒स्रिणम्᳚ ॥ ९.०५७.०१ ॥
+Achchha Vajam Sahasrinam || 9.057.01 ||
+
+[384]
+अ॒भि प्रि॒याणि॒ काव्या॒ विश्वा॒ चक्षा᳚णो अर्षति ।
+Abhi Priyani Kavya Vishva Chakshano Arshati |
+हरि॑स्तुंजा॒न आयु॑धा ॥ ९.०५७.०२ ॥
+Haristunjana Ayudha || 9.057.02 ||
+
+[385]
+स म᳚र्मृजा॒न आ॒युभि॒रिभो॒ राजे᳚व सुव्र॒तः ।
+Sa Marmrujana Ayubhiribho Rajeva Suvratah |
+श्ये॒नो न वंसु॑ षीदति ॥ ९.०५७.०३ ॥
+Shyeno Na Vamsu Shidati || 9.057.03 ||
+
+[386]
+स नो॒ विश्वा᳚ दि॒वो वसू॒तो पृ॑थि॒व्या अधि॑ ।
+Sa No Vishva Divo Vasuto Pruthivya Adhi |
+पु॒ना॒न इ᳚न्द॒वा भ॑र ॥ ९.०५७.०४ ॥
+Punana Indava Bhara || 9.057.04 ||
+
+[para 387]
+तर॒त्स म॒न्दी धा᳚वति॒ धारा᳚ सु॒तस्यान्ध॑सः ।
+Taratsa Mandi Dhavati Dhara Sutasyandhasah |
+तर॒त्स म॒न्दी धा᳚वति ॥ ९.०५८.०१ ॥
+Taratsa Mandi Dhavati || 9.058.01 ||
+
+[388]
+उ॒स्रा वे᳚द॒ वसू᳚नां॒ मर्त॑स्य दे॒व्यव॑सः ।
+Usra Veda Vasunam Martasya Devyavasah |
+तर॒त्स म॒न्दी धा᳚वति ॥ ९.०५८.०२ ॥
+Taratsa Mandi Dhavati || 9.058.02 ||
+
+[389]
+ध्व॒स्रयो᳚ पुरु॒षन्त्यो॒रा स॒हस्रा᳚णि दद्महे ।
+Dhvasrayo Purushantyora Sahasrani Dadmahe |
+तर॒त्स म॒न्दी धा᳚वति ॥ ९.०५८.०३ ॥
+Taratsa Mandi Dhavati || 9.058.03 ||
+
+[390]
+आ ययो᳚स्त्रिं॒शतं॒ तना᳚ स॒हस्रा᳚णि च॒ दद्म॑हे ।
+A Yayostrimshatam Tana Sahasrani Cha Dadmahe |
+तर॒त्स म॒न्दी धा᳚वति ॥ ९.०५८.०४ ॥
+Taratsa Mandi Dhavati || 9.058.04 ||
+
+[para 391]
+पव॑स्व गो॒जिद॑श्व॒जिद्वि॑श्व॒जित्सो᳚म रण्य॒जित् ।
+Pavasva Gojidashvajidvishvajitsoma Ranyajit |
+प्र॒जाव॒द्रत्न॒मा भ॑र ॥ ९.०५९.०१ ॥
+Prajavadratnama Bhara || 9.059.01 ||
+
+[392]
+पव॑स्वा॒द्‌भ्यो अदा᳚भ्य॒ पव॒स्वौष॑धीभ्यः ।
+Pavasvadbhyo Adabhya Pavasvaushadhibhyah |
+पव॑स्व धि॒षणा᳚भ्यः ॥ ९.०५९.०२ ॥
+Pavasva Dhishanabhyah || 9.059.02 ||
+
+[393]
+त्वं सो᳚म॒ पव॑मानो॒ विश्वा᳚नि दुरि॒ता त॑र ।
+Tvam Soma Pavamano Vishvani Durita Tara |
+क॒विः सी᳚द॒ नि ब॒र्हिषि॑ ॥ ९.०५९.०३ ॥
+Kavih Sida Ni Barhishi || 9.059.03 ||
+
+[394]
+पव॑मान॒ स्व॑र्विदो॒ जाय॑मानोऽभवो म॒हान् ।
+Pavamana Svarvido Jayamanobhavo Mahan |
+इन्दो॒ विश्वां᳚ अ॒भीद॑सि ॥ ९.०५९.०४ ॥
+Indo Vishvam Abhidasi || 9.059.04 ||
+
+[para 395]
+प्र गा᳚य॒त्रेण॑ गायत॒ पव॑मानं॒ विच॑र्षणिम् ।
+Pra Gayatrena Gayata Pavamanam Vicharshanim |
+इन्दुं᳚ स॒हस्र॑चक्षसम् ॥ ९.०६०.०१ ॥
+Indum Sahasrachakshasam || 9.060.01 ||
+
+[396]
+तं त्वा᳚ स॒हस्र॑चक्षस॒मथो᳚ स॒हस्र॑भर्णसम् ।
+Tam Tva Sahasrachakshasamatho Sahasrabharnasam |
+अति॒ वार॑मपाविषुः ॥ ९.०६०.०२ ॥
+Ati Varamapavishuh || 9.060.02 ||
+
+[397]
+अति॒ वारा॒न्पव॑मानो असिष्यदत्क॒लशां᳚ अ॒भि धा᳚वति ।
+Ati Varanpavamano Asishyadatkalasham Abhi Dhavati |
+इन्द्र॑स्य॒ हार्द्या᳚वि॒शन् ॥ ९.०६०.०३ ॥
+Indrasya Hardyavishan || 9.060.03 ||
+
+[398]
+इन्द्र॑स्य सोम॒ राध॑से॒ शं प॑वस्व विचर्षणे ।
+Indrasya Soma Radhase Sham Pavasva Vicharshane |
+प्र॒जाव॒द्रेत॒ आ भ॑र ॥ ९.०६०.०४ ॥
+Prajavadreta A Bhara || 9.060.04 ||
+
+[para 399]
+अ॒या वी॒ती परि॑ स्रव॒ यस्त॑ इन्दो॒ मदे॒ष्वा ।
+Aya Viti Pari Srava Yasta Indo Madeshva |
+अ॒वाह᳚न्नव॒तीर्नव॑ ॥ ९.०६१.०१ ॥
+Avahannavatirnava || 9.061.01 ||
+
+[400]
+पुर॑ स॒द्य इ॒त्थाधि॑ये॒ दिवो᳚दासाय॒ शम्ब॑रम् ।
+Pura Sadya Itthadhiye Divodasaya Shambaram |
+अध॒ त्यं तु॒र्वशं॒ यदुम्᳚ ॥ ९.०६१.०२ ॥
+Adha Tyam Turvasham Yadum || 9.061.02 ||
+
+[401]
+परि॑ णो॒ अश्व॑मश्व॒विद्गोम॑दिन्दो॒ हिर᳚ण्यवत् ।
+Pari No Ashvamashvavidgomadindo Hiranyavat |
+क्षरा᳚ सह॒स्रिणी॒रिषः॑ ॥ ९.०६१.०३ ॥
+Kshara Sahasrinirishah || 9.061.03 ||
+
+[402]
+पव॑मानस्य ते व॒यं प॒वित्र॑मभ्युन्द॒तः ।
+Pavamanasya Te Vayam Pavitramabhyundatah |
+स॒खि॒त्वमा वृ॑णीमहे ॥ ९.०६१.०४ ॥
+Sakhitvama Vrunimahe || 9.061.04 ||
+
+[403]
+ये ते᳚ प॒वित्र॑मू॒र्मयो᳚ऽभि॒क्षर᳚न्ति॒ धार॑या ।
+Ye Te Pavitramurmayobhiksharanti Dharaya |
+तेभि᳚र्नः सोम मृळय ॥ ९.०६१.०५ ॥
+Tebhirnah Soma Mrulaya || 9.061.05 ||
+
+[404]
+स न॑ पुना॒न आ भ॑र र॒यिं वी॒रव॑ती॒मिषम्᳚ ।
+Sa Na Punana A Bhara Rayim Viravatimisham |
+ईशा᳚नः सोम वि॒श्वतः॑ ॥ ९.०६१.०६ ॥
+Ishanah Soma Vishvatah || 9.061.06 ||
+
+[405]
+ए॒तमु॒ त्यं दश॒ क्षिपो᳚ मृ॒जन्ति॒ सिन्धु॑मातरम् ।
+Etamu Tyam Dasha Kshipo Mrujanti Sindhumataram |
+समा᳚दि॒त्येभि॑रख्यत ॥ ९.०६१.०७ ॥
+Samadityebhirakhyata || 9.061.07 ||
+
+[406]
+समिन्द्रे᳚णो॒त वा॒युना᳚ सु॒त ए᳚ति प॒वित्र॒ आ ।
+Samindrenota Vayuna Suta Eti Pavitra A |
+सं सूर्य॑स्य र॒श्मिभिः॑ ॥ ९.०६१.०८ ॥
+Sam Suryasya Rashmibhih || 9.061.08 ||
+
+[407]
+स नो॒ भगा᳚य वा॒यवे᳚ पू॒ष्णे प॑वस्व॒ मधु॑मान् ।
+Sa No Bhagaya Vayave Pushne Pavasva Madhuman |
+चारु॑र्मि॒त्रे वरु॑णे च ॥ ९.०६१.०९ ॥
+Charurmitre Varune Cha || 9.061.09 ||
+
+[408]
+उ॒च्चा ते᳚ जा॒तमन्ध॑सो दि॒वि षद्भूम्या द॑दे ।
+Uchcha Te Jatamandhaso Divi Shadbhumya Dade |
+उ॒ग्रं शर्म॒ महि॒ श्रवः॑ ॥ ९.०६१.१० ॥
+Ugram Sharma Mahi Shravah || 9.061.10 ||
+
+[409]
+ए॒ना विश्वा᳚न्य॒र्य आ द्यु॒म्नानि॒ मानु॑षाणाम् ।
+Ena Vishvanyarya A Dyumnani Manushanam |
+सिषा᳚सन्तो वनामहे ॥ ९.०६१.११ ॥
+Sishasanto Vanamahe || 9.061.11 ||
+
+[410]
+स न॒ इन्द्रा᳚य॒ यज्य॑वे॒ वरु॑णाय म॒रुद्‌भ्यः॑ ।
+Sa Na Indraya Yajyave Varunaya Marudbhyah |
+व॒रि॒वो॒वित्परि॑ स्रव ॥ ९.०६१.१२ ॥
+Varivovitpari Srava || 9.061.12 ||
+
+[411]
+उपो॒ षु जा॒तम॒प्तुरं॒ गोभि॑र्भं॒गं परि॑ष्कृतम् ।
+Upo Shu Jatamapturam Gobhirbhangam Parishkrutam |
+इन्दुं᳚ दे॒वा अ॑यासिषुः ॥ ९.०६१.१३ ॥
+Indum Deva Ayasishuh || 9.061.13 ||
+
+[412]
+तमिद्व॑र्धन्तु नो॒ गिरो᳚ व॒त्सं सं॒शिश्व॑रीरिव ।
+Tamidvardhantu No Giro Vatsam Samshishvaririva |
+य इन्द्र॑स्य हृदं॒सनिः॑ ॥ ९.०६१.१४ ॥
+Ya Indrasya Hrudamsanih || 9.061.14 ||
+
+[413]
+अर्षा᳚ णः सोम॒ शं गवे᳚ धु॒क्षस्व॑ पि॒प्युषी॒मिषम्᳚ ।
+Arsha Nah Soma Sham Gave Dhukshasva Pipyushimisham |
+वर्धा᳚ समु॒द्रमु॒क्थ्यम्᳚ ॥ ९.०६१.१५ ॥
+Vardha Samudramukthyam || 9.061.15 ||
+
+[414]
+पव॑मानो अजीजनद्दि॒वश्चि॒त्रं न त᳚न्य॒तुम् ।
+Pavamano Ajijanaddivashchitram Na Tanyatum |
+ज्योति॑र्वैश्वान॒रं बृ॒हत् ॥ ९.०६१.१६ ॥
+Jyotirvaishvanaram Bruhat || 9.061.16 ||
+
+[415]
+पव॑मानस्य ते॒ रसो॒ मदो᳚ राजन्नदुच्छु॒नः ।
+Pavamanasya Te Raso Mado Rajannaduchchhunah |
+वि वार॒मव्य॑मर्षति ॥ ९.०६१.१७ ॥
+Vi Varamavyamarshati || 9.061.17 ||
+
+[416]
+पव॑मान॒ रस॒स्तव॒ दक्षो॒ वि रा᳚जति द्यु॒मान् ।
+Pavamana Rasastava Daksho Vi Rajati Dyuman |
+ज्योति॒र्विश्वं॒ स्व॑र्दृ॒शे ॥ ९.०६१.१८ ॥
+Jyotirvishvam Svardrushe || 9.061.18 ||
+
+[417]
+यस्ते॒ मदो॒ वरे᳚ण्य॒स्तेना᳚ पव॒स्वान्ध॑सा ।
+Yaste Mado Varenyastena Pavasvandhasa |
+दे॒वा॒वीर॑घशंस॒हा ॥ ९.०६१.१९ ॥
+Devaviraghashamsaha || 9.061.19 ||
+
+[418]
+जघ्नि॑र्वृ॒त्रम॑मि॒त्रियं॒ सस्नि॒र्वाजं᳚ दि॒वेदि॑वे ।
+Jaghnirvrutramamitriyam Sasnirvajam Divedive |
+गो॒षा उ॑ अश्व॒सा अ॑सि ॥ ९.०६१.२० ॥
+Gosha U Ashvasa Asi || 9.061.20 ||
+
+[419]
+सम्मि॑श्लो अरु॒षो भ॑व सूप॒स्थाभि॒र्न धे॒नुभिः॑ ।
+Sammishlo Arusho Bhava Supasthabhirna Dhenubhih |
+सीद᳚ञ्छ्ये॒नो न योनि॒मा ॥ ९.०६१.२१ ॥
+Sidanchhyeno Na Yonima || 9.061.21 ||
+
+[420]
+स प॑वस्व॒ य आवि॒थेन्द्रं᳚ वृ॒त्राय॒ हन्त॑वे ।
+Sa Pavasva Ya Avithendram Vrutraya Hantave |
+व॒व्रि॒वांसं᳚ म॒हीर॒पः ॥ ९.०६१.२२ ॥
+Vavrivamsam Mahirapah || 9.061.22 ||
+
+[421]
+सु॒वीरा᳚सो व॒यं धना॒ जये᳚म सोम मीढ्‌वः ।
+Suviraso Vayam Dhana Jayema Soma Midhvah |
+पु॒ना॒नो व॑र्ध नो॒ गिरः॑ ॥ ९.०६१.२३ ॥
+Punano Vardha No Girah || 9.061.23 ||
+
+[422]
+त्वोता᳚स॒स्तवाव॑सा॒ स्याम॑ व॒न्वन्त॑ आ॒मुरः॑ ।
+Tvotasastavavasa Syama Vanvanta Amurah |
+सोम॑ व्र॒तेषु॑ जागृहि ॥ ९.०६१.२४ ॥
+Soma Vrateshu Jagruhi || 9.061.24 ||
+
+[423]
+अ॒प॒घ्नन्प॑वते॒ मृधोऽप॒ सोमो॒ अरा᳚व्णः ।
+Apaghnanpavate Mrudhopa Somo Aravnah |
+गच्छ॒न्निन्द्र॑स्य निष्कृ॒तम् ॥ ९.०६१.२५ ॥
+Gachchhannindrasya Nishkrutam || 9.061.25 ||
+
+[424]
+म॒हो नो᳚ रा॒य आ भ॑र॒ पव॑मान ज॒ही मृधः॑ ।
+Maho No Raya A Bhara Pavamana Jahi Mrudhah |
+रास्वे᳚न्दो वी॒रव॒द्यशः॑ ॥ ९.०६१.२६ ॥
+Rasvendo Viravadyashah || 9.061.26 ||
+
+[425]
+न त्वा᳚ श॒तं च॒न ह्रुतो॒ राधो॒ दित्स᳚न्त॒मा मि॑नन् ।
+Na Tva Shatam Chana Hruto Radho Ditsantama Minan |
+यत्पु॑ना॒नो म॑ख॒स्यसे᳚ ॥ ९.०६१.२७ ॥
+Yatpunano Makhasyase || 9.061.27 ||
+
+[426]
+पव॑स्वेन्दो॒ वृषा᳚ सु॒तः कृ॒धी नो᳚ य॒शसो॒ जने᳚ ।
+Pavasvendo Vrusha Sutah Krudhi No Yashaso Jane |
+विश्वा॒ अप॒ द्विषो᳚ जहि ॥ ९.०६१.२८ ॥
+Vishva Apa Dvisho Jahi || 9.061.28 ||
+
+[427]
+अस्य॑ ते स॒ख्ये व॒यं तवे᳚न्दो द्यु॒म्न उ॑त्त॒मे ।
+Asya Te Sakhye Vayam Tavendo Dyumna Uttame |
+सा॒स॒ह्याम॑ पृतन्य॒तः ॥ ९.०६१.२९ ॥
+Sasahyama Prutanyatah || 9.061.29 ||
+
+[428]
+या ते᳚ भी॒मान्यायु॑धा ति॒ग्मानि॒ सन्ति॒ धूर्व॑णे ।
+Ya Te Bhimanyayudha Tigmani Santi Dhurvane |
+रक्षा᳚ समस्य नो नि॒दः ॥ ९.०६१.३० ॥
+Raksha Samasya No Nidah || 9.061.30 ||
+
+[para 429]
+ए॒ते अ॑सृग्र॒मिन्द॑वस्ति॒रः प॒वित्र॑मा॒शवः॑ ।
+Ete Asrugramindavastirah Pavitramashavah |
+विश्वा᳚न्य॒भि सौभ॑गा ॥ ९.०६२.०१ ॥
+Vishvanyabhi Saubhaga || 9.062.01 ||
+
+[430]
+वि॒घ्नन्तो᳚ दुरि॒ता पु॒रु सु॒गा तो॒काय॑ वा॒जिनः॑ ।
+Vighnanto Durita Puru Suga Tokaya Vajinah |
+तना᳚ कृ॒ण्वन्तो॒ अर्व॑ते ॥ ९.०६२.०२ ॥
+Tana Krunvanto Arvate || 9.062.02 ||
+
+[431]
+कृ॒ण्वन्तो॒ वरि॑वो॒ गवे॒ऽभ्य॑र्षन्ति सुष्टु॒तिम् ।
+Krunvanto Varivo Gavebhyarshanti Sushtutim |
+इळा᳚म॒स्मभ्यं᳚ सं॒यतम्᳚ ॥ ९.०६२.०३ ॥
+Ilamasmabhyam Samyatam || 9.062.03 ||
+
+[432]
+असा᳚व्यं॒शुर्मदा᳚या॒प्सु दक्षो᳚ गिरि॒ष्ठाः ।
+Asavyamshurmadayapsu Daksho Girishthah |
+श्ये॒नो न योनि॒मास॑दत् ॥ ९.०६२.०४ ॥
+Shyeno Na Yonimasadat || 9.062.04 ||
+
+[433]
+शु॒भ्रमन्धो᳚ दे॒ववा᳚तम॒प्सु धू॒तो नृभि॑ सु॒तः ।
+Shubhramandho Devavatamapsu Dhuto Nrubhi Sutah |
+स्वद᳚न्ति॒ गाव॒ पयो᳚भिः ॥ ९.०६२.०५ ॥
+Svadanti Gava Payobhih || 9.062.05 ||
+
+[434]
+आदी॒मश्वं॒ न हेता॒रोऽशू᳚शुभन्न॒मृता᳚य ।
+Adimashvam Na Hetaroshushubhannamrutaya |
+मध्वो॒ रसं᳚ सध॒मादे᳚ ॥ ९.०६२.०६ ॥
+Madhvo Rasam Sadhamade || 9.062.06 ||
+
+[435]
+यास्ते॒ धारा᳚ मधु॒श्चुतोऽसृ॑ग्रमिन्द ऊ॒तये᳚ ।
+Yaste Dhara Madhushchutosrugraminda Utaye |
+ताभि॑ प॒वित्र॒मास॑दः ॥ ९.०६२.०७ ॥
+Tabhi Pavitramasadah || 9.062.07 ||
+
+[436]
+सो अ॒र्षेन्द्रा᳚य पी॒तये᳚ ति॒रो रोमा᳚ण्य॒व्यया᳚ ।
+So Arshendraya Pitaye Tiro Romanyavyaya |
+सीद॒न्योना॒ वने॒ष्वा ॥ ९.०६२.०८ ॥
+Sidanyona Vaneshva || 9.062.08 ||
+
+[437]
+त्वमि᳚न्दो॒ परि॑ स्रव॒ स्वादि॑ष्ठो॒ अंगि॑रोभ्यः ।
+Tvamindo Pari Srava Svadishtho Angirobhyah |
+व॒रि॒वो॒विद्घृ॒तं पयः॑ ॥ ९.०६२.०९ ॥
+Varivovidghrutam Payah || 9.062.09 ||
+
+[438]
+अ॒यं विच॑र्षणिर्हि॒तः पव॑मान॒ स चे᳚तति ।
+Ayam Vicharshanirhitah Pavamana Sa Chetati |
+हि॒न्वा॒न आप्यं᳚ बृ॒हत् ॥ ९.०६२.१० ॥
+Hinvana Apyam Bruhat || 9.062.10 ||
+
+[439]
+ए॒ष वृषा॒ वृष॑व्रत॒ पव॑मानो अशस्ति॒हा ।
+Esha Vrusha Vrushavrata Pavamano Ashastiha |
+कर॒द्वसू᳚नि दा॒शुषे᳚ ॥ ९.०६२.११ ॥
+Karadvasuni Dashushe || 9.062.11 ||
+
+[440]
+आ प॑वस्व सह॒स्रिणं᳚ र॒यिं गोम᳚न्तम॒श्विनम्᳚ ।
+A Pavasva Sahasrinam Rayim Gomantamashvinam |
+पु॒रु॒श्च॒न्द्रं पु॑रु॒स्पृहम्᳚ ॥ ९.०६२.१२ ॥
+Purushchandram Puruspruham || 9.062.12 ||
+
+[441]
+ए॒ष स्य परि॑ षिच्यते मर्मृ॒ज्यमा᳚न आ॒युभिः॑ ।
+Esha Sya Pari Shichyate Marmrujyamana Ayubhih |
+उ॒रु॒गा॒यः क॒विक्र॑तुः ॥ ९.०६२.१३ ॥
+Urugayah Kavikratuh || 9.062.13 ||
+
+[442]
+स॒हस्रो᳚तिः श॒ताम॑घो वि॒मानो॒ रज॑सः क॒विः ।
+Sahasrotih Shatamagho Vimano Rajasah Kavih |
+इन्द्रा᳚य पवते॒ मदः॑ ॥ ९.०६२.१४
+Indraya Pavate Madah || 9.062.14
+
+[443]
+गि॒रा जा॒त इ॒ह स्तु॒त इन्दु॒रिन्द्रा᳚य धीयते ।
+Gira Jata Iha Stuta Indurindraya Dhiyate |
+विर्योना᳚ वस॒तावि॑व ॥ ९.०६२.१५
+Viryona Vasataviva || 9.062.15
+
+[444]
+पव॑मानः सु॒तो नृभि॒ सोमो॒ वाज॑मिवासरत् ।
+Pavamanah Suto Nrubhi Somo Vajamivasarat |
+च॒मूषु॒ शक्म॑ना॒सदम्᳚ ॥ ९.०६२.१६
+Chamushu Shakmanasadam || 9.062.16
+
+[445]
+तं त्रि॑पृ॒ष्ठे त्रि॑वन्धु॒रे रथे᳚ युंजन्ति॒ यात॑वे ।
+Tam Triprushthe Trivandhure Rathe Yunjanti Yatave |
+ऋषी᳚णां स॒प्त धी॒तिभिः॑ ॥ ९.०६२.१७
+Rushinam Sapta Dhitibhih || 9.062.17
+
+[446]
+तं सो᳚तारो धन॒स्पृत॑मा॒शुं वाजा᳚य॒ यात॑वे ।
+Tam Sotaro Dhanasprutamashum Vajaya Yatave |
+हरिं᳚ हिनोत वा॒जिनम्᳚ ॥ ९.०६२.१८
+Harim Hinota Vajinam || 9.062.18
+
+[447]
+आ॒वि॒शन्क॒लशं᳚ सु॒तो विश्वा॒ अर्ष᳚न्न॒भि श्रियः॑ ।
+Avishankalasham Suto Vishva Arshannabhi Shriyah |
+शूरो॒ न गोषु॑ तिष्ठति ॥ ९.०६२.१९
+Shuro Na Goshu Tishthati || 9.062.19
+
+[448]
+आ त॑ इन्दो॒ मदा᳚य॒ कं पयो᳚ दुहन्त्या॒यवः॑ ।
+A Ta Indo Madaya Kam Payo Duhantyayavah |
+दे॒वा दे॒वेभ्यो॒ मधु॑ ॥ ९.०६२.२०
+Deva Devebhyo Madhu || 9.062.20
+
+[449]
+आ न॒ सोमं᳚ प॒वित्र॒ आ सृ॒जता॒ मधु॑मत्तमम् ।
+A Na Somam Pavitra A Srujata Madhumattamam |
+दे॒वेभ्यो᳚ देव॒श्रुत्त॑मम् ॥ ९.०६२.२१ ॥
+Devebhyo Devashruttamam || 9.062.21 ||
+
+[450]
+ए॒ते सोमा᳚ असृक्षत गृणा॒नाः श्रव॑से म॒हे ।
+Ete Soma Asrukshata Grunanah Shravase Mahe |
+म॒दिन्त॑मस्य॒ धार॑या ॥ ९.०६२.२२ ॥
+Madintamasya Dharaya || 9.062.22 ||
+
+[451]
+अ॒भि गव्या᳚नि वी॒तये᳚ नृ॒म्णा पु॑ना॒नो अ॑र्षसि ।
+Abhi Gavyani Vitaye Nrumna Punano Arshasi |
+स॒नद्वा᳚ज॒ परि॑ स्रव ॥ ९.०६२.२३ ॥
+Sanadvaja Pari Srava || 9.062.23 ||
+
+[452]
+उ॒त नो॒ गोम॑ती॒रिषो॒ विश्वा᳚ अर्ष परि॒ष्टुभः॑ ।
+Uta No Gomatirisho Vishva Arsha Parishtubhah |
+गृ॒णा॒नो ज॒मद॑ग्निना ॥ ९.०६२.२४ ॥
+Grunano Jamadagnina || 9.062.24 ||
+
+[453]
+पव॑स्व वा॒चो अ॑ग्रि॒यः सोम॑ चि॒त्राभि॑रू॒तिभिः॑ ।
+Pavasva Vacho Agriyah Soma Chitrabhirutibhih |
+अ॒भि विश्वा᳚नि॒ काव्या᳚ ॥ ९.०६२.२५ ॥
+Abhi Vishvani Kavya || 9.062.25 ||
+
+[454]
+त्वं स॑मु॒द्रिया᳚ अ॒पो᳚ऽग्रि॒यो वाच॑ ई॒रय᳚न् ।
+Tvam Samudriya Apogriyo Vacha Irayan |
+पव॑स्व विश्वमेजय ॥ ९.०६२.२६ ॥
+Pavasva Vishvamejaya || 9.062.26 ||
+
+[455]
+तुभ्ये॒मा भुव॑ना कवे महि॒म्ने सो᳚म तस्थिरे ।
+Tubhyema Bhuvana Kave Mahimne Soma Tasthire |
+तुभ्य॑मर्षन्ति॒ सिन्ध॑वः ॥ ९.०६२.२७ ॥
+Tubhyamarshanti Sindhavah || 9.062.27 ||
+
+[456]
+प्र ते᳚ दि॒वो न वृ॒ष्टयो॒ धारा᳚ यन्त्यस॒श्चतः॑ ।
+Pra Te Divo Na Vrushtayo Dhara Yantyasashchatah |
+अ॒भि शु॒क्रामु॑प॒स्तिरम्᳚ ॥ ९.०६२.२८ ॥
+Abhi Shukramupastiram || 9.062.28 ||
+
+[457]
+इन्द्रा॒येन्दुं᳚ पुनीतनो॒ग्रं दक्षा᳚य॒ साध॑नम् ।
+Indrayendum Punitanogram Dakshaya Sadhanam |
+ई॒शा॒नं वी॒तिरा᳚धसम् ॥ ९.०६२.२९ ॥
+Ishanam Vitiradhasam || 9.062.29 ||
+
+[458]
+पव॑मान ऋ॒तः क॒विः सोम॑ प॒वित्र॒मास॑दत् ।
+Pavamana Rutah Kavih Soma Pavitramasadat |
+दध॑त्स्तो॒त्रे सु॒वीर्यम्᳚ ॥ ९.०६२.३० ॥
+Dadhatstotre Suviryam || 9.062.30 ||
+
+[para 459]
+आ प॑वस्व सह॒स्रिणं᳚ र॒यिं सो᳚म सु॒वीर्यम्᳚ ।
+A Pavasva Sahasrinam Rayim Soma Suviryam |
+अ॒स्मे श्रवां᳚सि धारय ॥ ९.०६३.०१ ॥
+Asme Shravamsi Dharaya || 9.063.01 ||
+
+[460]
+इष॒मूर्जं᳚ च पिन्वस॒ इन्द्रा᳚य मत्स॒रिन्त॑मः ।
+Ishamurjam Cha Pinvasa Indraya Matsarintamah |
+च॒मूष्वा नि षी᳚दसि ॥ ९.०६३.०२ ॥
+Chamushva Ni Shidasi || 9.063.02 ||
+
+[461]
+सु॒त इन्द्रा᳚य॒ विष्ण॑वे॒ सोम॑ क॒लशे᳚ अक्षरत् ।
+Suta Indraya Vishnave Soma Kalashe Aksharat |
+मधु॑मां अस्तु वा॒यवे᳚ ॥ ९.०६३.०३ ॥
+Madhumam Astu Vayave || 9.063.03 ||
+
+[462]
+ए॒ते अ॑सृग्रमा॒शवोऽति॒ ह्वरां᳚सि ब॒भ्रवः॑ ।
+Ete Asrugramashavoti Hvaramsi Babhravah |
+सोमा᳚ ऋ॒तस्य॒ धार॑या ॥ ९.०६३.०४ ॥
+Soma Rutasya Dharaya || 9.063.04 ||
+
+[463]
+इन्द्रं॒ वर्ध᳚न्तो अ॒प्तुर॑ कृ॒ण्वन्तो॒ विश्व॒मार्यम्᳚ ।
+Indram Vardhanto Aptura Krunvanto Vishvamaryam |
+अ॒प॒घ्नन्तो॒ अरा᳚व्णः ॥ ९.०६३.०५ ॥
+Apaghnanto Aravnah || 9.063.05 ||
+
+[464]
+सु॒ता अनु॒ स्वमा रजो॒ऽभ्य॑र्षन्ति ब॒भ्रवः॑ ।
+Suta Anu Svama Rajobhyarshanti Babhravah |
+इन्द्रं॒ गच्छ᳚न्त॒ इन्द॑वः ॥ ९.०६३.०६ ॥
+Indram Gachchhanta Indavah || 9.063.06 ||
+
+[465]
+अ॒या प॑वस्व॒ धार॑या॒ यया॒ सूर्य॒मरो᳚चयः ।
+Aya Pavasva Dharaya Yaya Suryamarochayah |
+हि॒न्वा॒नो मानु॑षीर॒पः ॥ ९.०६३.०७ ॥
+Hinvano Manushirapah || 9.063.07 ||
+
+[466]
+अयु॑क्त॒ सूर॒ एत॑शं॒ पव॑मानो म॒नावधि॑ ।
+Ayukta Sura Etasham Pavamano Manavadhi |
+अ॒न्तरि॑क्षेण॒ यात॑वे ॥ ९.०६३.०८ ॥
+Antarikshena Yatave || 9.063.08 ||
+
+[467]
+उ॒त त्या ह॒रितो॒ दश॒ सूरो᳚ अयुक्त॒ यात॑वे ।
+Uta Tya Harito Dasha Suro Ayukta Yatave |
+इन्दु॒रिन्द्र॒ इति॑ ब्रु॒वन् ॥ ९.०६३.०९ ॥
+Indurindra Iti Bruvan || 9.063.09 ||
+
+[468]
+परी॒तो वा॒यवे᳚ सु॒तं गिर॒ इन्द्रा᳚य मत्स॒रम् ।
+Parito Vayave Sutam Gira Indraya Matsaram |
+अव्यो॒ वारे᳚षु सिञ्चत ॥ ९.०६३.१० ॥
+Avyo Vareshu Sinchata || 9.063.10 ||
+
+[469]
+पव॑मान वि॒दा र॒यिम॒स्मभ्यं᳚ सोम दु॒ष्टरम्᳚ ।
+Pavamana Vida Rayimasmabhyam Soma Dushtaram |
+यो दू॒णाशो᳚ वनुष्य॒ता ॥ ९.०६३.११ ॥
+Yo Dunasho Vanushyata || 9.063.11 ||
+
+[470]
+अ॒भ्य॑र्ष सह॒स्रिणं᳚ र॒यिं गोम᳚न्तम॒श्विनम्᳚ ।
+Abhyarsha Sahasrinam Rayim Gomantamashvinam |
+अ॒भि वाज॑मु॒त श्रवः॑ ॥ ९.०६३.१२ ॥
+Abhi Vajamuta Shravah || 9.063.12 ||
+
+[471]
+सोमो᳚ दे॒वो न सूर्योऽद्रि॑भिः पवते सु॒तः ।
+Somo Devo Na Suryodribhih Pavate Sutah |
+दधा᳚नः क॒लशे॒ रसम्᳚ ॥ ९.०६३.१३ ॥
+Dadhanah Kalashe Rasam || 9.063.13 ||
+
+[472]
+ए॒ते धामा॒न्यार्या᳚ शु॒क्रा ऋ॒तस्य॒ धार॑या ।
+Ete Dhamanyarya Shukra Rutasya Dharaya |
+वाजं॒ गोम᳚न्तमक्षरन् ॥ ९.०६३.१४ ॥
+Vajam Gomantamaksharan || 9.063.14 ||
+
+[473]
+सु॒ता इन्द्रा᳚य व॒ज्रिणे॒ सोमा᳚सो॒ दध्या᳚शिरः ।
+Suta Indraya Vajrine Somaso Dadhyashirah |
+प॒वित्र॒मत्य॑क्षरन् ॥ ९.०६३.१५ ॥
+Pavitramatyaksharan || 9.063.15 ||
+
+[474]
+प्र सो᳚म॒ मधु॑मत्तमो रा॒ये अ॑र्ष प॒वित्र॒ आ ।
+Pra Soma Madhumattamo Raye Arsha Pavitra A |
+मदो॒ यो दे᳚व॒वीत॑मः ॥ ९.०६३.१६ ॥
+Mado Yo Devavitamah || 9.063.16 ||
+
+[475]
+तमी᳚ मृजन्त्या॒यवो॒ हरिं᳚ न॒दीषु॑ वा॒जिनम्᳚ ।
+Tami Mrujantyayavo Harim Nadishu Vajinam |
+इन्दु॒मिन्द्रा᳚य मत्स॒रम् ॥ ९.०६३.१७ ॥
+Indumindraya Matsaram || 9.063.17 ||
+
+[476]
+आ प॑वस्व॒ हिर᳚ण्यव॒दश्वा᳚वत्सोम वी॒रव॑त् ।
+A Pavasva Hiranyavadashvavatsoma Viravat |
+वाजं॒ गोम᳚न्त॒मा भ॑र ॥ ९.०६३.१८ ॥
+Vajam Gomantama Bhara || 9.063.18 ||
+
+[477]
+परि॒ वाजे॒ न वा᳚ज॒युमव्यो॒ वारे᳚षु सिञ्चत ।
+Pari Vaje Na Vajayumavyo Vareshu Sinchata |
+इन्द्रा᳚य॒ मधु॑मत्तमम् ॥ ९.०६३.१९ ॥
+Indraya Madhumattamam || 9.063.19 ||
+
+[478]
+क॒विं मृ॑जन्ति॒ मर्ज्यं᳚ धी॒भिर्विप्रा᳚ अव॒स्यवः॑ ।
+Kavim Mrujanti Marjyam Dhibhirvipra Avasyavah |
+वृषा॒ कनि॑क्रदर्षति ॥ ९.०६३.२० ॥
+Vrusha Kanikradarshati || 9.063.20 ||
+
+[479]
+वृष॑णं धी॒भिर॒प्तुरं॒ सोम॑मृ॒तस्य॒ धार॑या ।
+Vrushanam Dhibhirapturam Somamrutasya Dharaya |
+म॒ती विप्रा॒ सम॑स्वरन् ॥ ९.०६३.२१ ॥
+Mati Vipra Samasvaran || 9.063.21 ||
+
+[480]
+पव॑स्व देवायु॒षगिन्द्रं᳚ गच्छतु ते॒ मदः॑ ।
+Pavasva Devayushagindram Gachchhatu Te Madah |
+वा॒युमा रो᳚ह॒ धर्म॑णा ॥ ९.०६३.२२ ॥
+Vayuma Roha Dharmana || 9.063.22 ||
+
+[481]
+पव॑मान॒ नि तो᳚शसे र॒यिं सो᳚म श्र॒वाय्यम्᳚ ।
+Pavamana Ni Toshase Rayim Soma Shravayyam |
+प्रि॒यः स॑मु॒द्रमा वि॑श ॥ ९.०६३.२३ ॥
+Priyah Samudrama Visha || 9.063.23 ||
+
+[482]
+अ॒प॒घ्नन्प॑वसे॒ मृध॑ क्रतु॒वित्सो᳚म मत्स॒रः ।
+Apaghnanpavase Mrudha Kratuvitsoma Matsarah |
+नु॒दस्वादे᳚वयुं॒ जनम्᳚ ॥ ९.०६३.२४ ॥
+Nudasvadevayum Janam || 9.063.24 ||
+
+[483]
+पव॑माना असृक्षत॒ सोमाः᳚ शु॒क्रास॒ इन्द॑वः ।
+Pavamana Asrukshata Somah Shukrasa Indavah |
+अ॒भि विश्वा᳚नि॒ काव्या᳚ ॥ ९.०६३.२५ ॥
+Abhi Vishvani Kavya || 9.063.25 ||
+
+[484]
+पव॑मानास आ॒शव॑ शु॒भ्रा अ॑सृग्र॒मिन्द॑वः ।
+Pavamanasa Ashava Shubhra Asrugramindavah |
+घ्नन्तो॒ विश्वा॒ अप॒ द्विषः॑ ॥ ९.०६३.२६ ॥
+Ghnanto Vishva Apa Dvishah || 9.063.26 ||
+
+[485]
+पव॑माना दि॒वस्पर्य॒न्तरि॑क्षादसृक्षत ।
+Pavamana Divasparyantarikshadasrukshata |
+पृ॒थि॒व्या अधि॒ सान॑वि ॥ ९.०६३.२७ ॥
+Pruthivya Adhi Sanavi || 9.063.27 ||
+
+[486]
+पु॒ना॒नः सो᳚म॒ धार॒येन्दो॒ विश्वा॒ अप॒ स्रिधः॑ ।
+Punanah Soma Dharayendo Vishva Apa Sridhah |
+ज॒हि रक्षां᳚सि सुक्रतो ॥ ९.०६३.२८ ॥
+Jahi Rakshamsi Sukrato || 9.063.28 ||
+
+[487]
+अ॒प॒घ्नन्सो᳚म र॒क्षसो॒ऽभ्य॑र्ष॒ कनि॑क्रदत् ।
+Apaghnansoma Rakshasobhyarsha Kanikradat |
+द्यु॒मन्तं॒ शुष्म॑मुत्त॒मम् ॥ ९.०६३.२९ ॥
+Dyumantam Shushmamuttamam || 9.063.29 ||
+
+[488]
+अ॒स्मे वसू᳚नि धारय॒ सोम॑ दि॒व्यानि॒ पार्थि॑वा ।
+Asme Vasuni Dharaya Soma Divyani Parthiva |
+इन्दो॒ विश्वा᳚नि॒ वार्या᳚ ॥ ९.०६३.३० ॥
+Indo Vishvani Varya || 9.063.30 ||
+
+[para 489]
+वृषा᳚ सोम द्यु॒मां अ॑सि॒ वृषा᳚ देव॒ वृष॑व्रतः ।
+Vrusha Soma Dyumam Asi Vrusha Deva Vrushavratah |
+वृषा॒ धर्मा᳚णि दधिषे ॥ ९.०६४.०१ ॥
+Vrusha Dharmani Dadhishe || 9.064.01 ||
+
+[490]
+वृष्ण॑स्ते॒ वृष्ण्यं॒ शवो॒ वृषा॒ वनं॒ वृषा॒ मदः॑ ।
+Vrushnaste Vrushnyam Shavo Vrusha Vanam Vrusha Madah |
+स॒त्यं वृ॑ष॒न्वृषेद॑सि ॥ ९.०६४.०२ ॥
+Satyam Vrushanvrushedasi || 9.064.02 ||
+
+[491]
+अश्वो॒ न च॑क्रदो॒ वृषा॒ सं गा इ᳚न्दो॒ समर्व॑तः ।
+Ashvo Na Chakrado Vrusha Sam Ga Indo Samarvatah |
+वि नो᳚ रा॒ये दुरो᳚ वृधि ॥ ९.०६४.०३ ॥
+Vi No Raye Duro Vrudhi || 9.064.03 ||
+
+[492]
+असृ॑क्षत॒ प्र वा॒जिनो᳚ ग॒व्या सोमा᳚सो अश्व॒या ।
+Asrukshata Pra Vajino Gavya Somaso Ashvaya |
+शु॒क्रासो᳚ वीर॒याशवः॑ ॥ ९.०६४.०४ ॥
+Shukraso Virayashavah || 9.064.04 ||
+
+[493]
+शु॒म्भमा᳚ना ऋता॒युभि॑र्मृ॒ज्यमा᳚ना॒ गभ॑स्त्योः ।
+Shumbhamana Rutayubhirmrujyamana Gabhastyoh |
+पव᳚न्ते॒ वारे᳚ अ॒व्यये᳚ ॥ ९.०६४.०५ ॥
+Pavante Vare Avyaye || 9.064.05 ||
+
+[494]
+ते विश्वा᳚ दा॒शुषे॒ वसु॒ सोमा᳚ दि॒व्यानि॒ पार्थि॑वा ।
+Te Vishva Dashushe Vasu Soma Divyani Parthiva |
+पव᳚न्ता॒मान्तरि॑क्ष्या ॥ ९.०६४.०६ ॥
+Pavantamantarikshya || 9.064.06 ||
+
+[495]
+पव॑मानस्य विश्ववि॒त्प्र ते॒ सर्गा᳚ असृक्षत ।
+Pavamanasya Vishvavitpra Te Sarga Asrukshata |
+सूर्य॑स्येव॒ न र॒श्मयः॑ ॥ ९.०६४.०७ ॥
+Suryasyeva Na Rashmayah || 9.064.07 ||
+
+[496]
+के॒तुं कृ॒ण्वन्दि॒वस्परि॒ विश्वा᳚ रू॒पाभ्य॑र्षसि ।
+Ketum Krunvandivaspari Vishva Rupabhyarshasi |
+स॒मु॒द्रः सो᳚म पिन्वसे ॥ ९.०६४.०८ ॥
+Samudrah Soma Pinvase || 9.064.08 ||
+
+[497]
+हि॒न्वा॒नो वाच॑मिष्यसि॒ पव॑मान॒ विध᳚र्मणि ।
+Hinvano Vachamishyasi Pavamana Vidharmani |
+अक्रा᳚न्दे॒वो न सूर्यः॑ ॥ ९.०६४.०९ ॥
+Akrandevo Na Suryah || 9.064.09 ||
+
+[498]
+इन्दु॑ पविष्ट॒ चेत॑नः प्रि॒यः क॑वी॒नां म॒ती ।
+Indu Pavishta Chetanah Priyah Kavinam Mati |
+सृ॒जदश्वं᳚ र॒थीरि॑व ॥ ९.०६४.१० ॥
+Srujadashvam Rathiriva || 9.064.10 ||
+
+[499]
+ऊ॒र्मिर्यस्ते᳚ प॒वित्र॒ आ दे᳚वा॒वीः प॒र्यक्ष॑रत् ।
+Urmiryaste Pavitra A Devavih Paryaksharat |
+सीद᳚न्नृ॒तस्य॒ योनि॒मा ॥ ९.०६४.११ ॥
+Sidannrutasya Yonima || 9.064.11 ||
+
+[500]
+स नो᳚ अर्ष प॒वित्र॒ आ मदो॒ यो दे᳚व॒वीत॑मः ।
+Sa No Arsha Pavitra A Mado Yo Devavitamah |
+इन्द॒विन्द्रा᳚य पी॒तये᳚ ॥ ९.०६४.१२ ॥
+Indavindraya Pitaye || 9.064.12 ||
+
+[501]
+इ॒षे प॑वस्व॒ धार॑या मृ॒ज्यमा᳚नो मनी॒षिभिः॑ ।
+Ishe Pavasva Dharaya Mrujyamano Manishibhih |
+इन्दो᳚ रु॒चाभि गा इ॑हि ॥ ९.०६४.१३ ॥
+Indo Ruchabhi Ga Ihi || 9.064.13 ||
+
+[502]
+पु॒ना॒नो वरि॑वस्कृ॒ध्यूर्जं॒ जना᳚य गिर्वणः ।
+Punano Varivaskrudhyurjam Janaya Girvanah |
+हरे᳚ सृजा॒न आ॒शिरम्᳚ ॥ ९.०६४.१४ ॥
+Hare Srujana Ashiram || 9.064.14 ||
+
+[503]
+पु॒ना॒नो दे॒ववी᳚तय॒ इन्द्र॑स्य याहि निष्कृ॒तम् ।
+Punano Devavitaya Indrasya Yahi Nishkrutam |
+द्यु॒ता॒नो वा॒जिभि॑र्य॒तः ॥ ९.०६४.१५ ॥
+Dyutano Vajibhiryatah || 9.064.15 ||
+
+[504]
+प्र हि᳚न्वा॒नास॒ इन्द॒वोऽच्छा᳚ समु॒द्रमा॒शवः॑ ।
+Pra Hinvanasa Indavochchha Samudramashavah |
+धि॒या जू॒ता अ॑सृक्षत ॥ ९.०६४.१६ ॥
+Dhiya Juta Asrukshata || 9.064.16 ||
+
+[505]
+म॒र्मृ॒जा॒नास॑ आ॒यवो॒ वृथा᳚ समु॒द्रमिन्द॑वः ।
+Marmrujanasa Ayavo Vrutha Samudramindavah |
+अग्म᳚न्नृ॒तस्य॒ योनि॒मा ॥ ९.०६४.१७ ॥
+Agmannrutasya Yonima || 9.064.17 ||
+
+[506]
+परि॑ णो याह्यस्म॒युर्विश्वा॒ वसू॒न्योज॑सा ।
+Pari No Yahyasmayurvishva Vasunyojasa |
+पा॒हि न॒ शर्म॑ वी॒रव॑त् ॥ ९.०६४.१८ ॥
+Pahi Na Sharma Viravat || 9.064.18 ||
+
+[507]
+मिमा᳚ति॒ वह्नि॒रेत॑शः प॒दं यु॑जा॒न ऋक्व॑भिः ।
+Mimati Vahniretashah Padam Yujana Rukvabhih |
+प्र यत्स॑मु॒द्र आहि॑तः ॥ ९.०६४.१९ ॥
+Pra Yatsamudra Ahitah || 9.064.19 ||
+
+[508]
+आ यद्योनिं᳚ हिर॒ण्यय॑मा॒शुरृ॒तस्य॒ सीद॑ति ।
+A Yadyonim Hiranyayamashurrutasya Sidati |
+जहा॒त्यप्र॑चेतसः ॥ ९.०६४.२० ॥
+Jahatyaprachetasah || 9.064.20 ||
+
+[509]
+अ॒भि वे॒ना अ॑नूष॒तेय॑क्षन्ति॒ प्रचे᳚तसः ।
+Abhi Vena Anushateyakshanti Prachetasah |
+मज्ज॒न्त्यवि॑चेतसः ॥ ९.०६४.२१ ॥
+Majjantyavichetasah || 9.064.21 ||
+
+[510]
+इन्द्रा᳚येन्दो म॒रुत्व॑ते॒ पव॑स्व॒ मधु॑मत्तमः ।
+Indrayendo Marutvate Pavasva Madhumattamah |
+ऋ॒तस्य॒ योनि॑मा॒सद॑म् ॥ ९.०६४.२२ ॥
+Rutasya Yonimasadam || 9.064.22 ||
+
+[511]
+तं त्वा॒ विप्रा᳚ वचो॒विद॒ परि॑ ष्कृण्वन्ति वे॒धसः॑ ।
+Tam Tva Vipra Vachovida Pari Shkrunvanti Vedhasah |
+सं त्वा᳚ मृजन्त्या॒यवः॑ ॥ ९.०६४.२३ ॥
+Sam Tva Mrujantyayavah || 9.064.23 ||
+
+[512]
+रसं᳚ ते मि॒त्रो अ॑र्य॒मा पिब᳚न्ति॒ वरु॑णः कवे ।
+Rasam Te Mitro Aryama Pibanti Varunah Kave |
+पव॑मानस्य म॒रुतः॑ ॥ ९.०६४.२४ ॥
+Pavamanasya Marutah || 9.064.24 ||
+
+[513]
+त्वं सो᳚म विप॒श्चितं᳚ पुना॒नो वाच॑मिष्यसि ।
+Tvam Soma Vipashchitam Punano Vachamishyasi |
+इन्दो᳚ स॒हस्र॑भर्णसम् ॥ ९.०६४.२५ ॥
+Indo Sahasrabharnasam || 9.064.25 ||
+
+[514]
+उ॒तो स॒हस्र॑भर्णसं॒ वाचं᳚ सोम मख॒स्युवम्᳚ ।
+Uto Sahasrabharnasam Vacham Soma Makhasyuvam |
+पु॒ना॒न इ᳚न्द॒वा भ॑र ॥ ९.०६४.२६ ॥
+Punana Indava Bhara || 9.064.26 ||
+
+[515]
+पु॒ना॒न इ᳚न्दवेषां॒ पुरु॑हूत॒ जना᳚नाम् ।
+Punana Indavesham Puruhuta Jananam |
+प्रि॒यः स॑मु॒द्रमा वि॑श ॥ ९.०६४.२७ ॥
+Priyah Samudrama Visha || 9.064.27 ||
+
+[516]
+दवि॑द्युतत्या रु॒चा प॑रि॒ष्टोभ᳚न्त्या कृ॒पा ।
+Davidyutatya Rucha Parishtobhantya Krupa |
+सोमा᳚ शु॒क्रा गवा᳚शिरः ॥ ९.०६४.२८ ॥
+Soma Shukra Gavashirah || 9.064.28 ||
+
+[517]
+हि॒न्वा॒नो हे॒तृभि॑र्य॒त आ वाजं᳚ वा॒ज्य॑क्रमीत् ।
+Hinvano Hetrubhiryata A Vajam Vajyakramit |
+सीद᳚न्तो व॒नुषो᳚ यथा ॥ ९.०६४.२९ ॥
+Sidanto Vanusho Yatha || 9.064.29 ||
+
+[518]
+ऋ॒धक्सो᳚म स्व॒स्तये᳚ संजग्मा॒नो दि॒वः क॒विः ।
+Rudhaksoma Svastaye Sanjagmano Divah Kavih |
+पव॑स्व॒ सूर्यो᳚ दृ॒शे ॥ ९.०६४.३० ॥
+Pavasva Suryo Drushe || 9.064.30 ||
+
+[para 519]
+हि॒न्वन्ति॒ सूर॒मुस्र॑य॒ स्वसा᳚रो जा॒मय॒स्पति॑म् ।
+Hinvanti Suramusraya Svasaro Jamayaspatim |
+म॒हामिन्दुं᳚ मही॒युवः॑ ॥ ९.०६५.०१ ॥
+Mahamindum Mahiyuvah || 9.065.01 ||
+
+[520]
+पव॑मान रु॒चारु॑चा दे॒वो दे॒वेभ्य॒स्परि॑ ।
+Pavamana Rucharucha Devo Devebhyaspari |
+विश्वा॒ वसू॒न्या वि॑श ॥ ९.०६५.०२ ॥
+Vishva Vasunya Visha || 9.065.02 ||
+
+[521]
+आ प॑वमान सुष्टु॒तिं वृ॒ष्टिं दे॒वेभ्यो॒ दुवः॑ ।
+A Pavamana Sushtutim Vrushtim Devebhyo Duvah |
+इ॒षे प॑वस्व सं॒यतम्᳚ ॥ ९.०६५.०३ ॥
+Ishe Pavasva Samyatam || 9.065.03 ||
+
+[522]
+वृषा॒ ह्यसि॑ भा॒नुना᳚ द्यु॒मन्तं᳚ त्वा हवामहे ।
+Vrusha Hyasi Bhanuna Dyumantam Tva Havamahe |
+पव॑मान स्वा॒ध्यः॑ ॥ ९.०६५.०४ ॥
+Pavamana Svadhyah || 9.065.04 ||
+
+[523]
+आ प॑वस्व सु॒वीर्यं॒ मन्द॑मानः स्वायुध ।
+A Pavasva Suviryam Mandamanah Svayudha |
+इ॒हो ष्वि᳚न्द॒वा ग॑हि ॥ ९.०६५.०५ ॥
+Iho Shvindava Gahi || 9.065.05 ||
+
+[524]
+यद॒द्भिः प॑रिषि॒च्यसे᳚ मृ॒ज्यमा᳚नो॒ गभ॑स्त्योः ।
+Yadadbhih Parishichyase Mrujyamano Gabhastyoh |
+द्रुणा᳚ स॒धस्थ॑मश्नुषे ॥ ९.०६५.०६ ॥
+Druna Sadhasthamashnushe || 9.065.06 ||
+
+[525]
+प्र सोमा᳚य व्यश्व॒वत्पव॑मानाय गायत ।
+Pra Somaya Vyashvavatpavamanaya Gayata |
+म॒हे स॒हस्र॑चक्षसे ॥ ९.०६५.०७ ॥
+Mahe Sahasrachakshase || 9.065.07 ||
+
+[526]
+यस्य॒ वर्णं᳚ मधु॒श्चुतं॒ हरिं᳚ हि॒न्वन्त्यद्रि॑भिः ।
+Yasya Varnam Madhushchutam Harim Hinvantyadribhih |
+इन्दु॒मिन्द्रा᳚य पी॒तये᳚ ॥ ९.०६५.०८ ॥
+Indumindraya Pitaye || 9.065.08 ||
+
+[527]
+तस्य॑ ते वा॒जिनो᳚ व॒यं विश्वा॒ धना᳚नि जि॒ग्युषः॑ ।
+Tasya Te Vajino Vayam Vishva Dhanani Jigyushah |
+स॒खि॒त्वमा वृ॑णीमहे ॥ ९.०६५.०९ ॥
+Sakhitvama Vrunimahe || 9.065.09 ||
+
+[528]
+वृषा᳚ पवस्व॒ धार॑या म॒रुत्व॑ते च मत्स॒रः ।
+Vrusha Pavasva Dharaya Marutvate Cha Matsarah |
+विश्वा॒ दधा᳚न॒ ओज॑सा ॥ ९.०६५.१० ॥
+Vishva Dadhana Ojasa || 9.065.10 ||
+
+[529]
+तं त्वा᳚ ध॒र्तार॑मो॒ण्यो॒३॒॑ः पव॑मान स्व॒र्दृशम्᳚ ।
+Tam Tva Dhartaramonyoh Pavamana Svardrusham |
+हि॒न्वे वाजे᳚षु वा॒जिनम्᳚ ॥ ९.०६५.११ ॥
+Hinve Vajeshu Vajinam || 9.065.11 ||
+
+[530]
+अ॒या चि॒त्तो वि॒पानया॒ हरि॑ पवस्व॒ धार॑या ।
+Aya Chitto Vipanaya Hari Pavasva Dharaya |
+युजं॒ वाजे᳚षु चोदय ॥ ९.०६५.१२ ॥
+Yujam Vajeshu Chodaya || 9.065.12 ||
+
+[531]
+आ न॑ इन्दो म॒हीमिषं॒ पव॑स्व वि॒श्वद॑र्शतः ।
+A Na Indo Mahimisham Pavasva Vishvadarshatah |
+अ॒स्मभ्यं᳚ सोम गातु॒वित् ॥ ९.०६५.१३ ॥
+Asmabhyam Soma Gatuvit || 9.065.13 ||
+
+[532]
+आ क॒लशा᳚ अनूष॒तेन्दो॒ धारा᳚भि॒रोज॑सा ।
+A Kalasha Anushatendo Dharabhirojasa |
+एन्द्र॑स्य पी॒तये᳚ विश ॥ ९.०६५.१४ ॥
+Endrasya Pitaye Visha || 9.065.14 ||
+
+[533]
+यस्य॑ ते॒ मद्यं॒ रसं᳚ ती॒व्रं दु॒हन्त्यद्रि॑भिः ।
+Yasya Te Madyam Rasam Tivram Duhantyadribhih |
+स प॑वस्वाभिमाति॒हा ॥ ९.०६५.१५ ॥
+Sa Pavasvabhimatiha || 9.065.15 ||
+
+[534]
+राजा᳚ मे॒धाभि॑रीयते॒ पव॑मानो म॒नावधि॑ ।
+Raja Medhabhiriyate Pavamano Manavadhi |
+अ॒न्तरि॑क्षेण॒ यात॑वे ॥ ९.०६५.१६ ॥
+Antarikshena Yatave || 9.065.16 ||
+
+[535]
+आ न॑ इन्दो शत॒ग्विनं॒ गवां॒ पोषं॒ स्वश्व्यम्᳚ ।
+A Na Indo Shatagvinam Gavam Posham Svashvyam |
+वहा॒ भग॑त्तिमू॒तये᳚ ॥ ९.०६५.१७ ॥
+Vaha Bhagattimutaye || 9.065.17 ||
+
+[536]
+आ न॑ सोम॒ सहो॒ जुवो᳚ रू॒पं न वर्च॑से भर ।
+A Na Soma Saho Juvo Rupam Na Varchase Bhara |
+सु॒ष्वा॒णो दे॒ववी᳚तये ॥ ९.०६५.१८ ॥
+Sushvano Devavitaye || 9.065.18 ||
+
+[537]
+अर्षा᳚ सोम द्यु॒मत्त॑मो॒ऽभि द्रोणा᳚नि॒ रोरु॑वत् ।
+Arsha Soma Dyumattamobhi Dronani Roruvat |
+सीद᳚ञ्छ्ये॒नो न योनि॒मा ॥ ९.०६५.१९ ॥
+Sidanchhyeno Na Yonima || 9.065.19 ||
+
+[538]
+अ॒प्सा इन्द्रा᳚य वा॒यवे॒ वरु॑णाय म॒रुद्‌भ्यः॑ ।
+Apsa Indraya Vayave Varunaya Marudbhyah |
+सोमो᳚ अर्षति॒ विष्ण॑वे ॥ ९.०६५.२० ॥
+Somo Arshati Vishnave || 9.065.20 ||
+
+[539]
+इषं᳚ तो॒काय॑ नो॒ दध॑द॒स्मभ्यं᳚ सोम वि॒श्वतः॑ ।
+Isham Tokaya No Dadhadasmabhyam Soma Vishvatah |
+आ प॑वस्व सह॒स्रिणम्᳚ ॥ ९.०६५.२१ ॥
+A Pavasva Sahasrinam || 9.065.21 ||
+
+[540]
+ये सोमा᳚सः परा॒वति॒ ये अ॑र्वा॒वति॑ सुन्वि॒रे ।
+Ye Somasah Paravati Ye Arvavati Sunvire |
+ये वा॒दः श॑र्य॒णाव॑ति ॥ ९.०६५.२२ ॥
+Ye Vadah Sharyanavati || 9.065.22 ||
+
+[541]
+य आ᳚र्जी॒केषु॒ कृत्व॑सु॒ ये मध्ये᳚ प॒स्त्या᳚नाम् ।
+Ya Arjikeshu Krutvasu Ye Madhye Pastyanam |
+ये वा॒ जने᳚षु प॒ञ्चसु॑ ॥ ९.०६५.२३ ॥
+Ye Va Janeshu Panchasu || 9.065.23 ||
+
+[542]
+ते नो᳚ वृ॒ष्टिं दि॒वस्परि॒ पव᳚न्ता॒मा सु॒वीर्यम्᳚ ।
+Te No Vrushtim Divaspari Pavantama Suviryam |
+सु॒वा॒ना दे॒वास॒ इन्द॑वः ॥ ९.०६५.२४ ॥
+Suvana Devasa Indavah || 9.065.24 ||
+
+[543]
+पव॑ते हर्य॒तो हरि॑र्गृणा॒नो ज॒मद॑ग्निना ।
+Pavate Haryato Harirgrunano Jamadagnina |
+हि॒न्वा॒नो गोरधि॑ त्व॒चि ॥ ९.०६५.२५ ॥
+Hinvano Goradhi Tvachi || 9.065.25 ||
+
+[544]
+प्र शु॒क्रासो᳚ वयो॒जुवो᳚ हिन्वा॒नासो॒ न सप्त॑यः ।
+Pra Shukraso Vayojuvo Hinvanaso Na Saptayah |
+श्री॒णा॒ना अ॒प्सु मृं᳚जत ॥ ९.०६५.२६ ॥
+Shrinana Apsu Mrunjata || 9.065.26 ||
+
+[545]
+तं त्वा᳚ सु॒तेष्वा॒भुवो᳚ हिन्वि॒रे दे॒वता᳚तये ।
+Tam Tva Suteshvabhuvo Hinvire Devatataye |
+स प॑वस्वा॒नया᳚ रु॒चा ॥ ९.०६५.२७ ॥
+Sa Pavasvanaya Rucha || 9.065.27 ||
+
+[546]
+आ ते॒ दक्षं᳚ मयो॒भुवं॒ वह्नि॑म॒द्या वृ॑णीमहे ।
+A Te Daksham Mayobhuvam Vahnimadya Vrunimahe |
+पान्त॒मा पु॑रु॒स्पृहम्᳚ ॥ ९.०६५.२८ ॥
+Pantama Puruspruham || 9.065.28 ||
+
+[547]
+आ म॒न्द्रमा वरे᳚ण्य॒मा विप्र॒मा म॑नी॒षिणम्᳚ ।
+A Mandrama Varenyama Viprama Manishinam |
+पान्त॒मा पु॑रु॒स्पृहम्᳚ ॥ ९.०६५.२९ ॥
+Pantama Puruspruham || 9.065.29 ||
+
+[548]
+आ र॒यिमा सु॑चे॒तुन॒मा सु॑क्रतो त॒नूष्वा ।
+A Rayima Suchetunama Sukrato Tanushva |
+पान्त॒मा पु॑रु॒स्पृहम्᳚ ॥ ९.०६५.३० ॥
+Pantama Puruspruham || 9.065.30 ||
+
+[para 549]
+पव॑स्व विश्वचर्षणे॒ऽभि विश्वा᳚नि॒ काव्या᳚ ।
+Pavasva Vishvacharshanebhi Vishvani Kavya |
+सखा॒ सखि॑भ्य॒ ईड्यः॑ ॥ ९.०६६.०१ ॥
+Sakha Sakhibhya Idyah || 9.066.01 ||
+
+[550]
+ताभ्यां॒ विश्व॑स्य राजसि॒ ये प॑वमान॒ धाम॑नी ।
+Tabhyam Vishvasya Rajasi Ye Pavamana Dhamani |
+प्र॒ती॒ची सो᳚म त॒स्थतुः॑ ॥ ९.०६६.०२ ॥
+Pratichi Soma Tasthatuh || 9.066.02 ||
+
+[551]
+परि॒ धामा᳚नि॒ यानि॑ ते॒ त्वं सो᳚मासि वि॒श्वतः॑ ।
+Pari Dhamani Yani Te Tvam Somasi Vishvatah |
+पव॑मान ऋ॒तुभि॑ कवे ॥ ९.०६६.०३ ॥
+Pavamana Rutubhi Kave || 9.066.03 ||
+
+[552]
+पव॑स्व ज॒नय॒न्निषो॒ऽभि विश्वा᳚नि॒ वार्या᳚ ।
+Pavasva Janayannishobhi Vishvani Varya |
+सखा॒ सखि॑भ्य ऊ॒तये᳚ ॥ ९.०६६.०४ ॥
+Sakha Sakhibhya Utaye || 9.066.04 ||
+
+[553]
+तव॑ शु॒क्रासो᳚ अ॒र्चयो᳚ दि॒वस्पृ॒ष्ठे वि त᳚न्वते ।
+Tava Shukraso Archayo Divasprushthe Vi Tanvate |
+प॒वित्रं᳚ सोम॒ धाम॑भिः ॥ ९.०६६.०५ ॥
+Pavitram Soma Dhamabhih || 9.066.05 ||
+
+[554]
+तवे॒मे स॒प्त सिन्ध॑वः प्र॒शिषं᳚ सोम सिस्रते ।
+Taveme Sapta Sindhavah Prashisham Soma Sisrate |
+तुभ्यं᳚ धावन्ति धे॒नवः॑ ॥ ९.०६६.०६ ॥
+Tubhyam Dhavanti Dhenavah || 9.066.06 ||
+
+[555]
+प्र सो᳚म याहि॒ धार॑या सु॒त इन्द्रा᳚य मत्स॒रः ।
+Pra Soma Yahi Dharaya Suta Indraya Matsarah |
+दधा᳚नो॒ अक्षि॑ति॒ श्रवः॑ ॥ ९.०६६.०७ ॥
+Dadhano Akshiti Shravah || 9.066.07 ||
+
+[556]
+समु॑ त्वा धी॒भिर॑स्वरन्हिन्व॒तीः स॒प्त जा॒मयः॑ ।
+Samu Tva Dhibhirasvaranhinvatih Sapta Jamayah |
+विप्र॑मा॒जा वि॒वस्व॑तः ॥ ९.०६६.०८ ॥
+Vipramaja Vivasvatah || 9.066.08 ||
+
+[557]
+मृ॒जन्ति॑ त्वा॒ सम॒ग्रुवोऽव्ये᳚ जी॒रावधि॒ ष्वणि॑ ।
+Mrujanti Tva Samagruvovye Jiravadhi Shvani |
+रे॒भो यद॒ज्यसे॒ वने᳚ ॥ ९.०६६.०९ ॥
+Rebho Yadajyase Vane || 9.066.09 ||
+
+[558]
+पव॑मानस्य ते कवे॒ वाजि॒न्सर्गा᳚ असृक्षत ।
+Pavamanasya Te Kave Vajinsarga Asrukshata |
+अर्व᳚न्तो॒ न श्र॑व॒स्यवः॑ ॥ ९.०६६.१० ॥
+Arvanto Na Shravasyavah || 9.066.10 ||
+
+[559]
+अच्छा॒ कोशं᳚ मधु॒श्चुत॒मसृ॑ग्रं॒ वारे᳚ अ॒व्यये᳚ ।
+Achchha Kosham Madhushchutamasrugram Vare Avyaye |
+अवा᳚वशन्त धी॒तयः॑ ॥ ९.०६६.११ ॥
+Avavashanta Dhitayah || 9.066.11 ||
+
+[560]
+अच्छा᳚ समु॒द्रमिन्द॒वोऽस्तं॒ गावो॒ न धे॒नवः॑ ।
+Achchha Samudramindavostam Gavo Na Dhenavah |
+अग्म᳚न्नृ॒तस्य॒ योनि॒मा ॥ ९.०६६.१२ ॥
+Agmannrutasya Yonima || 9.066.12 ||
+
+[561]
+प्र ण॑ इन्दो म॒हे रण॒ आपो᳚ अर्षन्ति॒ सिन्ध॑वः ।
+Pra Na Indo Mahe Rana Apo Arshanti Sindhavah |
+यद्गोभि॑र्वासयि॒ष्यसे᳚ ॥ ९.०६६.१३ ॥
+Yadgobhirvasayishyase || 9.066.13 ||
+
+[562]
+अस्य॑ ते स॒ख्ये व॒यमिय॑क्षन्त॒स्त्वोत॑यः ।
+Asya Te Sakhye Vayamiyakshantastvotayah |
+इन्दो᳚ सखि॒त्वमु॑श्मसि ॥ ९.०६६.१४ ॥
+Indo Sakhitvamushmasi || 9.066.14 ||
+
+[563]
+आ प॑वस्व॒ गवि॑ष्टये म॒हे सो᳚म नृ॒चक्ष॑से ।
+A Pavasva Gavishtaye Mahe Soma Nruchakshase |
+एन्द्र॑स्य ज॒ठरे᳚ विश ॥ ९.०६६.१५ ॥
+Endrasya Jathare Visha || 9.066.15 ||
+
+[564]
+म॒हां अ॑सि सोम॒ ज्येष्ठ॑ उ॒ग्राणा᳚मिन्द॒ ओजि॑ष्ठः ।
+Maham Asi Soma Jyeshtha Ugranaminda Ojishthah |
+युध्वा॒ सं छश्व॑ज्जिगेथ ॥ ९.०६६.१६ ॥
+Yudhva Sam Chhashvajjigetha || 9.066.16 ||
+
+[565]
+य उ॒ग्रेभ्य॑श्चि॒दोजी᳚यां॒ छूरे᳚भ्यश्चि॒च्छूर॑तरः ।
+Ya Ugrebhyashchidojiyam Chhurebhyashchichchhuratarah |
+भू॒रि॒दाभ्य॑श्चि॒न्मंही᳚यान् ॥ ९.०६६.१७ ॥
+Bhuridabhyashchinmamhiyan || 9.066.17 ||
+
+[566]
+त्वं सो᳚म॒ सूर॒ एष॑स्तो॒कस्य॑ सा॒ता त॒नूना᳚म् ।
+Tvam Soma Sura Eshastokasya Sata Tanunam |
+वृ॒णी॒महे᳚ स॒ख्याय॑ वृणी॒महे॒ युज्या᳚य ॥ ९.०६६.१८ ॥
+Vrunimahe Sakhyaya Vrunimahe Yujyaya || 9.066.18 ||
+
+[567]
+अग्न॒ आयूं᳚षि पवस॒ आ सु॒वोर्ज॒मिषं᳚ च नः ।
+Agna Ayumshi Pavasa A Suvorjamisham Cha Nah |
+आ॒रे बा᳚धस्व दु॒च्छुना᳚म् ॥ ९.०६६.१९ ॥
+Are Badhasva Duchchhunam || 9.066.19 ||
+
+[568]
+अ॒ग्निरृषि॒ पव॑मान॒ पाञ्च॑जन्यः पु॒रोहि॑तः ।
+Agnirrushi Pavamana Panchajanyah Purohitah |
+तमी᳚महे महाग॒यम् ॥ ९.०६६.२०
+Tamimahe Mahagayam || 9.066.20
+
+[569]
+अग्ने॒ पव॑स्व॒ स्वपा᳚ अ॒स्मे वर्च॑ सु॒वीर्यम्᳚ ।
+Agne Pavasva Svapa Asme Varcha Suviryam |
+दध॑द्र॒यिं मयि॒ पोषम्᳚ ॥ ९.०६६.२१
+Dadhadrayim Mayi Posham || 9.066.21
+
+[570]
+पव॑मानो॒ अति॒ स्रिधो॒ऽभ्य॑र्षति सुष्टु॒तिम् ।
+Pavamano Ati Sridhobhyarshati Sushtutim |
+सूरो॒ न वि॒श्वद॑र्शतः ॥ ९.०६६.२२
+Suro Na Vishvadarshatah || 9.066.22
+
+[571]
+स म᳚र्मृजा॒न आ॒युभि॒ प्रय॑स्वा॒न्प्रय॑से हि॒तः ।
+Sa Marmrujana Ayubhi Prayasvanprayase Hitah |
+इन्दु॒रत्यो᳚ विचक्ष॒णः ॥ ९.०६६.२३
+Induratyo Vichakshanah || 9.066.23
+
+[572]
+पव॑मान ऋ॒तं बृ॒हच्छु॒क्रं ज्योति॑रजीजनत् ।
+Pavamana Rutam Bruhachchhukram Jyotirajijanat |
+कृ॒ष्णा तमां᳚सि॒ जंघ॑नत् ॥ ९.०६६.२४
+Krushna Tamamsi Janghanat || 9.066.24
+
+[573]
+पव॑मानस्य॒ जंघ्न॑तो॒ हरे᳚श्च॒न्द्रा अ॑सृक्षत ।
+Pavamanasya Janghnato Hareshchandra Asrukshata |
+जी॒रा अ॑जि॒रशो᳚चिषः ॥ ९.०६६.२५
+Jira Ajirashochishah || 9.066.25
+
+[574]
+पव॑मानो र॒थीत॑मः शु॒भ्रेभि॑ शु॒भ्रश॑स्तमः ।
+Pavamano Rathitamah Shubhrebhi Shubhrashastamah |
+हरि॑श्चन्द्रो म॒रुद्ग॑णः ॥ ९.०६६.२६
+Harishchandro Marudganah || 9.066.26
+
+[575]
+पव॑मानो॒ व्य॑श्नवद्र॒श्मिभि॑र्वाज॒सात॑मः ।
+Pavamano Vyashnavadrashmibhirvajasatamah |
+दध॑त्स्तो॒त्रे सु॒वीर्यम्᳚ ॥ ९.०६६.२७
+Dadhatstotre Suviryam || 9.066.27
+
+[576]
+प्र सु॑वा॒न इन्दु॑रक्षाः प॒वित्र॒मत्य॒व्ययम्᳚ ।
+Pra Suvana Indurakshah Pavitramatyavyayam |
+पु॒ना॒न इन्दु॒रिन्द्र॒मा ॥ ९.०६६.२८
+Punana Indurindrama || 9.066.28
+
+[577]
+ए॒ष सोमो॒ अधि॑ त्व॒चि गवां᳚ क्रीळ॒त्यद्रि॑भिः ।
+Esha Somo Adhi Tvachi Gavam Krilatyadribhih |
+इन्द्रं॒ मदा᳚य॒ जोहु॑वत् ॥ ९.०६६.२९
+Indram Madaya Johuvat || 9.066.29
+
+[578]
+यस्य॑ ते द्यु॒म्नव॒त्पय॒ पव॑मा॒नाभृ॑तं दि॒वः ।
+Yasya Te Dyumnavatpaya Pavamanabhrutam Divah |
+तेन॑ नो मृळ जी॒वसे᳚ ॥ ९.०६६.३०
+Tena No Mrula Jivase || 9.066.30
+
+[para 579]
+त्वं सो᳚मासि धार॒युर्म॒न्द्र ओजि॑ष्ठो अध्व॒रे ।
+Tvam Somasi Dharayurmandra Ojishtho Adhvare |
+पव॑स्व मंह॒यद्र॑यिः ॥ ९.०६७.०१ ॥
+Pavasva Mamhayadrayih || 9.067.01 ||
+
+[580]
+त्वं सु॒तो नृ॒माद॑नो दध॒न्वान्म॑त्स॒रिन्त॑मः ।
+Tvam Suto Nrumadano Dadhanvanmatsarintamah |
+इन्द्रा᳚य सू॒रिरन्ध॑सा ॥ ९.०६७.०२ ॥
+Indraya Surirandhasa || 9.067.02 ||
+
+[581]
+त्वं सु॑ष्वा॒णो अद्रि॑भिर॒भ्य॑र्ष॒ कनि॑क्रदत् ।
+Tvam Sushvano Adribhirabhyarsha Kanikradat |
+द्यु॒मन्तं॒ शुष्म॑मुत्त॒मम् ॥ ९.०६७.०३ ॥
+Dyumantam Shushmamuttamam || 9.067.03 ||
+
+[582]
+इन्दु॑र्हिन्वा॒नो अ॑र्षति ति॒रो वारा᳚ण्य॒व्यया᳚ ।
+Indurhinvano Arshati Tiro Varanyavyaya |
+हरि॒र्वाज॑मचिक्रदत् ॥ ९.०६७.०४ ॥
+Harirvajamachikradat || 9.067.04 ||
+
+[583]
+इन्दो॒ व्यव्य॑मर्षसि॒ वि श्रवां᳚सि॒ वि सौभ॑गा ।
+Indo Vyavyamarshasi Vi Shravamsi Vi Saubhaga |
+वि वाजा᳚न्सोम॒ गोम॑तः ॥ ९.०६७.०५ ॥
+Vi Vajansoma Gomatah || 9.067.05 ||
+
+[584]
+आ न॑ इन्दो शत॒ग्विनं᳚ र॒यिं गोम᳚न्तम॒श्विनम्᳚ ।
+A Na Indo Shatagvinam Rayim Gomantamashvinam |
+भरा᳚ सोम सह॒स्रिणम्᳚ ॥ ९.०६७.०६ ॥
+Bhara Soma Sahasrinam || 9.067.06 ||
+
+[585]
+पव॑मानास॒ इन्द॑वस्ति॒रः प॒वित्र॑मा॒शवः॑ ।
+Pavamanasa Indavastirah Pavitramashavah |
+इन्द्रं॒ यामे᳚भिराशत ॥ ९.०६७.०७ ॥
+Indram Yamebhirashata || 9.067.07 ||
+
+[586]
+क॒कु॒हः सो॒म्यो रस॒ इन्दु॒रिन्द्रा᳚य पू॒र्व्यः ।
+Kakuhah Somyo Rasa Indurindraya Purvyah |
+आ॒युः प॑वत आ॒यवे᳚ ॥ ९.०६७.०८ ॥
+Ayuh Pavata Ayave || 9.067.08 ||
+
+[587]
+हि॒न्वन्ति॒ सूर॒मुस्र॑य॒ पव॑मानं मधु॒श्चुतम्᳚ ।
+Hinvanti Suramusraya Pavamanam Madhushchutam |
+अ॒भि गि॒रा सम॑स्वरन् ॥ ९.०६७.०९ ॥
+Abhi Gira Samasvaran || 9.067.09 ||
+
+[588]
+अ॒वि॒ता नो᳚ अ॒जाश्व॑ पू॒षा याम॑नियामनि ।
+Avita No Ajashva Pusha Yamaniyamani |
+आ भ॑क्षत्क॒न्या᳚सु नः ॥ ९.०६७.१० ॥
+A Bhakshatkanyasu Nah || 9.067.10 ||
+
+[589]
+अ॒यं सोम॑ कप॒र्दिने᳚ घृ॒तं न प॑वते॒ मधु॑ ।
+Ayam Soma Kapardine Ghrutam Na Pavate Madhu |
+आ भ॑क्षत्क॒न्या᳚सु नः ॥ ९.०६७.११ ॥
+A Bhakshatkanyasu Nah || 9.067.11 ||
+
+[590]
+अ॒यं त॑ आघृणे सु॒तो घृ॒तं न प॑वते॒ शुचि॑ ।
+Ayam Ta Aghrune Suto Ghrutam Na Pavate Shuchi |
+आ भ॑क्षत्क॒न्या᳚सु नः ॥ ९.०६७.१२ ॥
+A Bhakshatkanyasu Nah || 9.067.12 ||
+
+[591]
+वा॒चो ज॒न्तुः क॑वी॒नां पव॑स्व सोम॒ धार॑या ।
+Vacho Jantuh Kavinam Pavasva Soma Dharaya |
+दे॒वेषु॑ रत्न॒धा अ॑सि ॥ ९.०६७.१३ ॥
+Deveshu Ratnadha Asi || 9.067.13 ||
+
+[592]
+आ क॒लशे᳚षु धावति श्ये॒नो वर्म॒ वि गा᳚हते ।
+A Kalasheshu Dhavati Shyeno Varma Vi Gahate |
+अ॒भि द्रोणा॒ कनि॑क्रदत् ॥ ९.०६७.१४ ॥
+Abhi Drona Kanikradat || 9.067.14 ||
+
+[593]
+परि॒ प्र सो᳚म ते॒ रसोऽस॑र्जि क॒लशे᳚ सु॒तः ।
+Pari Pra Soma Te Rasosarji Kalashe Sutah |
+श्ये॒नो न त॒क्तो अ॑र्षति ॥ ९.०६७.१५ ॥
+Shyeno Na Takto Arshati || 9.067.15 ||
+
+[594]
+पव॑स्व सोम म॒न्दय॒न्निन्द्रा᳚य॒ मधु॑मत्तमः ॥ ९.०६७.१६ ॥
+Pavasva Soma Mandayannindraya Madhumattamah || 9.067.16 ||
+
+[595]
+असृ॑ग्रन्दे॒ववी᳚तये वाज॒यन्तो॒ रथा᳚ इव ॥ ९.०६७.१७ ॥
+Asrugrandevavitaye Vajayanto Ratha Iva || 9.067.17 ||
+
+[596]
+ते सु॒तासो᳚ म॒दिन्त॑माः शु॒क्रा वा॒युम॑सृक्षत ॥ ९.०६७.१८ ॥
+Te Sutaso Madintamah Shukra Vayumasrukshata || 9.067.18 ||
+
+[597]
+ग्राव्णा᳚ तु॒न्नो अ॒भिष्टु॑तः प॒वित्रं᳚ सोम गच्छसि ।
+Gravna Tunno Abhishtutah Pavitram Soma Gachchhasi |
+दध॑त्स्तो॒त्रे सु॒वीर्यम्᳚ ॥ ९.०६७.१९ ॥
+Dadhatstotre Suviryam || 9.067.19 ||
+
+[598]
+ए॒ष तु॒न्नो अ॒भिष्टु॑तः प॒वित्र॒मति॑ गाहते ।
+Esha Tunno Abhishtutah Pavitramati Gahate |
+र॒क्षो॒हा वार॑म॒व्ययम्᳚ ॥ ९.०६७.२० ॥
+Rakshoha Varamavyayam || 9.067.20 ||
+
+[599]
+यदन्ति॒ यच्च॑ दूर॒के भ॒यं वि॒न्दति॒ मामि॒ह ।
+Yadanti Yachcha Durake Bhayam Vindati Mamiha |
+पव॑मान॒ वि तज्ज॑हि ॥ ९.०६७.२१ ॥
+Pavamana Vi Tajjahi || 9.067.21 ||
+
+[600]
+पव॑मान॒ सो अ॒द्य न॑ प॒वित्रे᳚ण॒ विच॑र्षणिः ।
+Pavamana So Adya Na Pavitrena Vicharshanih |
+यः पो॒ता स पु॑नातु नः ॥ ९.०६७.२२ ॥
+Yah Pota Sa Punatu Nah || 9.067.22 ||
+
+[601]
+यत्ते᳚ प॒वित्र॑म॒र्चिष्यग्ने॒ वित॑तम॒न्तरा ।
+Yatte Pavitramarchishyagne Vitatamantara |
+ब्रह्म॒ तेन॑ पुनीहि नः ॥ ९.०६७.२३ ॥
+Brahma Tena Punihi Nah || 9.067.23 ||
+
+[602]
+यत्ते᳚ प॒वित्र॑मर्चि॒वदग्ने॒ तेन॑ पुनीहि नः ।
+Yatte Pavitramarchivadagne Tena Punihi Nah |
+ब्र॒ह्म॒स॒वैः पु॑नीहि नः ॥ ९.०६७.२४ ॥
+Brahmasavaih Punihi Nah || 9.067.24 ||
+
+[603]
+उ॒भाभ्यां᳚ देव सवितः प॒वित्रे᳚ण स॒वेन॑ च ।
+Ubhabhyam Deva Savitah Pavitrena Savena Cha |
+मां पु॑नीहि वि॒श्वतः॑ ॥ ९.०६७.२५ ॥
+Mam Punihi Vishvatah || 9.067.25 ||
+
+[604]
+त्रि॒भिष्ट्‌वं दे᳚व सवित॒र्वर्षि॑ष्ठैः सोम॒ धाम॑भिः ।
+Tribhishtvam Deva Savitarvarshishthaih Soma Dhamabhih |
+अग्ने॒ दक्षैः᳚ पुनीहि नः ॥ ९.०६७.२६ ॥
+Agne Dakshaih Punihi Nah || 9.067.26 ||
+
+[605]
+पु॒नन्तु॒ मां दे᳚वज॒नाः पु॒नन्तु॒ वस॑वो धि॒या ।
+Punantu Mam Devajanah Punantu Vasavo Dhiya |
+विश्वे᳚ देवाः पुनी॒त मा॒ जात॑वेदः पुनी॒हि मा॑ ॥ ९.०६७.२७ ॥
+Vishve Devah Punita Ma Jatavedah Punihi Ma || 9.067.27 ||
+
+[606]
+प्र प्या᳚यस्व॒ प्र स्य॑न्दस्व॒ सोम॒ विश्वे᳚भिरं॒शुभिः॑ ।
+Pra Pyayasva Pra Syandasva Soma Vishvebhiramshubhih |
+दे॒वेभ्य॑ उत्त॒मं ह॒विः ॥ ९.०६७.२८ ॥
+Devebhya Uttamam Havih || 9.067.28 ||
+
+[607]
+उप॑ प्रि॒यं पनि॑प्नतं॒ युवा᳚नमाहुती॒वृधम्᳚ ।
+Upa Priyam Panipnatam Yuvanamahutivrudham |
+अग᳚न्म॒ बिभ्र॑तो॒ नमः॑ ॥ ९.०६७.२९ ॥
+Aganma Bibhrato Namah || 9.067.29 ||
+
+[608]
+अ॒लाय्य॑स्य पर॒शुर्न॑नाश॒ तमा प॑वस्व देव सोम ।
+Alayyasya Parashurnanasha Tama Pavasva Deva Soma |
+आ॒खुं चि॑दे॒व दे᳚व सोम ॥ ९.०६७.३० ॥
+Akhum Chideva Deva Soma || 9.067.30 ||
+
+[609]
+यः पा᳚वमा॒नीर॒ध्येत्यृषि॑भि॒ सम्भृ॑तं॒ रसम्᳚ ।
+Yah Pavamaniradhyetyrushibhi Sambhrutam Rasam |
+सर्वं॒ स पू॒तम॑श्नाति स्वदि॒तं मा᳚त॒रिश्व॑ना ॥ ९.०६७.३१ ॥
+Sarvam Sa Putamashnati Svaditam Matarishvana || 9.067.31 ||
+
+[610]
+पा॒व॒मा॒नीर्यो अ॒ध्येत्यृषि॑भि॒ सम्भृ॑तं॒ रसम्᳚ ।
+Pavamaniryo Adhyetyrushibhi Sambhrutam Rasam |
+तस्मै॒ सर॑स्वती दुहे क्षी॒रं स॒र्पिर्मधू᳚द॒कम् ॥ ९.०६७.३२ ॥
+Tasmai Sarasvati Duhe Kshiram Sarpirmadhudakam || 9.067.32 ||
+
+[dhrupad]
+॥ खिलमन्त्रः ॥
+|| Khilamantrah ||
+
+[dhrupad]
+पा॒व॒मा॒नीः स्व॒स्त्यय॑नीः सु॒दुघा॒ हि घृ॑त॒श्चुतः॑ ।
+Pavamanih Svastyayanih Sudugha Hi Ghrutashchutah |
+ऋषि॑भिः॒ संभृ॑तो॒ रसो᳚ ब्राह्म॒णेष्व॒मृतम्᳚ हि॒तम् ॥
+Rushibhih Sambhruto Raso Brahmaneshvamrutam Hitam ||
+
+[dhrupad]
+पा॒व॒मा॒नीर्दि॑शन्तु न इ॒मं लो॒कमथो᳚ अ॒मुम् ।
+Pavamanirdishantu Na Imam Lokamatho Amum |
+कामा॒न् सम॑र्धयन्तु नो दे॒वीर्‌देवैः स॒माहि॑ता ॥
+Kaman Samardhayantu No Devirdevaih Samahita ||
+
+[dhrupad]
+येन॑ दे॒वाः प॒वित्रे᳚णा॒त्मानं᳚ पु॒नते॒ सदा᳚ ।
+Yena Devah Pavitrenatmanam Punate Sada |
+तेन॑ स॒हस्र॑ धारेण पा॒व॒मा॒न्यः पु॑नन्तु माम् ॥
+Tena Sahasra Dharena Pavamanyah Punantu Mam ||
+
+[dhrupad]
+प्रा॒जा॒प॒त्यं प॒वित्रं᳚ श॒तोद्या᳚मं हिर॒ण्मयम्᳚ ।
+Prajapatyam Pavitram Shatodyamam Hiranmayam |
+तेन॑ ब्रह्म॒विदो᳚ व॒यं पू॒तं ब्रह्म॑ पुनीमहे ॥
+Tena Brahmavido Vayam Putam Brahma Punimahe ||
+
+[dhrupad]
+इन्द्रः॑ पुनी॒ती स॒ह मा᳚ पुनातु॒ सोमः॑ स्व॒स्त्या वरु॑णः स॒मीच्या᳚ ।
+Indrah Puniti Saha Ma Punatu Somah Svastya Varunah Samichya |
+य॒मो राजा᳚ प्रमृ॒णाभिः॑ पुनातु मा जा॒तवे᳚दा मू॒र्जयं᳚त्या पुनातु ॥
+Yamo Raja Pramrunabhih Punatu Ma Jataveda Murjayantya Punatu ||
+
+[dhrupad]
+ऋ॒ष॒यः॒ तु त॑पस्ते॒पुः स॒र्वे स्व॑र्ग जि॒गीष॑वः ।
+Rushayah Tu Tapastepuh Sarve Svarga Jigishavah |
+त॒पं॒त॒स्त॒प॒सो॒ग्रे᳚ण पा॒वमा᳚नीऋ॒चोऽब्रु॑वन् ॥
+Tapantastapasogrena Pavamaniruchobruvan ||
+
+[dhrupad]
+यन्मे॒ गर्भे॒ वस॑तः पा॒पमु॒ग्रं यज्जा᳚यमा॒नस्य॑ च॒ किंचि॑दन्यत् ।
+Yanme Garbhe Vasatah Papamugram Yajjayamanasya Cha Kinchidanyat |
+जा॒तस्य॑ च॒ यच्चा᳚पि च॒ वर्ध॑तो मे॒ तत्पा᳚वमा॒नीबि॒॑रहं पु॑नामि ॥
+Jatasya Cha Yachchapi Cha Vardhato Me Tatpavamanibiraham Punami ||
+
+[dhrupad]
+मा॒तापि॒त्रोर्य॒न्न कृ॑तं॒ वचो᳚ मे॒ यत्स्था᳚व॒रं जं॒गम॑मा बभूव॑ ।
+Matapitroryanna Krutam Vacho Me Yatsthavaram Jangamama Babhuva |
+विश्व॑स्य॒ तत्प्र॑हृषि॒तं वचो᳚ मे॒ तत्पा᳚वमा॒नीभि॑र॒हं पु॑नामि ॥
+Vishvasya Tatprahrushitam Vacho Me Tatpavamanibhiraham Punami ||
+
+[dhrupad]
+गोघ्ना॒त् तस्क॑रत्वा॒त् स्त्री व॑धा॒द् यच्च॒ किल्बि॑षम् ।
+Goghnat Taskaratvat Stri Vadhad Yachcha Kilbisham |
+पा॒प॒कं च॒ चर॑णेभ्यः॒ तत्पा᳚वमा॒नीभि॑र॒हं पु॑नामि ॥
+Papakam Cha Charanebhyah Tatpavamanibhiraham Punami ||
+
+[dhrupad]
+ब्रह्म॑ वधा॒त् सुरा᳚ पाना॒त् स्वर्ण स्तेया॒द् वृष॑लि गमन मैथुन संग॒मात् ।
+Brahma Vadhat Sura Panat Svarna Steyad Vrushali Gamana Maithuna Sangamat |
+गु॒रो॒र् दा॒राधि॒गम॑नाच्च तत्पा᳚वमा॒नीभि॑र॒हं पु॑नामि ॥
+Guror Daradhigamanachcha Tatpavamanibhiraham Punami ||
+
+[dhrupad]
+बाल॑घ्ना॒न् मातृ पि॑तृ वधा॒द् भूमि त॑स्करा॒त् सर्व व॑र्ण गमन मैथुन संग॒मात् ।
+Balaghnan Matru Pitru Vadhad Bhumi Taskarat Sarva Varna Gamana Maithuna Sangamat |
+पा॒पेभ्य॑श्च प्रतिग्र॑हा॒त् सद्यः॑ प्रहरति॒ सर्व॑ दुष्कृतं॒ तत्पा᳚वमा॒नीभि॑र॒हं पु॑नामि ॥
+Papebhyashcha Pratigrahat Sadyah Praharati Sarva Dushkrutam Tatpavamanibhiraham Punami ||
+
+[dhrupad]
+क्रय॑ विक्रया॒द् योनि॑ दोषा॒द् भक्षा॒द् भोज्या᳚त् प्र॒तिग्र॑हात् ।
+Kraya Vikrayad Yoni Doshad Bhakshad Bhojyat Pratigrahat |
+अ॒स॒म्भो॒ज॒नाच्चा᳚पि नृ॒शंसं॒ तत्पा᳚वमा॒नीबि॒॑रहं पु॑नामि ॥
+Asambhojanachchapi Nrushamsam Tatpavamanibiraham Punami ||
+
+[dhrupad]
+दुर्य॑ष्टं॒ दुर॑धीतं पापं॒ यच्चा᳚ज्ञान॒तो कृ॑तम् ।
+Duryashtam Duradhitam Papam Yachchadnyanato Krutam |
+अ॒या॒जि॒ताश्चा॒ संया᳚ज्याः॒ तत्पा᳚वमा॒नीभि॑र॒हं पु॑नामि ॥
+Ayajitashcha Samyajyah Tatpavamanibhiraham Punami ||
+
+[dhrupad]
+अ॒मं॒त्र॒मन्नं᳚ यत् किं॒चिद्धुयते᳚ च हु॒ताश॑ने ।
+Amantramannam Yat Kinchiddhuyate Cha Hutashane |
+संव॑त्स॒र कृ॑तं पापं॒ तत्पा᳚वमा॒नीभि॑र॒हं पु॑नामि ॥
+Samvatsara Krutam Papam Tatpavamanibhiraham Punami ||
+
+[dhrupad]
+ऋ॒तस्य॒ योन॑योऽमृ॒तस्य॒ धाम॒ विश्वा᳚ दे॒वेभ्यः पुण्य॑ गन्धाः ।
+Rutasya Yonayomrutasya Dhama Vishva Devebhyah Punya Gandhah |
+ता॒ न॒ आ॒पः॒ प्र॒ वह॑न्तु पा॒पं शु॒द्धा॒ ग॒च्छा॒मि॒ सु॒कृता᳚मु लो॒कं तत्पा᳚वमा॒नीभि॑र॒हं पु॑नामि ॥
+Ta Na Apah Pra Vahantu Papam Shuddha Gachchhami Sukrutamu Lokam Tatpavamanibhiraham Punami ||
+
+[dhrupad]
+पा॒व॒मा॒नीः स्व॒स्त्यय॑नी॒र् याभि॑र् गच्छति नांद॒नम् ।
+Pavamanih Svastyayanir Yabhir Gachchhati Nandanam |
+पुण्यां᳚श्च भ॒क्षान् भ॑क्षयत्यऽमृत॒त्वं च॑ गच्छति ॥
+Punyamshcha Bhakshan Bhakshayatyamrutatvam Cha Gachchhati ||
+
+[dhrupad]
+पा॒व॒मा॒नीः॒ पि॒तृ॒न् देवान् ध्या॒येद् य॑च्छ स॒रस्व॑तीम् ।
+Pavamanih Pitrun Devan Dhyayed Yachchha Sarasvatim |
+पितृ᳚न् त॒स्यौप॑वर्ते॒त क्षी॒रं स॒र्पिर् मधू᳚द॒कम् ॥
+Pitrun Tasyaupavarteta Kshiram Sarpir Madhudakam ||
+
+[dhrupad]
+पा॒व॒मा॒नं प॑रं ब्र॒ह्म शु॒क्रं ज्यो᳚तिः स॒नात॑नम् ।
+Pavamanam Param Brahma Shukram Jyotih Sanatanam |
+ऋषीं᳚ त॒स्यौप॑तिष्ठे॒त क्षी॒रं स॒र्पिर् मधू᳚द॒कम् ॥
+Rushim Tasyaupatishtheta Kshiram Sarpir Madhudakam ||
+
+[dhrupad]
+पा॒व॒मा॒नं प॑रं ब्र॒ह्म ये॒ पठ॑न्ति म॒नीषि॑णः ।
+Pavamanam Param Brahma Ye Pathanti Manishinah |
+सप्त ज॒न्म भवे॒द् विप्रो ध॒नाढ्यो᳚ वेद॒ पारगाः ॥
+Sapta Janma Bhaved Vipro Dhanadhyo Veda Paragah ||
+
+[dhrupad]
+दशो᳚त्त॒राण् ऋ॑चां श्चै॒व पा॒वमा᳚नीः श॒तानि॑ ष॒ट् ।
+Dashottaran Rucham Shchaiva Pavamanih Shatani Shat |
+ए॒त॒ज्जुह्वं॒ ज॒पे॒न् मन्त्रं᳚ घोर मृ॑त्यु भ॒यं ह॑रेत् ॥
+Etajjuhvam Japen Mantram Ghora Mrutyu Bhayam Haret ||
+
+[dhrupad]
+एतत् पुण्यं पा᳚पहरं रोग मृत्यु भयाव॑हम् ।
+Etat Punyam Papaharam Roga Mrutyu Bhayavaham |
+पठतां शृण्वतां श्चैव ददाति॑ परमां गतिम् ॥
+Pathatam Shrunvatam Shchaiva Dadati Paramam Gatim ||
+
+[dhrupad]
+भ॒द्रं नो॒ अपि॑ वातय॒ मनः॑ ॥
+Bhadram No Api Vataya Manah ||
+
+[dhrupad]
+शान्ता᳚ पृथिवी शि॑वम॒न्तरिक्षं द्यौर्नो᳚ दे॒व्यऽभ॑यन्नो अस्तु ।
+Shanta Pruthivi Shivamantariksham Dyaurno Devyabhayanno Astu |
+शि॒वा॒ दिशः॑ प्र॒दिश॑ उ॒द्दिशो᳚ न॒ आपो᳚ वि॒श्वतः॒ परि॑पांतु स॒र्वशः॒ शान्ति॒ शान्ति॒ शान्तिः॑ ॥
+Shiva Dishah Pradisha Uddisho Na Apo Vishvatah Paripantu Sarvashah Shanti Shanti Shantih ||
+
+[dhrupad]
+॥ हरिः॑ ओं ॥
+|| Harih Om ||
+
+[dhrupad]
+॥ श्रीकृष्णार्पणमस्तु ॥
+|| Shrikrushnarpanamastu ||

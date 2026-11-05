@@ -1,0 +1,46 @@
+id: vedic-chant-mantra-pushpanjali
+title: मन्त्रपुष्पाञ्जलिः
+title-en: Mantra Pushpanjali
+category: vedic-chant
+language: sa
+layout: prose
+---
+[para 1]
+ॐ य॒ज्ञेन॑ य॒ज्ञम॑यजन्त दे॒वास्तानि॒ धर्मा॑णि प्रथ॒मान्या॑सन् ।
+Om Yadnyena Yadnyamayajanta Devastani Dharmani Prathamanyasan |
+ते ह॒ नाकं॑ महि॒मानः॑ सचन्त॒ यत्र॒ पूर्वे॑ सा॒ध्याः सन्ति॑ दे॒वाः ॥
+Te Ha Nakam Mahimanah Sachanta Yatra Purve Sadhyah Santi Devah ||
+
+[para 2]
+ॐ रा॒जा॒धि॒रा॒जाय॑ प्रसह्यसा॒हिने॑ । नमो॑ व॒यं वै॑श्रव॒णाय॑ कुर्महे ।
+Om Rajadhirajaya Prasahyasahine | Namo Vayam Vaishravanaya Kurmahe |
+स मे॒ कामा॒न् काम॒कामा॑य॒ मह्यं॑ । का॒मे॒श्व॒रो वै॑श्रव॒णो द॑दातु ।
+Sa Me Kaman Kamakamaya Mahyam | Kameshvaro Vaishravano Dadatu |
+कु॒बे॒राय॑ वैश्रव॒णाय॑ । म॒हा॒रा॒जाय॒ नमः॑ ॥
+Kuberaya Vaishravanaya | Maharajaya Namah ||
+
+[para 3]
+ॐ स्व॒स्ति । सा॒म्रा॒ज्यं भौ॒ज्यं स्वारा॒ज्यं वैरा॒ज्यं पार॑मेष्ठ्यं रा॒ज्यं
+Om Svasti | Samrajyam Bhaujyam Svarajyam Vairajyam Parameshthyam Rajyam
+मा॑हाराज्यमाधिपत्यम॒यं स॑मन्तपर्या॒यी स्या॑त्सार्वभौ॒मः
+Maharajyamadhipatyamayam Samantaparyayi Syatsarvabhaumah
+सा॑र्वायु॒ष आन्ता॒दाप॑रार्धात्पृथि॒व्यै स॑मुद्रपर्य॒न्ताया॒ एक॑राळि॒ति ॥
+Sarvayusha Antadaparardhatpruthivyai Samudraparyantaya Ekaraliti ||
+
+[4]
+तदप्ये॒ष श्लोको॑ऽभिगीतो मरुतः॑ परिवेष्टारो मरुत्त॒स्याव॑स॒न् गृ॒हे ।
+Tadapyesha Shlokobhigito Marutah Pariveshtaro Maruttasyavasan Gruhe |
+आवि॑क्षितस्य कामप्रेर्विश्वे॑दे॒वाः स॑भास॒द इति॑ ॥
+Avikshitasya Kamaprervishvedevah Sabhasada Iti ||
+
+[para 5]
+ॐ एक॑दन्ताय वि॒द्महे॑ वक्रतु॒ण्डाय॑ धीमहि ।
+Om Ekadantaya Vidmahe Vakratundaya Dhimahi |
+तन्नो॑ दन्ती प्रचो॒दया॑त् ॥
+Tanno Danti Prachodayat ||
+मन्त्रपुष्पाञ्जलिं समर्पयामि ॥
+Mantrapushpanjalim Samarpayami ||
+
+[dhrupad]
+॥ ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+|| Om Shantih Shantih Shantih ||

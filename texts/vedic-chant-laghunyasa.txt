@@ -1,0 +1,196 @@
+id: vedic-chant-laghunyasa
+title: लघुन्यासः
+title-en: Laghunyasa
+category: vedic-chant
+language: sa
+layout: prose
+---
+[para 1]
+ॐ अथात्मानग्ं शिवात्मानग् श्रीरुद्ररूपं ध्यायेत् ॥
+Om Athatmanagm Shivatmanag Shrirudrarupam Dhyayet ||
+
+[para 2]
+शुद्धस्फटिकसंकाशं त्रिनेत्रं पञ्चवक्त्रकम् ।
+Shuddhasphatikasankasham Trinetram Panchavaktrakam |
+गङ्गाधरं दशभुजं सर्वाभरणभूषितम् ॥
+Gangadharam Dashabhujam Sarvabharanabhushitam ||
+नीलग्रीवं शशाङ्काङ्कं नागयज्ञोपवीतिनम् ।
+Nilagrivam Shashankankam Nagayadnyopavitinam |
+व्याघ्रचर्मोत्तरीयं च वरेण्यमभयप्रदम् ॥
+Vyaghracharmottariyam Cha Varenyamabhayapradam ||
+कमण्डल्वक्षसूत्राणां धारिणं शूलपाणिनम् ।
+Kamandalvakshasutranam Dharinam Shulapaninam |
+ज्वलन्तं पिङ्गलजटा-शिखामुद्योतधारिणम् ॥
+Jvalantam Pingalajata-Shikhamudyotadharinam ||
+वृषस्कन्ध-समारूढम् उमादेहार्ध-धारिणम् ।
+Vrushaskandha-Samarudham Umadehardha-Dharinam |
+अमृतेनाप्लुतं शान्तं दिव्यभोगसमन्वितम् ॥
+Amrutenaplutam Shantam Divyabhogasamanvitam ||
+दिग्देवतासमायुक्तं सुरासुरनमस्कृतम् ।
+Digdevatasamayuktam Surasuranamaskrutam |
+नित्यं च शाश्वतं शुद्धं ध्रुवमक्षरमव्ययम् ॥
+Nityam Cha Shashvatam Shuddham Dhruvamaksharamavyayam ||
+सर्वव्यापिनमीशानं रुद्रं वै विश्वरूपिणम् ।
+Sarvavyapinamishanam Rudram Vai Vishvarupinam |
+एवं ध्यात्वा द्विजसम्यक् ततो यजनमारभेत् ॥
+Evam Dhyatva Dvijasamyak Tato Yajanamarabhet ||
+
+[para 3]
+ॐ प्रजनने ब्रह्मा तिष्ठतु । पादयोर्विष्णुस्तिष्ठतु ।
+Om Prajanane Brahma Tishthatu | Padayorvishnustishthatu |
+हस्तयोर्हरस्तिष्ठतु । बाह्वोरिन्द्रस्तिष्ठतु ।
+Hastayorharastishthatu | Bahvorindrastishthatu |
+जठरेऽग्निस्तिष्ठतु । हृदये शिवस्तिष्ठतु ।
+Jatharegnistishthatu | Hrudaye Shivastishthatu |
+कण्ठे वसवस्तिष्ठन्तु । वक्त्रे सरस्वती तिष्ठतु ।
+Kanthe Vasavastishthantu | Vaktre Sarasvati Tishthatu |
+नासिकयोर्वायुस्तिष्ठतु । नयनयोश्चन्द्रादित्यौ तिष्ठेताम् ।
+Nasikayorvayustishthatu | Nayanayoshchandradityau Tishthetam |
+कर्णयोरश्विनौ तिष्ठेताम् । ललाटे रुद्रास्तिष्ठन्तु ।
+Karnayorashvinau Tishthetam | Lalate Rudrastishthantu |
+मूर्ध्न्यादित्यास्तिष्ठन्तु । शिरसि महादेवस्तिष्ठतु ।
+Murdhnyadityastishthantu | Shirasi Mahadevastishthatu |
+शिखायां वामदेवस्तिष्ठतु । पृष्ठे पिनाकी तिष्ठतु ।
+Shikhayam Vamadevastishthatu | Prushthe Pinaki Tishthatu |
+पुरतः शूली तिष्ठतु । पार्श्वयोः शिवाशङ्करौ तिष्ठेताम् ।
+Puratah Shuli Tishthatu | Parshvayoh Shivashankarau Tishthetam |
+सर्वतो वायुस्तिष्ठतु । ततो बहिः सर्वतोऽग्निर्ज्वालामाला परिवृतस्तिष्ठतु ।
+Sarvato Vayustishthatu | Tato Bahih Sarvatognirjvalamala Parivrutastishthatu |
+सर्वेष्वङ्गेषु सर्वा देवता यथास्थानं तिष्ठन्तु ।
+Sarveshvangeshu Sarva Devata Yathasthanam Tishthantu |
+माग्ं रक्षन्तु । सर्वान् महाजनान् रक्षन्तु ॥
+Magm Rakshantu | Sarvan Mahajanan Rakshantu ||
+
+[para 4]
+अ॒ग्निर्मे॑ वा॒चि श्रि॒तः । वाग्धृद॑ये ।
+Agnirme Vachi Shritah | Vagdhrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+वा॒युर्मे᳚ प्रा॒णे श्रि॒तः । प्रा॒णो हृद॑ये ।
+Vayurme Prane Shritah | Prano Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+सूर्यो॑ मे॒ चक्षुषि श्रि॒तः । चक्षु॒र्हृद॑ये ।
+Suryo Me Chakshushi Shritah | Chakshurhrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+च॒न्द्रमा॑ मे॒ मन॑सि श्रि॒तः । मनो॒ हृद॑ये ।
+Chandrama Me Manasi Shritah | Mano Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+दिशो॑ मे॒ श्रोत्रे᳚ श्रि॒ताः । श्रोत्र॒ग्ं॒ हृद॑ये ।
+Disho Me Shrotre Shritah | Shrotragm Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+आपो॑ मे॒ रेत॑सि श्रि॒ताः । रेतो॒ हृद॑ये ।
+Apo Me Retasi Shritah | Reto Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+पृ॒थि॒वी मे॒ शरी॑रे श्रि॒ता । शरी॑र॒ग्ं॒ हृद॑ये ।
+Pruthivi Me Sharire Shrita | Shariragm Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+ओ॒ष॒धि॒व॒न॒स्प॒तयो॑ मे॒ लोम॑सु श्रि॒ताः । लोमा॑नि॒ हृद॑ये ।
+Oshadhivanaspatayo Me Lomasu Shritah | Lomani Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+इन्द्रो॑ मे॒ बले᳚ श्रि॒तः । बल॒ग्ं॒ हृद॑ये ।
+Indro Me Bale Shritah | Balagm Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+प॒र्जन्यो॑ मे मू॒र्ध्नि श्रि॒तः । मू॒र्धा हृद॑ये ।
+Parjanyo Me Murdhni Shritah | Murdha Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+ईशा॑नो मे म॒न्यौ श्रि॒तः । म॒न्युर्हृद॑ये ।
+Ishano Me Manyau Shritah | Manyurhrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+आ॒त्मा म॑ आ॒त्मनि॑ श्रि॒तः । आ॒त्मा हृद॑ये ।
+Atma Ma Atmani Shritah | Atma Hrudaye |
+हृद॑यं॒ मयि॑ । अ॒हम॒मृते᳚ । अ॒मृतं॒ ब्रह्म॑णि ।
+Hrudayam Mayi | Ahamamrute | Amrutam Brahmani |
+पुन॑र्म आ॒त्मा पुन॒रायु॒रागा᳚त् ।
+Punarma Atma Punarayuragat |
+पुनः॑ प्रा॒णः पुन॒राकू॑त॒मागा᳚त् ।
+Punah Pranah Punarakutamagat |
+वै॒श्वा॒न॒रो र॒श्मिभि॑र्वावृधा॒नः ।
+Vaishvanaro Rashmibhirvavrudhanah |
+अ॒न्तस्ति॑ष्ठत्व॒मृत॑स्य गो॒पाः ॥
+Antastishthatvamrutasya Gopah ||
+
+[para 5]
+अस्य श्री रुद्राध्याय प्रश्न महामन्त्रस्य अघोर ऋषिः, अनुष्टुप् छन्दः,
+Asya Shri Rudradhyaya Prashna Mahamantrasya Aghora Rushih, Anushtup Chhandah,
+सङ्कर्षणमूर्तिस्वरूपो योऽसावादित्यः परमपुरुषः स एष रुद्रो देवता ।
+Sankarshanamurtisvarupo Yosavadityah Paramapurushah Sa Esha Rudro Devata |
+नमः शिवायेति बीजम् । शिवतरायेति शक्तिः । महादेवायेति कीलकम् ।
+Namah Shivayeti Bijam | Shivatarayeti Shaktih | Mahadevayeti Kilakam |
+श्री साम्बसदाशिव प्रसाद सिद्ध्यर्थे जपे विनियोगः ॥
+Shri Sambasadashiva Prasada Siddhyarthe Jape Viniyogah ||
+
+[para 6]
+ॐ अग्निहोत्रात्मने अङ्गुष्ठाभ्यां नमः । दर्शपूर्णमासात्मने तर्जनीभ्यां नमः ।
+Om Agnihotratmane Angushthabhyam Namah | Darshapurnamasatmane Tarjanibhyam Namah |
+चातुर्मास्यात्मने मध्यमाभ्यां नमः । निरूढपशुबन्धात्मने अनामिकाभ्यां नमः ।
+Chaturmasyatmane Madhyamabhyam Namah | Nirudhapashubandhatmane Anamikabhyam Namah |
+ज्योतिष्टोमात्मने कनिष्ठिकाभ्यां नमः । सर्वक्रत्वात्मने करतलकरपृष्ठाभ्यां नमः ।
+Jyotishtomatmane Kanishthikabhyam Namah | Sarvakratvatmane Karatalakaraprushthabhyam Namah |
+अग्निहोत्रात्मने हृदयाय नमः । दर्शपूर्णमासात्मने शिरसे स्वाहा ।
+Agnihotratmane Hrudayaya Namah | Darshapurnamasatmane Shirase Svaha |
+चातुर्मास्यात्मने शिखायै वषट् । निरूढपशुबन्धात्मने कवचाय हुम् ।
+Chaturmasyatmane Shikhayai Vashat | Nirudhapashubandhatmane Kavachaya Hum |
+ज्योतिष्टोमात्मने नेत्रत्रयाय वौषट् । सर्वक्रत्वात्मने अस्त्राय फट् ।
+Jyotishtomatmane Netratrayaya Vaushat | Sarvakratvatmane Astraya Phat |
+भूर्भुवस्सुवरोमिति दिग्बन्धः ।
+Bhurbhuvassuvaromiti Digbandhah |
+
+[note: ध्यानम् | Dhyanam]
+
+[para 7]
+आपाताळ-नभः स्थलान्त-भुवन-ब्रह्माण्ड-माविस्फुर-
+Apatala-Nabhah Sthalanta-Bhuvana-Brahmanda-Mavisphura-
+ज्ज्योतिः स्फाटिक-लिङ्ग-मौळि-विलसत्पूर्णेन्दु-वान्तामृतैः ।
+Jjyotih Sphatika-Linga-Mauli-Vilasatpurnendu-Vantamrutaih |
+अस्तोकाप्लुत-मेक-मीश-मनिशं रुद्रानुवाकाञ्जपन्
+Astokapluta-Meka-Misha-Manisham Rudranuvakanjapan
+ध्याये-दीप्सित-सिद्धये ध्रुवपदं विप्रोऽभिषिञ्चे-च्छिवम् ॥
+Dhyaye-Dipsita-Siddhaye Dhruvapadam Viprobhishinche-Chchhivam ||
+
+[8]
+ब्रह्माण्डव्याप्तदेहा भसितहिमरुचा भासमाना भुजङ्गैः
+Brahmandavyaptadeha Bhasitahimarucha Bhasamana Bhujangaih
+कण्ठे कालाः कपर्दाकलित शशिकला-श्चण्डकोदण्ड हस्ताः ।
+Kanthe Kalah Kapardakalita Shashikala-Shchandakodanda Hastah |
+त्र्यक्षा रुद्राक्षमालाः प्रकटितविभवाः शाम्भवा मूर्तिभेदा
+Tryaksha Rudrakshamalah Prakatitavibhavah Shambhava Murtibheda
+रुद्राः श्रीरुद्रसूक्त-प्रकटितविभवा नः प्रयच्छन्तु सौख्यम् ॥
+Rudrah Shrirudrasukta-Prakatitavibhava Nah Prayachchhantu Saukhyam ||
+
+[para 9]
+ॐ ग॒णानां᳚ त्वा ग॒णप॑तिग्ं हवामहे क॒विं क॑वी॒नामु॑प॒मश्र॑वस्तमम् ।
+Om Gananam Tva Ganapatigm Havamahe Kavim Kavinamupamashravastamam |
+ज्ये॒ष्ठ॒राजं॒ ब्रह्म॑णां ब्रह्मणस्पत॒ आ नः॑ शृ॒ण्वन्नू॒तिभि॑स्सीद॒ साद॑नम् ॥
+Jyeshtharajam Brahmanam Brahmanaspata A Nah Shrunvannutibhissida Sadanam ||
+महागणपतये॒ नमः ॥
+Mahaganapataye Namah ||
+
+[para 10]
+शं च॑ मे॒ मय॑श्च मे प्रि॒यं च॑ मेऽनुका॒मश्च॑ मे॒ काम॑श्च मे
+Sham Cha Me Mayashcha Me Priyam Cha Menukamashcha Me Kamashcha Me
+सौमन॒सश्च॑ मे भ॒द्रं च॑ मे॒ श्रेय॑श्च मे॒ वस्य॑श्च मे॒ यश॑श्च मे॒
+Saumanasashcha Me Bhadram Cha Me Shreyashcha Me Vasyashcha Me Yashashcha Me
+भग॑श्च मे॒ द्रवि॑णं च मे य॒न्ता च मे ध॒र्ता च॑ मे॒ क्षेम॑श्च मे॒
+Bhagashcha Me Dravinam Cha Me Yanta Cha Me Dharta Cha Me Kshemashcha Me
+धृति॑श्च मे॒ विश्वं॑ च मे॒ मह॑श्च मे सं॒विच्च॑ मे॒ ज्ञात्रं॑ च मे॒
+Dhrutishcha Me Vishvam Cha Me Mahashcha Me Samvichcha Me Dnyatram Cha Me
+सूश्च॑ मे प्र॒सूश्च॑ मे॒ सीरं॑ च मे ल॒यश्च॑ म ऋ॒तं च॑ मे॒ऽमृतं॑ च
+Sushcha Me Prasushcha Me Siram Cha Me Layashcha Ma Rutam Cha Memrutam Cha
+मेऽय॒क्ष्मं च॒ मेऽना॑मयच्च मे जी॒वातुश्च मे दीर्घायु॒त्वं च॑ मेऽनमि॒त्रं च॒
+Meyakshmam Cha Menamayachcha Me Jivatushcha Me Dirghayutvam Cha Menamitram Cha
+मेऽभ॑यं च मे सु॒गं च॑ मे॒ शय॑नं च मे सू॒षा च॑ मे सु॒दिनं॑ च मे ॥
+Mebhayam Cha Me Sugam Cha Me Shayanam Cha Me Susha Cha Me Sudinam Cha Me ||
+
+[dhrupad]
+॥ ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+|| Om Shantih Shantih Shantih ||

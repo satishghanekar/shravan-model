@@ -1,0 +1,37 @@
+id: aarti-ovaloon-aarti-chaitanyabrahma
+title: ओवाळूं आरती सद्‌गुरु चैतन्यब्रह्मा
+title-en: Ovalun Aarti Sadguru Chaitanyabrahma
+category: aarti
+language: mr
+refrain: every-verse
+refrain-before-first: yes
+---
+[dhrupad]
+ओवाळूं आरती सद्‌गुरु चैतन्यब्रह्मा ।
+Ovalun Aarti Sadguru Chaitanyabrahma |
+निगमागम वर्णितां न कळे अगाध महिमा ॥ धृ. ॥
+Nigamagam Varnitan Na Kale Agadh Mahima || Dhr. ||
+
+[1]
+निर्गुण निराकार तेंचि साकार झालें ।
+Nirgun Nirakar Tenchi Sakar Jhalen |
+जगदुद्धारासाठीं अगाध चरित्र केलें ।
+Jagaduddharasathin Agadh Charitra Kelen |
+नामीं रूपीं मिळुनी असंख्य जीव उद्धरिले ॥
+Namin Rupin Miluni Asankhya Jiv Uddharile ||
+
+[2]
+होतां दृष्टादृष्टी अवघी सृष्टी चाकाटे ।
+Hotan Drushtadrushti Avaghi Srushti Chakate |
+मोडुनि नास्तिकबुद्धी लावी भक्तीच्या वाटे ।
+Moduni Nastikabuddhi Lavi Bhaktichya Vate |
+श्रीरामाच्या नामीं असंख्य समुदाय लिगटे ॥
+Shriramachya Namin Asankhya Samuday Ligate ||
+
+[3]
+अद्‌भुत कलिप्राबल्यामाजीं भक्ति वाढविली ।
+Adbhut Kaliprabalyamajin Bhakti Vadhavili |
+स्थापुनि मूर्तिपूजा अवघी भ्रांति निरसीली ।
+Sthapuni Murtipuja Avaghi Bhranti Nirasili |
+सच्चिदानंदमूर्ति डोळाभरि म्यां पाहिली ॥
+Sachchidanandamurti Dolabhari Myan Pahili ||

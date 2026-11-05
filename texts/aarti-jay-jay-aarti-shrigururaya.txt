@@ -1,0 +1,31 @@
+id: aarti-jay-jay-aarti-shrigururaya
+title: जय जय आरती श्रीगुरुराया
+title-en: Jay Jay Aarti Shrigururaya
+category: aarti
+language: mr
+refrain: every-verse
+refrain-before-first: yes
+---
+[dhrupad]
+जय जय आरती श्रीगुरुराया । सद्‌गुरुराया ।
+Jay Jay Aarti Shrigururaya | Sadgururaya |
+नमितों तव पदिं संहरि माया ॥ धृ. ॥
+Namiton Tav Padin Sanhari Maya || Dhr. ||
+
+[1]
+मी जीव हा भ्रम द्वैतपसारा । द्वैतपसारा ।
+Mi Jiv Ha Bhram Dvaitapasara | Dvaitapasara |
+वारुनि दिधला अद्वैतसारा ॥
+Varuni Didhala Advaitasara ||
+
+[2]
+परम परात्पर चिन्मयखाणी । चिन्मयखाणी ।
+Param Paratpar Chinmayakhani | Chinmayakhani |
+शतमुख स्तवितां मंदलि वाणी ॥
+Shatamukh Stavitan Mandali Vani ||
+
+[3]
+जगज्जीवन प्रभु मंगलधामा । मंगलधामा ।
+Jagajjivan Prabhu Mangaladhama | Mangaladhama |
+नामरूपातीत तूं अभिरामा ॥
+Namarupatit Tun Abhirama ||

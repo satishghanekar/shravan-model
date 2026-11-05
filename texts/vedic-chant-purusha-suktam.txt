@@ -1,0 +1,260 @@
+id: vedic-chant-purusha-suktam
+title: पुरुषसूक्तम्
+title-en: Purusha Suktam
+category: vedic-chant
+language: sa
+layout: prose
+credit: [कृष्ण यजुर्वेद, तैत्तिरीय आरण्यक](https://mr.wikipedia.org/wiki/पुरुषसूक्त)
+credit-en: [Krishna Yajurveda, Taittiriya Aranyaka](https://en.wikipedia.org/wiki/Purusha_Sukta)
+---
+[dhrupad]
+ॐ तच्छं॒ योरावृ॑णीमहे ।
+Om Tachchham Yoravrunimahe |
+गा॒तुं य॒ज्ञाय॑ । गा॒तुं य॒ज्ञप॑तये ।
+Gatum Yadnyaya | Gatum Yadnyapataye |
+दैवीः᳚ स्व॒स्तिर॑स्तु नः ।
+Daivih Svastirastu Nah |
+स्व॒स्तिर्मानु॑षेभ्यः ।
+Svastirmanushebhyah |
+ऊ॒र्ध्वं जि॑गातु भेष॒जम् ।
+Urdhvam Jigatu Bheshajam |
+शन्नो॑ अस्तु द्वि॒पदे᳚ । शं चतु॑ष्पदे ॥
+Shanno Astu Dvipade | Sham Chatushpade ||
+
+[dhrupad]
+॥ ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+|| Om Shantih Shantih Shantih ||
+
+[para 1]
+ॐ स॒हस्र॑शीर्षा॒ पुरु॑षः ।
+Om Sahasrashirsha Purushah |
+स॒ह॒स्रा॒क्षः स॒हस्र॑पात् ।
+Sahasrakshah Sahasrapat |
+स भूमिं॑ वि॒श्वतो॑ वृ॒त्वा ।
+Sa Bhumim Vishvato Vrutva |
+अत्य॑तिष्ठद्दशाङ्गु॒लम् ।
+Atyatishthaddashangulam |
+पुरु॑ष ए॒वेदग्ं सर्वम्᳚ ।
+Purusha Evedagm Sarvam |
+यद्भू॒तं यच्च॒ भव्यम्᳚ ।
+Yadbhutam Yachcha Bhavyam |
+उ॒तामृ॑त॒त्वस्येशा॑नः ।
+Utamrutatvasyeshanah |
+य॒दन्ने॑नाति॒रोह॑ति ।
+Yadannenatirohati |
+ए॒तावा॑नस्य महि॒मा ।
+Etavanasya Mahima |
+अतो॒ ज्यायाग्॑श्च॒ पूरु॑षः ॥ १ ॥
+Ato Jyayagshcha Purushah || 1 ||
+
+[2]
+पादो᳚ऽस्य॒ विश्वा॑ भू॒तानि॑ ।
+Padosya Vishva Bhutani |
+त्रि॒पाद॑स्या॒मृतं॑ दि॒वि ।
+Tripadasyamrutam Divi |
+त्रि॒पादू॒र्ध्व उदै॒त्पुरु॑षः ।
+Tripadurdhva Udaitpurushah |
+पादो᳚ऽस्ये॒हाऽऽभ॑वा॒त्पुनः॑ ।
+Padosyehabhavatpunah |
+ततो॒ विष्व॒ङ्व्य॑क्रामत् ।
+Tato Vishvangvyakramat |
+सा॒श॒ना॒न॒श॒ने अ॒भि ।
+Sashananashane Abhi |
+तस्मा᳚द्वि॒राड॑जायत ।
+Tasmadviradajayata |
+वि॒राजो॒ अधि॒ पूरु॑षः ।
+Virajo Adhi Purushah |
+स जा॒तो अत्य॑रिच्यत ।
+Sa Jato Atyarichyata |
+प॒श्चाद्भूमि॒मथो॑ पु॒रः ॥ २ ॥
+Pashchadbhumimatho Purah || 2 ||
+
+[para 3]
+यत्पुरु॑षेण ह॒विषा᳚ ।
+Yatpurushena Havisha |
+दे॒वा य॒ज्ञमत॑न्वत ।
+Deva Yadnyamatanvata |
+व॒स॒न्तो अ॑स्यासी॒दाज्यम्᳚ ।
+Vasanto Asyasidajyam |
+ग्री॒ष्म इ॒ध्मश्श॒रद्ध॒विः ।
+Grishma Idhmashsharaddhavih |
+स॒प्तास्या॑सन्परि॒धयः॑ ।
+Saptasyasanparidhayah |
+त्रिः स॒प्त स॒मिधः॑ कृ॒ताः ।
+Trih Sapta Samidhah Krutah |
+दे॒वा यद्य॒ज्ञं त॑न्वा॒नाः ।
+Deva Yadyadnyam Tanvanah |
+अब॑ध्न॒न्पुरु॑षं प॒शुम् ।
+Abadhnanpurusham Pashum |
+तं य॒ज्ञं ब॒र्॒हिषि॒ प्रौक्षन्॑ ।
+Tam Yadnyam Barhishi Praukshan |
+पुरु॑षं जा॒तम॑ग्र॒तः ॥ ३ ॥
+Purusham Jatamagratah || 3 ||
+
+[4]
+तेन॑ दे॒वा अय॑जन्त ।
+Tena Deva Ayajanta |
+सा॒ध्या ऋष॑यश्च॒ ये ।
+Sadhya Rushayashcha Ye |
+तस्मा᳚द्य॒ज्ञात्स॑र्व॒हुतः॑ ।
+Tasmadyadnyatsarvahutah |
+संभृ॑तं पृषदा॒ज्यम् ।
+Sambhrutam Prushadajyam |
+प॒शूग्स्ताग्श्च॑क्रे वाय॒व्यान्॑ ।
+Pashugstagshchakre Vayavyan |
+आ॒र॒ण्यान्ग्रा॒म्याश्च॒ ये ।
+Aranyangramyashcha Ye |
+तस्मा᳚द्य॒ज्ञात्स॑र्व॒हुतः॑ ।
+Tasmadyadnyatsarvahutah |
+ऋचः॒ सामा॑नि जज्ञिरे ।
+Ruchah Samani Jadnyire |
+छन्दाग्ं॑सि जज्ञिरे॒ तस्मा᳚त् ।
+Chhandagmsi Jadnyire Tasmat |
+यजु॒स्तस्मा॑दजायत ॥ ४ ॥
+Yajustasmadajayata || 4 ||
+
+[5]
+तस्मा॒दश्वा॑ अजायन्त ।
+Tasmadashva Ajayanta |
+ये के चो॑भ॒याद॑तः ।
+Ye Ke Chobhayadatah |
+गावो॑ ह जज्ञिरे॒ तस्मा᳚त् ।
+Gavo Ha Jadnyire Tasmat |
+तस्मा᳚ज्जा॒ता अ॑जा॒वयः॑ ।
+Tasmajjata Ajavayah |
+यत्पुरु॑षं॒ व्य॑दधुः ।
+Yatpurusham Vyadadhuh |
+क॒ति॒धा व्य॑कल्पयन् ।
+Katidha Vyakalpayan |
+मुखं॒ किम॑स्य॒ कौ बा॒हू ।
+Mukham Kimasya Kau Bahu |
+कावू॒रू पादा॑वुच्येते ।
+Kavuru Padavuchyete |
+ब्रा॒ह्म॒णो᳚ऽस्य॒ मुख॑मासीत् ।
+Brahmanosya Mukhamasit |
+बा॒हू रा॑ज॒न्यः॑ कृ॒तः ॥ ५ ॥
+Bahu Rajanyah Krutah || 5 ||
+
+[6]
+ऊ॒रू तद॑स्य॒ यद्वैश्यः॑ ।
+Uru Tadasya Yadvaishyah |
+प॒द्भ्याग्ं शू॒द्रो अ॑जायत ।
+Padbhyagm Shudro Ajayata |
+च॒न्द्रमा॒ मन॑सो जा॒तः ।
+Chandrama Manaso Jatah |
+चक्षोः॒ सूर्यो॑ अजायत ।
+Chakshoh Suryo Ajayata |
+मुखा॒दिन्द्र॑श्चा॒ग्निश्च॑ ।
+Mukhadindrashchagnishcha |
+प्रा॒णाद्वा॒युर॑जायत ।
+Pranadvayurajayata |
+नाभ्या॑ आसीद॒न्तरि॑क्षम् ।
+Nabhya Asidantariksham |
+शी॒र्ष्णो द्यौः सम॑वर्तत ।
+Shirshno Dyauh Samavartata |
+प॒द्भ्यां भूमि॒र्दिशः॒ श्रोत्रा᳚त् ।
+Padbhyam Bhumirdishah Shrotrat |
+तथा॑ लो॒काग्ं अ॑कल्पयन् ॥ ६ ॥
+Tatha Lokagm Akalpayan || 6 ||
+
+[para 7]
+वेदा॒हमे॒तं पुरु॑षं म॒हान्तम्᳚ ।
+Vedahametam Purusham Mahantam |
+आ॒दि॒त्यव॑र्णं॒ तम॑स॒स्तु पा॒रे ।
+Adityavarnam Tamasastu Pare |
+सर्वा॑णि रू॒पाणि॑ वि॒चित्य॒ धीरः॑ ।
+Sarvani Rupani Vichitya Dhirah |
+नामा॑नि कृ॒त्वाऽभि॒वद॒न्॒, यदास्ते᳚ ।
+Namani Krutvabhivadan, Yadaste |
+धा॒ता पु॒रस्ता॒द्यमु॑दाज॒हार॑ ।
+Dhata Purastadyamudajahara |
+श॒क्रः प्रवि॒द्वान्प्र॒दिश॒श्चत॑स्रः ।
+Shakrah Pravidvanpradishashchatasrah |
+तमे॒वं वि॒द्वान॒मृत॑ इ॒ह भ॑वति ।
+Tamevam Vidvanamruta Iha Bhavati |
+नान्यः पन्था॒ अय॑नाय विद्यते ।
+Nanyah Pantha Ayanaya Vidyate |
+य॒ज्ञेन॑ य॒ज्ञम॑यजन्त दे॒वाः ।
+Yadnyena Yadnyamayajanta Devah |
+तानि॒ धर्मा॑णि प्रथ॒मान्या॑सन् ।
+Tani Dharmani Prathamanyasan |
+ते ह॒ नाकं॑ महि॒मानः॑ सचन्ते ।
+Te Ha Nakam Mahimanah Sachante |
+यत्र॒ पूर्वे॑ सा॒ध्याः सन्ति॑ दे॒वाः ॥ ७ ॥
+Yatra Purve Sadhyah Santi Devah || 7 ||
+
+[para 8]
+अ॒द्भ्यः संभू॑तः पृथि॒व्यै रसा᳚च्च ।
+Adbhyah Sambhutah Pruthivyai Rasachcha |
+वि॒श्वक॑र्मणः॒ सम॑वर्त॒ताधि॑ ।
+Vishvakarmanah Samavartatadhi |
+तस्य॒ त्वष्टा॑ वि॒दध॑द्रू॒पमे॑ति ।
+Tasya Tvashta Vidadhadrupameti |
+तत्पुरु॑षस्य॒ विश्व॒माजा॑न॒मग्रे᳚ ।
+Tatpurushasya Vishvamajanamagre |
+वेदा॒हमे॒तं पुरु॑षं म॒हान्तम्᳚ ।
+Vedahametam Purusham Mahantam |
+आ॒दि॒त्यव॑र्णं॒ तम॑सः॒ पर॑स्तात् ।
+Adityavarnam Tamasah Parastat |
+तमे॒वं वि॒द्वान॒मृत॑ इ॒ह भ॑वति ।
+Tamevam Vidvanamruta Iha Bhavati |
+नान्यः पन्था॑ विद्य॒तेऽय॑नाय ।
+Nanyah Pantha Vidyateyanaya |
+प्र॒जाप॑तिश्चरति॒ गर्भे॑ अ॒न्तः ।
+Prajapatishcharati Garbhe Antah |
+अ॒जाय॑मानो बहु॒धा विजा॑यते ॥ ८ ॥
+Ajayamano Bahudha Vijayate || 8 ||
+
+[9]
+तस्य॒ धीराः॒ परि॑जानन्ति॒ योनिम्᳚ ।
+Tasya Dhirah Parijananti Yonim |
+मरी॑चीनां प॒दमि॑च्छन्ति वे॒धसः॑ ।
+Marichinam Padamichchhanti Vedhasah |
+यो दे॒वेभ्य॒ आत॑पति ।
+Yo Devebhya Atapati |
+यो दे॒वानां᳚ पु॒रोहि॑तः ।
+Yo Devanam Purohitah |
+पूर्वो॒ यो दे॒वेभ्यो॑ जा॒तः ।
+Purvo Yo Devebhyo Jatah |
+नमो॑ रु॒चाय॒ ब्राह्म॑ये ।
+Namo Ruchaya Brahmaye |
+रुचं॑ ब्रा॒ह्मं ज॒नय॑न्तः ।
+Rucham Brahmam Janayantah |
+दे॒वा अग्रे॒ तद॑ब्रुवन् ।
+Deva Agre Tadabruvan |
+यस्त्वै॒वं ब्रा᳚ह्म॒णो वि॒द्यात् ।
+Yastvaivam Brahmano Vidyat |
+तस्य॑ दे॒वा अस॒न् वशे᳚ ॥ ९ ॥
+Tasya Deva Asan Vashe || 9 ||
+
+[para 10]
+ह्रीश्च॑ ते ल॒क्ष्मीश्च॒ पत्न्यौ᳚ ।
+Hrishcha Te Lakshmishcha Patnyau |
+अ॒हो॒रा॒त्रे पा॒र्श्वे ।
+Ahoratre Parshve |
+नक्ष॑त्राणि रू॒पम् ।
+Nakshatrani Rupam |
+अ॒श्विनौ॒ व्यात्तम्᳚ ।
+Ashvinau Vyattam |
+इ॒ष्टं म॑निषाण । अ॒मुं म॑निषाण ।
+Ishtam Manishana | Amum Manishana |
+सर्वं॑ मनिषाण ॥ १० ॥
+Sarvam Manishana || 10 ||
+
+[dhrupad]
+ॐ तच्छं॒ योरावृ॑णीमहे ।
+Om Tachchham Yoravrunimahe |
+गा॒तुं य॒ज्ञाय॑ । गा॒तुं य॒ज्ञप॑तये ।
+Gatum Yadnyaya | Gatum Yadnyapataye |
+दैवीः᳚ स्व॒स्तिर॑स्तु नः ।
+Daivih Svastirastu Nah |
+स्व॒स्तिर्मानु॑षेभ्यः ।
+Svastirmanushebhyah |
+ऊ॒र्ध्वं जि॑गातु भेष॒जम् ।
+Urdhvam Jigatu Bheshajam |
+शन्नो॑ अस्तु द्वि॒पदे᳚ । शं चतु॑ष्पदे ॥
+Shanno Astu Dvipade | Sham Chatushpade ||
+
+[dhrupad]
+॥ ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+|| Om Shantih Shantih Shantih ||

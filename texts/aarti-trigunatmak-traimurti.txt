@@ -1,0 +1,58 @@
+id: aarti-trigunatmak-traimurti
+title: दत्ताची आरती
+title-en: Dattatreya Aarti
+category: aarti
+language: mr
+legacy-id: a5
+line-ids: s5l
+refrain: every-verse
+credit: रचना : [संत एकनाथ](https://mr.wikipedia.org/wiki/एकनाथ) (१५३३–१५९९)
+credit-en: By [Sant Eknath](https://en.wikipedia.org/wiki/Eknath) (1533–1599)
+---
+[dhrupad]
+जय देव जय देव जय श्री गुरुदत्ता ।
+Jai Dev Jai Dev Jai Shri Gurudatta |
+आरती ओवाळिता हरली भवचिंता ।
+Aarti Ovalita Harali Bhavachinta |
+जय देव जय देव ॥ धृ. ॥
+Jai Dev Jai Dev || Dhr. ||
+
+[1]
+त्रिगुणात्मक त्रैमूर्ती दत्त हा जाणा ।
+Trigunatmak Traimurti Datta Ha Jaana |
+त्रिगुणी अवतार त्रैलोक्यराणा ।
+Triguni Avatar Trailokyarana |
+नेति नेति शब्द न ये अनुमाना ।
+Neti Neti Shabda Na Ye Anumana |
+सुरवर मुनिजन योगी समाधी न ये ध्याना ॥
+Survar Munijan Yogi Samadhi Na Ye Dhyana ||
+
+[2]
+सबाह्य अभ्यंतरी तू एक दत्त ।
+Sabahya Abhyantari Tu Ek Datta |
+अभाग्यासी कैसी न कळे ही मात ।
+Abhagyasi Kaisi Na Kale Hi Maat |
+पराही परतली तेथे कैंचा हेत ।
+Parahi Paratali Tethe Kaincha Het |
+जन्ममरणाचा पुरलासे अंत ॥
+Janmamaranacha Purlase Anta ||
+
+[3]
+दत्त येऊनिया उभा ठाकला ।
+Datta Yeuniya Ubha Thakala |
+सद्भावे साष्टांगे प्रणिपात केला ।
+Sadbhave Sashtange Pranipat Kela |
+प्रसन्न होऊनी आशीर्वाद दिधला ।
+Prasanna Houni Ashirwad Didhala |
+जन्ममरणाचा फेरा चुकविला ॥
+Janmamaranacha Phera Chukavila ||
+
+[4]
+दत्त दत्त ऐसे लागले ध्यान ।
+Datta Datta Aise Lagale Dhyan |
+हारपले मन झाले उन्मन ।
+Harpale Man Jhale Unman |
+मी-तू पणाची झाली बोळवण ।
+Mi-Tu Panachi Jhali Bolvan |
+एका जनार्दनी श्री दत्तध्यान ॥
+Eka Janardani Shri Dattadhyan ||
