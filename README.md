@@ -64,6 +64,21 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 `<recording>` is its file name in `recordings.csv`; `<model>` is `openai/whisper-base`, `openai/whisper-small` or a
 trained one, `checkpoints/openai-whisper-base/best`.
 
+## Where we are
+
+Trained on one published recording of Pavamana Suktam (60 minutes of verses), tested on hymns 61–63, which training
+never saw (`results/`):
+
+| Model | Letters wrong | Verses found | Test time for 10 minutes of chant |
+|---|---|---|---|
+| Whisper base, untrained | 226% | 0 of 79 | — |
+| Whisper small, untrained | 177% | 0 of 79 | — |
+| **Whisper base, trained** | **10.0%** | **79 of 79** | 12 s |
+| Whisper small, trained | 9.9% | 79 of 79 | 30 s |
+
+Base is the model to take forward: as good as small, with a third of the size. Next: a family recording to test on,
+then the phone-sized model (ONNX, int8) and the app's own measure, the right line within 3 seconds.
+
 ## Adding recordings
 
 1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-training/`. On the Mac, right-click the
