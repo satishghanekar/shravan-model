@@ -134,3 +134,25 @@ def test_align_window_places_units_in_order():
     assert a_start <= a_end < b_start <= b_end
     assert (a_start, b_start) == (2, 9)
     assert a_score > 0.9 and b_score > 0.9
+
+
+def test_a_model_file_is_cut_into_pieces_the_site_can_serve_and_joined_back(tmp_path):
+    from shravan import package
+
+    src = tmp_path / "model.onnx"
+    src.write_bytes(bytes(range(256)) * 200_000)  # 51.2 MB
+    pieces = package.split(src, tmp_path, "m.onnx")
+    assert [p["file"] for p in pieces] == ["m.onnx", "m.onnx.2", "m.onnx.3"]
+    assert all(int(str(p["bytes"])) <= package.PIECE < 25 * 2**20 for p in pieces)
+    assert package.join(tmp_path, pieces) == src.read_bytes()
+    (tmp_path / "m.onnx.2").write_bytes(b"broken")
+    with pytest.raises(ValueError):
+        package.join(tmp_path, pieces)
+
+
+def test_the_check_sound_is_the_same_every_time():
+    pytest.importorskip("numpy")  # (not installed in CI)
+    from shravan import package
+
+    a, b = package.tone(), package.tone()
+    assert a.shape == (48000,) and (a == b).all() and abs(a).max() < 0.6

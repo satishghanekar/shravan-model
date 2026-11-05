@@ -36,8 +36,9 @@ hear the words. Everything here exists to train that model fairly and to prove h
    the M4's GPU (`mps`), keeping the best checkpoint by validation score, with light augmentation (speed, volume, noise). On 16 GB it
    recomputes activations in the backward pass (gradient checkpointing) and caps PyTorch's GPU memory: without them a
    batch of 8 grew past 13 GB and went into swap, 15 times slower.
-8. **Shrink and release** (to come): ONNX with int8 weights (`optimum-onnx`), tested again, then copied into the site
-   as `models/chant-vN/` by the site's own rules.
+8. **Shrink** (`scripts/export.py`): ONNX with int8 weights (`optimum-onnx`, then ONNX Runtime's dynamic quantization,
+   the merged decoder's inner graphs included), 76 MB, tested again with the same scripts on the CPU. **Release** (to
+   come): copied into the site as `models/chant-vN/` by the site's own rules.
 
 ## Why these choices
 

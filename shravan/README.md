@@ -13,7 +13,7 @@ commands in `scripts/` read the config and call these.
 | `align.py` | Forced alignment of a long recording against its verses with torchaudio's MMS aligner, window by window, with a wildcard at each end; each verse's start, end and score | `test_pipeline.py` (the window maths; the Mac runs it) |
 | `split.py` | Which split a verse belongs to (train, validation, test), by hymn | `test_config.py` |
 | `data.py` | The clips made by `scripts/cut.py`, from every recording's manifest | — |
-| `hear.py` | What a model writes for pieces of audio, a batch at a time on the GPU | — |
+| `hear.py` | What a model writes for pieces of audio, a batch at a time: on the GPU, or a model shrunk for the phone (an ONNX folder) with ONNX Runtime on the CPU | — |
 | `follow.py` | Where the chanting is, from what was heard: the end of its best fuzzy match in the text (`where()`), searched whole or only near the last place (`nearby()`) | `test_pipeline.py` |
 | `metrics.py` | Letters wrong (character error rate) and verses found (is the nearest verse the right one), what the model wrote cleaned by the label rules first | `test_pipeline.py` |
 | `results.py` | One file per run in `results/`: texts commit, recordings, split, settings and scores | — |
