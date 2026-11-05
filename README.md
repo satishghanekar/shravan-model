@@ -59,6 +59,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/cut.py "<recording>"` | Cuts one clip per verse with its label and split (`work/clips/`); verses aligned badly are left out |
 | `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips; writes `results/` |
 | `python scripts/follow.py <model>` | The app's own measure: plays each tested recording as a phone hears it and scores how often the right place is found 2, 3 and 5 seconds into a verse, searching the whole text and following |
+| `python scripts/export.py <model> <folder>` | Shrinks a trained model for the phone: ONNX, int8, about 76 MB (`models/`, never in git); test the folder like any model |
 | `python scripts/train.py <model> [--resume] [--name N]` | Fine-tunes Whisper on the training clips (a family recording's counted `family_repeat` times), keeping the best checkpoint on validation (`checkpoints/N`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
 | `ruff format . && ruff check . && mypy && pytest` | The checks, the same as CI; run them before a pull request |
 
@@ -98,7 +99,9 @@ Then trained again with SG's recordings at home as well (21 minutes, each clip c
 | With SG's recordings: letters wrong | 10.3% | **24.6%** | **40.9%** |
 | With SG's recordings: right place within 3 s (following) | 98.7% | 100% | 96.6% |
 
-Next: more family recordings, then the phone-sized model (ONNX, int8).
+Shrunk for the phone (`scripts/export.py`, ONNX with int8 weights: 76 MB instead of 290), v2 hears as well: 26.1%,
+40.8% and 10.8% letters wrong, the right place within 3 s following 100%, 96.6% and 98.7%. One 6-second window takes
+about 1.1 s on one of the M4's CPU cores. Next: how fast it runs on an iPhone, in the browser.
 
 ## Adding recordings
 
