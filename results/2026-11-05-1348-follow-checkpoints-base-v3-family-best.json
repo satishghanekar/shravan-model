@@ -1,0 +1,112 @@
+{
+ "kind": "follow",
+ "model": "checkpoints/base-v3-family/best",
+ "when": "2026-11-05T13:48:46",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)",
+  "Lalita Sahasrnaam.m4a,2022-10-04,\"vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5\",SJ,yes,\"a family Voice Memo: the last 52 stanzas, the closing line, then the Dhyanam again; never trained on\"",
+  "SG- Ganapathi Atharvashirsha.m4a,2026-11-05,vedic-chant-atharvashirsha: 1..14 dhrupad-3 dhrupad-4,SG,no,\"at home, with background sounds; no opening shanti\"",
+  "SG -Purushasukta.m4a,2026-11-05,vedic-chant-purusha-suktam,SG,yes,\"at home, with background sounds; held out: SG's voice on a text not trained on in it\"",
+  "SG - Shreesukta.m4a,2026-11-05,vedic-chant-shri-sukta: 1..15,SG,no,\"at home, with background sounds; the hymn, verses 1-15\"",
+  "SG- Matrapushpanjali.m4a,2026-11-05,vedic-chant-mantra-pushpanjali: 1..5,SG,no,\"at home, with background sounds\"",
+  "SG-ThursdayMorning aarti.m4a,2026-11-05,aarti-sukhkarta; aarti-durge-durghat-bhari; aarti-jaydeva-jaydeva-samartha; aarti-ghalin-lotangan,SG,no,\"the Thursday morning aartis but Belaguve, at home, with background sounds\"",
+  "SG-pavamaan-1.m4a,2026-11-05,vedic-chant-pavamana-suktam: 9.066.04..9.066.17,SG,no,\"at home; split by hymns, as the published recording\"",
+  "SG-pavamaan-2.m4a,2026-11-05,vedic-chant-pavamana-suktam: 9.065.22..9.065.27,SG,no,\"at home; split by hymns, as the published recording\"",
+  "SG-Durgasukta.m4a,2026-11-05,vedic-chant-durga-suktam: 1..8,SG,no,at home",
+  "SG-Rudra-1.m4a,2026-11-05,vedic-chant-shree-rudra: 1..2,SG,no,\"at home; the first anuvakas\"",
+  "SG-lagunnyaas.m4a,2026-11-05,vedic-chant-laghunyasa: 1..dhrupad-1,SG,no,at home",
+  "SG-samadhan sadhu janache.m4a,2026-11-05,ashtak-thursday,SG,no,at home"
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": {
+   "openai/whisper-base": 8,
+   "openai/whisper-small": 4
+  },
+  "accumulate": {
+   "openai/whisper-base": 1,
+   "openai/whisper-small": 2
+  },
+  "gpu_memory": {
+   "openai/whisper-base": 0.75,
+   "openai/whisper-small": 0.9
+  },
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05
+  },
+  "warmup_steps": 50,
+  "max_steps": 2000,
+  "eval_every": 100,
+  "patience": 5,
+  "augment": true,
+  "family_repeat": 3,
+  "seed": 1
+ },
+ "scores": {
+  "window_seconds": 6.0,
+  "sri-pavamaana-suktha-copy-1": {
+   "units": 79,
+   "after_2s": {
+    "search": 1.0,
+    "following": 1.0
+   },
+   "after_3s": {
+    "search": 0.9873,
+    "following": 0.9873
+   },
+   "after_5s": {
+    "search": 1.0,
+    "following": 1.0
+   }
+  },
+  "lalita-sahasrnaam": {
+   "units": 58,
+   "after_2s": {
+    "search": 0.9828,
+    "following": 0.9655
+   },
+   "after_3s": {
+    "search": 0.9828,
+    "following": 0.9655
+   },
+   "after_5s": {
+    "search": 0.9655,
+    "following": 0.9483
+   }
+  },
+  "sg-purushasukta": {
+   "units": 25,
+   "after_2s": {
+    "search": 0.92,
+    "following": 0.96
+   },
+   "after_3s": {
+    "search": 0.96,
+    "following": 1.0
+   },
+   "after_5s": {
+    "search": 0.96,
+    "following": 1.0
+   }
+  }
+ }
+}
