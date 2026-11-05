@@ -29,7 +29,7 @@ from transformers import (
     WhisperProcessor,
 )
 
-from shravan import config, data, env, metrics, results
+from shravan import config, data, env, metrics, recordings, results
 from shravan.config import ROOT
 
 LABEL_TOKENS = 128
@@ -113,6 +113,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("model")
     ap.add_argument("--resume", action="store_true", help="carry on from the last checkpoint of a stopped run")
+    ap.add_argument("--name", help="its folder in checkpoints/ (default: the model name)")
     args = ap.parse_args()
 
     cfg = config.load()
@@ -135,8 +136,11 @@ def main() -> None:
     model.config.use_cache = not t["checkpointing"]  # the decoder's cache can't be kept while recomputing
 
     train, valid = data.clips(cfg.work, "train"), data.clips(cfg.work, "validation")
+    # a family recording's clips count family_repeat times (config.yaml); a published one's once
+    family = {r.slug for r in recordings.load(cfg.recordings) if r.who != "published"}
+    train += [c for c in train if c.recording in family] * (t["family_repeat"] - 1)
     start = model.config.decoder_start_token_id
-    out = ROOT / "checkpoints" / re.sub(r"[^a-z0-9]+", "-", args.model.lower()).strip("-")
+    out = ROOT / "checkpoints" / (args.name or re.sub(r"[^a-z0-9]+", "-", args.model.lower()).strip("-"))
 
     def score(pred: Any) -> dict[str, float]:
         ids = np.where(pred.predictions != -100, pred.predictions, processor.tokenizer.pad_token_id)
@@ -192,6 +196,7 @@ def main() -> None:
     history = [h for h in trainer.state.log_history if "eval_letters_wrong" in h]
     scores = {
         "train_clips": len(train),
+        "family_clips": sum(c.recording in family for c in train),
         "validation_clips": len(valid),
         "steps": trainer.state.global_step,
         "best_step": int(str(trainer.state.best_model_checkpoint).rsplit("-", 1)[-1]),

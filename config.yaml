@@ -37,6 +37,8 @@ training:
   patience: 5                       # evaluations in a row without improving before stopping
   augment: true                     # random speed (±10%), volume and a little noise, so one chanter's takes aren't
                                     # simply memorised
+  family_repeat: 3                  # each family clip counts this many times per pass: an hour of a published recording
+                                    # would otherwise drown out a few minutes of the voices the app must follow
   seed: 1
 
 targets:

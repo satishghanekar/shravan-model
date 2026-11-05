@@ -4,7 +4,8 @@ A verse is one block of the text ([para 1], [2], [once], …); its label is the 
 spaces. Pavamana Suktam's verses carry their Rigveda reference in the English line (|| 9.001.01 ||), which gives each
 one its hymn and verse number for the train / validation / test split (verses()). Any other text's units are its
 blocks, each with a key: its number ("132"), or its kind and how many of that kind came before ("once-7")
-(stanzas()). A recording of part of a text, or with a part said twice, names its blocks in order (select()).
+(stanzas()). sung() puts an aarti's dhrupad back after every stanza. A recording of part of a text, or with a part said
+twice, names its blocks in order (select()).
 """
 
 from __future__ import annotations
@@ -69,6 +70,25 @@ def stanzas(text: Text) -> list[Unit]:
         label = " ".join(plain(ln.orig) for ln in lines).strip()
         if label:
             out.append(Unit(f"{text.id}/{key}", 0, int(number.group(1)) if number else 0, label))
+    return out
+
+
+def sung(text: Text) -> list[Unit]:
+    """A text's units in the order they are chanted. With "refrain: every-verse" (an aarti) the dhrupad comes again
+    after every stanza, and first of all with "refrain-before-first: yes", as the site shows it; otherwise each block
+    once, in the file's order."""
+    every = of(text)
+    if text.header.get("refrain") != "every-verse":
+        return every
+    refrain = [u for u in every if u.key.startswith("dhrupad-")]
+    out = (
+        [u for u in every if u.key.startswith("once-") and every.index(u) < every.index(refrain[0])] if refrain else []
+    )
+    if text.header.get("refrain-before-first") == "yes":
+        out += refrain
+    for u in every:
+        if u.key.isdigit():
+            out += [u, *refrain]
     return out
 
 
