@@ -1,0 +1,16 @@
+# Audio never goes into git: it is private and too big.
+*.m4a
+*.wav
+*.mp3
+*.flac
+*.ogg
+# Models and training checkpoints are large and can be rebuilt.
+checkpoints/
+models/
+*.onnx
+*.safetensors
+*.bin
+# Python
+.venv/
+__pycache__/
+.DS_Store

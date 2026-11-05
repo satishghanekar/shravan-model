@@ -1,0 +1,23 @@
+# Settings for training and testing. Paths are relative to this folder.
+
+texts:
+  - ../nitya-upasana/content/texts
+  # - ../sankathara-chaturthi/content/texts   # turn on if one model should serve both apps
+
+audio: ~/chant-audio
+recordings: recordings.csv
+
+model: openai/whisper-base          # the phone model; openai/whisper-small for the accuracy reference
+language: mr
+drop_svaras: true                   # the matcher compares plain Devanagari, so accent marks are left out
+
+training:
+  precision: fp32                   # the M4's half precision is unreliable for training
+  batch_size: 8
+  learning_rate: 1.0e-5
+  max_steps: 3000
+  eval_every: 500                   # keeps the best version, so overtraining can't spoil it
+
+targets:
+  character_error_rate: 0.15
+  line_found_within_3s: 0.95
