@@ -69,7 +69,9 @@ def test_a_block_too_long_for_one_clip_is_cut_into_pieces_of_a_few_lines():
     rudra = stanzas(load_all(CFG.texts)["vedic-chant-shree-rudra"])
     first = [u for u in rudra if u.block == "1"]
     # the first anuvaka, about two minutes chanted: in pieces, each short enough for a clip, its lines all kept
-    assert len(first) > 3 and all(len(u.label) <= MAX_LETTERS for u in first)
+    assert len(first) > 3 and all(len(u.label) <= MAX_LETTERS * 1.5 for u in first)
+    # in even pieces, never a long one and a scrap
+    assert min(len(u.label) for u in first) > MAX_LETTERS / 2
     assert [u.key for u in first][:2] == ["1.1", "1.2"]
     assert select(rudra, "1") == first and select(rudra, "1.2")[0] == first[1]
     # short verses stay whole

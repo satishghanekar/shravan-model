@@ -87,8 +87,18 @@ held out) and the app's own measure, the right place within 3 seconds of a verse
 | Pavamana Suktam, hymns 61–63 | 10% | 100% of 610 | 100% |
 | Lalita Sahasranama, SJ (never trained on) | 45% | 96% of 190 | 96% |
 
-Trained on one published recording of one text, the model already follows a family voice through another. Next: more
-family recordings to test on, then the phone-sized model (ONNX, int8).
+Trained on one published recording of one text, the model already follows a family voice through another.
+
+Then trained again with SG's recordings at home as well (21 minutes, each clip counted three times;
+`checkpoints/base-v2-family`), on tests it never trained on:
+
+| Whisper base | Pavamana 61–63 | SG's Purusha Suktam | SJ's Lalita |
+|---|---|---|---|
+| Published Pavamana only: letters wrong | 10.0% | 29.2% | 45.1% |
+| With SG's recordings: letters wrong | 10.3% | **24.6%** | **40.9%** |
+| With SG's recordings: right place within 3 s (following) | 98.7% | 100% | 96.6% |
+
+Next: more family recordings, then the phone-sized model (ONNX, int8).
 
 ## Adding recordings
 

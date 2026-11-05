@@ -61,19 +61,29 @@ def verses(text: Text) -> list[Unit]:
     return units
 
 
-# The most letters one unit holds: about 25 seconds of chanting, so its clip stays under Whisper's 30 seconds
-MAX_LETTERS = 180
+# The most letters one unit holds: about 12 seconds of chanting, as long as a Pavamana verse. Longer clips (20 s and
+# more) were heard worse, the model sometimes repeating a phrase (2026-11-05)
+MAX_LETTERS = 120
 
 
 def pieces(lines: list[Line]) -> list[list[Line]]:
-    """A block's lines in runs of at most MAX_LETTERS letters (a single longer line stays whole): one run for a
-    short block, several for a long one (an anuvaka of the Rudram)."""
+    """A long block's lines in runs of about even length, none much over MAX_LETTERS letters (a single longer line stays
+    whole): one run for a short block, several for a long one (an anuvaka of the Rudram), never a long one and a
+    scrap."""
+    sizes = [len(plain(ln.orig)) + 1 for ln in lines]
+    # (a block up to half as long again stays whole: an aarti's stanza, a Pavamana verse)
+    if sum(sizes) <= MAX_LETTERS * 1.5:
+        return [lines]
+    count = -(-sum(sizes) // MAX_LETTERS)  # (rounded up)
+    target = sum(sizes) / count
     runs: list[list[Line]] = [[]]
-    for ln in lines:
-        size = sum(len(plain(x.orig)) + 1 for x in runs[-1])
-        if runs[-1] and size + len(plain(ln.orig)) > MAX_LETTERS:
+    filled = 0
+    for ln, size in zip(lines, sizes, strict=True):
+        # a new run once this one has its share, as long as runs are left to fill
+        if runs[-1] and filled + size / 2 > target * len(runs) and len(runs) < count:
             runs.append([])
         runs[-1].append(ln)
+        filled += size
     return runs
 
 

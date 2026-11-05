@@ -56,7 +56,8 @@ def main() -> None:
         for after in AFTER:
             pieces = []
             for _, r in tested:
-                t = r["start"] + after
+                # (never past the unit's own end: a short piece is checked at its end)
+                t = r["start"] + min(after, r["end"] - r["start"])
                 pieces.append(audio[int(max(t - WINDOW, 0) * rate) : int(t * rate)])
             heard = hear.transcribe(args.model, pieces, cfg.language)
             search = following = 0
