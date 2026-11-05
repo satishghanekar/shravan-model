@@ -1,0 +1,48 @@
+id: aarti-durge-durghat-bhari
+title: देवीची आरती
+title-en: Devi Aarti
+category: aarti
+language: mr
+legacy-id: a3
+line-ids: s3l
+refrain: every-verse
+credit: रचना : [संत नरहरी सोनार](https://mr.wikipedia.org/wiki/नरहरी_सोनार) (१३ वे शतक)
+credit-en: By [Sant Narahari Sonar](https://en.wikipedia.org/wiki/Narahari_Sonar) (13th century)
+---
+[dhrupad]
+जय देवी जय देवी महिषासुरमर्दिनी ।
+Jai Devi Jai Devi Mahishasuramardini |
+सुरवर ईश्वर वरदे तारक संजीवनी ।
+Survar Ishwara Varade Taraka Sanjivani |
+जय देवी जय देवी ॥ धृ. ॥
+Jai Devi Jai Devi || Dhr. ||
+
+[1]
+दुर्गे दुर्घट भारी तुजविण संसारी ।
+Durge Durghat Bhari Tujvin Sansari |
+अनाथनाथे अंबे करुणा विस्तारी ।
+Anathanathe Ambe Karuna Vistari |
+वारी वारी जन्ममरणाते वारी ।
+Vari Vari Janmamaranate Vari |
+हारी पडलो आता संकट निवारी ॥
+Hari Padalo Ata Sankat Nivari ||
+
+[2]
+त्रिभुवन भुवनी पाहत तुज ऐसे नाही ।
+Tribhuvana Bhuvani Pahata Tuja Aise Nahi |
+चारी श्रमले परंतु न बोलवे काही ।
+Chari Shramale Parantu Na Bolve Kahi |
+साही विवाद करिता पडिलो प्रवाही ।
+Sahi Vivad Karita Padilo Pravahi |
+ते तूं भक्तांलागी पावसि लवलाही ॥
+Te Tu Bhaktalagi Pavasi Lavalahi ||
+
+[3]
+प्रसन्न वदने प्रसन्न होसी निजदासा ।
+Prasanna Vadane Prasanna Hosi Nijadasa |
+क्लेशांपासुनि सोडवी तोडी भवपाशा ।
+Kleshampasuni Sodavi Todi Bhavapasha |
+अंबे तुजवाचून कोण पुरवी आशा ।
+Ambe Tujvachun Kon Purvi Asha |
+नरहर तल्लीन झाला पद पंकज लेशा ॥
+Narahar Tallina Jhala Pada Pankaja Lesha ||

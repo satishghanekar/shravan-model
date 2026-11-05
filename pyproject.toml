@@ -1,0 +1,28 @@
+# Settings for the checks (ruff, mypy, pytest). Shravan is not installed as a package: the commands in scripts/ and
+# the tests import it from this folder.
+
+[project]
+name = "shravan"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["texts", "work", "results"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.12"
+files = ["shravan", "scripts"]
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

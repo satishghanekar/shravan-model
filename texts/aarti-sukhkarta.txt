@@ -1,0 +1,48 @@
+id: aarti-sukhkarta
+title: सुखकर्ता दुःखहर्ता
+title-en: Sukhkarta Dukhharta
+category: aarti
+language: mr
+legacy-id: a1
+line-ids: s1l
+refrain: every-verse
+credit: रचना : [समर्थ रामदास](https://mr.wikipedia.org/wiki/सुखकर्ता_दुःखहर्ता) (१६०८–१६८२)
+credit-en: By [Samarth Ramdas](https://en.wikipedia.org/wiki/Sukhakarta_Dukhaharta) (1608–1682)
+---
+[dhrupad]
+जय देव जय देव, जय मंगल मूर्ती ।
+Jai Dev Jai Dev, Jai Mangal Murti |
+दर्शनमात्रे मनःकामना पूर्ती ।
+Darshan Maatre Manakaamna Purti |
+जय देव जय देव ॥ धृ. ॥
+Jai Dev Jai Dev || Dhr. ||
+
+[1]
+सुखकर्ता दुःखहर्ता, वार्ता विघ्नाची ।
+Sukhkarta Dukhharta, Varta Vighnachi |
+नुरवी पुरवी प्रेम कृपा जयाची ।
+Nurvi Purvi Prem Krupa Jayachi |
+सर्वांगी सुंदर उटी शेंदुराची ।
+Sarvangi Sundar Uti Shendurachi |
+कंठी झळके माळ मुक्ताफळांची ॥
+Kanthi Jhalke Mal Muktaphalanchi ||
+
+[2]
+रत्नखचित फरा तुज गौरीकुमरा ।
+Ratnakhachit Phara Tuj Gaurikumra |
+चंदनाची उटी कुंकुमकेशरा ।
+Chandanaachi Uti Kumkumkeshara |
+हिरेजडित मुकुट शोभतो बरा ।
+Hirejadit Mukut Shobhato Bara |
+रुणझुणती नूपुरे चरणी घागरिया ॥
+Runjhunati Nupure Charani Ghagariya ||
+
+[3]
+लंबोदर पीतांबर फणिवरबंधना ।
+Lambodar Pitaambar Phanivarbandhana |
+सरळ सोंड वक्रतुंड त्रिनयना ।
+Saral Sond Vakratunda Trinayana |
+दास रामाचा वाट पाहे सदना ।
+Das Ramacha Vaat Pahe Sadana |
+संकटी पावावे निर्वाणी रक्षावे सुरवरवंदना ॥
+Sankati Pavave Nirvani Rakshave Survarvandana ||

@@ -1,0 +1,41 @@
+id: aarti-belaguve
+title: आरती बेळगुवे
+title-en: Aarti Belaguve
+category: aarti
+language: mr
+refrain: every-verse
+refrain-before-first: yes
+---
+[once]
+॥ श्रीराम समर्थ ॥
+|| Shriram Samartha ||
+
+[dhrupad]
+आरती बेळगुवे सद्‌गुरु श्रीब्रह्मचैतन्या ।
+Aarti Belaguve Sadguru Shribrahmachaitanya |
+परब्रह्मा परात्परा सनकादिकमान्या ॥ धृ. ॥
+Parabrahma Paratpara Sanakadikamanya || Dhr. ||
+
+[1]
+नित्यशुद्धा निजानंदा निरुपमवैभवा ।
+Nityashuddha Nijananda Nirupamavaibhava |
+निरंजना निष्प्रपंचा निजजनभवदावा ।
+Niranjana Nishprapancha Nijajanabhavadava |
+निरीह निर्मळ मुनिगणनु तपदि कायो राघवा ॥
+Nirih Nirmal Munigananu Tapadi Kayo Raghava ||
+
+[2]
+वाराणसी क्षेत्रदि प्रेतव बदकिसिदातने ।
+Varanasi Kshetradi Pretav Badakisidatane |
+इहल्लिद्दू दूरिन भक्तगे दर्शन कोट्टवने ।
+Ihalliddu Durin Bhaktage Darshan Kottavane |
+ओंदू पाविन अन्नव सावरि मंदिगुणिसिदवने ॥
+Ondu Pavin Annav Savari Mandigunisidavane ||
+
+[3]
+सुंदरानना कुंदरदना इंदीवरनयना ।
+Sundaranana Kundaradana Indivaranayana |
+मंदस्मित हन्मंदिरस्थापित इंदिरारमणा ।
+Mandasmit Hanmandirasthapit Indiraramana |
+गंधवाहप्रिय पाहि पाहि ब्रह्मानंदना ॥
+Gandhavahapriy Pahi Pahi Brahmanandana ||

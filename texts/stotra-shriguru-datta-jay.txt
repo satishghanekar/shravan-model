@@ -1,0 +1,32 @@
+id: stotra-shriguru-datta-jay
+title: श्रीगुरु दत्ता जय
+title-en: Shriguru Datta Jay
+category: stotra
+language: mr
+refrain: every-verse
+credit: रचना : [श्री वासुदेवानंद सरस्वती (टेंबे स्वामी)](https://mr.wikipedia.org/wiki/वासुदेवानंद_सरस्वती) (१८५४–१९१४)
+credit-en: By [Shri Vasudevanand Saraswati (Tembe Swami)](https://en.wikipedia.org/wiki/Vasudevanand_Saraswati) (1854–1914)
+---
+[dhrupad]
+श्रीगुरु दत्ता जय भगवंता । ¦तें मन निष्ठुर न करी आतां ॥ धृ ॥
+Shriguru Datta Jay Bhagavanta | Ten Man Nishthur Na Kari Aatan || Dhr. ||
+
+[1]
+चोरे द्विजासी मारितां मन जे । ¦कळवळले ते कळवळो आतां ॥
+Chore Dvijasi Maritan Man Je | Kalavalale Te Kalavalo Aatan ||
+
+[2]
+पोटशूळाने द्विज तडफडता, ¦कळवळले ते कळवळो आतां ॥
+Potashulane Dvij Tadaphadata, Kalavalale Te Kalavalo Aatan ||
+
+[3]
+द्विजसुत मरतां वळले ते मन, ¦हो की उदासिन न वळे आतां ॥
+Dvijasut Maratan Valale Te Man, Ho Ki Udasin Na Vale Aatan ||
+
+[4]
+सतिपति मरतां काकुळति येतां, ¦वळले ते मन न वळे की आतां ॥
+Satipati Maratan Kakulati Yetan, Valale Te Man Na Vale Ki Aatan ||
+
+[5]
+श्रीगुरुदत्ता त्यजि निष्ठुरता, ¦कोमल चित्ता वळवी आतां ॥
+Shrigurudatta Tyaji Nishthurata, Komal Chitta Valavi Aatan ||

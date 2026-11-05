@@ -1,0 +1,37 @@
+id: aarti-jai-ganesh-deva
+title: आरती जय गणेश देवा
+title-en: Aarti Jai Ganesh Deva
+category: aarti
+language: hi
+legacy-id: a9
+line-ids: s9l
+refrain: every-verse
+refrain-before-first: yes
+credit: पारंपरिक
+credit-en: Traditional
+---
+[dhrupad]
+जय गणेश जय गणेश, जय गणेश देवा ।
+Jai Ganesh Jai Ganesh, Jai Ganesh Deva |
+माता जाकी पार्वती, पिता महादेवा ॥
+Mata Jaaki Parvati, Pita Mahadeva ||
+
+[1]
+एकदंत दयावंत, चार भुजा धारी ।
+Ekadant Dayavant, Chaar Bhuja Dhaari |
+माथे सिंदूर सोहे, मूसे की सवारी ॥
+Maathe Sindoor Sohe, Moose Ki Savaari ||
+पान चढ़े फूल चढ़े, और चढ़े मेवा ।
+Paan Chadhe Phool Chadhe, Aur Chadhe Meva |
+लड्डुअन का भोग लगे, संत करें सेवा ॥
+Ladduan Ka Bhog Lage, Sant Kare Seva ||
+
+[2]
+अंधे को आँख देत, कोढ़ी को काया ।
+Andhe Ko Aankh Det, Kodhi Ko Kaaya |
+बाँझन को पुत्र देत, निर्धन को माया ॥
+Baanjhan Ko Putra Det, Nirdhan Ko Maaya ||
+सूर श्याम शरण आए, सफल कीजे सेवा ।
+Sur Shyam Sharan Aaye, Safal Kije Seva |
+माता जाकी पार्वती, पिता महादेवा ॥
+Mata Jaaki Parvati, Pita Mahadeva ||

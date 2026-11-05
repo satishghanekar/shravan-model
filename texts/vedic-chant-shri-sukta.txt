@@ -1,0 +1,264 @@
+id: vedic-chant-shri-sukta
+title: श्रीसूक्त
+title-en: Shri Sukta
+category: vedic-chant
+language: sa
+stanza-numbers: as-written
+credit: ऋग्वेद (खिलसूक्त)
+credit-en: Rig Veda (Khila Sukta)
+---
+[1]
+ॐ ॥ हिरण्यवर्णां हरिणीं सुवर्णरजतस्रजाम् ।
+Om || Hiranyavarnam Harinim Suvarnarajatasrajam |
+चन्द्रां हिरण्मयीं लक्ष्मीं जातवेदो म आवह ॥ १॥
+Chandram Hiranmayim Lakshmim Jatavedo Ma Avaha || 1 ||
+
+[2]
+तां म आवह जातवेदो लक्ष्मीमनपगामिनीम् ।
+Tam Ma Avaha Jatavedo Lakshmimanapagaminim |
+यस्यां हिरण्यं विन्देयं गामश्वं पुरुषानहम् ॥ २॥
+Yasyam Hiranyam Vindeyam Gamashvam Purushanaham || 2 ||
+
+[3]
+अश्वपूर्वां रथमध्यां हस्तिनादप्रबोधिनीम् ।
+Ashvapurvam Rathamadhyam Hastinadaprabodhinim |
+श्रियं देवीमुपह्वये श्रीर्मादेवीर्जुषताम् ॥ ३॥
+Shriyam Devimupahvaye Shrirmadevirjushatam || 3 ||
+
+[4]
+कां सोस्मितां हिरण्यप्राकारामार्द्रां ज्वलन्तीं तृप्तां तर्पयन्तीम् ।
+Kam Sosmitam Hiranyaprakaramardram Jvalantim Truptam Tarpayantim |
+पद्मे स्थितां पद्मवर्णां तामिहोपह्वये श्रियम् ॥ ४॥
+Padme Sthitam Padmavarnam Tamihopahvaye Shriyam || 4 ||
+
+[5]
+चन्द्रां प्रभासां यशसा ज्वलन्तीं श्रियं लोके देवजुष्टामुदाराम् ।
+Chandram Prabhasam Yashasa Jvalantim Shriyam Loke Devajushtamudaram |
+तां पद्मिनीमीं शरणमहं प्रपद्येऽलक्ष्मीर्मे नश्यतां त्वां वृणे ॥ ५॥
+Tam Padminimim Sharanamaham Prapadyelakshmirme Nashyatam Tvam Vrune || 5 ||
+
+[6]
+आदित्यवर्णे तपसोऽधिजातो वनस्पतिस्तव वृक्षोऽथ बिल्वः ।
+Adityavarne Tapasodhijato Vanaspatistava Vrukshotha Bilvah |
+तस्य फलानि तपसा नुदन्तु मायान्तरायाश्च बाह्या अलक्ष्मीः ॥ ६॥
+Tasya Phalani Tapasa Nudantu Mayantarayashcha Bahya Alakshmih || 6 ||
+
+[7]
+उपैतु मां देवसखः कीर्तिश्च मणिना सह ।
+Upaitu Mam Devasakhah Kirtishcha Manina Saha |
+प्रादुर्भूतोऽस्मि राष्ट्रेऽस्मिन् कीर्तिमृद्धिं ददातु मे ॥ ७॥
+Pradurbhutosmi Rashtresmin Kirtimruddhim Dadatu Me || 7 ||
+
+[8]
+क्षुत्पिपासामलां ज्येष्ठामलक्ष्मीं नाशयाम्यहम् ।
+Kshutpipasamalam Jyeshthamalakshmim Nashayamyaham |
+अभूतिमसमृद्धिं च सर्वां निर्णुद मे गृहात् ॥ ८॥
+Abhutimasamruddhim Cha Sarvam Nirnuda Me Gruhat || 8 ||
+
+[9]
+गंधद्वारां दुराधर्षां नित्यपुष्टां करीषिणीम् ।
+Gandhadvaram Duradharsham Nityapushtam Karishinim |
+ईश्वरीꣳ सर्वभूतानां तामिहोपह्वये श्रियम् ॥ ९॥
+Ishvarim Sarvabhutanam Tamihopahvaye Shriyam || 9 ||
+
+[10]
+मनसः काममाकूतिं वाचः सत्यमशीमहि ।
+Manasah Kamamakutim Vachah Satyamashimahi |
+पशूनां रूपमन्नस्य मयि श्रीः श्रयतां यशः ॥ १०॥
+Pashunam Rupamannasya Mayi Shrih Shrayatam Yashah || 10 ||
+
+[11]
+कर्दमेन प्रजाभूता मयि सम्भव कर्दम ।
+Kardamena Prajabhuta Mayi Sambhava Kardama |
+श्रियं वासय मे कुले मातरं पद्ममालिनीम् ॥ ११॥
+Shriyam Vasaya Me Kule Mataram Padmamalinim || 11 ||
+
+[12]
+आपः सृजन्तु स्निग्धानि चिक्लीत वस मे गृहे ।
+Apah Srujantu Snigdhani Chiklita Vasa Me Gruhe |
+नि च देवीं मातरं श्रियं वासय मे कुले ॥ १२॥
+Ni Cha Devim Mataram Shriyam Vasaya Me Kule || 12 ||
+
+[13]
+आर्द्रां पुष्करिणीं पुष्टिं पिङ्गलां पद्ममालिनीम् ।
+Ardram Pushkarinim Pushtim Pingalam Padmamalinim |
+चन्द्रां हिरण्मयीं लक्ष्मीं जातवेदो म आवह ॥ १३॥
+Chandram Hiranmayim Lakshmim Jatavedo Ma Avaha || 13 ||
+
+[14]
+आर्द्रां यः करिणीं यष्टिं सुवर्णां हेममालिनीम् ।
+Ardram Yah Karinim Yashtim Suvarnam Hemamalinim |
+सूर्यां हिरण्मयीं लक्ष्मीं जातवेदो म आवह ॥ १४॥
+Suryam Hiranmayim Lakshmim Jatavedo Ma Avaha || 14 ||
+
+[15]
+तां म आवह जातवेदो लक्ष्मीमनपगामिनीम् ।
+Tam Ma Avaha Jatavedo Lakshmimanapagaminim |
+यस्यां हिरण्यं प्रभूतं गावो दास्योऽश्वान्विन्देयं पुरुषानहम् ॥ १५॥
+Yasyam Hiranyam Prabhutam Gavo Dasyoshvanvindeyam Purushanaham || 15 ||
+
+[16]
+यः शुचिः प्रयतो भूत्वा जुहुयादाज्य मन्वहम् ।
+Yah Shuchih Prayato Bhutva Juhuyadajya Manvaham |
+श्रियः पञ्चदशर्चं च श्रीकामः सततं जपेत् ॥ १६॥
+Shriyah Panchadasharcham Cha Shrikamah Satatam Japet || 16 ||
+
+[note: फलश्रुति | Phalashruti]
+
+[17]
+पद्मानने पद्म ऊरू पद्माक्षी पद्मसम्भवे ।
+Padmanane Padma Uru Padmakshi Padmasambhave |
+त्वं मां भजस्व पद्माक्षी येन सौख्यं लभाम्यहम् ॥
+Tvam Mam Bhajasva Padmakshi Yena Saukhyam Labhamyaham ||
+
+[18]
+अश्वदायी गोदायी धनदायी महाधने ।
+Ashvadayi Godayi Dhanadayi Mahadhane |
+धनं मे जुषतां देवि सर्वकामांश्च देहि मे ॥
+Dhanam Me Jushatam Devi Sarvakamamshcha Dehi Me ||
+
+[19]
+पुत्रपौत्र धनं धान्यं हस्त्यश्वादिगवे रथम् ।
+Putrapautra Dhanam Dhanyam Hastyashvadigave Ratham |
+प्रजानां भवसि माता आयुष्मन्तं करोतु माम् ॥
+Prajanam Bhavasi Mata Ayushmantam Karotu Mam ||
+
+[20]
+धनमग्निर्धनं वायुर्धनं सूर्यो धनं वसुः ।
+Dhanamagnirdhanam Vayurdhanam Suryo Dhanam Vasuh |
+धनमिन्द्रो बृहस्पतिर्वरुणं धनमश्नु ते ॥
+Dhanamindro Bruhaspatirvarunam Dhanamashnu Te ||
+
+[21]
+वैनतेय सोमं पिब सोमं पिबतु वृत्रहा ।
+Vainateya Somam Piba Somam Pibatu Vrutraha |
+सोमं धनस्य सोमिनो मह्यं ददातु सोमिनः ॥
+Somam Dhanasya Somino Mahyam Dadatu Sominah ||
+
+[22]
+न क्रोधो न च मात्सर्यं न लोभो नाशुभा मतिः ॥
+Na Krodho Na Cha Matsaryam Na Lobho Nashubha Matih ||
+
+[23]
+भवन्ति कृतपुण्यानां भक्तानां श्रीसूक्तं जपेत्सदा ॥
+Bhavanti Krutapunyanam Bhaktanam Shrisuktam Japetsada ||
+
+[24]
+वर्षन्तु ते विभावरि दिवो अभ्रस्य विद्युतः ।
+Varshantu Te Vibhavari Divo Abhrasya Vidyutah |
+रोहन्तु सर्वबीजान्यव ब्रह्म द्विषो जहि ॥
+Rohantu Sarvabijanyava Brahma Dvisho Jahi ||
+
+[25]
+पद्मप्रिये पद्मिनि पद्महस्ते पद्मालये पद्मदलायताक्षि ।
+Padmapriye Padmini Padmahaste Padmalaye Padmadalayatakshi |
+विश्वप्रिये विष्णु मनोऽनुकूले त्वत्पादपद्मं मयि सन्निधत्स्व ॥
+Vishvapriye Vishnu Manonukule Tvatpadapadmam Mayi Sannidhatsva ||
+
+[26]
+या सा पद्मासनस्था विपुलकटितटी पद्मपत्रायताक्षी ।
+Ya Sa Padmasanastha Vipulakatitati Padmapatrayatakshi |
+गम्भीरा वर्तनाभिः स्तनभर नमिता शुभ्र वस्त्रोत्तरीया ।
+Gambhira Vartanabhih Stanabhara Namita Shubhra Vastrottariya |
+लक्ष्मीर्दिव्यैर्गजेन्द्रैर्मणिगण खचितैस्स्नापिता हेमकुम्भैः ।
+Lakshmirdivyairgajendrairmanigana Khachitaissnapita Hemakumbhaih |
+नित्यं सा पद्महस्ता मम वसतु गृहे सर्वमाङ्गल्ययुक्ता ॥
+Nityam Sa Padmahasta Mama Vasatu Gruhe Sarvamangalyayukta ||
+
+[27]
+लक्ष्मीं क्षीरसमुद्र राजतनयां श्रीरंगधामेश्वरीम् ।
+Lakshmim Kshirasamudra Rajatanayam Shrirangadhameshvarim |
+दासीभूतसमस्त देव वनितां लोकैक दीपांकुराम् ।
+Dasibhutasamasta Deva Vanitam Lokaika Dipankuram |
+श्रीमन्मन्दकटाक्षलब्ध विभव ब्रह्मेन्द्रगङ्गाधराम् ।
+Shrimanmandakatakshalabdha Vibhava Brahmendragangadharam |
+त्वां त्रैलोक्य कुटुम्बिनीं सरसिजां वन्दे मुकुन्दप्रियाम् ॥
+Tvam Trailokya Kutumbinim Sarasijam Vande Mukundapriyam ||
+
+[28]
+सिद्धलक्ष्मीर्मोक्षलक्ष्मीर्जयलक्ष्मीस्सरस्वती ।
+Siddhalakshmirmokshalakshmirjayalakshmissarasvati |
+श्रीलक्ष्मीर्वरलक्ष्मीश्च प्रसन्ना मम सर्वदा ॥
+Shrilakshmirvaralakshmishcha Prasanna Mama Sarvada ||
+
+[29]
+वरांकुशौ पाशमभीतिमुद्रां करैर्वहन्तीं कमलासनस्थाम् ।
+Varankushau Pashamabhitimudram Karairvahantim Kamalasanastham |
+बालार्क कोटि प्रतिभां त्रिणेत्रां भजेहमाद्यां जगदीश्वरीं ताम् ॥
+Balarka Koti Pratibham Trinetram Bhajehamadyam Jagadishvarim Tam ||
+
+[30]
+सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थ साधिके ।
+Sarvamangalamangalye Shive Sarvartha Sadhike |
+शरण्ये त्र्यम्बके देवि नारायणि नमोऽस्तु ते ॥
+Sharanye Tryambake Devi Narayani Namostu Te ||
+
+[31]
+सरसिजनिलये सरोजहस्ते धवलतरांशुक गन्धमाल्यशोभे ।
+Sarasijanilaye Sarojahaste Dhavalataramshuka Gandhamalyashobhe |
+भगवति हरिवल्लभे मनोज्ञे त्रिभुवनभूतिकरिप्रसीद मह्यम् ॥
+Bhagavati Harivallabhe Manodnye Tribhuvanabhutikariprasida Mahyam ||
+
+[32]
+विष्णुपत्नीं क्षमां देवीं माधवीं माधवप्रियाम् ।
+Vishnupatnim Kshamam Devim Madhavim Madhavapriyam |
+विष्णोः प्रियसखींम् देवीं नमाम्यच्युतवल्लभाम् ॥
+Vishnoh Priyasakhimm Devim Namamyachyutavallabham ||
+
+[33]
+महालक्ष्मी च विद्महे विष्णुपत्नी च धीमही ।
+Mahalakshmi Cha Vidmahe Vishnupatni Cha Dhimahi |
+तन्नो लक्ष्मीः प्रचोदयात् ॥
+Tanno Lakshmih Prachodayat ||
+
+[note: पाठभेद | Variant reading]
+
+[34]
+आनन्दः कर्दमः श्रीदश्चिक्लीत इति विश्रुताः ।
+Anandah Kardamah Shridashchiklita Iti Vishrutah |
+ऋषयः श्रियः पुत्राश्च श्रीर्देवीर्देवता मताः (स्वयम्
+Rushayah Shriyah Putrashcha Shrirdevirdevata Matah (Svayam
+श्रीरेव देवता ॥ )
+Shrireva Devata || )
+
+[note: पाठभेद | Variant reading]
+
+[35]
+चन्द्रभां लक्ष्मीमीशानाम् सूर्यभां श्रियमीश्वरीम् ।
+Chandrabham Lakshmimishanam Suryabham Shriyamishvarim |
+चन्द्र सूर्यग्नि सर्वाभाम् श्रीमहालक्ष्मीमुपास्महे ॥
+Chandra Suryagni Sarvabham Shrimahalakshmimupasmahe ||
+
+[36]
+श्रीवर्चस्यमायुष्यमारोग्यमाविधात् पवमानं महीयते ।
+Shrivarchasyamayushyamarogyamavidhat Pavamanam Mahiyate |
+धनं धान्यं पशुं बहुपुत्रलाभं शतसंवत्सरं दीर्घमायुः ॥
+Dhanam Dhanyam Pashum Bahuputralabham Shatasamvatsaram Dirghamayuh ||
+
+[37]
+ऋणरोगादिदारिद्र्यपापक्षुदपमृत्यवः ।
+Runarogadidaridryapapakshudapamrutyavah |
+भयशोकमनस्तापा नश्यन्तु मम सर्वदा ॥
+Bhayashokamanastapa Nashyantu Mama Sarvada ||
+
+[38]
+श्रिये जात श्रिय आनिर्याय श्रियं वयो जनितृभ्यो दधातु ।
+Shriye Jata Shriya Aniryaya Shriyam Vayo Janitrubhyo Dadhatu |
+श्रियं वसाना अमृतत्वमायन् भजंति सद्यः सविता विदध्यून् ॥
+Shriyam Vasana Amrutatvamayan Bhajanti Sadyah Savita Vidadhyun ||
+
+[39]
+श्रिय एवैनं तच्छ्रियामादधाति । सन्ततमृचा वषट्कृत्यं
+Shriya Evainam Tachchhriyamadadhati | Santatamrucha Vashatkrutyam
+सन्धत्तं सन्धीयते प्रजया पशुभिः । य एवं वेद ।
+Sandhattam Sandhiyate Prajaya Pashubhih | Ya Evam Veda |
+
+[40]
+ॐ महादेव्यै च विद्महे विष्णुपत्नी च धीमहि ।
+Om Mahadevyai Cha Vidmahe Vishnupatni Cha Dhimahi |
+तन्नो लक्ष्मीः प्रचोदयात् ॥
+Tanno Lakshmih Prachodayat ||
+
+[41]
+॥ ॐ शान्तिः शान्तिः शान्तिः ॥
+|| Om Shantih Shantih Shantih ||

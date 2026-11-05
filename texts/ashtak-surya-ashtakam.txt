@@ -1,0 +1,80 @@
+id: ashtak-surya-ashtakam
+title: श्री सूर्याष्टकम्
+title-en: Shri Surya Ashtakam
+category: ashtak
+language: sa
+stanza-numbers: as-written
+---
+[once]
+॥ श्री गणेशाय नमः ॥
+|| Shri Ganeshaya Namah ||
+
+[1]
+आदिदेव नमस्तुभ्यं प्रसीद मम भास्कर ।
+Adideva Namastubhyam Prasida Mama Bhaskara |
+दिवाकर नमस्तुभ्यं प्रभाकर नमोऽस्तु ते ॥ १ ॥
+Divakara Namastubhyam Prabhakara Namostu Te || 1 ||
+
+[2]
+सप्ताश्व रथमारूढं प्रचण्डं कश्यपात्मजम् ।
+Saptashva Rathamarudham Prachandam Kashyapatmajam |
+श्वेतपद्मधरं देवं तं सूर्यं प्रणमाम्यहम् ॥ २ ॥
+Shvetapadmadharam Devam Tam Suryam Pranamamyaham || 2 ||
+
+[3]
+लोहितं रथमारूढं सर्वलोक पितामहम् ।
+Lohitam Rathamarudham Sarvaloka Pitamaham |
+महापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥ ३ ॥
+Mahapapaharam Devam Tam Suryam Pranamamyaham || 3 ||
+
+[4]
+त्रैगुण्यश्च महाशूरं ब्रह्माविष्णु महेश्वरम् ।
+Traigunyashcha Mahashuram Brahmavishnu Maheshvaram |
+महापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥ ४ ॥
+Mahapapaharam Devam Tam Suryam Pranamamyaham || 4 ||
+
+[5]
+बृंहितं तेजःपुञ्जं च वायु आकाशमेव च ।
+Brunhitam Tejahpunjam Cha Vayu Akashameva Cha |
+प्रभुत्वं सर्वलोकानां तं सूर्यं प्रणमाम्यहम् ॥ ५ ॥
+Prabhutvam Sarvalokanam Tam Suryam Pranamamyaham || 5 ||
+
+[6]
+बन्धूकपुष्पसङ्काशं हारकुण्डलभूषितम् ।
+Bandhukapushpasankasham Harakundalabhushitam |
+एकचक्रधरं देवं तं सूर्यं प्रणमाम्यहम् ॥ ६ ॥
+Ekachakradharam Devam Tam Suryam Pranamamyaham || 6 ||
+
+[7]
+तं सूर्यं लोककर्तारं महा तेजः प्रदीपनम् ।
+Tam Suryam Lokakartaram Maha Tejah Pradipanam |
+महापाप हरं देवं तं सूर्यं प्रणमाम्यहम् ॥ ७ ॥
+Mahapapa Haram Devam Tam Suryam Pranamamyaham || 7 ||
+
+[8]
+तं सूर्यं जगतां नाथं ज्ञानप्रकाशमोक्षदम् ।
+Tam Suryam Jagatam Natham Dnyanaprakashamokshadam |
+महापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥ ८ ॥
+Mahapapaharam Devam Tam Suryam Pranamamyaham || 8 ||
+
+[9]
+सूर्याष्टकं पठेन्नित्यं ग्रहपीडा प्रणाशनम् ।
+Suryashtakam Pathennityam Grahapida Pranashanam |
+अपुत्रो लभते पुत्रं दरिद्रो धनवान् भवेत् ॥ ९ ॥
+Aputro Labhate Putram Daridro Dhanavan Bhavet || 9 ||
+
+[10]
+आमिषं मधुपानं च यः करोति रवेर्दिने ।
+Aamisham Madhupanam Cha Yah Karoti Raverdine |
+सप्तजन्मभवेत् रोगि जन्मजन्म दरिद्रता ॥ १० ॥
+Saptajanmabhavet Rogi Janmajanma Daridrata || 10 ||
+
+[11]
+स्त्री-तैल-मधु-मांसानि ये त्यजन्ति रवेर्दिने ।
+Stri-Taila-Madhu-Mamsani Ye Tyajanti Raverdine |
+न व्याधि शोक दारिद्र्यं सूर्य लोकं च गच्छति ॥ ११ ॥
+Na Vyadhi Shoka Daridryam Surya Lokam Cha Gachchhati || 11 ||
+
+[once]
+इति श्री शिवप्रोक्तं श्री सूर्याष्टकं सम्पूर्णम् ॥
+Iti Shri Shivaproktam Shri Suryashtakam Sampurnam ||

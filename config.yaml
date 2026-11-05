@@ -1,15 +1,16 @@
-# Settings for training and testing. Paths are relative to this folder.
+# Settings for training and testing (read by shravan/config.py). Paths are relative to this folder, or start with ~.
 
-texts:
-  - ../nitya-upasana/content/texts
-  # - ../sankathara-chaturthi/content/texts   # turn on if one model should serve both apps
-
-audio: ~/chant-audio
+texts: texts                        # copied from the site by scripts/sync_texts.py; texts/SOURCE says from which commit
+audio: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-training"   # iCloud Drive; never in git
+work: work                          # clips and alignments made from the audio; private, kept out of git
 recordings: recordings.csv
 
 model: openai/whisper-base          # the phone model; openai/whisper-small for the accuracy reference
-language: mr
-drop_svaras: true                   # the matcher compares plain Devanagari, so accent marks are left out
+language: sa                        # Whisper's language token: Sanskrit for the Vedic chants (Marathi, mr, comes later)
+
+# Never trained on: the test scores mean something only on chanting the model has not heard.
+# Pavamana Suktam hymns 9.51–9.67 (the last quarter), as long as it is the only text recorded.
+heldout_hymns: [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]
 
 training:
   precision: fp32                   # the M4's half precision is unreliable for training
@@ -17,6 +18,7 @@ training:
   learning_rate: 1.0e-5
   max_steps: 3000
   eval_every: 500                   # keeps the best version, so overtraining can't spoil it
+  seed: 1
 
 targets:
   character_error_rate: 0.15

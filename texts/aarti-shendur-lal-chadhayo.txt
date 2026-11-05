@@ -1,0 +1,48 @@
+id: aarti-shendur-lal-chadhayo
+title: शेंदुर लाल चढ़ायो
+title-en: Shendur Laal Chadhayo
+category: aarti
+language: hi
+legacy-id: a2
+line-ids: s2l
+refrain: every-verse
+credit: रचना : गोसावीनंदन
+credit-en: By Gosavinandan
+---
+[dhrupad]
+जय जय श्री गणराज विद्या सुखदाता ।
+Jai Jai Shri Ganraj Vidyasukhdata |
+धन्य तुम्हारा दर्शन मेरा मन रमता ।
+Dhanya Tumhara Darshan Mera Man Ramata |
+जय देव जय देव ॥ धृ. ॥
+Jai Dev Jai Dev || Dhr. ||
+
+[1]
+शेंदुर लाल चढ़ायो अच्छा गजमुख को ।
+Shendur Laal Chadhayo Achchha Gajmukh Ko |
+दुंदिल लाल बिराजे सुत गौरिहर को ।
+Dundil Laal Biraje Sut Gaurihar Ko |
+हाथ लिए गुड़-लड्डू साईं सुरवर को ।
+Haath Liye Gud-Laddu Sai Survar Ko |
+महिमा कहे न जाय लागत हूँ पाद को ॥
+Mahima Kahe Na Jay Lagat Hoon Paad Ko ||
+
+[2]
+अष्टौ सिद्धि दासी संकट को बैरि ।
+Ashtau Siddhi Dasi Sankat Ko Bairi |
+विघ्नविनाशन मंगल मूरत अधिकारी ।
+Vighnavinashan Mangal Murat Adhikari |
+कोटी सूरज प्रकाश ऐसी छबि तेरी ।
+Koti Suraj Prakash Aisi Chhabi Teri |
+गंडस्थल मदमस्तक झूले शशिबिहारी ॥
+Gandasthala Madmastak Jhoole Shashibihari ||
+
+[3]
+भावभगत से कोई शरणागत आवे ।
+Bhavbhagat Se Koi Sharanagat Aave |
+संतत संपत सबही भरपूर पावे ।
+Santat Sampat Sabhi Bharpur Pave |
+ऐसे तुम महाराज मोको अति भावे ।
+Aise Tum Maharaj Moko Ati Bhave |
+गोसावीनंदन निशिदिन गुण गावे ॥
+Gosavinandan Nishidin Gun Gave ||

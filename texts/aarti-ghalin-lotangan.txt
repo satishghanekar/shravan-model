@@ -1,0 +1,58 @@
+id: aarti-ghalin-lotangan
+title: घालीन लोटांगण
+title-en: Ghalin Lotangan
+category: aarti
+language: mr
+legacy-id: a8
+line-ids: s8l
+credit: संकलन : संत नामदेव व संस्कृत स्तोत्रे
+credit-en: A compilation: Sant Namdev and Sanskrit verses
+---
+[1]
+घालीन लोटांगण वंदीन चरण ।
+Ghalin Lotangan Vandin Charan |
+डोळ्यांनी पाहिन रूप तुझें ।
+Dolyanni Pahin Roop Tujhe |
+प्रेमें आलिंगन आनंदे पूजिन ।
+Preme Aalingan Aanande Poojin |
+भावें ओवाळिन म्हणे नामा ॥
+Bhaave Ovaalin Mhane Naama ||
+
+[2]
+त्वमेव माता च पिता त्वमेव ।
+Tvameva Mata Cha Pita Tvameva |
+त्वमेव बंधुश्च सखा त्वमेव ।
+Tvameva Bandhushcha Sakha Tvameva |
+त्वमेव विद्या द्रविणं त्वमेव ।
+Tvameva Vidya Dravinam Tvameva |
+त्वमेव सर्वं मम देवदेव ॥
+Tvameva Sarvam Mama Devadeva ||
+
+[3]
+कायेन वाचा मनसेंद्रियैर्वा ।¦ // बुद्ध्यात्मना वा प्रकृतिस्वभावात् ।
+Kayena Vacha Manasendriyairva |  // Buddhyatmana Va Prakrutisvabhavat |
+करोमि यद्यत्सकलं परस्मै ।¦ // नारायणायेति समर्पयामि ॥
+Karomi Yadyatsakalam Parasmai |  // Narayanayeti Samarpayami ||
+
+[4]
+अच्युतं केशवं रामनारायणं ।¦ // कृष्णदामोदरं वासुदेवं हरिम् ।
+Achyutam Keshavam Ramanarayanam |  // Krishnadamodaram Vasudevam Harim |
+श्रीधरं माधवं गोपिकावल्लभं ।¦ // जानकीनायकं रामचंद्रं भजे ॥
+Shridharam Madhavam Gopikavallabham |  // Janakinayakam Ramachandram Bhaje ||
+
+[dhrupad bold]
+हरे राम हरे रामराम राम हरे हरे ।
+Hare Ram Hare Ram Ram Ram Hare Hare |
+हरे कृष्ण हरे कृष्णकृष्ण कृष्ण हरे हरे ॥
+Hare Krishna Hare Krishna Krishna Krishna Hare Hare ||
+[refrain]
+हरे राम हरे रामराम राम हरे हरे ।
+Hare Ram Hare Ram Ram Ram Hare Hare |
+हरे कृष्ण हरे कृष्णकृष्ण कृष्ण हरे हरे ॥
+Hare Krishna Hare Krishna Krishna Krishna Hare Hare ||
+हरे राम हरे रामराम राम हरे हरे ।
+Hare Ram Hare Ram Ram Ram Hare Hare |
+हरे कृष्ण हरे कृष्णकृष्ण कृष्ण हरे हरे ॥
+Hare Krishna Hare Krishna Krishna Krishna Hare Hare ||
+
+[note: ↻ ३ वेळा | 3 times]
