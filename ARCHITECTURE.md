@@ -28,7 +28,9 @@ hear the words. Everything here exists to train that model fairly and to prove h
    `min_alignment_score` are left out: their audio may not match their label (a verse the chanter skipped).
 6. **Test** (`scripts/evaluate.py`): the untrained model first, then each trained one, on the held-out clips only.
 7. **Train** (`scripts/train.py`): full fine-tuning of Whisper base (the phone model) and small (the accuracy ceiling), fp32 on
-   the M4's GPU (`mps`), keeping the best checkpoint by validation score, with light augmentation (speed, volume, noise).
+   the M4's GPU (`mps`), keeping the best checkpoint by validation score, with light augmentation (speed, volume, noise). On 16 GB it
+   recomputes activations in the backward pass (gradient checkpointing) and caps PyTorch's GPU memory: without them a
+   batch of 8 grew past 13 GB and went into swap, 15 times slower.
 8. **Shrink and release** (to come): ONNX with int8 weights (`optimum-onnx`), tested again, then copied into the site
    as `models/chant-vN/` by the site's own rules.
 

@@ -1,5 +1,6 @@
 """The settings read cleanly, and the rules that keep tests fair and audio private hold."""
 
+import os
 from pathlib import Path
 
 from shravan import config
@@ -40,3 +41,26 @@ def test_every_hymn_has_exactly_one_split():
 
 def test_full_precision_on_the_mac():
     assert CFG.training["precision"] == "fp32"
+
+
+def test_training_fits_a_16_gb_mac():
+    t = CFG.training
+    # a batch of 8 needed over 13 GB without recomputing activations: checkpointing stays on unless the batch shrinks
+    assert t["checkpointing"] or t["batch_size"] * t["accumulate"] <= 4
+    assert t["batch_size"] >= 1 and t["accumulate"] >= 1
+    # above 1 PyTorch may take more than macOS recommends for the GPU, and the run goes into swap
+    assert 0 < t["gpu_memory"] <= 1
+
+
+def test_gpu_memory_cap(monkeypatch):
+    from shravan import env
+
+    monkeypatch.delenv("PYTORCH_MPS_HIGH_WATERMARK_RATIO", raising=False)
+    monkeypatch.delenv("PYTORCH_MPS_LOW_WATERMARK_RATIO", raising=False)
+    env.cap_gpu_memory(0.75)
+    assert os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] == "0.75"
+    # PyTorch refuses to start if the low mark isn't below the high one
+    assert float(os.environ["PYTORCH_MPS_LOW_WATERMARK_RATIO"]) < 0.75
+    monkeypatch.setenv("PYTORCH_MPS_HIGH_WATERMARK_RATIO", "0.5")
+    env.cap_gpu_memory(0.75)
+    assert os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] == "0.5"

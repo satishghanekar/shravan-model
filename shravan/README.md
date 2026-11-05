@@ -15,4 +15,4 @@ commands in `scripts/` read the config and call these.
 | `data.py` | The clips made by `scripts/cut.py`, from every recording's manifest | — |
 | `metrics.py` | Letters wrong (character error rate) and verses found (is the nearest verse the right one), what the model wrote cleaned by the label rules first | `test_pipeline.py` |
 | `results.py` | One file per run in `results/`: texts commit, recordings, split, settings and scores | — |
-| `env.py` | Points Python at certifi's certificates (python.org's Python on a Mac has none, and model downloads fail) | — |
+| `env.py` | Points Python at certifi's certificates (python.org's Python on a Mac has none, and model downloads fail); caps PyTorch's GPU memory (`gpu_memory`) so a run fails clearly instead of going into swap | `test_config.py` (the cap) |

@@ -9,6 +9,7 @@ them with scripts/evaluate.py.
 """
 
 import argparse
+import gc
 import random
 import re
 import time
@@ -23,12 +24,15 @@ from transformers import (
     EarlyStoppingCallback,
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
+    TrainerCallback,
     WhisperForConditionalGeneration,
     WhisperProcessor,
 )
 
 from shravan import config, data, env, metrics, results
 from shravan.config import ROOT
+
+LABEL_TOKENS = 128
 
 
 # (torch is untyped to mypy, so subclassing its Dataset needs the ignore)
@@ -53,6 +57,25 @@ def augment(audio: np.ndarray, rng: random.Random) -> np.ndarray:
     return audio.astype(np.float32)
 
 
+class FreeMemory(TrainerCallback):  # type: ignore[misc]
+    """Hands the GPU's cached memory back after each evaluation and every 50 steps.
+
+    On the Mac the GPU shares the 16 GB with everything else, and PyTorch keeps what generation used during an
+    evaluation: the first run grew to 13 GB after one evaluation and slowed from 2 to 30 seconds a step in swap."""
+
+    def free(self) -> None:
+        gc.collect()
+        if torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+
+    def on_evaluate(self, *args: Any, **kwargs: Any) -> None:
+        self.free()
+
+    def on_step_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
+        if state.global_step % 50 == 0:
+            self.free()
+
+
 @dataclass
 class Collate:
     processor: WhisperProcessor
@@ -65,7 +88,15 @@ class Collate:
         if self.train:
             audio = [augment(a, self.rng) for a in audio]
         feats = self.processor.feature_extractor(audio, sampling_rate=16000, return_tensors="pt").input_features
-        tok = self.processor.tokenizer([b["label"] for b in batch], padding=True, return_tensors="pt")
+        # one label length for every batch (the longest label is about 105 tokens): on the Mac's GPU each new shape
+        # keeps its own memory, and lengths changing batch by batch grew the run to 12 GB
+        tok = self.processor.tokenizer(
+            [b["label"] for b in batch],
+            padding="max_length",
+            max_length=LABEL_TOKENS,
+            truncation=True,
+            return_tensors="pt",
+        )
         labels = tok.input_ids.masked_fill(tok.attention_mask.ne(1), -100)
         if (labels[:, 0] == self.decoder_start).all():  # the model adds the start token itself
             labels = labels[:, 1:]
@@ -76,9 +107,11 @@ def main() -> None:
     env.use_certifi()
     ap = argparse.ArgumentParser()
     ap.add_argument("model")
+    ap.add_argument("--resume", action="store_true", help="carry on from the last checkpoint of a stopped run")
     args = ap.parse_args()
 
     cfg = config.load()
+    env.cap_gpu_memory(cfg.training["gpu_memory"])
     t = cfg.training
     rate = t["learning_rate"][args.model] if isinstance(t["learning_rate"], dict) else t["learning_rate"]
     random.seed(t["seed"])
@@ -88,11 +121,13 @@ def main() -> None:
     # the labels must start with the same language and task tokens generation uses (<|sa|><|transcribe|>); passing
     # language= to from_pretrained does not set them in this version of transformers
     processor.tokenizer.set_prefix_tokens(language=cfg.language, task="transcribe")
-    model = WhisperForConditionalGeneration.from_pretrained(args.model)
+    # PyTorch's own attention, which on the Mac's GPU needs far less memory than writing out every attention matrix
+    model = WhisperForConditionalGeneration.from_pretrained(args.model, attn_implementation="sdpa")
     model.generation_config.language = cfg.language
     model.generation_config.task = "transcribe"
     model.generation_config.forced_decoder_ids = None
     model.config.forced_decoder_ids = None
+    model.config.use_cache = not t["checkpointing"]  # the decoder's cache can't be kept while recomputing
 
     train, valid = data.clips(cfg.work, "train"), data.clips(cfg.work, "validation")
     start = model.config.decoder_start_token_id
@@ -107,6 +142,9 @@ def main() -> None:
         output_dir=str(out),
         per_device_train_batch_size=t["batch_size"],
         per_device_eval_batch_size=t["batch_size"],
+        gradient_accumulation_steps=t["accumulate"],
+        gradient_checkpointing=t["checkpointing"],
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         learning_rate=rate,
         warmup_steps=t["warmup_steps"],
         max_steps=t["max_steps"],
@@ -134,7 +172,7 @@ def main() -> None:
         eval_dataset=Clips(valid),
         data_collator=Collate(processor, start, True, random.Random(t["seed"])),
         compute_metrics=score,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=t["patience"])],
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=t["patience"]), FreeMemory()],
     )
     # the validation clips are never augmented: they measure, they don't teach
     trainer.get_eval_dataloader = lambda ds=None: torch.utils.data.DataLoader(
@@ -142,7 +180,7 @@ def main() -> None:
     )
 
     started = time.time()
-    trainer.train()
+    trainer.train(resume_from_checkpoint=True if args.resume else None)
     best = out / "best"
     trainer.save_model(str(best))
     processor.save_pretrained(str(best))

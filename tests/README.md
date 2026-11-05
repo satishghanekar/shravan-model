@@ -19,7 +19,7 @@ ruff format . && ruff check . && mypy && pytest
 | `test_texts.py` | Every copied text parses; `texts/SOURCE` names a clean site commit; Pavamana Suktam has its 610 verses in order; a mistake in a text is named with its line |
 | `test_labels.py` | The label rules on the hard cases (svara marks, verse numbers in parts or missing a danda, kampa digits, joiners, avagraha), and no label anywhere keeps a mark, digit or danda |
 | `test_pipeline.py` | Pavamana's 610 verse units and their labels; recordings name no one; the metrics ignore marks and find the nearest verse; the aligner places units in order (skipped where PyTorch isn't installed, as in CI) |
-| `test_config.py` | The audio is outside the repository; `work/`, audio and model files are kept out of git; the held-out and validation hymns are real, don't overlap, leave enough to train on, and every hymn has exactly one split; training runs in full precision |
+| `test_config.py` | The audio is outside the repository; `work/`, audio and model files are kept out of git; the held-out and validation hymns are real, don't overlap, leave enough to train on, and every hymn has exactly one split; training runs in full precision and fits a 16 GB Mac (checkpointing, the GPU memory cap) |
 
 ## What they can't cover
 

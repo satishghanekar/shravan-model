@@ -1,0 +1,133 @@
+{
+ "kind": "train",
+ "model": "openai/whisper-base",
+ "when": "2026-11-05T00:46:56",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)"
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": 8,
+  "accumulate": 1,
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05
+  },
+  "warmup_steps": 50,
+  "max_steps": 2000,
+  "eval_every": 100,
+  "patience": 5,
+  "augment": true,
+  "seed": 1
+ },
+ "scores": {
+  "train_clips": 422,
+  "validation_clips": 49,
+  "steps": 2000,
+  "best_step": 1500,
+  "best_validation_letters_wrong": 0.0805,
+  "validation_history": [
+   [
+    100,
+    0.1775
+   ],
+   [
+    200,
+    0.1257
+   ],
+   [
+    300,
+    0.1112
+   ],
+   [
+    400,
+    0.1013
+   ],
+   [
+    500,
+    0.1199
+   ],
+   [
+    600,
+    0.1086
+   ],
+   [
+    700,
+    0.1035
+   ],
+   [
+    800,
+    0.0988
+   ],
+   [
+    900,
+    0.0926
+   ],
+   [
+    1000,
+    0.1046
+   ],
+   [
+    1100,
+    0.0951
+   ],
+   [
+    1200,
+    0.0842
+   ],
+   [
+    1300,
+    0.0838
+   ],
+   [
+    1400,
+    0.0824
+   ],
+   [
+    1500,
+    0.0805
+   ],
+   [
+    1600,
+    0.0871
+   ],
+   [
+    1700,
+    0.0878
+   ],
+   [
+    1800,
+    0.0882
+   ],
+   [
+    1900,
+    0.0871
+   ],
+   [
+    2000,
+    0.0882
+   ]
+  ],
+  "minutes": 84.1,
+  "learning_rate": 2.5e-05
+ },
+ "saved_to": "checkpoints/openai-whisper-base/best"
+}

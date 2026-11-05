@@ -58,7 +58,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/align.py "<recording>"` | Converts the recording to 16 kHz mono and finds where each verse starts and ends (`work/align/`) |
 | `python scripts/cut.py "<recording>"` | Cuts one clip per verse with its label and split (`work/clips/`); verses aligned badly are left out |
 | `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips; writes `results/` |
-| `python scripts/train.py <model>` | Fine-tunes Whisper on the training clips, keeping the best checkpoint on validation (`checkpoints/`) |
+| `python scripts/train.py <model> [--resume]` | Fine-tunes Whisper on the training clips, keeping the best checkpoint on validation (`checkpoints/`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
 | `ruff format . && ruff check . && mypy && pytest` | The checks, the same as CI; run them before a pull request |
 
 `<recording>` is its file name in `recordings.csv`; `<model>` is `openai/whisper-base`, `openai/whisper-small` or a

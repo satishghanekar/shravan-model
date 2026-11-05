@@ -1,0 +1,76 @@
+{
+ "kind": "evaluate",
+ "model": "checkpoints/openai-whisper-base/best",
+ "when": "2026-11-05T00:47:35",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)"
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": 8,
+  "accumulate": 1,
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05
+  },
+  "warmup_steps": 50,
+  "max_steps": 2000,
+  "eval_every": 100,
+  "patience": 5,
+  "augment": true,
+  "seed": 1
+ },
+ "scores": {
+  "split": "test",
+  "clips": 79,
+  "minutes": 10.4,
+  "letters_wrong": 0.1,
+  "verses_found": 1.0,
+  "seconds_to_transcribe": 12.3
+ },
+ "examples": [
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.01",
+   "chanted": "अया वीती परि स्रव यस्त इन्दो मदेष्वा अवाहन्नवतीर्नव",
+   "heard": "पया वीतीपरि स्रवयस्त इन्दो मदेष्वा अवाहन्नपतीर्णव"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.02",
+   "chanted": "पुर सद्य इत्थाधिये दिवोदासाय शम्बरम् अध त्यं तुर्वशं यदुम्",
+   "heard": "पुर सब्य इथा धिये दिवो दासा यशं भरम् अधत्यं तुर्वशुण्यदुम्"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.03",
+   "chanted": "परि णो अश्वमश्वविद्गोमदिन्दो हिरण्यवत् क्षरा सहस्रिणीरिषः",
+   "heard": "परि णो अश्वमश्वव्द्गो मदिन्दो हिनण्यवत् शरा सहस्रिणीरिषः"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.04",
+   "chanted": "पवमानस्य ते वयं पवित्रमभ्युन्दतः सखित्वमा वृणीमहे",
+   "heard": "पवमानस्य देवयं पवित्रमभ्युन्ततः धित्वमा वृणीमहे"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.05",
+   "chanted": "ये ते पवित्रमूर्मयोभिक्षरन्ति धारया तेभिर्नः सोम मृळय",
+   "heard": "एतेपवित्रमूर्मयो भिक्षरन्ति धारया देभिर्नः सोम वृणय"
+  }
+ ]
+}
