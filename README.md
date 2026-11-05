@@ -59,7 +59,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/cut.py "<recording>"` | Cuts one clip per verse with its label and split (`work/clips/`); verses aligned badly are left out |
 | `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips; writes `results/` |
 | `python scripts/follow.py <model>` | The app's own measure: plays each tested recording as a phone hears it and scores how often the right place is found 2, 3 and 5 seconds into a verse, searching the whole text and following |
-| `python scripts/train.py <model> [--resume]` | Fine-tunes Whisper on the training clips, keeping the best checkpoint on validation (`checkpoints/`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
+| `python scripts/train.py <model> [--resume] [--name N]` | Fine-tunes Whisper on the training clips (a family recording's counted `family_repeat` times), keeping the best checkpoint on validation (`checkpoints/N`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
 | `ruff format . && ruff check . && mypy && pytest` | The checks, the same as CI; run them before a pull request |
 
 `<recording>` is its file name in `recordings.csv`; `<model>` is `openai/whisper-base`, `openai/whisper-small` or a
@@ -87,8 +87,18 @@ held out) and the app's own measure, the right place within 3 seconds of a verse
 | Pavamana Suktam, hymns 61–63 | 10% | 100% of 610 | 100% |
 | Lalita Sahasranama, SJ (never trained on) | 45% | 96% of 190 | 96% |
 
-Trained on one published recording of one text, the model already follows a family voice through another. Next: more
-family recordings to test on, then the phone-sized model (ONNX, int8).
+Trained on one published recording of one text, the model already follows a family voice through another.
+
+Then trained again with SG's recordings at home as well (21 minutes, each clip counted three times;
+`checkpoints/base-v2-family`), on tests it never trained on:
+
+| Whisper base | Pavamana 61–63 | SG's Purusha Suktam | SJ's Lalita |
+|---|---|---|---|
+| Published Pavamana only: letters wrong | 10.0% | 29.2% | 45.1% |
+| With SG's recordings: letters wrong | 10.3% | **24.6%** | **40.9%** |
+| With SG's recordings: right place within 3 s (following) | 98.7% | 100% | 96.6% |
+
+Next: more family recordings, then the phone-sized model (ONNX, int8).
 
 ## Adding recordings
 
@@ -97,7 +107,9 @@ family recordings to test on, then the phone-sized model (ONNX, int8).
 2. Add one row per recording to `recordings.csv`, with initials in the `who` column. If the session followed the usual
    routine, `routine` is enough in the `texts` column. A recording of part of a text, or with a part said again, names
    its blocks after a colon, in the order chanted: `vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5`
-   (a stanza by its number, anything else by its kind and count: the seventh `[once]` is `once-7`).
+   (a stanza by its number, anything else by its kind and count: the seventh `[once]` is `once-7`). Without parts, a
+   text is taken whole as it is chanted, an aarti's dhrupad after every stanza. A recording of several texts lists
+   them in order, separated by `;`.
 3. Leave the held-out day's rows marked `heldout=yes`. They are never trained on, so the scores mean something.
 
 ## The targets

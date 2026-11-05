@@ -15,6 +15,9 @@ heldout_hymns: [61, 62, 63]
 validation_hymns: [46, 47, 48, 49, 50, 64]
 # A verse whose alignment scores below this may not match its label (a verse the chanter skipped, say): left out.
 min_alignment_score: 0.3
+# A family recording trained on is held to more: its clean verses score 0.75 or more, so one below this is most likely a
+# fumble, a mispronunciation or a gap, and is not trained on (a held-out recording keeps the bar above, for its test).
+min_alignment_score_family: 0.5
 
 training:
   precision: fp32                   # the M4's half precision is unreliable for training
@@ -37,6 +40,8 @@ training:
   patience: 5                       # evaluations in a row without improving before stopping
   augment: true                     # random speed (±10%), volume and a little noise, so one chanter's takes aren't
                                     # simply memorised
+  family_repeat: 3                  # each family clip counts this many times per pass: an hour of a published recording
+                                    # would otherwise drown out a few minutes of the voices the app must follow
   seed: 1
 
 targets:

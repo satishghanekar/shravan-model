@@ -4,7 +4,8 @@ A verse is one block of the text ([para 1], [2], [once], …); its label is the 
 spaces. Pavamana Suktam's verses carry their Rigveda reference in the English line (|| 9.001.01 ||), which gives each
 one its hymn and verse number for the train / validation / test split (verses()). Any other text's units are its
 blocks, each with a key: its number ("132"), or its kind and how many of that kind came before ("once-7")
-(stanzas()). A recording of part of a text, or with a part said twice, names its blocks in order (select()).
+(stanzas()). sung() puts an aarti's dhrupad back after every stanza. A recording of part of a text, or with a part said
+twice, names its blocks in order (select()).
 """
 
 from __future__ import annotations
@@ -16,6 +17,7 @@ from shravan.labels import plain
 from shravan.texts import Line, Text
 
 REF = re.compile(r"\|\|\s*(\d+)\.(\d{3})\.(\d{2})")
+RIGVEDA = re.compile(r"\d+\.\d{3}\.\d{2}")
 
 
 @dataclass(frozen=True)
@@ -28,6 +30,12 @@ class Unit:
     @property
     def key(self) -> str:
         return self.id.split("/", 1)[1]
+
+    @property
+    def block(self) -> str:
+        """The block a unit is, or is a piece of: "4" for the piece "4.2" (a Rigveda reference is a whole block)."""
+        piece = re.fullmatch(r"(.+)\.\d+", self.key)
+        return piece.group(1) if piece and not RIGVEDA.fullmatch(self.key) else self.key
 
 
 def blocks(text: Text) -> list[list[Line]]:
@@ -53,8 +61,35 @@ def verses(text: Text) -> list[Unit]:
     return units
 
 
+# The most letters one unit holds: about 12 seconds of chanting, as long as a Pavamana verse. Longer clips (20 s and
+# more) were heard worse, the model sometimes repeating a phrase (2026-11-05)
+MAX_LETTERS = 120
+
+
+def pieces(lines: list[Line]) -> list[list[Line]]:
+    """A long block's lines in runs of about even length, none much over MAX_LETTERS letters (a single longer line stays
+    whole): one run for a short block, several for a long one (an anuvaka of the Rudram), never a long one and a
+    scrap."""
+    sizes = [len(plain(ln.orig)) + 1 for ln in lines]
+    # (a block up to half as long again stays whole: an aarti's stanza, a Pavamana verse)
+    if sum(sizes) <= MAX_LETTERS * 1.5:
+        return [lines]
+    count = -(-sum(sizes) // MAX_LETTERS)  # (rounded up)
+    target = sum(sizes) / count
+    runs: list[list[Line]] = [[]]
+    filled = 0
+    for ln, size in zip(lines, sizes, strict=True):
+        # a new run once this one has its share, as long as runs are left to fill
+        if runs[-1] and filled + size / 2 > target * len(runs) and len(runs) < count:
+            runs.append([])
+        runs[-1].append(ln)
+        filled += size
+    return runs
+
+
 def stanzas(text: Text) -> list[Unit]:
-    """Every block of a text, in order, keyed by its number ("132") or its kind and count ("once-7")."""
+    """Every block of a text, in order, keyed by its number ("132") or its kind and count ("once-7"); a block too long
+    for one clip in pieces of a few lines, keyed "4.1", "4.2", …"""
     out: list[Unit] = []
     seen: dict[str, int] = {}
     for lines in blocks(text):
@@ -66,9 +101,35 @@ def stanzas(text: Text) -> list[Unit]:
             kind = name.split()[0]
             seen[kind] = seen.get(kind, 0) + 1
             key = f"{kind}-{seen[kind]}"
-        label = " ".join(plain(ln.orig) for ln in lines).strip()
-        if label:
-            out.append(Unit(f"{text.id}/{key}", 0, int(number.group(1)) if number else 0, label))
+        runs = pieces(lines)
+        for n, run in enumerate(runs, 1):
+            label = " ".join(plain(ln.orig) for ln in run).strip()
+            if label:
+                piece = key if len(runs) == 1 else f"{key}.{n}"
+                out.append(Unit(f"{text.id}/{piece}", 0, int(number.group(1)) if number else 0, label))
+    return out
+
+
+def sung(text: Text) -> list[Unit]:
+    """A text's units in the order they are chanted. With "refrain: every-verse" (an aarti) the dhrupad comes again
+    after every stanza, and first of all with "refrain-before-first: yes", as the site shows it; otherwise each block
+    once, in the file's order."""
+    every = of(text)
+    if text.header.get("refrain") != "every-verse":
+        return every
+    refrain = [u for u in every if u.block.startswith("dhrupad-")]
+    out = (
+        [u for u in every if u.block.startswith("once-") and every.index(u) < every.index(refrain[0])]
+        if refrain
+        else []
+    )
+    if text.header.get("refrain-before-first") == "yes":
+        out += refrain
+    for u in every:
+        if u.block.isdigit():
+            # (a long stanza in pieces: the dhrupad after its last)
+            last = u is every[-1] or every[every.index(u) + 1].block != u.block
+            out += [u, *refrain] if last else [u]
     return out
 
 
@@ -79,15 +140,21 @@ def of(text: Text) -> list[Unit]:
 
 def select(every: list[Unit], parts: str) -> list[Unit]:
     """The units a recording chants, in its order: keys and ranges separated by spaces,
-    "132..183 once-7 once-2..once-5". A range runs in the text's order, both ends included."""
-    where = {u.key: i for i, u in enumerate(every)}
+    "132..183 once-7 once-2..once-5". A range runs in the text's order, both ends included. A block in pieces is named
+    whole ("4", all its pieces) or by piece ("4.2")."""
+    first_of: dict[str, int] = {}
+    last_of: dict[str, int] = {}
+    for i, u in enumerate(every):
+        for k in {u.key, u.block}:
+            first_of.setdefault(k, i)
+            last_of[k] = i
     out: list[Unit] = []
     for part in parts.split():
         first, _, last = part.partition("..")
         for key in (first, last or first):
-            if key not in where:
+            if key not in first_of:
                 raise KeyError(f"no block {key!r} in {every[0].id.split('/')[0] if every else 'the text'}")
-        a, b = where[first], where[last or first]
+        a, b = first_of[first], last_of[last or first]
         if b < a:
             raise ValueError(f"{part}: the range runs backwards")
         out += every[a : b + 1]

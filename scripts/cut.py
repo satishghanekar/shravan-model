@@ -26,10 +26,13 @@ def main() -> None:
     out = cfg.work / "clips" / rec.slug
     out.mkdir(parents=True, exist_ok=True)
 
+    # a family recording trained on is held to a higher bar: below it, most likely a fumble (config.yaml)
+    family = rec.who != "published" and not rec.heldout
+    bar = cfg.min_alignment_score_family if family else cfg.min_alignment_score
     kept, left_out, counts = [], [], {"train": 0, "validation": 0, "test": 0}
     used: set[str] = set()
     for i, row in enumerate(rows):
-        if row["score"] < cfg.min_alignment_score:
+        if row["score"] < bar:
             left_out.append(row)
             continue
         before = rows[i - 1]["end"] if i else 0.0
@@ -60,7 +63,9 @@ def main() -> None:
     minutes = {s: sum(k["seconds"] for k in kept if k["split"] == s) / 60 for s in counts}
     for s, n in counts.items():
         print(f"{s:>10}: {n} clips, {minutes[s]:.1f} min")
-    print(f"left out: {len(left_out)} verses (alignment below {cfg.min_alignment_score})")
+    print(f"left out: {len(left_out)} (alignment below {bar}, or longer than {MAX_SECONDS:g} s)")
+    for r in left_out:
+        print(f"  {r['id'].split('/')[1]} at {int(r['start'] // 60)}:{r['start'] % 60:04.1f}, score {r['score']}")
 
 
 if __name__ == "__main__":

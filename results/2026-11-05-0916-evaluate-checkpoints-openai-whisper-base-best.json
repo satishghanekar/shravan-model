@@ -1,0 +1,160 @@
+{
+ "kind": "evaluate",
+ "model": "checkpoints/openai-whisper-base/best",
+ "when": "2026-11-05T09:16:42",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)",
+  "Lalita Sahasrnaam.m4a,2022-10-04,\"vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5\",SJ,yes,\"a family Voice Memo: the last 52 stanzas, the closing line, then the Dhyanam again; never trained on\"",
+  "SG- Ganapathi Atharvashirsha.m4a,2026-11-05,vedic-chant-atharvashirsha: 1..14 dhrupad-3 dhrupad-4,SG,no,\"at home, with background sounds; no opening shanti\"",
+  "SG -Purushasukta.m4a,2026-11-05,vedic-chant-purusha-suktam,SG,yes,\"at home, with background sounds; held out: SG's voice on a text not trained on in it\"",
+  "SG - Shreesukta.m4a,2026-11-05,vedic-chant-shri-sukta: 1..15,SG,no,\"at home, with background sounds; the hymn, verses 1-15\"",
+  "SG- Matrapushpanjali.m4a,2026-11-05,vedic-chant-mantra-pushpanjali: 1..5,SG,no,\"at home, with background sounds\"",
+  "SG-ThursdayMorning aarti.m4a,2026-11-05,aarti-sukhkarta; aarti-durge-durghat-bhari; aarti-jaydeva-jaydeva-samartha; aarti-ghalin-lotangan,SG,no,\"the Thursday morning aartis but Belaguve, at home, with background sounds\""
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": {
+   "openai/whisper-base": 8,
+   "openai/whisper-small": 4
+  },
+  "accumulate": {
+   "openai/whisper-base": 1,
+   "openai/whisper-small": 2
+  },
+  "gpu_memory": {
+   "openai/whisper-base": 0.75,
+   "openai/whisper-small": 0.9
+  },
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05
+  },
+  "warmup_steps": 50,
+  "max_steps": 2000,
+  "eval_every": 100,
+  "patience": 5,
+  "augment": true,
+  "family_repeat": 3,
+  "seed": 1
+ },
+ "scores": {
+  "split": "test",
+  "seconds_to_transcribe": 27.8,
+  "lalita-sahasrnaam": {
+   "clips": 56,
+   "minutes": 8.4,
+   "letters_wrong": 0.4545,
+   "verses_found": 0.9643,
+   "out_of": 190
+  },
+  "sg-purushasukta": {
+   "clips": 13,
+   "minutes": 3.8,
+   "letters_wrong": 0.3473,
+   "verses_found": 0.8462,
+   "out_of": 14
+  },
+  "sri-pavamaana-suktha-copy-1": {
+   "clips": 79,
+   "minutes": 10.4,
+   "letters_wrong": 0.1,
+   "verses_found": 1.0,
+   "out_of": 610
+  }
+ },
+ "examples": [
+  {
+   "id": "vedic-chant-lalita-sahasranama/133",
+   "chanted": "भाषारूपा बृहत्सेना भावाभावविवर्जिता सुखाराध्या शुभकरी शोभना सुलभा गतिः",
+   "heard": "वाशा रुपा बृळत्सेन पावा विपचित सुकारव्या शुवतैः शोमना सुरवावणि"
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama/134",
+   "chanted": "राजराजेश्वरी राज्यदायिनी राज्यवल्लभा राजत्कृपा राजपीठनिवेशितनिजाश्रिता",
+   "heard": "राजराजे शुरीराजिनाहिनीराजिवलमा राजिः दुर्वा राजपीननि वेषि न यश्विदा"
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama/135",
+   "chanted": "राज्यलक्ष्मीः कोशनाथा चतुरङ्गबलेश्वरी साम्राज्यदायिनी सत्यसन्धा सागरमेखला",
+   "heard": "रावज ईश्विं गोषणा दाजरुरं ग्यमरेष्वरि साम्राजना इनीसत्यरन्दा सागरमेदर"
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama/136",
+   "chanted": "दीक्षिता दैत्यशमनी सर्वलोकवशङ्करी सर्वार्थदात्री सावित्री सच्चिदानन्दरूपिणी",
+   "heard": "दीषि दावैः यसमरि सर्वलोकवशंकरि सर्वादा विसाचिदान्दरुभिनि"
+  },
+  {
+   "id": "vedic-chant-lalita-sahasranama/137",
+   "chanted": "देशकालापरिच्छिन्ना सर्वगा सर्वमोहिनी सरस्वती शास्त्रमयी गुहाम्बा गुह्यरूपिणी",
+   "heard": "देष काला परि षिन्ना सर्वगा सर्वमुहिनि सरस्व तिषा स्रमै गुमां वागुह्यरुपिनि"
+  },
+  {
+   "id": "vedic-chant-purusha-suktam/dhrupad-1",
+   "chanted": "ॐ तच्छं योरावृणीमहे गातुं यज्ञाय गातुं यज्ञपतये दैवीः स्वस्तिरस्तु नः स्वस्तिर्मानुषेभ्यः ऊर्ध्वं जिगातु भेषजम् शन्नो अस्तु द्विपदे शं चतुष्पदे",
+   "heard": "अं तच्छैयूरा रुणिमहे गातुम्यग्याया गातुम्यग्यवते धैवी स्वस्तिरस्तुनः सस्तिरमानशभ्यः ऊर्तुवंचि गातुभेशयन्षन्नो अस्चुद्दिपदेशन्चदुश्वदे"
+  },
+  {
+   "id": "vedic-chant-purusha-suktam/dhrupad-2",
+   "chanted": "ॐ शान्तिः शान्तिः शान्तिः",
+   "heard": "उम्षान्तिषान्तिषान्दि"
+  },
+  {
+   "id": "vedic-chant-purusha-suktam/1",
+   "chanted": "ॐ सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् स भूमिं विश्वतो वृत्वा अत्यतिष्ठद्दशाङ्गुलम् पुरुष एवेदग्ं सर्वम् यद्भूतं यच्च भव्यम् उतामृतत्वस्येशानः यदन्नेनातिरोहति एतावानस्य महिमा अतो ज्यायाग्श्च पूरुषः",
+   "heard": "मों सहस्रशीर्षा पुरुषा सहस्राख्षस्रवाद सभूमं विश्वतो रुत्वाद्गत्यतिष्टद्दशां गुलम् पुरुषेवेदगं सरवम्यद्भूतं यच्च भुवम् उदामृदत्वस्ेषानः यरं नेनाति रोहोदि वेतावानः स्यमोहिम अतो जाया वश"
+  },
+  {
+   "id": "vedic-chant-purusha-suktam/2",
+   "chanted": "पादोस्य विश्वा भूतानि त्रिपादस्यामृतं दिवि त्रिपादूर्ध्व उदैत्पुरुषः पादोस्येहाभवात्पुनः ततो विष्वङ्व्यक्रामत् साशनानशने अभि तस्माद्विराडजायत विराजो अधि पूरुषः स जातो अत्यरिच्यत पश्चाद्भूमिमथो पुरः",
+   "heard": "पादो स्य विश्वा वूतानि रिवादेस्यामृतं दिवे ऋपा दूर्धुव उदैत्पुरुष वादो सेहा भवत्मुनः ततो विश्वं वक्रामदो साशनानशने अभियस्मा ध्विरणो चायदविराजो अरिपूरुषा सजातो वत्यो रिचिदपश्या ध्वुमिमत"
+  },
+  {
+   "id": "vedic-chant-purusha-suktam/3",
+   "chanted": "यत्पुरुषेण हविषा देवा यज्ञमतन्वत वसन्तो अस्यासीदाज्यम् ग्रीष्म इध्मश्शरद्धविः सप्तास्यासन्परिधयः त्रिः सप्त समिधः कृताः देवा यद्यज्ञं तन्वानाः अबध्नन्पुरुषं पशुम् तं यज्ञं बर्हिषि प्रौक्षन् पुरुषं जातमग्रतः",
+   "heard": "यत्पुरुषेण हव्या देवा यद्नुमतन्वता वसन्दो अस्यासि दाज्यम् गृीष्मयद्मशरधवि सप्तास्यासन्परिधय त्रिः सप्तुसमिदकृतः देवा यद्यन्तन्वानाः अभद्नं पुर्षं पशुम्तयद्नं परिषि प्रोक्षन्न पुरुषं जात"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.01",
+   "chanted": "अया वीती परि स्रव यस्त इन्दो मदेष्वा अवाहन्नवतीर्नव",
+   "heard": "पया वीतीपरि स्रवयस्त इन्दो मदेष्वा अवाहन्नपतीर्णव"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.02",
+   "chanted": "पुर सद्य इत्थाधिये दिवोदासाय शम्बरम् अध त्यं तुर्वशं यदुम्",
+   "heard": "पुर सब्य इथा धिये दिवो दासा यशं भरम् अधत्यं तुर्वशुण्यदुम्"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.03",
+   "chanted": "परि णो अश्वमश्वविद्गोमदिन्दो हिरण्यवत् क्षरा सहस्रिणीरिषः",
+   "heard": "परि णो अश्वमश्वव्द्गो मदिन्दो हिनण्यवत् शरा सहस्रिणीरिषः"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.04",
+   "chanted": "पवमानस्य ते वयं पवित्रमभ्युन्दतः सखित्वमा वृणीमहे",
+   "heard": "पवमानस्य देवयं पवित्रमभ्युन्ततः धित्वमा वृणीमहे"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.05",
+   "chanted": "ये ते पवित्रमूर्मयोभिक्षरन्ति धारया तेभिर्नः सोम मृळय",
+   "heard": "एतेपवित्रमूर्मयो भिक्षरन्ति धारया देभिर्नः सोम वृणय"
+  }
+ ]
+}

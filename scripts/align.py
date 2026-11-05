@@ -25,11 +25,13 @@ def main() -> None:
     env.use_certifi()
     cfg = config.load()
     rec = recordings.find(recordings.load(cfg.recordings), sys.argv[1])
-    if len(rec.texts) != 1:
-        sys.exit("aligning a recording of several texts is not supported yet")
-    text = texts.load_all(cfg.texts)[rec.texts[0]]
-    # the blocks the recording names, in its order, or the whole text
-    verses = units.select(units.of(text), rec.parts[0]) if rec.parts[0] else units.of(text)
+    every = texts.load_all(cfg.texts)
+    # each text in turn: the blocks the recording names, in its order, or the whole text as it is chanted
+    verses = [
+        u
+        for t, p in zip(rec.texts, rec.parts, strict=True)
+        for u in (units.select(units.of(every[t]), p) if p else units.sung(every[t]))
+    ]
 
     wav = cfg.work / "audio" / f"{rec.slug}.wav"
     if not wav.exists():
