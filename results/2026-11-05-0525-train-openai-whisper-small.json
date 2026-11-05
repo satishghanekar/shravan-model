@@ -1,0 +1,100 @@
+{
+ "kind": "train",
+ "model": "openai/whisper-small",
+ "when": "2026-11-05T05:25:19",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)"
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": {
+   "openai/whisper-base": 8,
+   "openai/whisper-small": 4
+  },
+  "accumulate": {
+   "openai/whisper-base": 1,
+   "openai/whisper-small": 2
+  },
+  "gpu_memory": {
+   "openai/whisper-base": 0.75,
+   "openai/whisper-small": 0.9
+  },
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05
+  },
+  "warmup_steps": 50,
+  "max_steps": 2000,
+  "eval_every": 100,
+  "patience": 5,
+  "augment": true,
+  "seed": 1
+ },
+ "scores": {
+  "train_clips": 422,
+  "validation_clips": 49,
+  "steps": 999,
+  "best_step": 600,
+  "best_validation_letters_wrong": 0.0816,
+  "validation_history": [
+   [
+    100,
+    0.1312
+   ],
+   [
+    200,
+    0.0937
+   ],
+   [
+    300,
+    0.0904
+   ],
+   [
+    400,
+    0.0864
+   ],
+   [
+    500,
+    0.0831
+   ],
+   [
+    600,
+    0.0816
+   ],
+   [
+    700,
+    0.0882
+   ],
+   [
+    800,
+    0.0856
+   ],
+   [
+    900,
+    0.082
+   ]
+  ],
+  "minutes": "about 255, over three runs (two stopped by out-of-memory and resumed)",
+  "learning_rate": 1e-05
+ },
+ "saved_to": "checkpoints/openai-whisper-small/best",
+ "stopped": "out of GPU memory at step 999 of 2000 (10.7 GB cap); validation had not improved on step 600 for three evaluations, so step 600 was kept as best without resuming"
+}

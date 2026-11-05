@@ -26,3 +26,5 @@ work/
 .mypy_cache/
 .ruff_cache/
 .pytest_cache/
+# The editable install's leftovers
+*.egg-info/
