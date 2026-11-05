@@ -1,0 +1,68 @@
+{
+ "kind": "evaluate",
+ "model": "openai/whisper-small",
+ "when": "2026-11-04T22:42:59",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)"
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": 8,
+  "learning_rate": 1e-05,
+  "max_steps": 3000,
+  "eval_every": 500,
+  "seed": 1
+ },
+ "scores": {
+  "split": "test",
+  "clips": 79,
+  "minutes": 10.4,
+  "letters_wrong": 1.7735,
+  "verses_found": 0.0,
+  "seconds_to_transcribe": 85.9
+ },
+ "examples": [
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.01",
+   "chanted": "अया वीती परि स्रव यस्त इन्दो मदेष्वा अवाहन्नवतीर्नव",
+   "heard": " jājābhite parisra bāyasta gindo bhadeshva avāhan na bhater na bhater"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.02",
+   "chanted": "पुर सद्य इत्थाधिये दिवोदासाय शम्बरम् अध त्यं तुर्वशं यदुम्",
+   "heard": " ḍlā Ṣād yag Ṣādhi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣi Ṣ"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.03",
+   "chanted": "परि णो अश्वमश्वविद्गोमदिन्दो हिरण्यवत् क्षरा सहस्रिणीरिषः",
+   "heard": " Parinu asfa masta veddo madindohinanya vathe kshara asa hastrini rishaha"
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.04",
+   "chanted": "पवमानस्य ते वयं पवित्रमभ्युन्दतः सखित्वमा वृणीमहे",
+   "heard": " Pabha ma nasya te bhajam pa vitra maghyan da tha, kitha ma brahani mahe."
+  },
+  {
+   "id": "vedic-chant-pavamana-suktam/9.061.05",
+   "chanted": "ये ते पवित्रमूर्मयोभिक्षरन्ति धारया तेभिर्नः सोम मृळय",
+   "heard": " E tehe pa vitra morma yo eksharan titharaya te bhrn asso mamrla ya"
+  }
+ ]
+}
