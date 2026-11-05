@@ -31,6 +31,8 @@ TEXTS = load_all(config.load().texts)
         ("निढळावरी कर, ¦निढळावरी कर", "निढळावरी कर, निढळावरी कर"),
         # a whole verse number
         ("सुखकर्ता दुःखहर्ता ॥ १० ॥", "सुखकर्ता दुःखहर्ता"),
+        # a long name's parts, shown by hyphens, are one word (and "-" is the aligner's blank)
+        ("श्रीशिवा शिव-शक्त्यैक्य-रूपिणी ललिताम्बिका ।", "श्रीशिवा शिवशक्त्यैक्यरूपिणी ललिताम्बिका"),
     ],
 )
 def test_label(line, label):

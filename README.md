@@ -58,6 +58,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/align.py "<recording>"` | Converts the recording to 16 kHz mono and finds where each verse starts and ends (`work/align/`) |
 | `python scripts/cut.py "<recording>"` | Cuts one clip per verse with its label and split (`work/clips/`); verses aligned badly are left out |
 | `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips; writes `results/` |
+| `python scripts/follow.py <model>` | The app's own measure: plays each tested recording as a phone hears it and scores how often the right place is found 2, 3 and 5 seconds into a verse, searching the whole text and following |
 | `python scripts/train.py <model> [--resume]` | Fine-tunes Whisper on the training clips, keeping the best checkpoint on validation (`checkpoints/`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
 | `ruff format . && ruff check . && mypy && pytest` | The checks, the same as CI; run them before a pull request |
 
@@ -76,15 +77,27 @@ never saw (`results/`):
 | **Whisper base, trained** | **10.0%** | **79 of 79** | 12 s |
 | Whisper small, trained | 9.9% | 79 of 79 | 30 s |
 
-Base is the model to take forward: as good as small, with a third of the size. Next: a family recording to test on,
-then the phone-sized model (ONNX, int8) and the app's own measure, the right line within 3 seconds.
+Base is the model to take forward: as good as small, with a third of the size.
+
+A family recording of a text never trained on (SJ, Lalita Sahasranama, stanzas 132–183 and the Dhyanam, 8 minutes,
+held out) and the app's own measure, the right place within 3 seconds of a verse starting (`scripts/follow.py`):
+
+| Trained Whisper base | Letters wrong | Verses found | Right place within 3 s |
+|---|---|---|---|
+| Pavamana Suktam, hymns 61–63 | 10% | 100% of 610 | 100% |
+| Lalita Sahasranama, SJ (never trained on) | 45% | 96% of 190 | 96% |
+
+Trained on one published recording of one text, the model already follows a family voice through another. Next: more
+family recordings to test on, then the phone-sized model (ONNX, int8).
 
 ## Adding recordings
 
 1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-training/`. On the Mac, right-click the
    folder and choose **Keep Downloaded**, so iCloud never swaps a recording out for a placeholder during training.
 2. Add one row per recording to `recordings.csv`, with initials in the `who` column. If the session followed the usual
-   routine, `routine` is enough in the `texts` column.
+   routine, `routine` is enough in the `texts` column. A recording of part of a text, or with a part said again, names
+   its blocks after a colon, in the order chanted: `vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5`
+   (a stanza by its number, anything else by its kind and count: the seventh `[once]` is `once-7`).
 3. Leave the held-out day's rows marked `heldout=yes`. They are never trained on, so the scores mean something.
 
 ## The targets

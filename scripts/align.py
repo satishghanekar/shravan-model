@@ -1,6 +1,7 @@
 """Find where each verse starts and ends in a recording (shravan/align.py), and save the timings to work/align/.
 
     python scripts/align.py "Sri Pavamaana Suktha - Copy 1.mp3"
+    python scripts/align.py "Lalita Sahasrnaam.m4a"
 
 The recording must have its row in recordings.csv. Its audio is converted once to 16 kHz mono in work/audio/, and the
 aligner's output is kept in work/emissions/, so a second run only aligns again.
@@ -27,7 +28,8 @@ def main() -> None:
     if len(rec.texts) != 1:
         sys.exit("aligning a recording of several texts is not supported yet")
     text = texts.load_all(cfg.texts)[rec.texts[0]]
-    verses = units.verses(text)
+    # the blocks the recording names, in its order, or the whole text
+    verses = units.select(units.of(text), rec.parts[0]) if rec.parts[0] else units.of(text)
 
     wav = cfg.work / "audio" / f"{rec.slug}.wav"
     if not wav.exists():

@@ -1,0 +1,85 @@
+{
+ "kind": "follow",
+ "model": "checkpoints/openai-whisper-base/best",
+ "when": "2026-11-05T08:20:55",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)",
+  "Lalita Sahasrnaam.m4a,2022-10-04,\"vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5\",SJ,yes,\"a family Voice Memo: the last 52 stanzas, the closing line, then the Dhyanam again; never trained on\""
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": {
+   "openai/whisper-base": 8,
+   "openai/whisper-small": 4
+  },
+  "accumulate": {
+   "openai/whisper-base": 1,
+   "openai/whisper-small": 2
+  },
+  "gpu_memory": {
+   "openai/whisper-base": 0.75,
+   "openai/whisper-small": 0.9
+  },
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05
+  },
+  "warmup_steps": 50,
+  "max_steps": 2000,
+  "eval_every": 100,
+  "patience": 5,
+  "augment": true,
+  "seed": 1
+ },
+ "scores": {
+  "window_seconds": 6.0,
+  "sri-pavamaana-suktha-copy-1": {
+   "units": 79,
+   "after_2s": {
+    "search": 0.9873,
+    "following": 0.9873
+   },
+   "after_3s": {
+    "search": 1.0,
+    "following": 1.0
+   },
+   "after_5s": {
+    "search": 1.0,
+    "following": 1.0
+   }
+  },
+  "lalita-sahasrnaam": {
+   "units": 56,
+   "after_2s": {
+    "search": 0.9464,
+    "following": 0.9464
+   },
+   "after_3s": {
+    "search": 0.9643,
+    "following": 0.9643
+   },
+   "after_5s": {
+    "search": 0.9643,
+    "following": 0.9643
+   }
+  }
+ }
+}

@@ -28,9 +28,10 @@ class Placed:
 
 
 def romanize_words(label: str, romanize: object, dictionary: dict[str, int]) -> list[str]:
-    """A plain Devanagari label → the aligner's romanized words, keeping only letters it knows."""
+    """A plain Devanagari label → the aligner's romanized words, keeping only letters it knows (not its blank, "-",
+    which the romanizer can write)."""
     roman = romanize.romanize_string(label).lower()  # type: ignore[attr-defined]
-    words = ("".join(c for c in w if c in dictionary) for w in roman.split())
+    words = ("".join(c for c in w if dictionary.get(c, 0)) for w in roman.split())
     return [w for w in words if w]
 
 
