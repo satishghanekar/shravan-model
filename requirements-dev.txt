@@ -1,4 +1,5 @@
 # The checks run before every pull request and in CI (.github/workflows/tests.yml)
+jiwer==4.0.0
 mypy==1.18.2
 pytest==8.4.2
 pyyaml==6.0.3

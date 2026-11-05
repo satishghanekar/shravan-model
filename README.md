@@ -43,18 +43,26 @@ brew install ffmpeg
 cd ~/development/shravan-model
 python3.12 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt -r requirements-dev.txt
+pip install -e .
 python -c "import torch; print(torch.backends.mps.is_available())"   # should print True
 ```
 
 ## The commands
 
+Run from `shravan-model/` with the environment active (`source .venv/bin/activate`). The first time,
+`pip install -e .` makes the `shravan` package importable from `scripts/`.
+
 | Command | What it does |
 |---|---|
 | `python scripts/sync_texts.py` | Copies the texts from `../nitya-upasana` into `texts/` and records the site commit |
+| `python scripts/align.py "<recording>"` | Converts the recording to 16 kHz mono and finds where each verse starts and ends (`work/align/`) |
+| `python scripts/cut.py "<recording>"` | Cuts one clip per verse with its label and split (`work/clips/`); verses aligned badly are left out |
+| `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips; writes `results/` |
+| `python scripts/train.py <model>` | Fine-tunes Whisper on the training clips, keeping the best checkpoint on validation (`checkpoints/`) |
 | `ruff format . && ruff check . && mypy && pytest` | The checks, the same as CI; run them before a pull request |
 
-More commands come with the pipeline: aligning a recording, cutting clips, testing, training and exporting
-(`ARCHITECTURE.md`, "The pipeline").
+`<recording>` is its file name in `recordings.csv`; `<model>` is `openai/whisper-base`, `openai/whisper-small` or a
+trained one, `checkpoints/openai-whisper-base/best`.
 
 ## Adding recordings
 

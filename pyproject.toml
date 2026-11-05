@@ -1,10 +1,17 @@
-# Settings for the checks (ruff, mypy, pytest). Shravan is not installed as a package: the commands in scripts/ and
-# the tests import it from this folder.
+# The shravan package and the settings for the checks (ruff, mypy, pytest). On the Mac the package is installed
+# editable (pip install -e .), so the commands in scripts/ find it and a change to shravan/ takes effect at once.
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "shravan"
 version = "0.1.0"
 requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["shravan"]
 
 [tool.ruff]
 line-length = 120
@@ -26,3 +33,10 @@ ignore_missing_imports = true
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
+
+# The machine-learning libraries' own type hints are incomplete, and CI does not install them: treat them as untyped
+# everywhere, so mypy says the same on the Mac as in CI
+[[tool.mypy.overrides]]
+module = ["torch.*", "torchaudio.*", "transformers.*", "librosa.*", "soundfile.*", "uroman.*", "jiwer.*", "numpy.*", "certifi.*"]
+follow_imports = "skip"
+follow_untyped_imports = true

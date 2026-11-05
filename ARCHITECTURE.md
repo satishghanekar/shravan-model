@@ -20,13 +20,15 @@ hear the words. Everything here exists to train that model fairly and to prove h
 
 1. **Sync** (`scripts/sync_texts.py`): the texts are copied from the site, with the commit they came from.
 2. **Labels** (`shravan/labels.py`): each line's plain Devanagari, the letters that are said and nothing else.
-3. **Align** (to come): for each recording, where each line starts and ends. The text is known, so this is forced
+3. **Align** (`scripts/align.py`): for each recording, where each line starts and ends. The text is known, so this is forced
    alignment (torchaudio's MMS aligner on romanized text), not recognition.
-4. **Cut** (to come): line-sized clips of at most 30 seconds (Whisper's limit), each with its label, into `work/`.
-5. **Split**: held-out hymns and held-out recordings (`config.yaml`, `recordings.csv`) never reach training.
-6. **Test** (to come): the untrained model first, then each trained one, on the held-out clips only.
-7. **Train** (to come): full fine-tuning of Whisper base (the phone model) and small (the accuracy ceiling), fp32 on
-   the M4's GPU (`mps`), keeping the best checkpoint by held-out score.
+4. **Cut** (`scripts/cut.py`): line-sized clips of at most 30 seconds (Whisper's limit), each with its label, into `work/`.
+5. **Split** (`shravan/split.py`): by hymn, into train, validation (to choose the best checkpoint) and test (the
+   final score, used once). Held-out recordings (`recordings.csv`) never reach training. Verses aligned below
+   `min_alignment_score` are left out: their audio may not match their label (a verse the chanter skipped).
+6. **Test** (`scripts/evaluate.py`): the untrained model first, then each trained one, on the held-out clips only.
+7. **Train** (`scripts/train.py`): full fine-tuning of Whisper base (the phone model) and small (the accuracy ceiling), fp32 on
+   the M4's GPU (`mps`), keeping the best checkpoint by validation score, with light augmentation (speed, volume, noise).
 8. **Shrink and release** (to come): ONNX with int8 weights (`optimum-onnx`), tested again, then copied into the site
    as `models/chant-vN/` by the site's own rules.
 

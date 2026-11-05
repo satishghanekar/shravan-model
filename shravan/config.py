@@ -20,6 +20,8 @@ class Config:
     model: str
     language: str
     heldout_hymns: tuple[int, ...]
+    validation_hymns: tuple[int, ...]
+    min_alignment_score: float
     training: dict[str, Any]
     targets: dict[str, float]
 
@@ -39,6 +41,8 @@ def load(path: Path = ROOT / "config.yaml") -> Config:
         model=raw["model"],
         language=raw["language"],
         heldout_hymns=tuple(raw["heldout_hymns"]),
+        validation_hymns=tuple(raw["validation_hymns"]),
+        min_alignment_score=float(raw["min_alignment_score"]),
         training=dict(raw["training"]),
         targets=dict(raw["targets"]),
     )

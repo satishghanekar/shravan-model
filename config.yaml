@@ -8,16 +8,26 @@ recordings: recordings.csv
 model: openai/whisper-base          # the phone model; openai/whisper-small for the accuracy reference
 language: sa                        # Whisper's language token: Sanskrit for the Vedic chants (Marathi, mr, comes later)
 
-# Never trained on: the test scores mean something only on chanting the model has not heard.
-# Pavamana Suktam hymns 9.51–9.67 (the last quarter), as long as it is the only text recorded.
-heldout_hymns: [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]
+# Never trained on: the test scores mean something only on chanting the model has not heard. Three whole hymns
+# (Pavamana Suktam 9.61–9.63, about 13% of the clean audio), used once per model at the end, never to choose anything.
+heldout_hymns: [61, 62, 63]
+# Not trained on either: training picks its best checkpoint by these (about 9%), so they can't also be the test.
+validation_hymns: [46, 47, 48, 49, 50, 64]
+# A verse whose alignment scores below this may not match its label (a verse the chanter skipped, say): left out.
+min_alignment_score: 0.3
 
 training:
   precision: fp32                   # the M4's half precision is unreliable for training
   batch_size: 8
-  learning_rate: 1.0e-5
-  max_steps: 3000
-  eval_every: 500                   # keeps the best version, so overtraining can't spoil it
+  learning_rate:                    # the usual rates for fine-tuning each size: larger models need gentler steps
+    openai/whisper-base: 2.5e-5
+    openai/whisper-small: 1.0e-5
+  warmup_steps: 50
+  max_steps: 2000                   # an upper bound: training stops earlier when validation stops improving
+  eval_every: 100                   # letters wrong on the validation clips; the best checkpoint is kept
+  patience: 5                       # evaluations in a row without improving before stopping
+  augment: true                     # random speed (±10%), volume and a little noise, so one chanter's takes aren't
+                                    # simply memorised
   seed: 1
 
 targets:
