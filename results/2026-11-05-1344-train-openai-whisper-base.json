@@ -1,0 +1,157 @@
+{
+ "kind": "train",
+ "model": "openai/whisper-base",
+ "when": "2026-11-05T13:44:39",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)",
+  "Lalita Sahasrnaam.m4a,2022-10-04,\"vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5\",SJ,yes,\"a family Voice Memo: the last 52 stanzas, the closing line, then the Dhyanam again; never trained on\"",
+  "SG- Ganapathi Atharvashirsha.m4a,2026-11-05,vedic-chant-atharvashirsha: 1..14 dhrupad-3 dhrupad-4,SG,no,\"at home, with background sounds; no opening shanti\"",
+  "SG -Purushasukta.m4a,2026-11-05,vedic-chant-purusha-suktam,SG,yes,\"at home, with background sounds; held out: SG's voice on a text not trained on in it\"",
+  "SG - Shreesukta.m4a,2026-11-05,vedic-chant-shri-sukta: 1..15,SG,no,\"at home, with background sounds; the hymn, verses 1-15\"",
+  "SG- Matrapushpanjali.m4a,2026-11-05,vedic-chant-mantra-pushpanjali: 1..5,SG,no,\"at home, with background sounds\"",
+  "SG-ThursdayMorning aarti.m4a,2026-11-05,aarti-sukhkarta; aarti-durge-durghat-bhari; aarti-jaydeva-jaydeva-samartha; aarti-ghalin-lotangan,SG,no,\"the Thursday morning aartis but Belaguve, at home, with background sounds\"",
+  "SG-pavamaan-1.m4a,2026-11-05,vedic-chant-pavamana-suktam: 9.066.04..9.066.17,SG,no,\"at home; split by hymns, as the published recording\"",
+  "SG-pavamaan-2.m4a,2026-11-05,vedic-chant-pavamana-suktam: 9.065.22..9.065.27,SG,no,\"at home; split by hymns, as the published recording\"",
+  "SG-Durgasukta.m4a,2026-11-05,vedic-chant-durga-suktam: 1..8,SG,no,at home",
+  "SG-Rudra-1.m4a,2026-11-05,vedic-chant-shree-rudra: 1..2,SG,no,\"at home; the first anuvakas\"",
+  "SG-lagunnyaas.m4a,2026-11-05,vedic-chant-laghunyasa: 1..dhrupad-1,SG,no,at home",
+  "SG-samadhan sadhu janache.m4a,2026-11-05,ashtak-thursday,SG,no,at home"
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": {
+   "openai/whisper-base": 8,
+   "openai/whisper-small": 4
+  },
+  "accumulate": {
+   "openai/whisper-base": 1,
+   "openai/whisper-small": 2
+  },
+  "gpu_memory": {
+   "openai/whisper-base": 0.75,
+   "openai/whisper-small": 0.9
+  },
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05
+  },
+  "warmup_steps": 50,
+  "max_steps": 2000,
+  "eval_every": 100,
+  "patience": 5,
+  "augment": true,
+  "family_repeat": 3,
+  "seed": 1
+ },
+ "scores": {
+  "train_clips": 881,
+  "family_clips": 459,
+  "validation_clips": 49,
+  "steps": 2000,
+  "best_step": 2000,
+  "best_validation_letters_wrong": 0.0944,
+  "validation_history": [
+   [
+    100,
+    0.2161
+   ],
+   [
+    200,
+    0.184
+   ],
+   [
+    300,
+    0.1512
+   ],
+   [
+    400,
+    0.1436
+   ],
+   [
+    500,
+    0.1352
+   ],
+   [
+    600,
+    0.121
+   ],
+   [
+    700,
+    0.117
+   ],
+   [
+    800,
+    0.1133
+   ],
+   [
+    900,
+    0.1112
+   ],
+   [
+    1000,
+    0.1173
+   ],
+   [
+    1100,
+    0.1108
+   ],
+   [
+    1200,
+    0.1071
+   ],
+   [
+    1300,
+    0.1079
+   ],
+   [
+    1400,
+    0.1013
+   ],
+   [
+    1500,
+    0.106
+   ],
+   [
+    1600,
+    0.0969
+   ],
+   [
+    1700,
+    0.1002
+   ],
+   [
+    1800,
+    0.0977
+   ],
+   [
+    1900,
+    0.0966
+   ],
+   [
+    2000,
+    0.0944
+   ]
+  ],
+  "minutes": 90.0,
+  "learning_rate": 2.5e-05
+ },
+ "saved_to": "checkpoints/base-v3-family/best"
+}
