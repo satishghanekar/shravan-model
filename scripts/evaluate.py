@@ -38,7 +38,7 @@ def main() -> None:
     args = ap.parse_args()
 
     cfg = config.load()
-    env.cap_gpu_memory(cfg.training["gpu_memory"])
+    env.cap_gpu_memory(min(cfg.training["gpu_memory"].values()))  # testing needs far less than training
     clips = data.clips(cfg.work, args.split)
     every = units.verses(texts.load_all(cfg.texts)["vedic-chant-pavamana-suktam"])
     labels = [u.label for u in every]

@@ -18,9 +18,15 @@ min_alignment_score: 0.3
 
 training:
   precision: fp32                   # the M4's half precision is unreliable for training
-  batch_size: 8
-  accumulate: 1                     # batches added up before each update (raise it, and lower batch_size, if memory runs out)
-  gpu_memory: 0.75                  # share of the GPU memory macOS recommends (shravan/env.py); about 9 GB of 16
+  batch_size:                       # clips on the GPU at once
+    openai/whisper-base: 8
+    openai/whisper-small: 4
+  accumulate:                       # batches added up before each update, so every update learns from 8 clips
+    openai/whisper-base: 1
+    openai/whisper-small: 2
+  gpu_memory:                       # share of the GPU memory macOS recommends (shravan/env.py), about 11 GB of 16
+    openai/whisper-base: 0.75       # about 9 GB; base needs 6
+    openai/whisper-small: 0.9       # small's optimizer state alone is 2 GB, and at 0.75 it ran out when resuming
   checkpointing: true               # recompute activations in the backward pass: a batch of 8 needs 5 GB instead of over 13
   learning_rate:                    # the usual rates for fine-tuning each size: larger models need gentler steps
     openai/whisper-base: 2.5e-5

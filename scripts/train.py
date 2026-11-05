@@ -103,6 +103,11 @@ class Collate:
         return {"input_features": feats, "labels": labels}
 
 
+def per_model(setting: Any, model: str) -> Any:
+    """A training setting is one value, or one per model name (config.yaml)."""
+    return setting[model] if isinstance(setting, dict) else setting
+
+
 def main() -> None:
     env.use_certifi()
     ap = argparse.ArgumentParser()
@@ -111,9 +116,9 @@ def main() -> None:
     args = ap.parse_args()
 
     cfg = config.load()
-    env.cap_gpu_memory(cfg.training["gpu_memory"])
+    env.cap_gpu_memory(per_model(cfg.training["gpu_memory"], args.model))
     t = cfg.training
-    rate = t["learning_rate"][args.model] if isinstance(t["learning_rate"], dict) else t["learning_rate"]
+    rate, batch, accumulate = (per_model(t[k], args.model) for k in ("learning_rate", "batch_size", "accumulate"))
     random.seed(t["seed"])
     torch.manual_seed(t["seed"])
 
@@ -140,9 +145,9 @@ def main() -> None:
 
     settings = Seq2SeqTrainingArguments(
         output_dir=str(out),
-        per_device_train_batch_size=t["batch_size"],
-        per_device_eval_batch_size=t["batch_size"],
-        gradient_accumulation_steps=t["accumulate"],
+        per_device_train_batch_size=batch,
+        per_device_eval_batch_size=batch,
+        gradient_accumulation_steps=accumulate,
         gradient_checkpointing=t["checkpointing"],
         gradient_checkpointing_kwargs={"use_reentrant": False},
         learning_rate=rate,
@@ -176,7 +181,7 @@ def main() -> None:
     )
     # the validation clips are never augmented: they measure, they don't teach
     trainer.get_eval_dataloader = lambda ds=None: torch.utils.data.DataLoader(
-        Clips(valid), batch_size=t["batch_size"], collate_fn=Collate(processor, start, False, random.Random(0))
+        Clips(valid), batch_size=batch, collate_fn=Collate(processor, start, False, random.Random(0))
     )
 
     started = time.time()
