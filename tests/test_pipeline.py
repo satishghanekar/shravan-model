@@ -4,7 +4,7 @@ import pytest
 
 from shravan import config, follow, metrics, recordings
 from shravan.texts import load_all
-from shravan.units import of, select, stanzas, verses
+from shravan.units import of, select, stanzas, sung, verses
 
 CFG = config.load()
 PAVAMANA = load_all(CFG.texts)["vedic-chant-pavamana-suktam"]
@@ -55,6 +55,15 @@ def test_a_recording_names_the_blocks_it_chants_in_order():
         select(stanzas(LALITA), "200")
     with pytest.raises(ValueError):
         select(stanzas(LALITA), "183..132")
+
+
+def test_an_aarti_is_chanted_with_its_dhrupad_after_every_stanza():
+    every = load_all(CFG.texts)
+    assert [u.key for u in sung(every["aarti-sukhkarta"])] == ["1", "dhrupad-1", "2", "dhrupad-1", "3", "dhrupad-1"]
+    # refrain-before-first: the dhrupad first of all
+    assert [u.key for u in sung(every["aarti-jaydeva-jaydeva-samartha"])][:3] == ["dhrupad-1", "1", "dhrupad-1"]
+    # a text without a refrain after every verse: each block once, in order
+    assert sung(every["vedic-chant-purusha-suktam"]) == of(every["vedic-chant-purusha-suktam"])
 
 
 def test_the_recordings_list_reads_the_parts_of_a_text():
