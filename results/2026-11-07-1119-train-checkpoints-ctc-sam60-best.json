@@ -1,0 +1,216 @@
+{
+ "kind": "train",
+ "model": "checkpoints/ctc-sam60/best",
+ "when": "2026-11-07T11:19:03",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)",
+  "Lalita Sahasrnaam.m4a,2022-10-04,\"vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5\",SJ,yes,\"a family Voice Memo: the last 52 stanzas, the closing line, then the Dhyanam again; never trained on\"",
+  "SG- Ganapathi Atharvashirsha.m4a,2026-11-05,vedic-chant-atharvashirsha: 1..14 dhrupad-3 dhrupad-4,SG,no,\"at home, with background sounds; no opening shanti\"",
+  "SG -Purushasukta.m4a,2026-11-05,vedic-chant-purusha-suktam,SG,yes,\"at home, with background sounds; held out: SG's voice on a text not trained on in it\"",
+  "SG - Shreesukta.m4a,2026-11-05,vedic-chant-shri-sukta: 1..15,SG,no,\"at home, with background sounds; the hymn, verses 1-15\"",
+  "SG- Matrapushpanjali.m4a,2026-11-05,vedic-chant-mantra-pushpanjali: 1..5,SG,no,\"at home, with background sounds\"",
+  "SG-ThursdayMorning aarti.m4a,2026-11-05,aarti-sukhkarta; aarti-durge-durghat-bhari; aarti-jaydeva-jaydeva-samartha; aarti-ghalin-lotangan,SG,no,\"the Thursday morning aartis but Belaguve, at home, with background sounds\"",
+  "SG-pavamaan-1.m4a,2026-11-05,vedic-chant-pavamana-suktam: 9.066.04..9.066.17,SG,no,\"at home; split by hymns, as the published recording\"",
+  "SG-pavamaan-2.m4a,2026-11-05,vedic-chant-pavamana-suktam: 9.065.22..9.065.27,SG,no,\"at home; split by hymns, as the published recording\"",
+  "SG-Durgasukta.m4a,2026-11-05,vedic-chant-durga-suktam: 1..8,SG,no,at home",
+  "SG-Rudra-1.m4a,2026-11-05,vedic-chant-shree-rudra: 1..2,SG,no,\"at home; the first anuvakas\"",
+  "SG-lagunnyaas.m4a,2026-11-05,vedic-chant-laghunyasa: 1..dhrupad-1,SG,no,at home",
+  "SG-samadhan sadhu janache.m4a,2026-11-05,ashtak-thursday,SG,no,at home"
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": {
+   "openai/whisper-base": 8,
+   "openai/whisper-small": 4,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 8
+  },
+  "accumulate": {
+   "openai/whisper-base": 1,
+   "openai/whisper-small": 2,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 1
+  },
+  "gpu_memory": {
+   "openai/whisper-base": 0.75,
+   "openai/whisper-small": 0.9,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 0.75
+  },
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 2e-05
+  },
+  "warmup_steps": {
+   "openai/whisper-base": 50,
+   "openai/whisper-small": 50,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 100
+  },
+  "max_steps": {
+   "openai/whisper-base": 2000,
+   "openai/whisper-small": 2000,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 3000
+  },
+  "eval_every": 100,
+  "patience": {
+   "openai/whisper-base": 5,
+   "openai/whisper-small": 5,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 6
+  },
+  "augment": true,
+  "family_repeat": 3,
+  "seed": 1
+ },
+ "scores": {
+  "train_clips": 881,
+  "family_clips": 459,
+  "validation_clips": 49,
+  "letters_added": 0,
+  "blank": "<s>",
+  "steps": 3000,
+  "best_step": 2700,
+  "best_validation_letters_wrong": 0.1112,
+  "validation_history": [
+   [
+    100,
+    0.6789
+   ],
+   [
+    200,
+    0.3251
+   ],
+   [
+    300,
+    0.2449
+   ],
+   [
+    400,
+    0.2066
+   ],
+   [
+    500,
+    0.1848
+   ],
+   [
+    600,
+    0.1593
+   ],
+   [
+    700,
+    0.1549
+   ],
+   [
+    800,
+    0.1429
+   ],
+   [
+    900,
+    0.145
+   ],
+   [
+    1000,
+    0.141
+   ],
+   [
+    1100,
+    0.1323
+   ],
+   [
+    1200,
+    0.1334
+   ],
+   [
+    1300,
+    0.1283
+   ],
+   [
+    1400,
+    0.1301
+   ],
+   [
+    1500,
+    0.1283
+   ],
+   [
+    1600,
+    0.1261
+   ],
+   [
+    1700,
+    0.1224
+   ],
+   [
+    1800,
+    0.1192
+   ],
+   [
+    1900,
+    0.1214
+   ],
+   [
+    2000,
+    0.1184
+   ],
+   [
+    2100,
+    0.1155
+   ],
+   [
+    2200,
+    0.1159
+   ],
+   [
+    2300,
+    0.1144
+   ],
+   [
+    2400,
+    0.1148
+   ],
+   [
+    2500,
+    0.1141
+   ],
+   [
+    2600,
+    0.1163
+   ],
+   [
+    2700,
+    0.1112
+   ],
+   [
+    2800,
+    0.1126
+   ],
+   [
+    2900,
+    0.1126
+   ],
+   [
+    3000,
+    0.113
+   ]
+  ],
+  "minutes": 112.0,
+  "learning_rate": 2e-05,
+  "layers": 8
+ },
+ "saved_to": "checkpoints/ctc-sam60-8/best"
+}

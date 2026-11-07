@@ -59,7 +59,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/cut.py "<recording>"` | Cuts one clip per verse with its label and split (`work/clips/`); verses aligned badly are left out |
 | `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips; writes `results/` |
 | `python scripts/follow.py <model>` | The app's own measure: plays each tested recording as a phone hears it and scores how often the right place is found 2, 3 and 5 seconds into a verse, searching the whole text and following |
-| `python scripts/export.py <model> <folder>` | Shrinks a trained model for the phone: ONNX, int8, about 76 MB for Whisper base, 122 MB for the CTC model (`models/`, never in git); test the folder like any model |
+| `python scripts/export.py <model> <folder>` | Shrinks a trained model for the phone: ONNX, int8, about 76 MB for Whisper base, 108 MB for the CTC model (`models/`, never in git); test the folder like any model |
 | `python scripts/train.py <model> [--resume] [--name N]` | Fine-tunes Whisper on the training clips (a family recording's counted `family_repeat` times), keeping the best checkpoint on validation (`checkpoints/N`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
 | `python scripts/train_ctc.py <model> [--resume] [--name N]` | Fine-tunes a CTC model (`ctc_model` in `config.yaml`: wav2vec2, a letter for every 20 ms, far faster on a phone than Whisper) on the same clips, our letters it lacks added to its alphabet; `evaluate.py` and `follow.py` score it as they do Whisper |
 | `python scripts/speed.py <ctc folder> <whisper folder>` | Times the phone models on this Mac's CPU with 4 threads, as an iPhone runs them: the CTC model on 2 and 5 s of sound, Whisper's encoder (a 30 s block) and 25 tokens. Only the ratio means much on the phone |
@@ -115,11 +115,32 @@ only the sound it is given, fine-tuned on the same clips (`checkpoints/ctc-sam60
 | Trained CTC: letters wrong | 11.3% | **15.1%** | 37.7% |
 | Trained CTC: right place within 3 s (following) | 100% | 100% | 96.6% |
 | Shrunk (int8, 122 MB): letters wrong | 11.5% | 15.1% | 38.1% |
+| Shrunk, positional convolution too (108 MB, the site's `chant-v3`): letters wrong | 11.9% | 15.4% | 38.5% |
+| … right place within 3 s (following) | 100% | 100% | 96.6% |
 
 It hears as well as Whisper (better on SG's voice), and much faster: on the M4's CPU with 4 threads, 58 ms for 2 s of
 sound against Whisper's 590 ms a window (`scripts/speed.py`); about 0.4 s on an iPhone, by the encoder's ratio. Its
 pretrained model's "nothing said" token is `<s>`, not the `<pad>` its config names: trained against the wrong one it
 wrote nothing within a few dozen steps, so `train_ctc.py` finds it from what the model writes.
+
+Its positional convolution (19 MB) kept its weight as two parts multiplied as it runs, which the quantizer can't
+shrink; `export.py` works it out once first (2026-11-07), 108 MB in all. Shrinking the convolutions that hear the raw
+sound too (95 MB) cost too much: 19.3%, 23.6% and 40.9% letters wrong (`results/*-every-conv-shrunk.json`).
+`scripts/to_site.py` packs it for the site (`models/site/chant-v3`): its pieces, each output's letter, and the scores
+of a check sound, which the site's own run of the model must match.
+
+Two more ways to shrink it, tried on the same tests (2026-11-07) and not taken:
+
+| | Pavamana 61–63 | SG's Purusha Suktam | SJ's Lalita | Size | 4 s in the browser / 5 s here |
+|---|---|---|---|---|---|
+| The site's `chant-v3` (12 layers, int8): letters wrong | 11.9% | 15.4% | 38.5% | 108 MB | 373 ms / 140 ms |
+| Weights in 4 bits (`MatMulNBits`, the sound layers as before) | 11.9% | 15.7% | 38.0% | 76 MB | 421 ms / 208 ms |
+| 8 layers of 12, trained again (`train_ctc.py --layers 8`, `checkpoints/ctc-sam60-8`) | 12.5% | 19.9% | 43.9% | 93 MB | – / 106 ms |
+
+Both found the right place within 3 s as often (100%, 100%, 96.6%). Four bits hear as well but run slower in the
+browser's WebAssembly (Chromium on the M4, 4 threads, the site's own code). Eight layers are a quarter quicker but
+hear the family's voices clearly worse, and only 15 MB smaller: the convolutions that hear the raw sound stay full
+size (17 MB).
 
 ## Adding recordings
 
