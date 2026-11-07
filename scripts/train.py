@@ -16,7 +16,6 @@ import time
 from dataclasses import dataclass
 from typing import Any
 
-import librosa
 import numpy as np
 import soundfile as sf
 import torch
@@ -30,6 +29,7 @@ from transformers import (
 )
 
 from shravan import config, data, env, metrics, recordings, results
+from shravan.augment import augment
 from shravan.config import ROOT
 
 LABEL_TOKENS = 128
@@ -46,15 +46,6 @@ class Clips(torch.utils.data.Dataset[dict[str, Any]]):  # type: ignore[misc]
     def __getitem__(self, i: int) -> dict[str, Any]:
         c = self.clips[i]
         return {"path": str(c.path), "label": c.label}
-
-
-def augment(audio: np.ndarray, rng: random.Random) -> np.ndarray:
-    """Random speed (±10%, which also shifts the pitch a little), volume and quiet noise."""
-    rate = rng.uniform(0.9, 1.1)
-    audio = librosa.resample(audio, orig_sr=16000, target_sr=int(16000 / rate))
-    audio = audio * rng.uniform(0.6, 1.2)
-    audio = audio + np.random.default_rng(rng.randrange(1 << 30)).normal(0, rng.uniform(0, 0.004), audio.shape)
-    return audio.astype(np.float32)
 
 
 class FreeMemory(TrainerCallback):  # type: ignore[misc]
@@ -155,8 +146,8 @@ def main() -> None:
         gradient_checkpointing=t["checkpointing"],
         gradient_checkpointing_kwargs={"use_reentrant": False},
         learning_rate=rate,
-        warmup_steps=t["warmup_steps"],
-        max_steps=t["max_steps"],
+        warmup_steps=per_model(t["warmup_steps"], args.model),
+        max_steps=per_model(t["max_steps"], args.model),
         eval_strategy="steps",
         eval_steps=t["eval_every"],
         save_steps=t["eval_every"],
@@ -181,7 +172,7 @@ def main() -> None:
         eval_dataset=Clips(valid),
         data_collator=Collate(processor, start, True, random.Random(t["seed"])),
         compute_metrics=score,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=t["patience"]), FreeMemory()],
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=per_model(t["patience"], args.model)), FreeMemory()],
     )
     # the validation clips are never augmented: they measure, they don't teach
     trainer.get_eval_dataloader = lambda ds=None: torch.utils.data.DataLoader(
