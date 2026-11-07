@@ -129,6 +129,19 @@ sound too (95 MB) cost too much: 19.3%, 23.6% and 40.9% letters wrong (`results/
 `scripts/to_site.py` packs it for the site (`models/site/chant-v3`): its pieces, each output's letter, and the scores
 of a check sound, which the site's own run of the model must match.
 
+Two more ways to shrink it, tried on the same tests (2026-11-07) and not taken:
+
+| | Pavamana 61–63 | SG's Purusha Suktam | SJ's Lalita | Size | 4 s in the browser / 5 s here |
+|---|---|---|---|---|---|
+| The site's `chant-v3` (12 layers, int8): letters wrong | 11.9% | 15.4% | 38.5% | 108 MB | 373 ms / 140 ms |
+| Weights in 4 bits (`MatMulNBits`, the sound layers as before) | 11.9% | 15.7% | 38.0% | 76 MB | 421 ms / 208 ms |
+| 8 layers of 12, trained again (`train_ctc.py --layers 8`, `checkpoints/ctc-sam60-8`) | 12.5% | 19.9% | 43.9% | 93 MB | – / 106 ms |
+
+Both found the right place within 3 s as often (100%, 100%, 96.6%). Four bits hear as well but run slower in the
+browser's WebAssembly (Chromium on the M4, 4 threads, the site's own code). Eight layers are a quarter quicker but
+hear the family's voices clearly worse, and only 15 MB smaller: the convolutions that hear the raw sound stay full
+size (17 MB).
+
 ## Adding recordings
 
 1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-training/`. On the Mac, right-click the

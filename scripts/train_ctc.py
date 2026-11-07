@@ -2,6 +2,12 @@
 best on the validation clips: the same clips, splits and family weighting as scripts/train.py for Whisper.
 
     python scripts/train_ctc.py Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60
+    python scripts/train_ctc.py checkpoints/ctc-sam60/best --layers 8 --name ctc-sam60-8 \
+        --settings Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60
+
+--layers keeps only the first layers of the transformer (12 in a base model), and trains again from there: a smaller
+and quicker model for the phone, each layer about 7 MB shrunk (2026-11-07). --settings names whose settings in
+config.yaml to use, when the model is a checkpoint of our own.
 
 The pretrained model already writes Devanagari letter by letter (Sanskrit); letters our labels use that it lacks are
 added to its output (shravan/ctc.py), each starting from the average of the others. Its first layers, which turn sound
@@ -121,12 +127,15 @@ def main() -> None:
     ap.add_argument("model")
     ap.add_argument("--resume", action="store_true", help="carry on from the last checkpoint of a stopped run")
     ap.add_argument("--name", help="its folder in checkpoints/ (default: the model name)")
+    ap.add_argument("--layers", type=int, help="keep only this many of the transformer's first layers")
+    ap.add_argument("--settings", help="the model whose settings in config.yaml to use (default: this one)")
     args = ap.parse_args()
+    like = args.settings or args.model
 
     cfg = config.load()
-    env.cap_gpu_memory(per_model(cfg.training["gpu_memory"], args.model))
+    env.cap_gpu_memory(per_model(cfg.training["gpu_memory"], like))
     t = cfg.training
-    rate, batch, accumulate = (per_model(t[k], args.model) for k in ("learning_rate", "batch_size", "accumulate"))
+    rate, batch, accumulate = (per_model(t[k], like) for k in ("learning_rate", "batch_size", "accumulate"))
     random.seed(t["seed"])
     torch.manual_seed(t["seed"])
 
@@ -137,6 +146,9 @@ def main() -> None:
     pretrained = Wav2Vec2CTCTokenizer.from_pretrained(args.model)
     alpha = ctc.alphabet(pretrained.get_vocab(), [c.label for c in train + valid])
     model = Wav2Vec2ForCTC.from_pretrained(args.model, ctc_loss_reduction="mean", ctc_zero_infinity=True)
+    if args.layers:
+        model.wav2vec2.encoder.layers = model.wav2vec2.encoder.layers[: args.layers]
+        model.config.num_hidden_layers = args.layers
     blank = blank_of(model, valid[:4])
     widen(model, len(alpha))
     model.config.pad_token_id = blank
@@ -159,11 +171,11 @@ def main() -> None:
         gradient_checkpointing=t["checkpointing"],
         gradient_checkpointing_kwargs={"use_reentrant": False},
         learning_rate=rate,
-        warmup_steps=per_model(t["warmup_steps"], args.model),
-        max_steps=per_model(t["max_steps"], args.model),
+        warmup_steps=per_model(t["warmup_steps"], like),
+        max_steps=per_model(t["max_steps"], like),
         eval_strategy="steps",
-        eval_steps=per_model(t["eval_every"], args.model),
-        save_steps=per_model(t["eval_every"], args.model),
+        eval_steps=per_model(t["eval_every"], like),
+        save_steps=per_model(t["eval_every"], like),
         save_total_limit=2,
         logging_steps=25,
         load_best_model_at_end=True,
@@ -184,7 +196,7 @@ def main() -> None:
         data_collator=Collate(alpha, True, random.Random(t["seed"])),
         compute_metrics=score,
         preprocess_logits_for_metrics=choices,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=per_model(t["patience"], args.model))],
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=per_model(t["patience"], like))],
     )
     # the validation clips are never augmented, and come in their own order
     trainer.get_eval_dataloader = lambda ds=None: torch.utils.data.DataLoader(
@@ -214,6 +226,7 @@ def main() -> None:
         "validation_history": [(h["step"], round(h["eval_letters_wrong"], 4)) for h in history],
         "minutes": round((time.time() - started) / 60, 1),
         "learning_rate": rate,
+        "layers": model.config.num_hidden_layers,
     }
     path = results.save("train", args.model, cfg, scores, {"saved_to": str(best.relative_to(ROOT))})
     print(scores)
