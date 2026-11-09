@@ -219,3 +219,15 @@ def test_a_recording_is_found_by_its_name_in_any_folder_of_the_audio(tmp_path):
 def test_the_recordings_list_names_no_family_folder():
     # (the folders under Family/ are named after people: initials only in this public repository)
     assert all(not r.file.startswith("Family/") for r in recordings.load(CFG.recordings))
+
+
+def test_the_export_can_shrink_a_ctc_model_to_4_bits_for_a_phones_gpu():
+    pytest.importorskip("transformers")  # (not installed in CI)
+    import subprocess
+    import sys
+
+    root = Path(__file__).parent.parent
+    help_text = subprocess.run(
+        [sys.executable, str(root / "scripts" / "export.py"), "--help"], capture_output=True, text=True
+    ).stdout
+    assert "--q4" in help_text
