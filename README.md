@@ -59,7 +59,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/cut.py "<recording>"` | Cuts one clip per verse with its label and split (`work/clips/`); verses aligned badly are left out |
 | `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips; writes `results/` |
 | `python scripts/follow.py <model>` | The app's own measure: plays each tested recording as a phone hears it and scores how often the right place is found 2, 3 and 5 seconds into a verse, searching the whole text and following |
-| `python scripts/export.py <model> <folder>` | Shrinks a trained model for the phone: ONNX, int8, about 76 MB for Whisper base, 108 MB for the CTC model (`models/`, never in git); test the folder like any model |
+| `python scripts/export.py <model> <folder> [--q4]` | Shrinks a trained model for the phone: ONNX, int8, about 76 MB for Whisper base, 108 MB for the CTC model (`models/`, never in git); `--q4`, a CTC model's matrix weights in 4 bits for a phone's GPU (90 MB); test the folder like any model |
 | `python scripts/train.py <model> [--resume] [--name N]` | Fine-tunes Whisper on the training clips (a family recording's counted `family_repeat` times), keeping the best checkpoint on validation (`checkpoints/N`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
 | `python scripts/train_ctc.py <model> [--resume] [--name N] [--layers L] [--settings M] [--only published\|family]` | Fine-tunes a CTC model (`ctc_model` in `config.yaml`: wav2vec2, a letter for every 20 ms, far faster on a phone than Whisper) on the same clips, our letters it lacks added to its alphabet; `evaluate.py` and `follow.py` score it as they do Whisper. `--layers` keeps the first L layers, `--settings` names whose settings a checkpoint of our own uses, `--only` trains on one kind of recording. About 2 hours on the M4 |
 | `python scripts/speed.py <ctc folder> <whisper folder>` | Times the phone models on this Mac's CPU with 4 threads, as an iPhone runs them: the CTC model on 2 and 5 s of sound, Whisper's encoder (a 30 s block) and 25 tokens. Only the ratio means much on the phone |
@@ -183,6 +183,25 @@ the held-out one-voice Lalita played in as the microphone for 1–5 minutes):
 
 Listen hears 4 s every half second, or as soon as the model is free, so the model works about three quarters of the
 time, on most of 4 cores, for as long as Listen is on.
+
+### On the phone's GPU (2026-11-09)
+
+The same model (`checkpoints/ctc-pro-all`) for WebGPU, timed on an iPhone (Safari 27, 4 cores) by a test page (the
+site's `claude/gpu-lab` branch preview): ONNX Runtime Web 1.30.0, the site's 8-bit model on the CPU as Listen ran it,
+and its WebGPU build. Letters wrong on the held-out recordings (`scripts/evaluate.py`):
+
+| chant-v4 | A 4 s hearing on the iPhone | Size | Pavamana, 1st published | Pavamana, Challakere | SG's Purusha, 2nd | SG's Purusha, 1st | Lalita, one voice | SJ's Lalita |
+|---|---|---|---|---|---|---|---|---|
+| 8-bit, CPU (`ctc-v3-int8`, Listen until 1.48) | 712 ms | 103 MB | 13.4% | 6.3% | 17.6% | 15.3% | 10.3% | 36.7% |
+| 8-bit, GPU | 825 ms | 103 MB | | | | | | |
+| **4-bit, GPU** (`export.py --q4`, `ctc-v4-q4`) | **233 ms** | 90 MB | 13.9% | 6.6% | 18.0% | 15.1% | 10.5% | 36.0% |
+| 16-bit, GPU (`ctc-v4-fp16`) | 142 ms | 189 MB | 13.1% | 6.5% | 17.9% | 14.7% | 10.7% | 36.5% |
+
+All three pick the same letters as the model's Python side on the check sound, and find the same verses. 4-bit is
+the site's GPU model (`chant-v4-q4`): three times quicker than the CPU, a smaller download, and inside the half second
+between hearings with room to spare; 16-bit is quicker still but twice the size. The GPU's 8-bit is no quicker than the
+CPU (ONNX Runtime's WebGPU build is made for 4-bit and 16-bit weights; its 8-bit steps are not). On the M4 in Chrome, Listen on
+the GPU took 86 ms a hearing and 0.3 cores, against 390 ms and about 3 on the CPU.
 
 ## Adding recordings
 
