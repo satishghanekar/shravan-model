@@ -227,5 +227,7 @@ def test_the_export_can_shrink_a_ctc_model_to_4_bits_for_a_phones_gpu():
     import sys
 
     root = Path(__file__).parent.parent
-    help_text = subprocess.run([sys.executable, str(root / "scripts" / "export.py"), "--help"], capture_output=True, text=True).stdout
+    help_text = subprocess.run(
+        [sys.executable, str(root / "scripts" / "export.py"), "--help"], capture_output=True, text=True
+    ).stdout
     assert "--q4" in help_text
