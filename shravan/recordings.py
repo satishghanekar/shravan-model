@@ -10,7 +10,7 @@ from pathlib import Path
 
 @dataclass(frozen=True)
 class Recording:
-    file: str  # its name in the audio folder (config.yaml, audio:)
+    file: str  # its name in the audio folder (config.yaml, audio:), or under it (locate())
     date: str
     texts: tuple[str, ...]  # text ids, or "routine"
     parts: tuple[str, ...]  # for each text, the blocks chanted in order ("132..183 once-7"), or "" for all of it
@@ -52,3 +52,16 @@ def find(recordings: list[Recording], name: str) -> Recording:
         if name in (r.file, r.slug):
             return r
     raise KeyError(f"no recording named {name!r} in recordings.csv")
+
+
+def locate(audio: Path, file: str) -> Path:
+    """Where a recording is: its path under the audio folder, or else the one file of that name in any folder under it.
+
+    recordings.csv is public, and the family's folders are named after them (iCloud Drive, "Family/<first name>/"), so
+    a family recording is listed by its file name alone, initials only (2026-11-09)."""
+    if (audio / file).exists():
+        return audio / file
+    found = sorted(audio.rglob(Path(file).name))
+    if len(found) != 1:
+        raise FileNotFoundError(f"{file!r}: {len(found)} files of that name under {audio}")
+    return found[0]

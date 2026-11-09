@@ -61,7 +61,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/follow.py <model>` | The app's own measure: plays each tested recording as a phone hears it and scores how often the right place is found 2, 3 and 5 seconds into a verse, searching the whole text and following |
 | `python scripts/export.py <model> <folder>` | Shrinks a trained model for the phone: ONNX, int8, about 76 MB for Whisper base, 108 MB for the CTC model (`models/`, never in git); test the folder like any model |
 | `python scripts/train.py <model> [--resume] [--name N]` | Fine-tunes Whisper on the training clips (a family recording's counted `family_repeat` times), keeping the best checkpoint on validation (`checkpoints/N`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
-| `python scripts/train_ctc.py <model> [--resume] [--name N]` | Fine-tunes a CTC model (`ctc_model` in `config.yaml`: wav2vec2, a letter for every 20 ms, far faster on a phone than Whisper) on the same clips, our letters it lacks added to its alphabet; `evaluate.py` and `follow.py` score it as they do Whisper |
+| `python scripts/train_ctc.py <model> [--resume] [--name N] [--layers L] [--settings M] [--only published\|family]` | Fine-tunes a CTC model (`ctc_model` in `config.yaml`: wav2vec2, a letter for every 20 ms, far faster on a phone than Whisper) on the same clips, our letters it lacks added to its alphabet; `evaluate.py` and `follow.py` score it as they do Whisper. `--layers` keeps the first L layers, `--settings` names whose settings a checkpoint of our own uses, `--only` trains on one kind of recording. About 2 hours on the M4 |
 | `python scripts/speed.py <ctc folder> <whisper folder>` | Times the phone models on this Mac's CPU with 4 threads, as an iPhone runs them: the CTC model on 2 and 5 s of sound, Whisper's encoder (a 30 s block) and 25 tokens. Only the ratio means much on the phone |
 | `ruff format . && ruff check . && mypy && pytest` | The checks, the same as CI; run them before a pull request |
 
@@ -142,11 +142,54 @@ browser's WebAssembly (Chromium on the M4, 4 threads, the site's own code). Eigh
 hear the family's voices clearly worse, and only 15 MB smaller: the convolutions that hear the raw sound stay full
 size (17 MB).
 
+### More recordings (2026-11-08)
+
+Added: two more published recordings by the Challakere Brothers (the Pavamana Suktam; the Atharvashirsha, Nyasam,
+Namakam, Chamakam and Durga Suktam) and SG's second takes at home (the whole Namakam and Chamakam, the Sunday aartis,
+the Durga Suktam, Atharvashirsha, Laghunyasa and Shri Sukta). Training went from about 60 to 229 minutes of clips.
+Newly held out: a published Lalita Sahasranama in one voice (28 minutes, beside SJ's group recording) and SG's second
+Purusha Suktam. A third published recording's Purusha Suktam matched the site's text too poorly to use (median
+alignment 0.21: another version of the hymn) and was left out. Every model trained on the same clips, was chosen on
+the same validation clips and tested on the same held-out audio; letters wrong:
+
+| | Pavamana 61–63, the first published recording | Pavamana 61–63, Challakere | SG's Purusha, 2nd take | SG's Purusha, 1st take | Lalita, one voice | SJ's Lalita, a group |
+|---|---|---|---|---|---|---|
+| The site's `chant-v3` | 11.9% | 11.4% | 19.5% | 15.4% | 11.3% | 38.5% |
+| CTC, every recording (`checkpoints/ctc-pro-all`) | 13.1% | 6.5% | 17.9% | **14.8%** | 10.7% | **36.4%** |
+| … shrunk (int8, 103 MB: `models/ctc-v3-int8`) | 13.4% | 6.3% | **17.6%** | 15.3% | **10.3%** | 36.7% |
+| CTC, published recordings only (`--only published`) | **10.2%** | **5.2%** | 24.0% | 18.8% | 11.9% | 39.1% |
+| CTC, 8 layers of the first (`--layers 8`), shrunk (76 MB) | 14.5% | 8.4% | 20.5% | 17.9% | 14.5% | 42.6% |
+| Whisper base, every recording | 10.6% | 5.4% | 28.1% | 23.9% | 16.9% | 39.3% |
+
+Verses found and the right place within 3 s are as before for all of them (100%, but 96.6% for SJ's; searching the
+whole text, `ctc-v3-int8` and the 8 layers miss one place in 23 of SG's 2nd take).
+
+- SG's recordings are what teach SG's voice: trained on the published ones alone, SG's Purusha Suktam is 24% wrong
+  against 18%. More published chanting teaches Pavamana (5–6% on a voice never heard), and a little of everything else.
+- Every recording, 12 layers is the best for the site: better than `chant-v3` on five tests of six (the 1st take
+  about the same), worse on the first published recording, which `chant-v3` learned from almost alone. Shrinking it
+  cost nothing.
+- Eight layers are worse than `chant-v3` on every family test; Whisper is worse on SG's voice and twice as slow.
+- Clips of many lengths filled the GPU memory cap (`gpu_memory`): PyTorch keeps what each new shape of batch used.
+  `shravan/gpu.py` hands it back every 50 steps; the 8-layer run needed a cap of 0.85 as well.
+
+What Listen costs, measured in the browser (Chromium on the M4, the site's own code and security policy, 4 threads,
+the held-out one-voice Lalita played in as the microphone for 1–5 minutes):
+
+| | 4 s heard (the model alone) | Cores busy while listening (the page idle: 0.3) | Memory |
+|---|---|---|---|
+| `chant-v3`, and `ctc-v3-int8` | 380 ms | 2.9 | ONNX Runtime's 233 MB; the tab grows by about 560 MB, kept after Stop |
+| 8 layers | 323 ms | 2.6 | about the same |
+
+Listen hears 4 s every half second, or as soon as the model is free, so the model works about three quarters of the
+time, on most of 4 cores, for as long as Listen is on.
+
 ## Adding recordings
 
 1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-training/`. On the Mac, right-click the
    folder and choose **Keep Downloaded**, so iCloud never swaps a recording out for a placeholder during training.
-2. Add one row per recording to `recordings.csv`, with initials in the `who` column. If the session followed the usual
+2. Add one row per recording to `recordings.csv`, with initials in the `who` column. A family recording is listed by its
+   file name alone, without the folder it is in (named after a person): the file is found in any folder. If the session followed the usual
    routine, `routine` is enough in the `texts` column. A recording of part of a text, or with a part said again, names
    its blocks after a colon, in the order chanted: `vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5`
    (a stanza by its number, anything else by its kind and count: the seventh `[once]` is `once-7`). Without parts, a

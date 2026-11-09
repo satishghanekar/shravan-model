@@ -9,7 +9,6 @@ them with scripts/evaluate.py.
 """
 
 import argparse
-import gc
 import random
 import re
 import time
@@ -23,7 +22,6 @@ from transformers import (
     EarlyStoppingCallback,
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
-    TrainerCallback,
     WhisperForConditionalGeneration,
     WhisperProcessor,
 )
@@ -31,6 +29,7 @@ from transformers import (
 from shravan import config, data, env, metrics, recordings, results
 from shravan.augment import augment
 from shravan.config import ROOT
+from shravan.gpu import FreeMemory
 
 LABEL_TOKENS = 128
 
@@ -46,25 +45,6 @@ class Clips(torch.utils.data.Dataset[dict[str, Any]]):  # type: ignore[misc]
     def __getitem__(self, i: int) -> dict[str, Any]:
         c = self.clips[i]
         return {"path": str(c.path), "label": c.label}
-
-
-class FreeMemory(TrainerCallback):  # type: ignore[misc]
-    """Hands the GPU's cached memory back after each evaluation and every 50 steps.
-
-    On the Mac the GPU shares the 16 GB with everything else, and PyTorch keeps what generation used during an
-    evaluation: the first run grew to 13 GB after one evaluation and slowed from 2 to 30 seconds a step in swap."""
-
-    def free(self) -> None:
-        gc.collect()
-        if torch.backends.mps.is_available():
-            torch.mps.empty_cache()
-
-    def on_evaluate(self, *args: Any, **kwargs: Any) -> None:
-        self.free()
-
-    def on_step_end(self, args: Any, state: Any, control: Any, **kwargs: Any) -> None:
-        if state.global_step % 50 == 0:
-            self.free()
 
 
 @dataclass
@@ -129,7 +109,7 @@ def main() -> None:
     train, valid = data.clips(cfg.work, "train"), data.clips(cfg.work, "validation")
     # a family recording's clips count family_repeat times (config.yaml); a published one's once
     family = {r.slug for r in recordings.load(cfg.recordings) if r.who != "published"}
-    train += [c for c in train if c.recording in family] * (t["family_repeat"] - 1)
+    train = data.weighed(train, family, t["family_repeat"])
     start = model.config.decoder_start_token_id
     out = ROOT / "checkpoints" / (args.name or re.sub(r"[^a-z0-9]+", "-", args.model.lower()).strip("-"))
 
