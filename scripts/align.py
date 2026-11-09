@@ -36,7 +36,7 @@ def main() -> None:
     wav = cfg.work / "audio" / f"{rec.slug}.wav"
     if not wav.exists():
         wav.parent.mkdir(parents=True, exist_ok=True)
-        source = cfg.audio / rec.file
+        source = recordings.locate(cfg.audio, rec.file)
         cmd = ["ffmpeg", "-loglevel", "error", "-y", "-i", str(source), "-ac", "1", "-ar", "16000", str(wav)]
         subprocess.run(cmd, check=True)
 

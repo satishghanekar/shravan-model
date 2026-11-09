@@ -7,7 +7,8 @@ best on the validation clips: the same clips, splits and family weighting as scr
 
 --layers keeps only the first layers of the transformer (12 in a base model), and trains again from there: a smaller
 and quicker model for the phone, each layer about 7 MB shrunk (2026-11-07). --settings names whose settings in
-config.yaml to use, when the model is a checkpoint of our own.
+config.yaml to use, when the model is a checkpoint of our own. --only published (or family) trains on that kind of
+recording alone, to compare what each teaches; the validation clips stay the same, so the runs choose alike.
 
 The pretrained model already writes Devanagari letter by letter (Sanskrit); letters our labels use that it lacks are
 added to its output (shravan/ctc.py), each starting from the average of the others. Its first layers, which turn sound
@@ -43,6 +44,7 @@ from transformers import (  # noqa: E402
 from shravan import config, ctc, data, env, metrics, recordings, results  # noqa: E402
 from shravan.augment import augment  # noqa: E402
 from shravan.config import ROOT  # noqa: E402
+from shravan.gpu import FreeMemory  # noqa: E402
 
 # every batch's sound is padded up to a whole number of these (16 kHz samples, 4 s), so the Mac's GPU sees few shapes:
 # each new shape keeps memory of its own (scripts/train.py, the labels)
@@ -129,6 +131,7 @@ def main() -> None:
     ap.add_argument("--name", help="its folder in checkpoints/ (default: the model name)")
     ap.add_argument("--layers", type=int, help="keep only this many of the transformer's first layers")
     ap.add_argument("--settings", help="the model whose settings in config.yaml to use (default: this one)")
+    ap.add_argument("--only", choices=["published", "family"], help="train on only this kind of recording")
     args = ap.parse_args()
     like = args.settings or args.model
 
@@ -141,7 +144,7 @@ def main() -> None:
 
     train, valid = data.clips(cfg.work, "train"), data.clips(cfg.work, "validation")
     family = {r.slug for r in recordings.load(cfg.recordings) if r.who != "published"}
-    train += [c for c in train if c.recording in family] * (t["family_repeat"] - 1)
+    train = data.weighed(train, family, t["family_repeat"], args.only)
 
     pretrained = Wav2Vec2CTCTokenizer.from_pretrained(args.model)
     alpha = ctc.alphabet(pretrained.get_vocab(), [c.label for c in train + valid])
@@ -196,7 +199,7 @@ def main() -> None:
         data_collator=Collate(alpha, True, random.Random(t["seed"])),
         compute_metrics=score,
         preprocess_logits_for_metrics=choices,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=per_model(t["patience"], like))],
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=per_model(t["patience"], like)), FreeMemory()],
     )
     # the validation clips are never augmented, and come in their own order
     trainer.get_eval_dataloader = lambda ds=None: torch.utils.data.DataLoader(
@@ -227,6 +230,8 @@ def main() -> None:
         "minutes": round((time.time() - started) / 60, 1),
         "learning_rate": rate,
         "layers": model.config.num_hidden_layers,
+        "trained_on": args.only or "all",
+        "recordings_trained_on": sorted({c.recording for c in train}),
     }
     path = results.save("train", args.model, cfg, scores, {"saved_to": str(best.relative_to(ROOT))})
     print(scores)

@@ -1,8 +1,10 @@
 """The pipeline's logic: verses as units, recordings, the metrics, and the aligner's window maths."""
 
+from pathlib import Path
+
 import pytest
 
-from shravan import config, follow, metrics, recordings
+from shravan import config, data, follow, metrics, recordings
 from shravan.texts import load_all
 from shravan.units import MAX_LETTERS, of, select, stanzas, sung, verses
 
@@ -98,6 +100,34 @@ def test_the_recordings_list_reads_the_parts_of_a_text():
             assert select(of(every[t]), p) if p else of(every[t])
 
 
+def test_every_recording_has_its_own_working_files():
+    # the slug names its audio, alignment and clips in work/: two recordings sharing one would mix their clips (a new
+    # take with the old one's name, say)
+    slugs = [r.slug for r in recordings.load(CFG.recordings)]
+    assert len(slugs) == len(set(slugs))
+
+
+def test_a_text_held_out_for_its_voice_is_never_trained_on():
+    # Pavamana is split by hymn, so its held-out hymns protect it; any other text a held-out recording chants (the
+    # Lalita Sahasranama, the Purusha Suktam) must be in no recording that is trained on
+    rows = recordings.load(CFG.recordings)
+    tested = {t for r in rows if r.heldout for t in r.texts} - {"vedic-chant-pavamana-suktam"}
+    trained = {t for r in rows if not r.heldout for t in r.texts}
+    assert tested and not tested & trained
+
+
+def test_training_can_take_one_kind_of_recording_and_weighs_the_family_more():
+    def clip(n: int, rec: str) -> data.Clip:
+        return data.Clip(str(n), Path(f"{n}.wav"), "क", 0, "train", 1.0, rec)
+
+    train = [clip(1, "published"), clip(2, "sg"), clip(3, "sg")]
+    assert [c.id for c in data.weighed(train, {"sg"}, 3)] == ["1", "2", "3", "2", "3", "2", "3"]
+    assert [c.id for c in data.weighed(train, {"sg"}, 3, "published")] == ["1"]
+    assert [c.id for c in data.weighed(train, {"sg"}, 2, "family")] == ["2", "3", "2", "3"]
+    with pytest.raises(ValueError):
+        data.weighed(train, {"sg"}, 3, "temple")
+
+
 def test_following_finds_where_the_heard_words_end():
     labels = ["स्वादिष्ठया मदिष्ठया पवस्व", "इन्द्राय पातवे सुतः", "रक्षोहा विश्वचर्षणिः"]
     # the end of one verse and the start of the next: the chanting is in the next
@@ -156,3 +186,36 @@ def test_the_check_sound_is_the_same_every_time():
 
     a, b = package.tone(), package.tone()
     assert a.shape == (48000,) and (a == b).all() and abs(a).max() < 0.6
+
+
+def test_training_hands_the_gpu_memory_back_every_few_steps_in_both_scripts():
+    pytest.importorskip("torch")  # (not installed in CI)
+    pytest.importorskip("transformers")
+    from types import SimpleNamespace
+
+    from shravan.gpu import EVERY, FreeMemory
+
+    f = FreeMemory()
+    for step in range(1, 3 * EVERY + 1):
+        f.on_step_end(None, SimpleNamespace(global_step=step), None)
+    f.on_evaluate()
+    assert f.freed == 4
+    root = Path(__file__).parent.parent / "scripts"
+    assert all("FreeMemory()" in (root / s).read_text() for s in ("train.py", "train_ctc.py"))
+
+
+def test_a_recording_is_found_by_its_name_in_any_folder_of_the_audio(tmp_path):
+    # recordings.csv is public: a family recording is listed by its file name, never under a folder with a name
+    (tmp_path / "Family" / "X").mkdir(parents=True)
+    (tmp_path / "Family" / "X" / "SG - a.m4a").write_bytes(b"")
+    (tmp_path / "Professional").mkdir()
+    (tmp_path / "Professional" / "b.mp3").write_bytes(b"")
+    assert recordings.locate(tmp_path, "SG - a.m4a") == tmp_path / "Family" / "X" / "SG - a.m4a"
+    assert recordings.locate(tmp_path, "Professional/b.mp3") == tmp_path / "Professional" / "b.mp3"
+    with pytest.raises(FileNotFoundError):
+        recordings.locate(tmp_path, "c.m4a")
+
+
+def test_the_recordings_list_names_no_family_folder():
+    # (the folders under Family/ are named after people: initials only in this public repository)
+    assert all(not r.file.startswith("Family/") for r in recordings.load(CFG.recordings))

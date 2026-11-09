@@ -1,0 +1,106 @@
+{
+ "kind": "speed",
+ "model": "models/ctc-v3-int8",
+ "when": "2026-11-09T01:24:05",
+ "texts_commit": "2cd732adeeb465abfbdc9f10bea9ca4aa4dad2f9",
+ "recordings": [
+  "Professional/Sri Pavamaana Suktha - Copy 1.mp3,,vedic-chant-pavamana-suktam,published,no,a standard recording we learn from; split by hymns (config.yaml)",
+  "Temple/Lalita Sahasrnaam.m4a,2022-10-04,\"vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5\",SJ,yes,\"a family Voice Memo: the last 52 stanzas, the closing line, then the Dhyanam again; never trained on\"",
+  "SG- Ganapathi Atharvashirsha.m4a,2026-11-05,vedic-chant-atharvashirsha: 1..14 dhrupad-3 dhrupad-4,SG,no,\"at home, with background sounds; no opening shanti. A first take: its file has since been replaced by a new take (below), its audio is kept in work/\"",
+  "SG -Purushasukta (first take).m4a,2026-11-05,vedic-chant-purusha-suktam,SG,yes,\"at home, with background sounds; held out: SG's voice on a text not trained on in it. A first take: its file has since been replaced by a new take (below), its audio is kept in work/\"",
+  "SG - Shreesukta.m4a,2026-11-05,vedic-chant-shri-sukta: 1..15,SG,no,\"at home, with background sounds; the hymn, verses 1-15. A first take: its file has since been replaced by a new take (below), its audio is kept in work/\"",
+  "SG- Matrapushpanjali.m4a,2026-11-05,vedic-chant-mantra-pushpanjali: 1..5,SG,no,\"at home, with background sounds\"",
+  "SG-ThursdayMorning aarti.m4a,2026-11-05,aarti-sukhkarta; aarti-durge-durghat-bhari; aarti-jaydeva-jaydeva-samartha; aarti-ghalin-lotangan,SG,no,\"the Thursday morning aartis but Belaguve, at home, with background sounds\"",
+  "SG-pavamaan-1.m4a,2026-11-05,vedic-chant-pavamana-suktam: 9.066.04..9.066.17,SG,no,\"at home; split by hymns, as the published recording\"",
+  "SG-pavamaan-2.m4a,2026-11-05,vedic-chant-pavamana-suktam: 9.065.22..9.065.27,SG,no,\"at home; split by hymns, as the published recording\"",
+  "SG-Durgasukta.m4a,2026-11-05,vedic-chant-durga-suktam: 1..8,SG,no,\"at home. A first take: its file has since been replaced by a new take (below), its audio is kept in work/\"",
+  "SG-Rudra-1.m4a,2026-11-05,vedic-chant-shree-rudra: 1..2,SG,no,\"at home; the first anuvakas. A first take: its file has since been replaced by the whole Namakam (below), its audio is kept in work/\"",
+  "SG-lagunnyaas.m4a,2026-11-05,vedic-chant-laghunyasa: 1..dhrupad-1,SG,no,\"at home. A first take: its file has since been replaced by a new take (below), its audio is kept in work/\"",
+  "SG-samadhan sadhu janache.m4a,2026-11-05,ashtak-thursday,SG,no,at home",
+  "SG - Durga Sukta.qta,2026-11-08,vedic-chant-durga-suktam: 1..8,SG,no,\"at home; a second take\"",
+  "SG - Ganapthi Atharvashirsha.qta,2026-11-08,vedic-chant-atharvashirsha,SG,no,\"at home; a second take, the shanti before and after\"",
+  "SG - Lagunyaas.qta,2026-11-08,vedic-chant-laghunyasa: 1..10.4,SG,no,\"at home; a second take\"",
+  "SG - Purushasukta.qta,2026-11-08,vedic-chant-purusha-suktam,SG,yes,\"at home; a second take, held out as the first\"",
+  "SG -Rudra-Namak.qta,2026-11-08,vedic-chant-shree-rudra: dhrupad-1..dhrupad-4,SG,no,\"at home; the whole Namakam\"",
+  "SG - Rudra - Chamak.qta,2026-11-08,vedic-chant-shree-rudra: 12.1..dhrupad-7.3,SG,no,\"at home; the whole Chamakam\"",
+  "SG - Shree Sukta.qta,2026-11-08,vedic-chant-shri-sukta: 1..15,SG,no,\"at home; a second take, the hymn\"",
+  "SG - Sunday -morning aarthi with background noise .qta,2026-11-08,aarti-sukhkarta; aarti-durge-durghat-bhari; aarti-jaydeva-jaydeva-samartha; aarti-ghalin-lotangan,SG,no,\"the Sunday morning aartis, at home, with background noise\"",
+  "Professional/Pavamana Suktam - Challakere Brothers/1. Pavamana Suktam - Prathama Adhyaya.m4a,,vedic-chant-pavamana-suktam: 9.001.01..9.012.09,published,no,\"a second published recording, from a published video (2020): the first adhyaya; split by hymns\"",
+  "Professional/Pavamana Suktam - Challakere Brothers/2. Pavamana Suktam - Dvitiya Adhyaya.m4a,,vedic-chant-pavamana-suktam: 9.013.01..9.043.06,published,no,\"the same, the second adhyaya\"",
+  "Professional/Pavamana Suktam - Challakere Brothers/3. Pavamana Suktam - Tritiya Adhyaya.m4a,,vedic-chant-pavamana-suktam: 9.044.01..9.064.30,published,no,\"the same, the third adhyaya (the held-out and validation hymns stay out of training)\"",
+  "Professional/Pavamana Suktam - Challakere Brothers/4. Pavamana Suktam - Chaturtha Adhyaya.m4a,,vedic-chant-pavamana-suktam: 9.065.01..9.067.32,published,no,\"the same, the fourth adhyaya\"",
+  "Professional/Shree Rudradhyaya - Challakere Brothers/1. Ganesha Atharvashirsham.m4a,,vedic-chant-atharvashirsha,published,no,\"published (2022), by the same chanters\"",
+  "Professional/Shree Rudradhyaya - Challakere Brothers/2. Nyasam.m4a,,vedic-chant-laghunyasa: 5.1..10.4,published,no,\"the same; their Nyasam begins at the fifth part\"",
+  "Professional/Shree Rudradhyaya - Challakere Brothers/3. Namakam (Shri Rudra Prashna).m4a,,vedic-chant-shree-rudra: 1.1..dhrupad-4,published,no,\"the same; the Namakam\"",
+  "Professional/Shree Rudradhyaya - Challakere Brothers/4. Chamakam.m4a,,vedic-chant-shree-rudra: 12.1..dhrupad-7.3,published,no,\"the same; the Chamakam\"",
+  "Professional/Shree Rudradhyaya - Challakere Brothers/7. Durga Suktam.m4a,,vedic-chant-durga-suktam: 1..8,published,no,\"the same\"",
+  "Professional/Sri Lalitha Sahasranamam - Rajshri Soul.m4a,,vedic-chant-lalita-sahasranama: 1..183 once-7,published,yes,\"a published recording (2015), one voice over light music, the music-only start and end cut off; held out: the Lalita Sahasranama is never trained on, and beside the group recording (SJ) it shows what group chanting costs\""
+ ],
+ "split": {
+  "test": [
+   61,
+   62,
+   63
+  ],
+  "validation": [
+   46,
+   47,
+   48,
+   49,
+   50,
+   64
+  ]
+ },
+ "min_alignment_score": 0.3,
+ "training": {
+  "precision": "fp32",
+  "batch_size": {
+   "openai/whisper-base": 8,
+   "openai/whisper-small": 4,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 8
+  },
+  "accumulate": {
+   "openai/whisper-base": 1,
+   "openai/whisper-small": 2,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 1
+  },
+  "gpu_memory": {
+   "openai/whisper-base": 0.75,
+   "openai/whisper-small": 0.9,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 0.75
+  },
+  "checkpointing": true,
+  "learning_rate": {
+   "openai/whisper-base": 2.5e-05,
+   "openai/whisper-small": 1e-05,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 2e-05
+  },
+  "warmup_steps": {
+   "openai/whisper-base": 50,
+   "openai/whisper-small": 50,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 100
+  },
+  "max_steps": {
+   "openai/whisper-base": 2000,
+   "openai/whisper-small": 2000,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 3000
+  },
+  "eval_every": 100,
+  "patience": {
+   "openai/whisper-base": 5,
+   "openai/whisper-small": 5,
+   "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60": 6
+  },
+  "augment": true,
+  "family_repeat": 3,
+  "seed": 1
+ },
+ "scores": {
+  "threads": 4,
+  "ctc_2s_ms": 46.8,
+  "ctc_5s_ms": 113.7,
+  "whisper_encoder_ms": 109.9,
+  "whisper_25_tokens_ms": 260.6,
+  "ctc_5s_share_of_whisper": 0.307
+ }
+}

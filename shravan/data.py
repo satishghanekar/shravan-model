@@ -35,3 +35,16 @@ def clips(work: Path, split: str | None = None) -> list[Clip]:
                 )
                 out.append(clip)
     return out
+
+
+def weighed(train: list[Clip], family: set[str], repeat: int, only: str | None = None) -> list[Clip]:
+    """The training clips as a pass sees them: each family clip `repeat` times, so a few minutes of the voices the app
+    must follow aren't drowned out by hours of published chanting. With `only` ("published" or "family"), the other
+    kind is left out: to see what each kind of recording teaches on its own (2026-11-08)."""
+    if only == "published":
+        train = [c for c in train if c.recording not in family]
+    elif only == "family":
+        train = [c for c in train if c.recording in family]
+    elif only is not None:
+        raise ValueError(f"only 'published' or 'family', not {only!r}")
+    return train + [c for c in train if c.recording in family] * (repeat - 1)
