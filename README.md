@@ -203,6 +203,24 @@ between hearings with room to spare; 16-bit is quicker still but twice the size.
 CPU (ONNX Runtime's WebGPU build is made for 4-bit and 16-bit weights; its 8-bit steps are not). On the M4 in Chrome, Listen on
 the GPU took 86 ms a hearing and 0.3 cores, against 390 ms and about 3 on the CPU.
 
+### chant-v4 by Listen's own method (2026-11-09)
+
+`scripts/follow.py`, 3 seconds into each unit (`models/ctc-v3-int8` is chant-v4 on the CPU, `models/ctc-v4-q4` on the GPU):
+
+| Recording (units tested) | Following, CPU | Following, GPU | Search, CPU | Search, GPU |
+| --- | --- | --- | --- | --- |
+| Pavamana, 1st published (79) | 100% | 100% | 96.2% | 94.9% |
+| Pavamana, Challakere (90) | 100% | 100% | 95.6% | 94.4% |
+| SG's Purusha, 2nd (23) | 100% | 100% | 82.6% | 87.0% |
+| SG's Purusha, 1st (25) | 100% | 100% | 92.0% | 92.0% |
+| Lalita, one voice (184) | 100% | 100% | 99.5% | 99.5% |
+| SJ's Lalita, a group (58) | 98.3% | 98.3% | 48.3% | 48.3% |
+
+Following, the number the release target is set on, passes on every recording. Search is what happens after a jump to
+another text, when Listen has lost its place, and it is weakest on a group and on family voices. None of these is an
+aarti, an ashtak or Marathi: both aarti recordings and the ashtak are trained on, so no score here says how Listen does
+on them.
+
 ## Adding recordings
 
 1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-training/`. On the Mac, right-click the
