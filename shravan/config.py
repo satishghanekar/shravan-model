@@ -26,6 +26,7 @@ class Config:
     min_alignment_score_family: float
     training: dict[str, Any]
     targets: dict[str, float]
+    listen: dict[str, float]
 
 
 def _path(value: str) -> Path:
@@ -49,4 +50,5 @@ def load(path: Path = ROOT / "config.yaml") -> Config:
         min_alignment_score_family=float(raw["min_alignment_score_family"]),
         training=dict(raw["training"]),
         targets=dict(raw["targets"]),
+        listen=dict(raw["listen"]),
     )

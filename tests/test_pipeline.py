@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from shravan import config, data, follow, metrics, recordings
+from shravan import config, data, metrics, recordings
 from shravan.texts import load_all
 from shravan.units import MAX_LETTERS, of, select, stanzas, sung, verses
 
@@ -128,16 +128,6 @@ def test_training_can_take_one_kind_of_recording_and_weighs_the_family_more():
         data.weighed(train, {"sg"}, 3, "temple")
 
 
-def test_following_finds_where_the_heard_words_end():
-    labels = ["स्वादिष्ठया मदिष्ठया पवस्व", "इन्द्राय पातवे सुतः", "रक्षोहा विश्वचर्षणिः"]
-    # the end of one verse and the start of the next: the chanting is in the next
-    assert follow.where("पातवे सुतः रक्षोहा विश्व", labels) == 2
-    assert follow.where("मदिष्ठया पव", labels) == 0
-    assert follow.where("", labels) == -1
-    assert list(follow.nearby(0, 10)) == [0, 1, 2, 3]
-    assert list(follow.nearby(8, 10)) == [7, 8, 9]
-
-
 def test_letters_wrong_ignores_marks_and_dandas_in_what_was_heard():
     assert metrics.letters_wrong(["सोम धारया"], ["सोम॒ धार॑या ।"]) == 0
     assert metrics.letters_wrong(["सोम"], ["सम"]) > 0
@@ -231,3 +221,31 @@ def test_the_export_can_shrink_a_ctc_model_to_4_bits_for_a_phones_gpu():
         [sys.executable, str(root / "scripts" / "export.py"), "--help"], capture_output=True, text=True
     ).stdout
     assert "--q4" in help_text
+
+
+def test_a_results_file_names_the_code_and_libraries_and_never_overwrites(tmp_path):
+    import json
+
+    from shravan import results
+
+    first = results.save("evaluate", "checkpoints/x/best", CFG, {"a": 1}, folder=tmp_path)
+    second = results.save("evaluate", "checkpoints/x/best", CFG, {"a": 2}, folder=tmp_path)
+    assert first != second and len(list(tmp_path.iterdir())) == 2
+    record = json.loads(first.read_text(encoding="utf-8"))
+    assert len(record["code"]["commit"]) == 40 and isinstance(record["code"]["uncommitted_changes"], bool)
+    assert record["min_alignment_score_family"] == CFG.min_alignment_score_family
+    assert "numpy" in record["libraries"] and record["scores"] == {"a": 1}
+
+
+def test_a_recording_of_several_texts_is_chanted_in_order_and_scored_against_all_of_them():
+    from shravan import units
+
+    every = load_all(CFG.texts)
+    ids = ("aarti-sukhkarta", "aarti-durge-durghat-bhari")
+    chanted = units.chanted(every, ids, ("", "1 dhrupad-1"))
+    assert [u.id.split("/")[0] for u in chanted].count("aarti-durge-durghat-bhari") == 2
+    assert chanted[-1].key == "dhrupad-1" and chanted[0].key == "1"
+    every_unit = units.candidates(every, (*ids, "aarti-sukhkarta"))
+    # every unit of both, each once: a clip of either text is found among them
+    assert len(every_unit) == len(of(every[ids[0]])) + len(of(every[ids[1]]))
+    assert {u.id for u in chanted} <= {u.id for u in every_unit}

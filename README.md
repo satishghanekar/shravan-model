@@ -57,8 +57,8 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/sync_texts.py` | Copies the texts from `../nitya-upasana` into `texts/` and records the site commit |
 | `python scripts/align.py "<recording>"` | Converts the recording to 16 kHz mono and finds where each verse starts and ends (`work/align/`) |
 | `python scripts/cut.py "<recording>"` | Cuts one clip per verse with its label and split (`work/clips/`); verses aligned badly are left out |
-| `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips; writes `results/` |
-| `python scripts/follow.py <model>` | The app's own measure: plays each tested recording as a phone hears it and scores how often the right place is found 2, 3 and 5 seconds into a verse, searching the whole text and following |
+| `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips, a clip's verse looked for among every text its recording chants; writes `results/` |
+| `python scripts/follow.py <model>` | The app's own measure, by Listen's own method (`shravan/follow.py`, its settings in `config.yaml`, `listen:`): plays each tested recording as Listen hears it (the last 4 s) and scores how often the right place is found 2, 3 and 5 seconds into a unit, following (the window lined up with the text near Listen's mark) and lost (every text searched). A CTC model only |
 | `python scripts/export.py <model> <folder> [--q4]` | Shrinks a trained model for the phone: ONNX, int8, about 76 MB for Whisper base, 108 MB for the CTC model (`models/`, never in git); `--q4`, a CTC model's matrix weights in 4 bits for a phone's GPU (90 MB); test the folder like any model |
 | `python scripts/train.py <model> [--resume] [--name N]` | Fine-tunes Whisper on the training clips (a family recording's counted `family_repeat` times), keeping the best checkpoint on validation (`checkpoints/N`); `--resume` carries on a stopped run. Base takes about 85 minutes on the M4 |
 | `python scripts/train_ctc.py <model> [--resume] [--name N] [--layers L] [--settings M] [--only published\|family]` | Fine-tunes a CTC model (`ctc_model` in `config.yaml`: wav2vec2, a letter for every 20 ms, far faster on a phone than Whisper) on the same clips, our letters it lacks added to its alphabet; `evaluate.py` and `follow.py` score it as they do Whisper. `--layers` keeps the first L layers, `--settings` names whose settings a checkpoint of our own uses, `--only` trains on one kind of recording. About 2 hours on the M4 |
@@ -222,6 +222,10 @@ A model is released to the site only when, on the held-out recordings:
 
 - fewer than 15% of Devanagari letters are wrong (character error rate), and
 - the app lands on the right line within 3 seconds of starting it more than 95% of the time.
+
+The second is measured by `scripts/follow.py` (following, 3 s), by Listen's own method since 2026-11-10: the last 4 s
+lined up with the text near the mark. The "right place" figures above were measured the earlier way (the last 6 s,
+the letters read and fuzzy-searched), so a model is compared again with the new measure before a release.
 
 When a text is added or corrected on the site, run `python scripts/sync_texts.py` and commit `texts/`. Each run
 records the site commit its texts came from (`texts/SOURCE`), so a score can always be traced to the words it was
