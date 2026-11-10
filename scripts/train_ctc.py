@@ -28,7 +28,6 @@ from typing import Any
 # CTC's loss isn't on the Mac's GPU in every PyTorch: that one step falls back to the CPU instead of failing
 os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
 
-import numpy as np  # noqa: E402
 import soundfile as sf  # noqa: E402
 import torch  # noqa: E402
 from transformers import (  # noqa: E402
@@ -45,6 +44,7 @@ from shravan import config, ctc, data, env, metrics, recordings, results  # noqa
 from shravan.augment import augment  # noqa: E402
 from shravan.config import ROOT  # noqa: E402
 from shravan.gpu import FreeMemory  # noqa: E402
+from shravan.sound import normalise  # noqa: E402
 
 # every batch's sound is padded up to a whole number of these (16 kHz samples, 4 s), so the Mac's GPU sees few shapes:
 # each new shape keeps memory of its own (scripts/train.py, the labels)
@@ -75,7 +75,7 @@ class Collate:
         if self.train:
             audio = [augment(a, self.rng) for a in audio]
         # each clip brought to mean 0 and spread 1, as the model was trained (do_normalize), then padded with silence
-        audio = [(a - a.mean()) / np.sqrt(a.var() + 1e-7) for a in audio]
+        audio = [normalise(a) for a in audio]
         size = -(-max(len(a) for a in audio) // BUCKET) * BUCKET
         values = torch.zeros(len(audio), size)
         for i, a in enumerate(audio):
@@ -115,7 +115,7 @@ def blank_of(model: Wav2Vec2ForCTC, clips: list[data.Clip]) -> int:
     model.eval()
     for c in clips:
         a = sf.read(c.path, dtype="float32")[0]
-        x = torch.from_numpy((a - a.mean()) / np.sqrt(a.var() + 1e-7))[None]
+        x = torch.from_numpy(normalise(a))[None]
         with torch.inference_mode():
             for i in model(input_values=x).logits.argmax(-1)[0].tolist():
                 counts[i] = counts.get(i, 0) + 1

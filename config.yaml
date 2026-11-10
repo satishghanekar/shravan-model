@@ -63,3 +63,21 @@ training:
 targets:
   character_error_rate: 0.15
   line_found_within_3s: 0.95
+
+# How Listen finds the place, as the site has it (js/features/listen.js, js/core/follow.js), so scripts/follow.py scores
+# the app's own method (shravan/follow.py). When the site changes one of these, change it here too.
+listen:
+  window: 4           # seconds heard each time
+  back: 60            # letters before the mark and after it lined up with the window
+  forth: 250
+  fit: -0.6           # the least fit believed (log-probability a step below the model's own reading)
+  cover: 10           # the fewest letters a fit must cover
+  recent: 1           # seconds at the window's end that must fit near the mark too
+  tail: 2.5           # when they don't, the letters of the last seconds looked for first
+  least: 10           # the fewest letters heard worth looking for
+  ahead: 400          # letters after the place last found looked in first
+  near: 0.4           # letters wrong, for each letter heard, believed near the place, in its text, anywhere
+  text: 0.35
+  any: 0.3
+  pace: 7             # letters a second the mark moves on at, from the place last found
+  step_ms: 20         # ms of sound each of the model's outputs covers

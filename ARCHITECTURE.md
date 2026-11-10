@@ -30,8 +30,10 @@ hear the words. Everything here exists to train that model fairly and to prove h
    most likely a fumble or a gap. A block too long for one 30-second clip (an anuvaka of the Rudram) is aligned and cut
    in pieces of a few lines, so a fumble costs only its own piece.
 6. **Test** (`scripts/evaluate.py`): the untrained model first, then each trained one, on the held-out clips only,
-   each recording scored on its own. **Follow** (`scripts/follow.py`): the app's own measure, each tested recording
-   played as a phone hears it (the last 6 seconds), the right place found 2, 3 and 5 seconds into each verse.
+   each recording scored on its own. **Follow** (`scripts/follow.py`): the app's own measure, by the app's own method
+   (`shravan/follow.py`, a port of the site's `js/core/align.js` and `js/core/follow.js`, checked against their
+   answers), each tested recording played as Listen hears it (the last 4 seconds), the right place found 2, 3 and 5
+   seconds into each unit, following from the unit before and lost.
 7. **Train** (`scripts/train.py`): full fine-tuning of Whisper base (the phone model) and small (the accuracy ceiling), fp32 on
    the M4's GPU (`mps`), keeping the best checkpoint by validation score, with light augmentation (speed, volume, noise). On 16 GB it
    recomputes activations in the backward pass (gradient checkpointing) and caps PyTorch's GPU memory: without them a

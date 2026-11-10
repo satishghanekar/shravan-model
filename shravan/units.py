@@ -87,12 +87,17 @@ def pieces(lines: list[Line]) -> list[list[Line]]:
     return runs
 
 
-def stanzas(text: Text) -> list[Unit]:
-    """Every block of a text, in order, keyed by its number ("132") or its kind and count ("once-7"); a block too long
-    for one clip in pieces of a few lines, keyed "4.1", "4.2", …"""
-    out: list[Unit] = []
+def keyed(text: Text) -> list[tuple[str, list[Line]]]:
+    """A text's blocks with their keys: a Rigveda reference for Pavamana Suktam's verses (verses(), "" for its blocks
+    without one), else a block's number ("132") or its kind and count ("once-7") (stanzas())."""
+    out: list[tuple[str, list[Line]]] = []
     seen: dict[str, int] = {}
+    referenced = bool(verses(text))
     for lines in blocks(text):
+        if referenced:
+            ref = next((m for m in (REF.search(ln.en) for ln in lines) if m), None)
+            out.append((f"{ref.group(1)}.{ref.group(2)}.{ref.group(3)}" if ref else "", lines))
+            continue
         name = lines[0].block
         number = re.fullmatch(r"(?:para )?(\d+)", name)
         if number:
@@ -101,12 +106,22 @@ def stanzas(text: Text) -> list[Unit]:
             kind = name.split()[0]
             seen[kind] = seen.get(kind, 0) + 1
             key = f"{kind}-{seen[kind]}"
+        out.append((key, lines))
+    return out
+
+
+def stanzas(text: Text) -> list[Unit]:
+    """Every block of a text, in order, keyed by its number ("132") or its kind and count ("once-7"); a block too long
+    for one clip in pieces of a few lines, keyed "4.1", "4.2", …"""
+    out: list[Unit] = []
+    for key, lines in keyed(text) if not verses(text) else []:
+        number = re.fullmatch(r"\d+", key)
         runs = pieces(lines)
         for n, run in enumerate(runs, 1):
             label = " ".join(plain(ln.orig) for ln in run).strip()
             if label:
                 piece = key if len(runs) == 1 else f"{key}.{n}"
-                out.append(Unit(f"{text.id}/{piece}", 0, int(number.group(1)) if number else 0, label))
+                out.append(Unit(f"{text.id}/{piece}", 0, int(key) if number else 0, label))
     return out
 
 
@@ -159,3 +174,14 @@ def select(every: list[Unit], parts: str) -> list[Unit]:
             raise ValueError(f"{part}: the range runs backwards")
         out += every[a : b + 1]
     return out
+
+
+def chanted(texts: dict[str, Text], ids: tuple[str, ...], parts: tuple[str, ...]) -> list[Unit]:
+    """A recording's units in the order chanted: for each of its texts in turn, the blocks it names (select()), or
+    the whole text as it is chanted (sung())."""
+    return [u for t, p in zip(ids, parts, strict=True) for u in (select(of(texts[t]), p) if p else sung(texts[t]))]
+
+
+def candidates(texts: dict[str, Text], ids: tuple[str, ...]) -> list[Unit]:
+    """Every unit of a recording's texts, each once: what a clip's verse is looked for among."""
+    return [u for t in dict.fromkeys(ids) for u in of(texts[t])]

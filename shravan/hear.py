@@ -11,11 +11,12 @@ import numpy as np
 import torch
 from transformers import AutoConfig, WhisperForConditionalGeneration, WhisperProcessor
 
-from shravan import ctc
+from shravan import ctc, follow
+from shravan.sound import normalise
 
 
 def transcribe(model_name: str, audio: list[np.ndarray], language: str, batch: int = 8) -> list[str]:
-    if "Wav2Vec2ForCTC" in (AutoConfig.from_pretrained(model_name).architectures or []):
+    if is_ctc(model_name):
         return letters(model_name, audio)
     processor = WhisperProcessor.from_pretrained(model_name)
     model: Any
@@ -37,28 +38,52 @@ def transcribe(model_name: str, audio: list[np.ndarray], language: str, batch: i
     return out
 
 
-def letters(model_name: str, audio: list[np.ndarray]) -> list[str]:
-    """A CTC model's words: each piece on its own (no padding, which changes a wav2vec2 model's normalisation), each
-    20 ms step's likeliest letter, read as shravan/ctc.py decode does."""
-    from transformers import Wav2Vec2CTCTokenizer, Wav2Vec2ForCTC
+class Ctc:
+    """A CTC model (wav2vec2) loaded once: on the GPU, or, shrunk for the phone (a folder with model.onnx), with ONNX
+    Runtime on the CPU, as the phone will run it. Each piece is heard on its own (no padding, which changes a wav2vec2
+    model's normalisation)."""
 
-    tokenizer = Wav2Vec2CTCTokenizer.from_pretrained(model_name)
-    alpha = tokenizer.get_vocab()
-    blank = alpha[tokenizer.pad_token]
-    model: Any
-    if (Path(model_name) / "model.onnx").exists():
-        # shrunk for the phone: on the CPU, as the phone will run it
-        from optimum.onnxruntime import ORTModelForCTC
+    def __init__(self, model_name: str) -> None:
+        from transformers import Wav2Vec2CTCTokenizer, Wav2Vec2ForCTC
 
-        device = "cpu"
-        model = ORTModelForCTC.from_pretrained(model_name)
-    else:
-        device = "mps" if torch.backends.mps.is_available() else "cpu"
-        model = Wav2Vec2ForCTC.from_pretrained(model_name).to(device).eval()
-    out = []
-    for a in audio:
-        x = torch.from_numpy((a - a.mean()) / np.sqrt(a.var() + 1e-7)).float()[None].to(device)
+        tokenizer = Wav2Vec2CTCTokenizer.from_pretrained(model_name)
+        self.alpha: dict[str, int] = tokenizer.get_vocab()
+        self.blank: int = self.alpha[tokenizer.pad_token]
+        self.model: Any
+        if (Path(model_name) / "model.onnx").exists():
+            from optimum.onnxruntime import ORTModelForCTC
+
+            self.device = "cpu"
+            self.model = ORTModelForCTC.from_pretrained(model_name)
+        else:
+            self.device = "mps" if torch.backends.mps.is_available() else "cpu"
+            self.model = Wav2Vec2ForCTC.from_pretrained(model_name).to(self.device).eval()
+
+    def scores(self, audio: np.ndarray) -> np.ndarray:
+        """The model's scores for each 20 ms step of one piece: steps × outputs."""
+        x = torch.from_numpy(normalise(audio))[None].to(self.device)
         with torch.inference_mode():
-            ids = model(x).logits.argmax(-1)[0].tolist()
-        out.append(ctc.decode(ids, alpha, blank))
-    return out
+            out: np.ndarray = self.model(x).logits[0].float().cpu().numpy()
+        return out
+
+    def words(self, audio: np.ndarray) -> str:
+        """Each step's likeliest letter, read as shravan/ctc.py decode does."""
+        return ctc.decode([int(i) for i in self.scores(audio).argmax(-1)], self.alpha, self.blank)
+
+    def follow_model(self) -> follow.Model:
+        """What shravan/follow.py needs: each letter's output, each output's letter, the blank and the word break."""
+        names = [""] * (max(self.alpha.values()) + 1)
+        for ch, i in self.alpha.items():
+            names[i] = "" if ch in ctc.SPECIAL else ch
+        ids = {ch: i for i, ch in enumerate(names) if ch and ch != ctc.WORD}
+        return follow.Model(ids, names, self.blank, self.alpha[ctc.WORD])
+
+
+def is_ctc(model_name: str) -> bool:
+    return "Wav2Vec2ForCTC" in (AutoConfig.from_pretrained(model_name).architectures or [])
+
+
+def letters(model_name: str, audio: list[np.ndarray]) -> list[str]:
+    """A CTC model's words for each piece."""
+    model = Ctc(model_name)
+    return [model.words(a) for a in audio]

@@ -24,6 +24,7 @@ from transformers import AutoConfig, Wav2Vec2CTCTokenizer, WhisperProcessor
 
 from shravan import ctc as letters_of
 from shravan import package
+from shravan.sound import normalise
 
 
 def ctc(src: Path, out: Path) -> None:
@@ -49,7 +50,7 @@ def ctc(src: Path, out: Path) -> None:
     }
     (out / "model.json").write_text(json.dumps(manifest, indent=1), encoding="utf-8")
     sound = package.tone()
-    x = ((sound - sound.mean()) / np.sqrt(sound.var() + 1e-7)).astype(np.float32)[None]
+    x = normalise(sound)[None]
     session = ort.InferenceSession(package.join(out, manifest["model"]))
     scores = session.run(None, {"input_values": x})[0][0]
     ids = [int(i) for i in scores.argmax(-1)]

@@ -4,8 +4,8 @@
     python scripts/evaluate.py checkpoints/whisper-base --split validation
 
 Each recording is scored on its own (a family recording of a text never trained on is a different question from the
-held-out hymns of a training recording); a clip's verse is looked for among every unit of its own text. Writes one
-file to results/, with a few examples of what the model wrote beside what was chanted.
+held-out hymns of a training recording); a clip's verse is looked for among every unit of the texts its recording
+chants. Writes one file to results/, with a few examples of what the model wrote beside what was chanted.
 """
 
 import argparse
@@ -14,7 +14,7 @@ import time
 
 import soundfile as sf
 
-from shravan import config, data, env, hear, metrics, results, texts, units
+from shravan import config, data, env, hear, metrics, recordings, results, texts, units
 
 
 def main() -> None:
@@ -34,9 +34,11 @@ def main() -> None:
     seconds = time.time() - started
     scores: dict[str, object] = {"split": args.split, "seconds_to_transcribe": round(seconds, 1)}
     examples = []
+    by_slug = {r.slug: r for r in recordings.load(cfg.recordings)}
     for rec in sorted({c.recording for c in clips}):
         pairs = [(c, h) for c, h in zip(clips, heard, strict=True) if c.recording == rec]
-        own = units.of(every[pairs[0][0].id.split("/")[0]])
+        # every unit of every text the recording chants (several aartis in one session, say), each once
+        own = units.candidates(every, by_slug[rec].texts)
         index = {u.id: i for i, u in enumerate(own)}
         scores[rec] = {
             "clips": len(pairs),

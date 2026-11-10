@@ -23,6 +23,7 @@ class Line:
     index: int
     orig: str
     en: str
+    refrain: bool = False  # after [refrain] in its block: shown as a refrain line
 
 
 @dataclass
@@ -62,6 +63,7 @@ def parse(raw: str, name: str = "text") -> Text:
     block = ""
     orig: str | None = None
     index = 0
+    refrain = False
     for n, row in enumerate(rows[i + 1 :], start=i + 2):
         if row == "":
             if orig is not None:
@@ -69,8 +71,10 @@ def parse(raw: str, name: str = "text") -> Text:
             continue
         head = re.fullmatch(r"\[(.*)\]", row)
         if head:
-            if head.group(1) != "refrain":  # [refrain] marks lines inside a block; it starts no new block
-                block, index = head.group(1), 0
+            if head.group(1) == "refrain":  # [refrain] marks the lines after it in a block; it starts no new block
+                refrain = True
+            else:
+                block, index, refrain = head.group(1), 0, False
             continue
         if not block:
             raise TextError(f"{name} line {n}: a line outside a block")
@@ -82,7 +86,7 @@ def parse(raw: str, name: str = "text") -> Text:
             if INDIC.search(row):
                 raise TextError(f"{name} line {n}: expected the everyday English line here")
             index += 1
-            text.lines.append(Line(block, index, orig, row))
+            text.lines.append(Line(block, index, orig, row, refrain))
             orig = None
     if orig is not None:
         raise TextError(f"{name}: the last original line has no English line after it")

@@ -1,6 +1,9 @@
 # The checks run before every pull request and in CI (.github/workflows/tests.yml)
 jiwer==4.0.0
 mypy==1.18.2
+# shravan/follow.py and shravan/sound.py, tested in CI; a range, not a pin, so the Mac keeps the numpy its torch
+# and onnxruntime came with
+numpy>=2.0,<3
 pytest==8.4.2
 pyyaml==6.0.3
 ruff==0.14.0

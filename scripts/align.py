@@ -27,11 +27,7 @@ def main() -> None:
     rec = recordings.find(recordings.load(cfg.recordings), sys.argv[1])
     every = texts.load_all(cfg.texts)
     # each text in turn: the blocks the recording names, in its order, or the whole text as it is chanted
-    verses = [
-        u
-        for t, p in zip(rec.texts, rec.parts, strict=True)
-        for u in (units.select(units.of(every[t]), p) if p else units.sung(every[t]))
-    ]
+    verses = units.chanted(every, rec.texts, rec.parts)
 
     wav = cfg.work / "audio" / f"{rec.slug}.wav"
     if not wav.exists():
