@@ -15,8 +15,7 @@ finds the place exactly as Listen does. Two numbers each time:
 
 A place is right when it is in the unit being chanted; while an aarti's dhrupad is said again, when the mark waits or
 the dhrupad is found. (Listen also waits to hear another text twice before it moves there; a place found in another
-text here simply counts as wrong.) Only a CTC model (the site's): Whisper gives no scores to line up. Writes one file
-to results/.
+text here simply counts as wrong.) Writes one file to results/.
 """
 
 import argparse
@@ -36,9 +35,7 @@ def main() -> None:
     ap.add_argument("model")
     args = ap.parse_args()
     cfg = config.load()
-    env.cap_gpu_memory(min(cfg.training["gpu_memory"].values()))
-    if not hear.is_ctc(args.model):
-        ap.error("Listen follows a CTC model's scores: give a CTC model (wav2vec2)")
+    env.cap_gpu_memory(cfg.training["gpu_memory"])
     s = follow.Settings.of(cfg.listen)
     every = texts.load_all(cfg.texts)
     model = hear.Ctc(args.model)

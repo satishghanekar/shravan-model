@@ -1,20 +1,19 @@
-"""Shrink a trained model for the phone: ONNX with int8 weights, about 76 MB instead of 290 MB.
+"""Shrink a trained model for the phone: ONNX, one graph (model.onnx), about 108 MB instead of 380 MB.
 
-    python scripts/export.py checkpoints/base-v2-family/best models/v2-int8
+    python scripts/export.py checkpoints/ctc-pro-all/best models/ctc-v3-int8
     python scripts/export.py checkpoints/ctc-pro-all/best models/ctc-v4-q4 --q4
 
---q4 (a CTC model): its matrix weights in 4 bits (MatMulNBits, blocks of 32) instead of 8, the convolutions as they
-were: 90 MB, for a phone's GPU (WebGPU), where the 8-bit model is no quicker than on the CPU. On an iPhone (Safari 27,
-2026-11-09) a 4 s hearing took 233 ms on the GPU against 712 ms for the 8-bit model on the CPU, and it hears as well.
+Exports the model to ONNX (optimum), its weights worked out in advance first (fold), so its positional convolution is
+shrunk too (122 MB without, 2026-11-07), then stores each weight in one byte instead of four (dynamic quantization).
+The convolutions that turn raw sound into features are kept as they are: shrunk too (95 MB), its letters wrong went
+from 11.5% to 19.3% on Pavamana and 15.1% to 23.6% on SG's Purusha Suktam.
 
-Exports the model to ONNX (optimum), then stores each weight in one byte instead of four (dynamic quantization), the
-decoder's two inner graphs (the first word, and the words after it) included. The folder is what the phone loads:
-encoder_model.onnx, decoder_model_merged.onnx and the tokenizer's files. A CTC model (wav2vec2) is one graph,
-model.onnx, about 108 MB instead of 380 MB: its weights worked out in advance first (fold), so its positional
-convolution is shrunk too (122 MB without, 2026-11-07). The convolutions that turn raw sound into features are kept
-as they are: shrunk too (95 MB), its letters wrong went from 11.5% to 19.3% on Pavamana and 15.1% to 23.6% on SG's
-Purusha Suktam. Test it like any model, on the CPU as the phone
-will run it: scripts/evaluate.py and scripts/follow.py take the folder. Never in git (models/).
+--q4: its matrix weights in 4 bits (MatMulNBits, blocks of 32) instead of 8, the convolutions as they were: 90 MB, for a
+phone's GPU (WebGPU), where the 8-bit model is no quicker than on the CPU. On an iPhone (Safari 27, 2026-11-09) a 4 s
+hearing took 233 ms on the GPU against 712 ms for the 8-bit model on the CPU, and it hears as well.
+
+Test it like any model, on the CPU as the phone will run it: scripts/evaluate.py and scripts/follow.py take the folder.
+Never in git (models/).
 """
 
 import argparse
@@ -28,10 +27,8 @@ import onnx
 import onnxruntime as ort
 from onnxruntime.quantization import QuantType, quantize_dynamic
 from onnxruntime.quantization.matmul_nbits_quantizer import MatMulNBitsQuantizer
-from transformers import AutoConfig
 
-SHRUNK = ("encoder_model.onnx", "decoder_model_merged.onnx")
-SHRUNK_CTC = ("model.onnx",)
+NAME = "model.onnx"
 
 
 def sound_layers(path: Path) -> list[str]:
@@ -52,44 +49,35 @@ def fold(src: Path, out: Path) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("model", help="a trained model's folder, such as checkpoints/base-v2-family/best")
-    ap.add_argument("out", help="the folder to write, such as models/v2-int8")
-    ap.add_argument("--q4", action="store_true", help="a CTC model's matrix weights in 4 bits, for a phone's GPU")
+    ap.add_argument("model", help="a trained model's folder, such as checkpoints/ctc-pro-all/best")
+    ap.add_argument("out", help="the folder to write, such as models/ctc-v3-int8")
+    ap.add_argument("--q4", action="store_true", help="its matrix weights in 4 bits, for a phone's GPU")
     args = ap.parse_args()
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    is_ctc = "Wav2Vec2ForCTC" in (AutoConfig.from_pretrained(args.model).architectures or [])
-    if args.q4 and not is_ctc:
-        ap.error("--q4 is for a CTC model")
     with tempfile.TemporaryDirectory() as tmp:
         cli = Path(sys.executable).parent / "optimum-cli"
-        # (Whisper's decoder keeps what it has read, so each word is quick; a CTC model has no decoder)
-        task = "automatic-speech-recognition" if is_ctc else "automatic-speech-recognition-with-past"
+        task = "automatic-speech-recognition"
         subprocess.run([str(cli), "export", "onnx", "--model", args.model, "--task", task, tmp], check=True)
         for f in Path(tmp).iterdir():
             if f.suffix != ".onnx":
                 shutil.copy(f, out / f.name)
-        for name in SHRUNK_CTC if is_ctc else SHRUNK:
-            src = Path(tmp) / name
-            if is_ctc:
-                fold(src, Path(tmp) / "folded.onnx")
-                src = Path(tmp) / "folded.onnx"
-            if args.q4:
-                q = MatMulNBitsQuantizer(onnx.load(str(src)), block_size=32, is_symmetric=True)
-                q.process()
-                q.model.save_model_to_file(str(out / name))
-            else:
-                # EnableSubgraph: the merged decoder's weights sit in its inner graphs, left as they were without it
-                quantize_dynamic(
-                    src,
-                    out / name,
-                    weight_type=QuantType.QUInt8,
-                    op_types_to_quantize=["MatMul", "Gemm", "Conv"] if is_ctc else None,
-                    nodes_to_exclude=sound_layers(src) if is_ctc else None,
-                    extra_options={"EnableSubgraph": True},
-                )
-            before, after = (Path(tmp) / name).stat().st_size, (out / name).stat().st_size
-            print(f"{name}: {before / 1e6:.0f} MB -> {after / 1e6:.0f} MB")
+        exported = Path(tmp) / NAME
+        folded = Path(tmp) / "folded.onnx"
+        fold(exported, folded)
+        if args.q4:
+            q = MatMulNBitsQuantizer(onnx.load(str(folded)), block_size=32, is_symmetric=True)
+            q.process()
+            q.model.save_model_to_file(str(out / NAME))
+        else:
+            quantize_dynamic(
+                folded,
+                out / NAME,
+                weight_type=QuantType.QUInt8,
+                op_types_to_quantize=["MatMul", "Gemm", "Conv"],
+                nodes_to_exclude=sound_layers(folded),
+            )
+        print(f"{NAME}: {exported.stat().st_size / 1e6:.0f} MB -> {(out / NAME).stat().st_size / 1e6:.0f} MB")
     print(f"saved to {out}")
 
 

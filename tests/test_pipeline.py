@@ -178,7 +178,7 @@ def test_the_check_sound_is_the_same_every_time():
     assert a.shape == (48000,) and (a == b).all() and abs(a).max() < 0.6
 
 
-def test_training_hands_the_gpu_memory_back_every_few_steps_in_both_scripts():
+def test_training_hands_the_gpu_memory_back_every_few_steps():
     pytest.importorskip("torch")  # (not installed in CI)
     pytest.importorskip("transformers")
     from types import SimpleNamespace
@@ -190,8 +190,7 @@ def test_training_hands_the_gpu_memory_back_every_few_steps_in_both_scripts():
         f.on_step_end(None, SimpleNamespace(global_step=step), None)
     f.on_evaluate()
     assert f.freed == 4
-    root = Path(__file__).parent.parent / "scripts"
-    assert all("FreeMemory()" in (root / s).read_text() for s in ("train.py", "train_ctc.py"))
+    assert "FreeMemory()" in (Path(__file__).parent.parent / "scripts" / "train_ctc.py").read_text()
 
 
 def test_a_recording_is_found_by_its_name_in_any_folder_of_the_audio(tmp_path):
@@ -249,3 +248,65 @@ def test_a_recording_of_several_texts_is_chanted_in_order_and_scored_against_all
     # every unit of both, each once: a clip of either text is found among them
     assert len(every_unit) == len(of(every[ids[0]])) + len(of(every[ids[1]]))
     assert {u.id for u in chanted} <= {u.id for u in every_unit}
+
+
+def test_a_clip_keeps_a_little_air_and_never_reaches_its_neighbours():
+    rows = [{"start": 1.0, "end": 2.0}, {"start": 2.1, "end": 3.0}, {"start": 9.0, "end": 9.95}]
+    assert data.edges(rows, 0, 10.0) == (0.85, 2.05)  # a close neighbour after: halfway to it, not the full air
+    start, end = data.edges(rows, 1, 10.0)
+    assert (start, end) == (2.05, 3.15)  # a far neighbour after: the full air
+    assert data.edges(rows, 2, 10.0)[1] == 9.975  # the recording's end is the last clip's neighbour
+
+
+def test_a_model_hears_each_piece_normalised_and_on_its_own():
+    torch = pytest.importorskip("torch")  # (not installed in CI)
+    import numpy as np
+
+    from shravan import ctc, hear
+
+    class Fake:
+        logits = None
+        seen: list[int] = []
+
+        def __call__(self, x):
+            self.seen.append(x.shape[1])
+            assert abs(float(x.mean())) < 1e-4  # brought to mean 0, as the model was trained
+            step = torch.zeros((1, 3, 3))
+            step[0, 0, 1] = step[0, 2, 2] = 1  # letter 1, the blank, letter 2
+            return type("Out", (), {"logits": step})
+
+    model = hear.Ctc.__new__(hear.Ctc)
+    model.alpha, model.blank, model.device, model.model = {"<s>": 0, "क": 1, ctc.WORD: 2}, 0, "cpu", Fake()
+    assert model.words(np.ones(100, np.float32) + np.arange(100, dtype=np.float32)) == "क"
+    assert model.scores(np.arange(50, dtype=np.float32)).shape == (3, 3)
+    assert Fake.seen == [100, 50]
+
+
+def test_a_training_clip_changes_a_little_and_stays_near_its_length():
+    pytest.importorskip("librosa")  # (not installed in CI)
+    import random
+
+    import numpy as np
+
+    from shravan.augment import augment
+
+    sound = np.sin(np.arange(16000, dtype=np.float32) / 9)
+    out = augment(sound, random.Random(1))
+    assert out.dtype == np.float32 and 0.9 * 16000 <= len(out) <= 1.12 * 16000
+    assert not np.array_equal(out[:100], sound[:100])
+    # the same seed, the same clip: runs repeat
+    assert np.array_equal(out, augment(sound, random.Random(1)))
+
+
+def test_the_check_sounds_record_sees_every_step_of_the_scores():
+    pytest.importorskip("numpy")
+    import numpy as np
+
+    from shravan import package
+
+    scores = np.zeros((10, 2), np.float32)
+    plain = package.check_of(scores, [0] * 10, "")
+    scores[3, 1] = 5.0  # a step the three recorded steps don't include
+    other = package.check_of(scores, [0] * 10, "")
+    assert plain["scores"] == other["scores"] and list(plain["scores"]) == ["0", "5", "9"]  # type: ignore[call-overload]
+    assert plain["means"] == [0.0, 0.0] and other["means"] == [0.0, 0.5]

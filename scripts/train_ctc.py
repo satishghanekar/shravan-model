@@ -1,14 +1,13 @@
-"""Fine-tune a CTC model (wav2vec2: a letter for every 20 ms) on the training clips, keeping the checkpoint that does
-best on the validation clips: the same clips, splits and family weighting as scripts/train.py for Whisper.
+"""Fine-tune the model (wav2vec2: a letter for every 20 ms) on the training clips, keeping the checkpoint that does best
+on the validation clips.
 
-    python scripts/train_ctc.py Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60
-    python scripts/train_ctc.py checkpoints/ctc-sam60/best --layers 8 --name ctc-sam60-8 \
-        --settings Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60
+    python scripts/train_ctc.py
+    python scripts/train_ctc.py checkpoints/ctc-sam60/best --layers 8 --name ctc-sam60-8
 
---layers keeps only the first layers of the transformer (12 in a base model), and trains again from there: a smaller
-and quicker model for the phone, each layer about 7 MB shrunk (2026-11-07). --settings names whose settings in
-config.yaml to use, when the model is a checkpoint of our own. --only published (or family) trains on that kind of
-recording alone, to compare what each teaches; the validation clips stay the same, so the runs choose alike.
+The first argument is where to start from (default: `model` in config.yaml). --layers keeps only the first layers of
+the transformer (12 in a base model), and trains again from there: a smaller and quicker model for the phone, each
+layer about 7 MB shrunk (2026-11-07). --only published (or family) trains on that kind of recording alone, to compare
+what each teaches; the validation clips stay the same, so the runs choose alike.
 
 The pretrained model already writes Devanagari letter by letter (Sanskrit); letters our labels use that it lacks are
 added to its output (shravan/ctc.py), each starting from the average of the others. Its first layers, which turn sound
@@ -47,7 +46,7 @@ from shravan.gpu import FreeMemory  # noqa: E402
 from shravan.sound import normalise  # noqa: E402
 
 # every batch's sound is padded up to a whole number of these (16 kHz samples, 4 s), so the Mac's GPU sees few shapes:
-# each new shape keeps memory of its own (scripts/train.py, the labels)
+# each new shape keeps memory of its own (the labels too, always LABEL_LETTERS long)
 BUCKET = 4 * 16000
 LABEL_LETTERS = 400  # the longest label is about 300 letters
 
@@ -87,10 +86,6 @@ class Collate:
         return {"input_values": values, "labels": labels}
 
 
-def per_model(setting: Any, model: str) -> Any:
-    return setting[model] if isinstance(setting, dict) else setting
-
-
 def widen(model: Wav2Vec2ForCTC, size: int) -> None:
     """The output layer given rows for the added letters, each the average of the pretrained ones."""
     old = model.lm_head
@@ -106,39 +101,34 @@ def widen(model: Wav2Vec2ForCTC, size: int) -> None:
     model.config.vocab_size = size
 
 
-def blank_of(model: Wav2Vec2ForCTC, clips: list[data.Clip]) -> int:
-    """The model's "nothing said" token: the one it writes most on real chanting. Its config can't be trusted for it:
-    Vakyansh's models, converted from fairseq, name <pad> but write <s> (id 0), and training against the wrong one
-    taught the model that every pause was a mistake, so within a few dozen steps it wrote nothing at all
-    (2026-11-06)."""
-    counts: dict[int, int] = {}
+def find_blank(model: Wav2Vec2ForCTC, clips: list[data.Clip]) -> int:
+    """The model's "nothing said" token, from what it writes on a few clips (shravan/ctc.py, blank_of)."""
+    chosen = []
     model.eval()
     for c in clips:
         a = sf.read(c.path, dtype="float32")[0]
         x = torch.from_numpy(normalise(a))[None]
         with torch.inference_mode():
-            for i in model(input_values=x).logits.argmax(-1)[0].tolist():
-                counts[i] = counts.get(i, 0) + 1
+            chosen.append(model(input_values=x).logits.argmax(-1)[0].tolist())
     model.train()
-    return max(counts, key=lambda i: counts[i])
+    return ctc.blank_of(chosen)
 
 
 def main() -> None:
     env.use_certifi()
     ap = argparse.ArgumentParser()
-    ap.add_argument("model")
+    ap.add_argument("model", nargs="?", help="what to start from (default: model in config.yaml)")
     ap.add_argument("--resume", action="store_true", help="carry on from the last checkpoint of a stopped run")
     ap.add_argument("--name", help="its folder in checkpoints/ (default: the model name)")
     ap.add_argument("--layers", type=int, help="keep only this many of the transformer's first layers")
-    ap.add_argument("--settings", help="the model whose settings in config.yaml to use (default: this one)")
     ap.add_argument("--only", choices=["published", "family"], help="train on only this kind of recording")
     args = ap.parse_args()
-    like = args.settings or args.model
 
     cfg = config.load()
-    env.cap_gpu_memory(per_model(cfg.training["gpu_memory"], like))
+    args.model = args.model or cfg.model
     t = cfg.training
-    rate, batch, accumulate = (per_model(t[k], like) for k in ("learning_rate", "batch_size", "accumulate"))
+    env.cap_gpu_memory(t["gpu_memory"])
+    rate, batch, accumulate = t["learning_rate"], t["batch_size"], t["accumulate"]
     random.seed(t["seed"])
     torch.manual_seed(t["seed"])
 
@@ -152,7 +142,7 @@ def main() -> None:
     if args.layers:
         model.wav2vec2.encoder.layers = model.wav2vec2.encoder.layers[: args.layers]
         model.config.num_hidden_layers = args.layers
-    blank = blank_of(model, valid[:4])
+    blank = find_blank(model, valid[:4])
     widen(model, len(alpha))
     model.config.pad_token_id = blank
     model.freeze_feature_encoder()
@@ -174,11 +164,11 @@ def main() -> None:
         gradient_checkpointing=t["checkpointing"],
         gradient_checkpointing_kwargs={"use_reentrant": False},
         learning_rate=rate,
-        warmup_steps=per_model(t["warmup_steps"], like),
-        max_steps=per_model(t["max_steps"], like),
+        warmup_steps=t["warmup_steps"],
+        max_steps=t["max_steps"],
         eval_strategy="steps",
-        eval_steps=per_model(t["eval_every"], like),
-        save_steps=per_model(t["eval_every"], like),
+        eval_steps=t["eval_every"],
+        save_steps=t["eval_every"],
         save_total_limit=2,
         logging_steps=25,
         load_best_model_at_end=True,
@@ -199,7 +189,7 @@ def main() -> None:
         data_collator=Collate(alpha, True, random.Random(t["seed"])),
         compute_metrics=score,
         preprocess_logits_for_metrics=choices,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=per_model(t["patience"], like)), FreeMemory()],
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=t["patience"]), FreeMemory()],
     )
     # the validation clips are never augmented, and come in their own order
     trainer.get_eval_dataloader = lambda ds=None: torch.utils.data.DataLoader(

@@ -18,8 +18,6 @@ class Config:
     work: Path
     recordings: Path
     model: str
-    ctc_model: str
-    language: str
     heldout_hymns: tuple[int, ...]
     validation_hymns: tuple[int, ...]
     min_alignment_score: float
@@ -42,8 +40,6 @@ def load(path: Path = ROOT / "config.yaml") -> Config:
         work=_path(raw["work"]),
         recordings=_path(raw["recordings"]),
         model=raw["model"],
-        ctc_model=raw["ctc_model"],
-        language=raw["language"],
         heldout_hymns=tuple(raw["heldout_hymns"]),
         validation_hymns=tuple(raw["validation_hymns"]),
         min_alignment_score=float(raw["min_alignment_score"]),

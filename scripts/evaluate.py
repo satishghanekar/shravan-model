@@ -1,7 +1,7 @@
 """Score a model on the clips of one split: letters wrong and verses found (shravan/metrics.py), for each recording.
 
-    python scripts/evaluate.py openai/whisper-base              # the untrained model, on the test clips
-    python scripts/evaluate.py checkpoints/whisper-base --split validation
+    python scripts/evaluate.py Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60   # the untrained model, on the test
+    python scripts/evaluate.py checkpoints/ctc-pro-all/best --split validation
 
 Each recording is scored on its own (a family recording of a text never trained on is a different question from the
 held-out hymns of a training recording); a clip's verse is looked for among every unit of the texts its recording
@@ -25,12 +25,12 @@ def main() -> None:
     args = ap.parse_args()
 
     cfg = config.load()
-    env.cap_gpu_memory(min(cfg.training["gpu_memory"].values()))  # testing needs far less than training
+    env.cap_gpu_memory(cfg.training["gpu_memory"])  # testing needs far less than training
     clips = data.clips(cfg.work, args.split)
     every = texts.load_all(cfg.texts)
 
     started = time.time()
-    heard = hear.transcribe(args.model, [sf.read(c.path, dtype="float32")[0] for c in clips], cfg.language)
+    heard = hear.letters(args.model, [sf.read(c.path, dtype="float32")[0] for c in clips])
     seconds = time.time() - started
     scores: dict[str, object] = {"split": args.split, "seconds_to_transcribe": round(seconds, 1)}
     examples = []

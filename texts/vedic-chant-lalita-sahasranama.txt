@@ -3,6 +3,7 @@ title: श्रीललितासहस्रनामस्तोत्र�
 title-en: Shri Lalita Sahasranama
 category: vedic-chant
 language: sa
+layout: lines
 stanza-numbers: as-written
 credit: [ब्रह्माण्डपुराण](https://en.wikipedia.org/wiki/Lalita_Sahasranama)
 credit-en: [Brahmanda Purana](https://en.wikipedia.org/wiki/Lalita_Sahasranama)

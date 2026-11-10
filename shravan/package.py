@@ -1,16 +1,14 @@
 """A model shrunk for the phone (scripts/export.py), packed as the site loads it (scripts/to_site.py).
 
 Cloudflare Pages serves no file over 25 MiB, so each file over PIECE bytes is cut into pieces, which the site joins
-again; model.json lists them, with each piece's size and SHA-256, so a broken download is caught. The site also needs
-what the Python side gets from the processor: the mel filters (to turn sound into the model's input), the token texts
-(to turn its output into letters), and the tokens it starts with, ends on and never writes.
+again; model.json lists them, with each piece's size and SHA-256, so a broken download is caught.
 """
 
 from __future__ import annotations
 
 import hashlib
 from pathlib import Path
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:  # (numpy is loaded only where it is used: CI, with no numpy, still tests split and join)
     import numpy as np
@@ -53,39 +51,15 @@ def tone(seconds: float = 3.0, rate: int = 16000) -> np.ndarray:
     return out
 
 
-def greedy(encoder: Any, decoder: Any, features: np.ndarray, manifest: dict[str, Any], most: int = 40) -> list[int]:
-    """The tokens the model writes for one window, step by step as the site does it (onnxruntime sessions): the start
-    tokens, then each time the likeliest token it may write, until the end token or `most` tokens."""
-    import numpy as np
-
-    hidden = encoder.run(None, {"input_features": features[None]})[0]
-    layers = manifest["layers"]
-    empty: np.ndarray = np.zeros((1, 8, 0, 64), dtype=np.float32)
-    past = {
-        f"past_key_values.{i}.{s}.{k}": empty
-        for i in range(layers)
-        for s in ("decoder", "encoder")
-        for k in ("key", "value")
+def check_of(scores: np.ndarray, ids: list[int], text: str, seconds: float = 3.0) -> dict[str, object]:
+    """What the site must get from the check sound: the choice at each step and the words they make, the scores at
+    three steps number for number, and each output's mean over every step. A tone is no chanting, so every choice is
+    the blank whatever is broken; the means see all the scores, so a difference anywhere shows (2026-11-10)."""
+    steps = [0, len(ids) // 2, len(ids) - 1]
+    return {
+        "seconds": seconds,
+        "ids": ids,
+        "text": text,
+        "scores": {str(t): [round(float(v), 4) for v in scores[t]] for t in steps},
+        "means": [round(float(v), 4) for v in scores.mean(0)],
     }
-    ids = list(manifest["start"])
-    step = np.array(ids, dtype=np.int64)[None]
-    out: list[int] = []
-    names = [o.name for o in decoder.get_outputs()]
-    for n in range(most):
-        feed = {"input_ids": step, "encoder_hidden_states": hidden, "use_cache_branch": np.array([n > 0])} | past
-        result = dict(zip(names, decoder.run(None, feed), strict=True))
-        logits = result["logits"][0, -1].astype(np.float64)
-        logits[manifest["never"]] = -np.inf
-        if n == 0:
-            logits[manifest["never_first"]] = -np.inf
-        token = int(np.argmax(logits))
-        if token == manifest["end"]:
-            break
-        out.append(token)
-        for name in past:
-            present = result[name.replace("past_key_values", "present")]
-            # (the encoder's keys and values are made on the first step only, then kept)
-            if n == 0 or ".decoder." in name:
-                past[name] = present
-        step = np.array([[token]], dtype=np.int64)
-    return out

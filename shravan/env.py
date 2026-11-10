@@ -23,3 +23,10 @@ def cap_gpu_memory(share: float) -> None:
     already set in the environment wins."""
     os.environ.setdefault("PYTORCH_MPS_HIGH_WATERMARK_RATIO", str(share))
     os.environ.setdefault("PYTORCH_MPS_LOW_WATERMARK_RATIO", str(round(share * 0.8, 2)))
+
+
+def device() -> str:
+    """Where a model runs: the Mac's GPU, or the CPU on any other machine."""
+    import torch
+
+    return "mps" if torch.backends.mps.is_available() else "cpu"

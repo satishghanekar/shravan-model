@@ -1,6 +1,6 @@
 """The CTC model's letters (shravan/ctc.py): labels into its alphabet, and its output back into words."""
 
-from shravan.ctc import WORD, alphabet, decode, encode, text
+from shravan.ctc import WORD, alphabet, blank_of, decode, encode, text
 
 VOCAB = {"<s>": 0, "<pad>": 1, "</s>": 2, "<unk>": 3, WORD: 4, "क": 5, "म": 6, "ं": 7, "ो": 8}
 
@@ -32,3 +32,8 @@ def test_decode_a_letter_twice_needs_a_blank_between() -> None:
     assert decode([5, 5, 5], VOCAB, blank=1) == "क"
     assert decode([5, 1, 5], VOCAB, blank=1) == "कक"
     assert decode([0, 5, 2, 3], VOCAB, blank=1) == "क"
+
+
+def test_the_blank_is_what_the_model_writes_most_whatever_its_config_says():
+    assert blank_of([[0, 0, 5, 0], [7, 0, 5]]) == 0
+    assert blank_of([[3, 3, 1], [3]]) == 3

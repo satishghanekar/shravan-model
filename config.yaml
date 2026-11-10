@@ -5,11 +5,9 @@ audio: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-train
 work: work                          # clips and alignments made from the audio; private, kept out of git
 recordings: recordings.csv
 
-model: openai/whisper-base          # the phone model; openai/whisper-small for the accuracy reference
-# The CTC model (scripts/train_ctc.py): Vakyansh's wav2vec2 base (95M) fine-tuned on 60 hours of Sanskrit, writing
-# Devanagari letter by letter: one letter per 20 ms, far faster on a phone than Whisper's 30-second blocks
-ctc_model: Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60
-language: sa                        # Whisper's language token: Sanskrit for the Vedic chants (Marathi, mr, comes later)
+# Vakyansh's wav2vec2 base (95M) fine-tuned on 60 hours of Sanskrit, writing Devanagari letter by letter, one letter per
+# 20 ms: what scripts/train_ctc.py starts from
+model: Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60
 
 # Never trained on: the test scores mean something only on chanting the model has not heard. Three whole hymns
 # (Pavamana Suktam 9.61–9.63, about 13% of the clean audio), used once per model at the end, never to choose anything.
@@ -24,36 +22,15 @@ min_alignment_score_family: 0.5
 
 training:
   precision: fp32                   # the M4's half precision is unreliable for training
-  batch_size:                       # clips on the GPU at once
-    openai/whisper-base: 8
-    openai/whisper-small: 4
-    Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60: 8
-  accumulate:                       # batches added up before each update, so every update learns from 8 clips
-    openai/whisper-base: 1
-    openai/whisper-small: 2
-    Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60: 1
-  gpu_memory:                       # share of the GPU memory macOS recommends (shravan/env.py), about 11 GB of 16
-    openai/whisper-base: 0.75       # about 9 GB; base needs 6
-    openai/whisper-small: 0.9       # small's optimizer state alone is 2 GB, and at 0.75 it ran out when resuming
-    Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60: 0.75
+  batch_size: 8                     # clips on the GPU at once
+  accumulate: 1                     # batches added up before each update, so every update learns from 8 clips
+  gpu_memory: 0.75                  # share of the GPU memory macOS recommends (shravan/env.py), about 11 GB of 16
   checkpointing: true               # recompute activations in the backward pass: a batch of 8 needs 5 GB instead of over 13
-  learning_rate:                    # the usual rates for fine-tuning each size: larger models need gentler steps
-    openai/whisper-base: 2.5e-5
-    openai/whisper-small: 1.0e-5
-    Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60: 2.0e-5
-  warmup_steps:                     # steps from no learning to the full rate
-    openai/whisper-base: 50
-    openai/whisper-small: 50
-    Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60: 100
-  max_steps:                        # an upper bound: training stops earlier when validation stops improving
-    openai/whisper-base: 2000
-    openai/whisper-small: 2000
-    Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60: 3000
+  learning_rate: 2.0e-5
+  warmup_steps: 100                 # steps from no learning to the full rate
+  max_steps: 3000                   # an upper bound: training stops earlier when validation stops improving
   eval_every: 100                   # letters wrong on the validation clips; the best checkpoint is kept
-  patience:                         # evaluations in a row without improving before stopping
-    openai/whisper-base: 5
-    openai/whisper-small: 5
-    Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60: 6
+  patience: 6                       # evaluations in a row without improving before stopping
   augment: true                     # random speed (±10%), volume and a little noise, so one chanter's takes aren't
                                     # simply memorised
   family_repeat: 3                  # each family clip counts this many times per pass: an hour of a published recording

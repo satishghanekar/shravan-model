@@ -12,7 +12,7 @@ from pathlib import Path
 class Recording:
     file: str  # its name in the audio folder (config.yaml, audio:), or under it (locate())
     date: str
-    texts: tuple[str, ...]  # text ids, or "routine"
+    texts: tuple[str, ...]  # text ids
     parts: tuple[str, ...]  # for each text, the blocks chanted in order ("132..183 once-7"), or "" for all of it
     who: str  # initials, or "published"
     heldout: bool

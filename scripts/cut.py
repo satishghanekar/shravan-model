@@ -11,11 +11,10 @@ import sys
 
 import soundfile as sf
 
-from shravan import config, recordings
+from shravan import config, data, recordings
 from shravan.split import split_of
 
-PAD = 0.15  # seconds of air kept before and after a verse, never reaching into its neighbours
-MAX_SECONDS = 30.0  # Whisper hears at most 30 s at a time
+MAX_SECONDS = 30.0  # the longest clip kept: the long blocks are cut to fit it (units.py); changing it changes the clips
 
 
 def main() -> None:
@@ -35,10 +34,7 @@ def main() -> None:
         if row["score"] < bar:
             left_out.append(row)
             continue
-        before = rows[i - 1]["end"] if i else 0.0
-        after = rows[i + 1]["start"] if i + 1 < len(rows) else len(audio) / rate
-        start = max(row["start"] - PAD, (before + row["start"]) / 2)
-        end = min(row["end"] + PAD, (row["end"] + after) / 2)
+        start, end = data.edges(rows, i, len(audio) / rate)
         if end - start > MAX_SECONDS:
             left_out.append(row)
             continue

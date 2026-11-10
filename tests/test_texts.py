@@ -21,6 +21,8 @@ def test_texts_came_from_a_recorded_site_commit():
     source = (CFG.texts / "SOURCE").read_text(encoding="utf-8")
     assert re.search(r"^commit: [0-9a-f]{40}$", source, re.M)
     assert "uncommitted changes: no" in source
+    # a side branch's texts can differ from what the site shows: sync from main
+    assert "branch: main" in source
 
 
 def test_pavamana_has_all_610_verses_in_order():

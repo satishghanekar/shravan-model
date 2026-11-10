@@ -1,7 +1,8 @@
 # Tests
 
 The logic tests: everything that needs no audio, model or GPU, so they run in seconds on any machine and in CI
-(`.github/workflows/tests.yml`).
+(`.github/workflows/tests.yml`). CI has no PyTorch, so the few tests that need it are skipped there: run the checks on
+the Mac before a pull request as well.
 
 ## Running
 
@@ -16,12 +17,12 @@ ruff format . && ruff check . && mypy && pytest
 
 | File | Checks |
 |---|---|
-| `test_texts.py` | Every copied text parses; `texts/SOURCE` names a clean site commit; Pavamana Suktam has its 610 verses in order; a mistake in a text is named with its line |
+| `test_texts.py` | Every copied text parses; `texts/SOURCE` names a clean commit of the site's main; Pavamana Suktam has its 610 verses in order; a mistake in a text is named with its line |
 | `test_labels.py` | The label rules on the hard cases (svara marks, verse numbers in parts or missing a danda, kampa digits, joiners, avagraha), and no label anywhere keeps a mark, digit or danda |
-| `test_pipeline.py` | Pavamana's 610 verse units and their labels; any text's blocks as units, and a recording's parts in order; recordings name no one; the metrics ignore marks and find the nearest verse; a recording of several texts is chanted in order and scored against all of them; a results file names the code and libraries and never overwrites another; the aligner places units in order (skipped where PyTorch isn't installed, as in CI) |
+| `test_pipeline.py` | Pavamana's 610 verse units and their labels; any text's blocks as units, and a recording's parts in order; recordings name no one; the metrics ignore marks and find the nearest verse; a recording of several texts is chanted in order and scored against all of them; a results file names the code and libraries and never overwrites another; a clip's edges; what the site must get from the check sound; on the Mac only (PyTorch and librosa aren't installed in CI): the aligner places units in order, a model hears each piece normalised and on its own, a training clip changes a little and repeats with its seed |
 | `test_follow.py` | `shravan/follow.py` gives what Listen's own code gives (`fixtures/listen.json`): the letters, lining up, matching and locating, and every text laid out as the site lays it out; one hearing follows near the mark, finds a lost place and waits through the dhrupad; Listen's mark while following, and whether a place found is right |
 | `test_sound.py` | `normalise()` gives what the site's `normalize()` gives, and no other copy of it is left |
-| `test_ctc.py` | The CTC model's letters: a label as it writes it, its alphabet with our letters added, encoding and decoding |
+| `test_ctc.py` | The model's letters: a label as it writes it, its alphabet with our letters added, encoding and decoding, finding its blank |
 | `test_config.py` | The audio is outside the repository; `work/`, audio and model files are kept out of git; the held-out and validation hymns are real, don't overlap, leave enough to train on, and every hymn has exactly one split; training runs in full precision and fits a 16 GB Mac (checkpointing, the GPU memory cap) |
 
 ## Listen's answers
