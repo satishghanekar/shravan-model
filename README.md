@@ -32,12 +32,16 @@ a point or so of these; the runs behind them, and every model before, are in [`r
 To build it again:
 
 ```sh
-python scripts/train_ctc.py --name ctc-pro-all                                 # about 2 hours on the M4
+PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.85 python scripts/train_ctc.py --name ctc-pro-all \
+  --set max_steps=3000 --set sort_by_length=false --set pad_to_seconds=4 --set family_validation=0   # about 2 hours on the M4
 python scripts/export.py checkpoints/ctc-pro-all/best models/ctc-v3-int8       # (the 8-bit form's folder keeps this name)
 python scripts/export.py checkpoints/ctc-pro-all/best models/ctc-v4-q4 --q4
 python scripts/to_site.py models/ctc-v3-int8 models/site/chant-v4
 python scripts/to_site.py models/ctc-v4-q4 models/site/chant-v4-q4
 ```
+
+The `--set`s are the settings chant-v4 was trained with; `config.yaml` has moved on since. The newer settings gave a
+model no better at following ([`results/`](results/README.md), 2026-11-10), so chant-v4 stays on the site.
 
 **Licences.** The starting model's [Hugging Face page](https://huggingface.co/Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60)
 names no licence (checked 2026-11-10); the Vakyansh project's code and model lists on GitHub
