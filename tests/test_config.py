@@ -45,14 +45,12 @@ def test_full_precision_on_the_mac():
 
 def test_training_fits_a_16_gb_mac():
     t = CFG.training
-    for model in t["learning_rate"]:
-        batch, accumulate = t["batch_size"][model], t["accumulate"][model]
-        # a batch of 8 needed over 13 GB without recomputing activations: checkpointing stays on unless it shrinks
-        assert t["checkpointing"] or batch <= 2
-        # every model learns from the same number of clips per update, so their runs compare
-        assert batch * accumulate == 8, model
+    # a batch of 8 needed over 13 GB without recomputing activations: checkpointing stays on unless it shrinks
+    assert t["checkpointing"] or t["batch_size"] <= 2
+    # every run learns from the same number of clips per update, so their runs compare
+    assert t["batch_size"] * t["accumulate"] == 8
     # above 1 PyTorch may take more than macOS recommends for the GPU, and the run goes into swap
-    assert all(0 < share <= 1 for share in t["gpu_memory"].values())
+    assert 0 < t["gpu_memory"] <= 1
 
 
 def test_a_family_recording_trained_on_is_held_to_a_higher_bar():

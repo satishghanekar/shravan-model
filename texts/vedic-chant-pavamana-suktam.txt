@@ -3,7 +3,7 @@ title: पवमानसूक्तम्
 title-en: Pavamana Suktam
 category: vedic-chant
 language: sa
-layout: prose
+layout: lines
 credit: [ऋग्वेद, मण्डल ९](https://mr.wikipedia.org/wiki/ऋग्वेद)
 credit-en: [Rigveda, Mandala 9](https://en.wikipedia.org/wiki/Mandala_9)
 ---

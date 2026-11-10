@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Any
 
 
 @dataclass(frozen=True)
@@ -48,3 +49,12 @@ def weighed(train: list[Clip], family: set[str], repeat: int, only: str | None =
     elif only is not None:
         raise ValueError(f"only 'published' or 'family', not {only!r}")
     return train + [c for c in train if c.recording in family] * (repeat - 1)
+
+
+def edges(rows: list[dict[str, Any]], i: int, total: float, pad: float = 0.15) -> tuple[float, float]:
+    """Where verse i's clip starts and ends (seconds): `pad` of air on each side, never past halfway to its neighbours,
+    so a clip holds no sound of the verses beside it. `total` is the recording's length."""
+    row = rows[i]
+    before = rows[i - 1]["end"] if i else 0.0
+    after = rows[i + 1]["start"] if i + 1 < len(rows) else total
+    return max(row["start"] - pad, (before + row["start"]) / 2), min(row["end"] + pad, (row["end"] + after) / 2)

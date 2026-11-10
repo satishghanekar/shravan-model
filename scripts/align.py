@@ -43,8 +43,9 @@ def main() -> None:
     else:
         started = time.time()
         audio, rate = sf.read(wav, dtype="float32")
-        model = MMS_FA.get_model().to("mps")
-        emission, times = emissions(model, torch.from_numpy(audio)[None], "mps", rate=rate)
+        where = env.device()
+        model = MMS_FA.get_model().to(where)
+        emission, times = emissions(model, torch.from_numpy(audio)[None], where, rate=rate)
         cache.parent.mkdir(parents=True, exist_ok=True)
         torch.save({"emission": emission, "times": times}, cache)
         print(f"listened to {times[-1] / 60:.0f} min of audio in {time.time() - started:.0f} s")

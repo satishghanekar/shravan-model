@@ -14,7 +14,7 @@ EVERY = 50  # steps between handing the memory back
 class FreeMemory(TrainerCallback):  # type: ignore[misc]
     """Hands the GPU's cached memory back after each evaluation and every EVERY steps.
 
-    PyTorch keeps the memory each new shape of batch used: the first Whisper run grew to 13 GB after one evaluation
+    PyTorch keeps the memory each new shape of batch used: the first training run grew to 13 GB after one evaluation
     and slowed from 2 to 30 seconds a step in swap, and the CTC run on the longer clips added 2026-11-08 filled its
     8.9 GB cap and stopped at step 1203 of 3000. Both training scripts use it."""
 

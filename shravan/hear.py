@@ -1,6 +1,5 @@
-"""What a model writes for pieces of audio (16 kHz mono), a batch at a time: on the Mac's GPU, or, for a model
-exported for the phone (a folder with encoder_model.onnx), with ONNX Runtime on the CPU, as the phone will run it.
-A CTC model (wav2vec2, its config's architectures say so) writes letter by letter instead (shravan/ctc.py)."""
+"""What a CTC model (wav2vec2) writes and scores for pieces of audio (16 kHz mono): on the Mac's GPU, or, for a model
+exported for the phone (a folder with model.onnx), with ONNX Runtime on the CPU, as the phone will run it."""
 
 from __future__ import annotations
 
@@ -9,33 +8,9 @@ from typing import Any
 
 import numpy as np
 import torch
-from transformers import AutoConfig, WhisperForConditionalGeneration, WhisperProcessor
 
-from shravan import ctc, follow
+from shravan import ctc, env, follow
 from shravan.sound import normalise
-
-
-def transcribe(model_name: str, audio: list[np.ndarray], language: str, batch: int = 8) -> list[str]:
-    if is_ctc(model_name):
-        return letters(model_name, audio)
-    processor = WhisperProcessor.from_pretrained(model_name)
-    model: Any
-    if (Path(model_name) / "encoder_model.onnx").exists():
-        from optimum.onnxruntime import ORTModelForSpeechSeq2Seq
-
-        device = "cpu"
-        # (decoder_model_merged.onnx: one decoder for the first word and those after it)
-        model = ORTModelForSpeechSeq2Seq.from_pretrained(model_name, use_merged=True)
-    else:
-        device = "mps" if torch.backends.mps.is_available() else "cpu"
-        model = WhisperForConditionalGeneration.from_pretrained(model_name).to(device).eval()
-    out: list[str] = []
-    for i in range(0, len(audio), batch):
-        feats = processor(audio[i : i + batch], sampling_rate=16000, return_tensors="pt").input_features.to(device)
-        with torch.inference_mode():
-            ids = model.generate(feats, language=language, task="transcribe", max_new_tokens=225)
-        out += processor.batch_decode(ids, skip_special_tokens=True)
-    return out
 
 
 class Ctc:
@@ -56,7 +31,7 @@ class Ctc:
             self.device = "cpu"
             self.model = ORTModelForCTC.from_pretrained(model_name)
         else:
-            self.device = "mps" if torch.backends.mps.is_available() else "cpu"
+            self.device = env.device()
             self.model = Wav2Vec2ForCTC.from_pretrained(model_name).to(self.device).eval()
 
     def scores(self, audio: np.ndarray) -> np.ndarray:
@@ -77,10 +52,6 @@ class Ctc:
             names[i] = "" if ch in ctc.SPECIAL else ch
         ids = {ch: i for i, ch in enumerate(names) if ch and ch != ctc.WORD}
         return follow.Model(ids, names, self.blank, self.alpha[ctc.WORD])
-
-
-def is_ctc(model_name: str) -> bool:
-    return "Wav2Vec2ForCTC" in (AutoConfig.from_pretrained(model_name).architectures or [])
 
 
 def letters(model_name: str, audio: list[np.ndarray]) -> list[str]:
