@@ -48,3 +48,14 @@ def load(path: Path = ROOT / "config.yaml") -> Config:
         targets=dict(raw["targets"]),
         listen=dict(raw["listen"]),
     )
+
+
+def overrides(pairs: list[str]) -> dict[str, Any]:
+    """key=value pairs as settings, the values read as config.yaml reads them (true, 4, 1.0e-5)."""
+    out = {}
+    for pair in pairs:
+        key, sep, value = pair.partition("=")
+        if not sep:
+            raise ValueError(f"not key=value: {pair!r}")
+        out[key] = yaml.safe_load(value)
+    return out

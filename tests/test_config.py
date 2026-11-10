@@ -3,6 +3,8 @@
 import os
 from pathlib import Path
 
+import pytest
+
 from shravan import config
 from shravan.split import split_of
 
@@ -73,3 +75,16 @@ def test_gpu_memory_cap(monkeypatch):
     monkeypatch.setenv("PYTORCH_MPS_HIGH_WATERMARK_RATIO", "0.5")
     env.cap_gpu_memory(0.75)
     assert os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] == "0.5"
+
+
+def test_a_setting_can_be_changed_for_one_comparison_run():
+    assert config.overrides(["sort_by_length=false", "pad_to_seconds=4"]) == {
+        "sort_by_length": False,
+        "pad_to_seconds": 4,
+    }
+    with pytest.raises(ValueError):
+        config.overrides(["sort_by_length"])
+
+
+def test_family_validation_is_a_small_part_of_the_family_clips():
+    assert 0 < CFG.training["family_validation"] <= 0.2

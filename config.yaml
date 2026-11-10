@@ -28,7 +28,12 @@ training:
   checkpointing: true               # recompute activations in the backward pass: a batch of 8 needs 5 GB instead of over 13
   learning_rate: 2.0e-5
   warmup_steps: 100                 # steps from no learning to the full rate
-  max_steps: 3000                   # an upper bound: training stops earlier when validation stops improving
+  max_steps: 6000                   # an upper bound: training stops earlier when validation stops improving
+  sort_by_length: true              # batches of clips of about one length, so little silence is added to any clip: the
+                                    # model's first layer normalises over the whole clip, padding included
+                                    # (feat_extract_norm: group), and on the phone it never hears padding
+  pad_to_seconds: 1                 # a batch's sound is padded up to a whole number of these, so the GPU sees few shapes
+  family_validation: 0.1            # the last part of each family recording chooses the checkpoint, not trains it
   eval_every: 100                   # letters wrong on the validation clips; the best checkpoint is kept
   patience: 6                       # evaluations in a row without improving before stopping
   augment: true                     # random speed (±10%), volume and a little noise, so one chanter's takes aren't
