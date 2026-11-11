@@ -310,3 +310,19 @@ def test_the_check_sounds_record_sees_every_step_of_the_scores():
     other = package.check_of(scores, [0] * 10, "")
     assert plain["scores"] == other["scores"] and list(plain["scores"]) == ["0", "5", "9"]  # type: ignore[call-overload]
     assert plain["means"] == [0.0, 0.0] and other["means"] == [0.0, 0.5]
+
+
+def test_the_end_of_each_family_recording_chooses_the_checkpoint_and_is_not_trained_on():
+    def clips(name, n):
+        return [data.Clip(f"{name}/{i}", Path("x"), "l", 0, "train", 1.0, name) for i in range(n)]
+
+    train = clips("pro", 30) + clips("sg-a", 10) + clips("sg-b", 11) + clips("sg-c", 1)
+    kept, held = data.family_validation(train, {"sg-a", "sg-b", "sg-c"}, 0.1)
+    assert [c.id for c in held] == ["sg-a/9", "sg-b/9", "sg-b/10", "sg-c/0"]
+    assert not {c.id for c in held} & {c.id for c in kept}
+    assert len(kept) + len(held) == len(train) and sum(c.recording == "pro" for c in kept) == 30
+
+
+def test_published_and_family_voices_count_alike_when_choosing_a_checkpoint():
+    assert metrics.validation_score(0.1, 0.3) == pytest.approx(0.2)
+    assert metrics.validation_score(0.1, None) == 0.1

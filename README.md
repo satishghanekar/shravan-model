@@ -32,12 +32,16 @@ a point or so of these; the runs behind them, and every model before, are in [`r
 To build it again:
 
 ```sh
-python scripts/train_ctc.py --name ctc-pro-all                                 # about 2 hours on the M4
+PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.85 python scripts/train_ctc.py --name ctc-pro-all \
+  --set max_steps=3000 --set sort_by_length=false --set pad_to_seconds=4 --set family_validation=0   # about 2 hours on the M4
 python scripts/export.py checkpoints/ctc-pro-all/best models/ctc-v3-int8       # (the 8-bit form's folder keeps this name)
 python scripts/export.py checkpoints/ctc-pro-all/best models/ctc-v4-q4 --q4
 python scripts/to_site.py models/ctc-v3-int8 models/site/chant-v4
 python scripts/to_site.py models/ctc-v4-q4 models/site/chant-v4-q4
 ```
+
+The `--set`s are the settings chant-v4 was trained with; `config.yaml` has moved on since. The newer settings gave a
+model no better at following ([`results/`](results/README.md), 2026-11-10), so chant-v4 stays on the site.
 
 **Licences.** The starting model's [Hugging Face page](https://huggingface.co/Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60)
 names no licence (checked 2026-11-10); the Vakyansh project's code and model lists on GitHub
@@ -95,7 +99,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/evaluate.py <model> [--split validation]` | Letters wrong and verses found on the test (or validation) clips, a clip's verse looked for among every text its recording chants; writes `results/` |
 | `python scripts/follow.py <model>` | The app's own measure, by Listen's own method (`shravan/follow.py`, its settings in `config.yaml`, `listen:`): plays each tested recording as Listen hears it (the last 4 s) and scores how often the right place is found 2, 3 and 5 seconds into a unit, following (the window lined up with the text near Listen's mark) and lost (every text searched). |
 | `python scripts/export.py <model> <folder> [--q4]` | Shrinks a trained model for the phone: ONNX, int8, about 108 MB (`models/`, never in git); `--q4`, its matrix weights in 4 bits for a phone's GPU (90 MB); test the folder like any model |
-| `python scripts/train_ctc.py [<model>] [--resume] [--name N] [--layers L] [--only published\|family]` | Fine-tunes the model (`model` in `config.yaml` unless another is named: wav2vec2, a letter for every 20 ms) on the training clips (a family recording's counted `family_repeat` times), our letters it lacks added to its alphabet, keeping the best checkpoint on validation (`checkpoints/N`). `--resume` carries on a stopped run, `--layers` keeps the first L layers, `--only` trains on one kind of recording. About 2 hours on the M4 |
+| `python scripts/train_ctc.py [<model>] [--resume] [--name N] [--layers L] [--only published\|family]` | Fine-tunes the model (`model` in `config.yaml` unless another is named: wav2vec2, a letter for every 20 ms) on the training clips (a family recording's counted `family_repeat` times), our letters it lacks added to its alphabet, keeping the best checkpoint on validation (`checkpoints/N`). `--resume` carries on a stopped run, `--layers` keeps the first L layers, `--only` trains on one kind of recording, `--set key=value` changes one `training:` setting for a comparison. Up to about 4.5 hours on the M4 |
 | `python scripts/speed.py <folder>` | Times a phone model on this Mac's CPU with 4 threads, as an iPhone runs it, on 2, 4 and 5 s of sound. Only the ratio between models means much on the phone |
 | `ruff format . && ruff check . && mypy && pytest` | The checks, the same as CI; run them before a pull request |
 

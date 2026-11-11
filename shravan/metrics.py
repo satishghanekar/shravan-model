@@ -31,3 +31,8 @@ def closest(hypothesis: str, candidates: list[str]) -> int:
 def verses_found(truth: list[int], hypotheses: list[str], candidates: list[str]) -> float:
     found = sum(closest(h, candidates) == t for h, t in zip(hypotheses, truth, strict=True))
     return found / max(len(truth), 1)
+
+
+def validation_score(published: float, family: float | None) -> float:
+    """What the best checkpoint is chosen on: the published and the family clips counted alike, however many of each."""
+    return published if family is None else (published + family) / 2

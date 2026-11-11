@@ -153,3 +153,29 @@ Following, the number the release target is set on, passes on every recording. S
 another text, when Listen has lost its place, and it is weakest on a group and on family voices. None of these is an
 aarti, an ashtak or Marathi: both aarti recordings and the ashtak are trained on, so no score here says how Listen does
 on them.
+
+### Family voices choosing the checkpoint, batches of one length, 6000 steps (2026-11-10)
+
+`ctc-family-sorted`, against chant-v4, on the same held-out recordings. Trained 6000 steps (4 hours; the best at 5600),
+the last tenth of each family recording kept out to help choose the checkpoint, batches of clips of about one length.
+3 seconds into each unit, on the CPU, chant-v4 first:
+
+| Recording (units tested) | Letters wrong | Following | Search |
+| --- | --- | --- | --- |
+| Pavamana, 1st published (79) | 13.4% → 10.0% | 100% → 100% | 96.2% → 98.7% |
+| Pavamana, Challakere (90) | 6.3% → 5.4% | 100% → 100% | 95.6% → 94.4% |
+| SG's Purusha, 2nd (23) | 17.6% → 17.3% | 100% → 95.7% | 82.6% → 82.6% |
+| SG's Purusha, 1st (25) | 15.3% → 14.8% | 100% → 100% | 92.0% → 88.0% |
+| Lalita, one voice (184) | 10.3% → 10.9% | 100% → 100% | 99.5% → 98.9% |
+| SJ's Lalita, a group (58) | 36.7% → 36.9% | 98.3% → 96.6% | 48.3% → 48.3% |
+
+On the GPU (4-bit) the letters moved the same way. Search on a group fell from 48.3% to 41.4%, and the other search
+and following figures stayed within a few units.
+
+Published voices improved; family voices barely did, and following is one unit worse on two recordings (one unit is
+4.3% of SG's 2nd take, 1.7% of the group). Not released: nothing here helps Listen follow a family voice, and the letters
+target is still missed on them. Doubling the steps bought little: validation was 11.7% at step 3000 and 11.0% at 5600.
+
+The same run with unsorted batches, meant to show what sorting alone does, ran out of the Mac's GPU memory at step 20 and
+was not repeated. So these figures cannot say which of the three changes did what. The sorted run itself went all 6000
+steps without running out of memory, which unsorted runs have often not done.

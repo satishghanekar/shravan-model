@@ -7,7 +7,11 @@ on the validation clips.
 The first argument is where to start from (default: `model` in config.yaml). --layers keeps only the first layers of
 the transformer (12 in a base model), and trains again from there: a smaller and quicker model for the phone, each
 layer about 7 MB shrunk (2026-11-07). --only published (or family) trains on that kind of recording alone, to compare
-what each teaches; the validation clips stay the same, so the runs choose alike.
+what each teaches; the validation clips stay the same, so the runs choose alike. --set changes one training: setting
+for a comparison (--set sort_by_length=false), recorded in the results file like the others.
+
+The best checkpoint is the one with the fewest letters wrong on the validation clips, the published hymns and the last
+part of each family recording counted alike (shravan/data.py, family_validation).
 
 The pretrained model already writes Devanagari letter by letter (Sanskrit); letters our labels use that it lacks are
 added to its output (shravan/ctc.py), each starting from the average of the others. Its first layers, which turn sound
@@ -38,6 +42,7 @@ from transformers import (  # noqa: E402
     Wav2Vec2ForCTC,
     Wav2Vec2Processor,
 )
+from transformers.trainer_pt_utils import LengthGroupedSampler  # noqa: E402
 
 from shravan import config, ctc, data, env, metrics, recordings, results  # noqa: E402
 from shravan.augment import augment  # noqa: E402
@@ -45,9 +50,6 @@ from shravan.config import ROOT  # noqa: E402
 from shravan.gpu import FreeMemory  # noqa: E402
 from shravan.sound import normalise  # noqa: E402
 
-# every batch's sound is padded up to a whole number of these (16 kHz samples, 4 s), so the Mac's GPU sees few shapes:
-# each new shape keeps memory of its own (the labels too, always LABEL_LETTERS long)
-BUCKET = 4 * 16000
 LABEL_LETTERS = 400  # the longest label is about 300 letters
 
 
@@ -68,6 +70,9 @@ class Collate:
     alpha: dict[str, int]
     train: bool
     rng: random.Random
+    # every batch's sound is padded up to a whole number of these (samples), so the Mac's GPU sees few shapes: each new
+    # shape keeps memory of its own (the labels too, always LABEL_LETTERS long)
+    bucket: int
 
     def __call__(self, batch: list[dict[str, Any]]) -> dict[str, torch.Tensor]:
         audio = [sf.read(b["path"], dtype="float32")[0] for b in batch]
@@ -75,7 +80,7 @@ class Collate:
             audio = [augment(a, self.rng) for a in audio]
         # each clip brought to mean 0 and spread 1, as the model was trained (do_normalize), then padded with silence
         audio = [normalise(a) for a in audio]
-        size = -(-max(len(a) for a in audio) // BUCKET) * BUCKET
+        size = -(-max(len(a) for a in audio) // self.bucket) * self.bucket
         values = torch.zeros(len(audio), size)
         for i, a in enumerate(audio):
             values[i, : len(a)] = torch.from_numpy(a)
@@ -114,6 +119,16 @@ def find_blank(model: Wav2Vec2ForCTC, clips: list[data.Clip]) -> int:
     return ctc.blank_of(chosen)
 
 
+class ByLength(Trainer):  # type: ignore[misc]
+    """Batches of clips of about one length, still shuffled from pass to pass (group_by_length needs a clip's sound in
+    hand to know its length; ours are read a batch at a time)."""
+
+    lengths: list[int]
+
+    def _get_train_sampler(self, train_dataset: Any = None) -> Any:
+        return LengthGroupedSampler(self.args.train_batch_size, lengths=self.lengths)
+
+
 def main() -> None:
     env.use_certifi()
     ap = argparse.ArgumentParser()
@@ -122,11 +137,13 @@ def main() -> None:
     ap.add_argument("--name", help="its folder in checkpoints/ (default: the model name)")
     ap.add_argument("--layers", type=int, help="keep only this many of the transformer's first layers")
     ap.add_argument("--only", choices=["published", "family"], help="train on only this kind of recording")
+    ap.add_argument("--set", action="append", default=[], help="change one training: setting, key=value")
     args = ap.parse_args()
 
     cfg = config.load()
     args.model = args.model or cfg.model
     t = cfg.training
+    t.update(config.overrides(args.set))  # (results.save records these with the rest)
     env.cap_gpu_memory(t["gpu_memory"])
     rate, batch, accumulate = t["learning_rate"], t["batch_size"], t["accumulate"]
     random.seed(t["seed"])
@@ -134,6 +151,9 @@ def main() -> None:
 
     train, valid = data.clips(cfg.work, "train"), data.clips(cfg.work, "validation")
     family = {r.slug for r in recordings.load(cfg.recordings) if r.who != "published"}
+    train, family_valid = data.family_validation(train, family, t["family_validation"])
+    published = len(valid)
+    valid = valid + family_valid
     train = data.weighed(train, family, t["family_repeat"], args.only)
 
     pretrained = Wav2Vec2CTCTokenizer.from_pretrained(args.model)
@@ -154,7 +174,11 @@ def main() -> None:
 
     def score(pred: Any) -> dict[str, float]:
         heard = [ctc.decode(row.tolist(), alpha, blank) for row in pred.predictions]
-        return {"letters_wrong": metrics.letters_wrong([c.label for c in valid], heard)}
+        said = [c.label for c in valid]
+        one = metrics.letters_wrong(said[:published], heard[:published])
+        other = metrics.letters_wrong(said[published:], heard[published:]) if family_valid else None
+        best = metrics.validation_score(one, other)
+        return {"letters_wrong": best, "published": one} | ({"family": other} if other is not None else {})
 
     settings = TrainingArguments(
         output_dir=str(out),
@@ -181,21 +205,23 @@ def main() -> None:
         remove_unused_columns=False,
         report_to=[],
     )
-    trainer = Trainer(
+    bucket = int(t["pad_to_seconds"] * 16000)
+    trainer = (ByLength if t["sort_by_length"] else Trainer)(
         model=model,
         args=settings,
         train_dataset=Clips(train),
         eval_dataset=Clips(valid),
-        data_collator=Collate(alpha, True, random.Random(t["seed"])),
+        data_collator=Collate(alpha, True, random.Random(t["seed"]), bucket),
         compute_metrics=score,
         preprocess_logits_for_metrics=choices,
         callbacks=[EarlyStoppingCallback(early_stopping_patience=t["patience"]), FreeMemory()],
     )
     # the validation clips are never augmented, and come in their own order
     trainer.get_eval_dataloader = lambda ds=None: torch.utils.data.DataLoader(
-        Clips(valid), batch_size=batch, collate_fn=Collate(alpha, False, random.Random(0))
+        Clips(valid), batch_size=batch, collate_fn=Collate(alpha, False, random.Random(0), bucket)
     )
 
+    trainer.lengths = [round(c.seconds * 16000) for c in train]
     started = time.time()
     trainer.train(resume_from_checkpoint=True if args.resume else None)
     best = out / "best"
@@ -211,12 +237,18 @@ def main() -> None:
         "train_clips": len(train),
         "family_clips": sum(c.recording in family for c in train),
         "validation_clips": len(valid),
+        "family_validation_clips": len(family_valid),
         "letters_added": len(alpha) - len(pretrained.get_vocab()),
         "blank": letters[blank],
         "steps": trainer.state.global_step,
         "best_step": int(str(trainer.state.best_model_checkpoint).rsplit("-", 1)[-1]),
         "best_validation_letters_wrong": round(float(trainer.state.best_metric or 0), 4),
         "validation_history": [(h["step"], round(h["eval_letters_wrong"], 4)) for h in history],
+        "validation_at_best": [
+            {k[5:]: round(v, 4) for k, v in h.items() if k in ("eval_published", "eval_family")}
+            for h in history
+            if h["step"] == int(str(trainer.state.best_model_checkpoint).rsplit("-", 1)[-1])
+        ],
         "minutes": round((time.time() - started) / 60, 1),
         "learning_rate": rate,
         "layers": model.config.num_hidden_layers,
