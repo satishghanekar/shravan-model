@@ -55,13 +55,22 @@
    "lines": 17
   },
   {
+   "id": "vedic-chant-shivopasana-mantra",
+   "file": "texts/vedic-chant-shivopasana-mantra.txt",
+   "title": "शिवोपासनमन्त्राः",
+   "titleEn": "Shivopasana Mantras",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 36
+  },
+  {
    "id": "vedic-chant-pavamana-suktam",
    "file": "texts/vedic-chant-pavamana-suktam.txt",
    "title": "पवमानसूक्तम्",
    "titleEn": "Pavamana Suktam",
    "category": "vedic-chant",
    "language": "sa",
-   "lines": 1277
+   "lines": 1281
   },
   {
    "id": "vedic-chant-lalita-sahasranama",
@@ -80,6 +89,24 @@
    "category": "vedic-chant",
    "language": "sa",
    "lines": 14
+  },
+  {
+   "id": "vedic-chant-mantrapushpam",
+   "file": "texts/vedic-chant-mantrapushpam.txt",
+   "title": "मन्त्रपुष्पम्",
+   "titleEn": "Mantrapushpam",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 88
+  },
+  {
+   "id": "vedic-chant-chakshushopanishad",
+   "file": "texts/vedic-chant-chakshushopanishad.txt",
+   "title": "चाक्षुषोपनिषद्",
+   "titleEn": "Chakshushopanishad",
+   "category": "vedic-chant",
+   "language": "sa",
+   "lines": 21
   },
   {
    "id": "aarti-sukhkarta",
@@ -244,6 +271,15 @@
    "lines": 20
   },
   {
+   "id": "aarti-jai-shiv-omkara",
+   "file": "texts/aarti-jai-shiv-omkara.txt",
+   "title": "आरती जय शिव ओंकारा",
+   "titleEn": "Aarti Jai Shiv Omkara",
+   "category": "aarti",
+   "language": "hi",
+   "lines": 16
+  },
+  {
    "id": "stotra-maruti-stotra",
    "file": "texts/stotra-maruti-stotra.txt",
    "title": "मारुती स्तोत्र",
@@ -269,6 +305,33 @@
    "category": "stotra",
    "language": "sa",
    "lines": 100
+  },
+  {
+   "id": "stotra-shiva-panchakshara",
+   "file": "texts/stotra-shiva-panchakshara.txt",
+   "title": "शिवपञ्चाक्षरस्तोत्रम्",
+   "titleEn": "Shiva Panchakshara Stotram",
+   "category": "stotra",
+   "language": "sa",
+   "lines": 12
+  },
+  {
+   "id": "stotra-shiva-ashtottara-shatanamavali",
+   "file": "texts/stotra-shiva-ashtottara-shatanamavali.txt",
+   "title": "श्री शिवाष्टोत्तरशतनामावलिः",
+   "titleEn": "Shri Shiva Ashtottara Shatanamavali",
+   "category": "stotra",
+   "language": "sa",
+   "lines": 108
+  },
+  {
+   "id": "stotra-prarthana-shlokas",
+   "file": "texts/stotra-prarthana-shlokas.txt",
+   "title": "प्रार्थना श्लोकाः",
+   "titleEn": "Prarthana Shlokas",
+   "category": "stotra",
+   "language": "sa",
+   "lines": 16
   },
   {
    "id": "stotra-shant-ho-shriguru",
@@ -458,6 +521,42 @@
    "category": "ashtak",
    "language": "sa",
    "lines": 24
+  },
+  {
+   "id": "ashtak-lingashtakam",
+   "file": "texts/ashtak-lingashtakam.txt",
+   "title": "लिङ्गाष्टकम्",
+   "titleEn": "Lingashtakam",
+   "category": "ashtak",
+   "language": "sa",
+   "lines": 18
+  },
+  {
+   "id": "ashtak-nandikeshvara-ashtakam",
+   "file": "texts/ashtak-nandikeshvara-ashtakam.txt",
+   "title": "नन्दिकेश्वराष्टकम्",
+   "titleEn": "Nandikeshvara Ashtakam",
+   "category": "ashtak",
+   "language": "sa",
+   "lines": 16
+  },
+  {
+   "id": "ashtak-rudrashtakam",
+   "file": "texts/ashtak-rudrashtakam.txt",
+   "title": "श्री रुद्राष्टकम्",
+   "titleEn": "Shri Rudrashtakam",
+   "category": "ashtak",
+   "language": "sa",
+   "lines": 16
+  },
+  {
+   "id": "ashtak-kalabhairava-ashtakam",
+   "file": "texts/ashtak-kalabhairava-ashtakam.txt",
+   "title": "श्रीकालभैरवाष्टकम्",
+   "titleEn": "Shri Kalabhairava Ashtakam",
+   "category": "ashtak",
+   "language": "sa",
+   "lines": 18
   }
  ],
  "pageLanguage": "mr",

@@ -1,0 +1,206 @@
+id: vedic-chant-mantrapushpam
+title: मन्त्रपुष्पम्
+title-en: Mantrapushpam
+category: vedic-chant
+language: sa
+layout: prose
+credit: [कृष्ण यजुर्वेद, तैत्तिरीय आरण्यक](https://mr.wikipedia.org/wiki/यजुर्वेद)
+credit-en: [Krishna Yajurveda, Taittiriya Aranyaka](https://en.wikipedia.org/wiki/Taittiriya_Aranyaka)
+---
+[dhrupad]
+ॐ भ॒द्रं कर्णे॑भिः शृणु॒याम॑ देवाः ।
+Om Bhadram Karnebhih Shrunuyama Devah |
+भ॒द्रं प॑श्येमा॒क्षभि॒र्यज॑त्राः ।
+Bhadram Pashyemakshabhiryajatrah |
+स्थि॒रैरङ्गै᳚स्तुष्टु॒वाग्ं स॑स्त॒नूभिः॑ ।
+Sthirairangaistushtuvagm Sastanubhih |
+व्यशे॑म दे॒वहि॑तं॒ यदायुः॑ ।
+Vyashema Devahitam Yadayuh |
+स्व॒स्ति न॒ इन्द्रो॑ वृ॒द्धश्र॑वाः ।
+Svasti Na Indro Vruddhashravah |
+स्व॒स्ति नः॑ पू॒षा वि॒श्ववे॑दाः ।
+Svasti Nah Pusha Vishvavedah |
+स्व॒स्ति न॒स्तार्क्ष्यो॒ अरि॑ष्टनेमिः ।
+Svasti Nastarkshyo Arishtanemih |
+स्व॒स्ति नो॒ बृह॒स्पति॑र्दधातु ॥
+Svasti No Bruhaspatirdadhatu ||
+ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+Om Shantih Shantih Shantih ||
+
+[para 1]
+ॐ यो॑ऽपां पुष्पं॒ वेद॑ ।
+Om Yopam Pushpam Veda |
+पुष्प॑वान् प्र॒जावा᳚न् पशु॒मान् भ॑वति ।
+Pushpavan Prajavan Pashuman Bhavati |
+च॒न्द्रमा॒ वा अ॒पां पुष्प᳚म् ।
+Chandrama Va Apam Pushpam |
+पुष्प॑वान् प्र॒जावा᳚न् पशु॒मान् भ॑वति ।
+Pushpavan Prajavan Pashuman Bhavati |
+य ए॒वं वेद॑ ।
+Ya Evam Veda |
+यो॑ऽपामा॒यत॑नं॒ वेद॑ ।
+Yopamayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+अ॒ग्निर्वा अ॒पामा॒यत॑नम् ।
+Agnirva Apamayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+यो᳚ऽग्नेरा॒यत॑नं॒ वेद॑ ॥
+Yognerayatanam Veda ||
+
+[2]
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+आपो॒ वा अ॒ग्नेरा॒यत॑नम् ।
+Apo Va Agnerayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+य ए॒वं वेद॑ ।
+Ya Evam Veda |
+यो॑ऽपामा॒यत॑नं॒ वेद॑ ।
+Yopamayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+वा॒युर्वा अ॒पामा॒यत॑नम् ।
+Vayurva Apamayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+यो वा॒योरा॒यत॑नं॒ वेद॑ ।
+Yo Vayorayatanam Veda |
+आ॒यत॑नवान् भवति ॥
+Ayatanavan Bhavati ||
+
+[3]
+आपो॒ वै वा॒योरा॒यत॑नम् ।
+Apo Vai Vayorayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+य ए॒वं वेद॑ ।
+Ya Evam Veda |
+यो॑ऽपामा॒यत॑नं॒ वेद॑ ।
+Yopamayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+अ॒सौ वै तप॑न्न॒पामा॒यत॑नम् ।
+Asau Vai Tapannapamayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+यो॑ऽमुष्य॒ तप॑त आ॒यत॑नं॒ वेद॑ ।
+Yomushya Tapata Ayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+आपो॒ वा अ॒मुष्य॒ तप॑त आ॒यत॑नम् ॥
+Apo Va Amushya Tapata Ayatanam ||
+
+[4]
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+य ए॒वं वेद॑ ।
+Ya Evam Veda |
+यो॑ऽपामा॒यत॑नं॒ वेद॑ ।
+Yopamayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+च॒न्द्रमा॒ वा अ॒पामा॒यत॑नम् ।
+Chandrama Va Apamayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+यश्च॒न्द्रम॑स आ॒यत॑नं॒ वेद॑ ।
+Yashchandramasa Ayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+आपो॒ वै च॒न्द्रम॑स आ॒यत॑नम् ।
+Apo Vai Chandramasa Ayatanam |
+आ॒यत॑नवान् भवति ॥
+Ayatanavan Bhavati ||
+
+[5]
+य ए॒वं वेद॑ ।
+Ya Evam Veda |
+यो॑ऽपामा॒यत॑नं॒ वेद॑ ।
+Yopamayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+नक्ष॑त्राणि॒ वा अ॒पामा॒यत॑नम् ।
+Nakshatrani Va Apamayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+यो नक्ष॑त्राणामा॒यत॑नं॒ वेद॑ ।
+Yo Nakshatranamayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+आपो॒ वै नक्ष॑त्राणामा॒यत॑नम् ।
+Apo Vai Nakshatranamayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+य ए॒वं वेद॑ ॥
+Ya Evam Veda ||
+
+[6]
+यो॑ऽपामा॒यत॑नं॒ वेद॑ ।
+Yopamayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+प॒र्जन्यो॒ वा अ॒पामा॒यत॑नम् ।
+Parjanyo Va Apamayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+यः प॒र्जन्य॑स्या॒यत॑नं॒ वेद॑ ।
+Yah Parjanyasyayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+आपो॒ वै प॒र्जन्य॑स्या॒ऽऽयत॑नम् ।
+Apo Vai Parjanyasyayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+य ए॒वं वेद॑ ।
+Ya Evam Veda |
+यो॑ऽपामा॒यत॑नं॒ वेद॑ ॥
+Yopamayatanam Veda ||
+
+[7]
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+सं॒व॒त्स॒रो वा अ॒पामा॒यत॑नम् ।
+Samvatsaro Va Apamayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+यस्सं॑वत्स॒रस्या॒यत॑नं॒ वेद॑ ।
+Yassamvatsarasyayatanam Veda |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+आपो॒ वै सं॑वत्स॒रस्या॒यत॑नम् ।
+Apo Vai Samvatsarasyayatanam |
+आ॒यत॑नवान् भवति ।
+Ayatanavan Bhavati |
+य ए॒वं वेद॑ ।
+Ya Evam Veda |
+यो᳚ऽप्सु नावं॒ प्रति॑ष्ठितां॒ वेद॑ ।
+Yopsu Navam Pratishthitam Veda |
+प्रत्ये॒व ति॑ष्ठति ॥
+Pratyeva Tishthati ||
+
+[para 8]
+ॐ रा॒जा॒धि॒रा॒जाय॑ प्रसह्यसा॒हिने᳚ ।
+Om Rajadhirajaya Prasahyasahine |
+नमो॑ व॒यं वै᳚श्रव॒णाय॑ कुर्महे ।
+Namo Vayam Vaishravanaya Kurmahe |
+स मे॒ कामा॒न्काम॒कामा॑य॒ मह्य᳚म् ।
+Sa Me Kamankamakamaya Mahyam |
+का॒मे॒श्व॒रो वै᳚श्रव॒णो द॑दातु ।
+Kameshvaro Vaishravano Dadatu |
+कु॒बे॒राय॑ वैश्रव॒णाय॑ ।
+Kuberaya Vaishravanaya |
+म॒हा॒रा॒जाय॒ नमः॑ ॥
+Maharajaya Namah ||
+
+[para 9]
+यो वेदादौ स्व॑रः प्रो॒क्तो॒ वे॒दान्ते॑ च प्र॒तिष्ठि॑तः ।
+Yo Vedadau Svarah Prokto Vedante Cha Pratishthitah |
+तस्य॑ प्र॒कृति॑लीन॒स्य॒ यः॒ पर॑स्स म॒हेश्व॑रः ॥
+Tasya Prakrutilinasya Yah Parassa Maheshvarah ||
+
+[dhrupad]
+ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+Om Shantih Shantih Shantih ||

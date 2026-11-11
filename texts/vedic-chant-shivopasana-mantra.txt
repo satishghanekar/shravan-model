@@ -1,0 +1,100 @@
+id: vedic-chant-shivopasana-mantra
+title: शिवोपासनमन्त्राः
+title-en: Shivopasana Mantras
+category: vedic-chant
+language: sa
+layout: prose
+credit: [कृष्ण यजुर्वेद, तैत्तिरीय आरण्यक (महानारायणोपनिषत्)](https://mr.wikipedia.org/wiki/यजुर्वेद)
+credit-en: [Krishna Yajurveda, Taittiriya Aranyaka (Mahanarayana Upanishad)](https://en.wikipedia.org/wiki/Taittiriya_Aranyaka)
+---
+[para 1]
+ॐ निध॑नपतये॒ नमः । निध॑नपतान्तिकाय॒ नमः ।
+Om Nidhanapataye Namah | Nidhanapatantikaya Namah |
+ऊर्ध्वाय॒ नमः । ऊर्ध्वलिङ्गाय॒ नमः ।
+Urdhvaya Namah | Urdhvalingaya Namah |
+हिरण्याय॒ नमः । हिरण्यलिङ्गाय॒ नमः ।
+Hiranyaya Namah | Hiranyalingaya Namah |
+सुवर्णाय॒ नमः । सुवर्णलिङ्गाय॒ नमः ।
+Suvarnaya Namah | Suvarnalingaya Namah |
+दिव्याय॒ नमः । दिव्यलिङ्गाय॒ नमः ।
+Divyaya Namah | Divyalingaya Namah |
+भवाय॒ नमः । भवलिङ्गाय॒ नमः ।
+Bhavaya Namah | Bhavalingaya Namah |
+शर्वाय॒ नमः । शर्वलिङ्गाय॒ नमः ।
+Sharvaya Namah | Sharvalingaya Namah |
+शिवाय॒ नमः । शिवलिङ्गाय॒ नमः ।
+Shivaya Namah | Shivalingaya Namah |
+ज्वलाय॒ नमः । ज्वललिङ्गाय॒ नमः ।
+Jvalaya Namah | Jvalalingaya Namah |
+आत्माय॒ नमः । आत्मलिङ्गाय॒ नमः ।
+Atmaya Namah | Atmalingaya Namah |
+परमाय॒ नमः । परमलिङ्गाय॒ नमः ।
+Paramaya Namah | Paramalingaya Namah |
+एतत्सोमस्य॑ सूर्य॒स्य॒ सर्वलिङ्गग्ग्ं॑ स्थाप॒य॒ति॒ पाणिमन्त्रं॑ पवि॒त्रम् ॥
+Etatsomasya Suryasya Sarvalingaggm Sthapayati Panimantram Pavitram ||
+
+[para 2]
+स॒द्योजा॒तं प्र॑पद्या॒मि स॒द्योजा॒ताय॒ वै नमो॒ नमः॑ ।
+Sadyojatam Prapadyami Sadyojataya Vai Namo Namah |
+भ॒वे भ॑वे॒ नाति॑भवे भवस्व॒ माम् ।
+Bhave Bhave Natibhave Bhavasva Mam |
+भ॒वोद्भ॑वाय॒ नमः॑ ॥
+Bhavodbhavaya Namah ||
+
+[para 3]
+वा॒म॒दे॒वाय॒ नमो᳚ ज्ये॒ष्ठाय॒ नम॑श्श्रे॒ष्ठाय॒ नमो॑ रु॒द्राय॒ नमः॒
+Vamadevaya Namo Jyeshthaya Namashshreshthaya Namo Rudraya Namah
+काला॑य॒ नमः॒ कल॑विकरणाय॒ नमो॒ बल॑विकरणाय॒ नमो॒ बला॑य॒ नमो॒
+Kalaya Namah Kalavikaranaya Namo Balavikaranaya Namo Balaya Namo
+बल॑प्रमथनाय॒ नम॒स्सर्व॑भूतदमनाय॒ नमो॑ म॒नोन्म॑नाय॒ नमः॑ ॥
+Balapramathanaya Namassarvabhutadamanaya Namo Manonmanaya Namah ||
+
+[para 4]
+अ॒घोरे᳚भ्योऽथ॒ घोरे᳚भ्यो॒ घोर॒घोर॑तरेभ्यः ।
+Aghorebhyotha Ghorebhyo Ghoraghoratarebhyah |
+सर्वे᳚भ्यः सर्व॒शर्वे᳚भ्यो॒ नम॑स्ते अस्तु रु॒द्ररू॑पेभ्यः ॥
+Sarvebhyah Sarvasharvebhyo Namaste Astu Rudrarupebhyah ||
+
+[para 5]
+तत्पुरु॑षाय वि॒द्महे॑ महादे॒वाय॑ धीमहि ।
+Tatpurushaya Vidmahe Mahadevaya Dhimahi |
+तन्नो॑ रुद्रः प्रचो॒दया᳚त् ॥
+Tanno Rudrah Prachodayat ||
+
+[para 6]
+ईशानस्सर्व॑विद्या॒ना॒मीश्वरस्सर्व॑भूता॒नां॒
+Ishanassarvavidyanamishvarassarvabhutanam
+ब्रह्माऽधि॑पति॒र्ब्रह्म॒णोऽधि॑पति॒र्ब्रह्मा॑ शि॒वो मे॑ अस्तु सदाशि॒वोम् ॥
+Brahmadhipatirbrahmanodhipatirbrahma Shivo Me Astu Sadashivom ||
+
+[para 7]
+नमो हिरण्यबाहवे हिरण्यवर्णाय हिरण्यरूपाय
+Namo Hiranyabahave Hiranyavarnaya Hiranyarupaya
+हिरण्यपतयेऽम्बिकापतय उमापतये पशुपतये॑ नमो॒ नमः ।
+Hiranyapatayembikapataya Umapataye Pashupataye Namo Namah |
+
+[para 8]
+ऋ॒तग्ं स॒त्यं प॑रं ब्र॒ह्म॒ पु॒रुषं॑ कृष्ण॒पिङ्ग॑लम् ।
+Rutagm Satyam Param Brahma Purusham Krushnapingalam |
+ऊ॒र्ध्वरे॑तं वि॑रूपा॒क्षं॒ वि॒श्वरू॑पाय॒ वै नमो॒ नमः॑ ॥
+Urdhvaretam Virupaksham Vishvarupaya Vai Namo Namah ||
+
+[para 9]
+सर्वो॒ वै रु॒द्रस्तस्मै॑ रु॒द्राय॒ नमो॑ अस्तु ।
+Sarvo Vai Rudrastasmai Rudraya Namo Astu |
+पुरु॑षो॒ वै रु॒द्रस्सन्म॒हो नमो॒ नमः॑ ।
+Purusho Vai Rudrassanmaho Namo Namah |
+विश्वं॑ भू॒तं भुव॑नं चि॒त्रं ब॑हु॒धा जा॒तं जाय॑मानं च॒ यत् ।
+Vishvam Bhutam Bhuvanam Chitram Bahudha Jatam Jayamanam Cha Yat |
+सर्वो॒ ह्ये॑ष रु॒द्रस्तस्मै॑ रु॒द्राय॒ नमो॑ अस्तु ।
+Sarvo Hyesha Rudrastasmai Rudraya Namo Astu |
+कद्रु॒द्राय॒ प्रचे॑तसे मी॒ढुष्ट॑माय॒ तव्य॑से ।
+Kadrudraya Prachetase Midhushtamaya Tavyase |
+वो॒चेम॒ शन्त॑मग्ं हृ॒दे ।
+Vochema Shantamagm Hrude |
+सर्वो॒ ह्ये॑ष रु॒द्रस्तस्मै॑ रु॒द्राय॒ नमो॑ अस्तु ॥
+Sarvo Hyesha Rudrastasmai Rudraya Namo Astu ||
+
+[dhrupad]
+ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥
+Om Shantih Shantih Shantih ||

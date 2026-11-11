@@ -12,22 +12,32 @@ credit-en: [Rigveda, Mandala 9](https://en.wikipedia.org/wiki/Mandala_9)
 || Pavamanasuktam ||
 
 [dhrupad]
+श्री गुरुभ्यो नमः । हरिः ओम् ॥
+Shri Gurubhyo Namah | Harih Om ||
+
+[dhrupad]
 गणानां᳚ त्वा ग॒णप॑तिं हवामहे क॒विं क॑वी॒नामु॑प॒मश्र॑वस्तमम् ।
 Gananam Tva Ganapatim Havamahe Kavim Kavinamupamashravastamam |
 ज्ये॒ष्ठ॒राजं॒ ब्रह्म॑णां ब्रह्मणस्पत॒ आ नः॑ शृ॒ण्वन्नू॒तिभिः॑ सीद॒ साद॑नम् ॥
 Jyeshtharajam Brahmanam Brahmanaspata A Nah Shrunvannutibhih Sida Sadanam ||
+श्री महागणपतये नमः ॥
+Shri Mahaganapataye Namah ||
 
 [dhrupad]
 प्र णो᳚ दे॒वी सर॑स्वती॒ वाजे᳚भिर्वा॒जिनी᳚वती ।
 Pra No Devi Sarasvati Vajebhirvajinivati |
 धी॒नाम॑वि॒त्र्य॑वतु ॥
 Dhinamavitryavatu ||
+श्री महासरस्वत्यै नमः ॥
+Shri Mahasarasvatyai Namah ||
 
 [dhrupad]
 वेद॒ वात॑स्य वर्त॒निमु॒रोरृ॒ष्वस्य॑ बृह॒तः ।
 Veda Vatasya Vartanimurorrushvasya Bruhatah |
 वेदा॒ ये अ॒ध्यास॑ते ॥
 Veda Ye Adhyasate ||
+श्री वेदपुरुषाय नमः ॥
+Shri Vedapurushaya Namah ||
 
 [dhrupad]
 श॒तधा᳚र॒मुत्स॒मक्षी᳚यमाणं विप॒श्चितं᳚ पि॒तरं॒ वक्त्वा᳚नाम् ।
@@ -44,6 +54,8 @@ Yastanna Veda Kimrucha Karishyati Ya Ittadvidusta Ime Samasate ||
 [dhrupad]
 ॥ अथ पवमानसूक्तम् ॥
 || Atha Pavamanasuktam ||
+
+[note: प्रथमोऽध्यायः | Prathama Adhyaya]
 
 [para 1]
 स्वादि॑ष्ठया॒ मदि॑ष्ठया॒ पव॑स्व सोम॒ धार॑या ।
@@ -728,6 +740,8 @@ Viprasya Dharaya Kavih || 9.012.08 ||
 A Pavamana Dharaya Rayim Sahasravarchasam |
 अ॒स्मे इ᳚न्दो स्वा॒भुवम्᳚ ॥ ९.०१२.०९
 Asme Indo Svabhuvam || 9.012.09
+
+[note: द्वितीयोऽध्यायः | Dvitiya Adhyaya]
 
 [para 115]
 सोम॑ पुना॒नो अ॑र्षति स॒हस्र॑धारो॒ अत्य॑विः ।
@@ -1953,6 +1967,8 @@ Pavasva Vajasataye Viprasya Grunato Vrudhe |
 सोम॒ रास्व॑ सु॒वीर्यम्᳚ ॥ ९.०४३.०६॥
 Soma Rasva Suviryam || 9.043.06 ||
 
+[note: तृतीयोऽध्यायः | Tritiya Adhyaya]
+
 [para 319]
 प्र ण॑ इन्दो म॒हे तन॑ ऊ॒र्मिं न बिभ्र॑दर्षसि ।
 Pra Na Indo Mahe Tana Urmim Na Bibhradarshasi |
@@ -3152,6 +3168,8 @@ Sidanto Vanusho Yatha || 9.064.29 ||
 Rudhaksoma Svastaye Sanjagmano Divah Kavih |
 पव॑स्व॒ सूर्यो᳚ दृ॒शे ॥ ९.०६४.३० ॥
 Pavasva Suryo Drushe || 9.064.30 ||
+
+[note: चतुर्थोऽध्यायः | Chaturtha Adhyaya]
 
 [para 519]
 हि॒न्वन्ति॒ सूर॒मुस्र॑य॒ स्वसा᳚रो जा॒मय॒स्पति॑म् ।

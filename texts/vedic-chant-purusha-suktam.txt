@@ -47,7 +47,7 @@ Etavanasya Mahima |
 अतो॒ ज्यायाग्॑श्च॒ पूरु॑षः ॥ १ ॥
 Ato Jyayagshcha Purushah || 1 ||
 
-[2]
+[para 2]
 पादो᳚ऽस्य॒ विश्वा॑ भू॒तानि॑ ।
 Padosya Vishva Bhutani |
 त्रि॒पाद॑स्या॒मृतं॑ दि॒वि ।
@@ -91,7 +91,7 @@ Tam Yadnyam Barhishi Praukshan |
 पुरु॑षं जा॒तम॑ग्र॒तः ॥ ३ ॥
 Purusham Jatamagratah || 3 ||
 
-[4]
+[para 4]
 तेन॑ दे॒वा अय॑जन्त ।
 Tena Deva Ayajanta |
 सा॒ध्या ऋष॑यश्च॒ ये ।
@@ -113,7 +113,7 @@ Chhandagmsi Jadnyire Tasmat |
 यजु॒स्तस्मा॑दजायत ॥ ४ ॥
 Yajustasmadajayata || 4 ||
 
-[5]
+[para 5]
 तस्मा॒दश्वा॑ अजायन्त ।
 Tasmadashva Ajayanta |
 ये के चो॑भ॒याद॑तः ।
@@ -135,7 +135,7 @@ Brahmanosya Mukhamasit |
 बा॒हू रा॑ज॒न्यः॑ कृ॒तः ॥ ५ ॥
 Bahu Rajanyah Krutah || 5 ||
 
-[6]
+[para 6]
 ऊ॒रू तद॑स्य॒ यद्वैश्यः॑ ।
 Uru Tadasya Yadvaishyah |
 प॒द्भ्याग्ं शू॒द्रो अ॑जायत ।
@@ -205,7 +205,7 @@ Prajapatishcharati Garbhe Antah |
 अ॒जाय॑मानो बहु॒धा विजा॑यते ॥ ८ ॥
 Ajayamano Bahudha Vijayate || 8 ||
 
-[9]
+[para 9]
 तस्य॒ धीराः॒ परि॑जानन्ति॒ योनिम्᳚ ।
 Tasya Dhirah Parijananti Yonim |
 मरी॑चीनां प॒दमि॑च्छन्ति वे॒धसः॑ ।

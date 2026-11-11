@@ -1,0 +1,69 @@
+id: stotra-prarthana-shlokas
+title: प्रार्थना श्लोकाः
+title-en: Prarthana Shlokas
+category: stotra
+language: sa
+---
+[note: प्रदक्षिणमन्त्रः | Pradakshina Mantra]
+
+[1]
+यानि कानि च पापानि जन्मान्तरकृतानि च ।
+Yani Kani Cha Papani Janmantarakrutani Cha |
+तानि तानि विनश्यन्ति प्रदक्षिणपदे पदे ॥
+Tani Tani Vinashyanti Pradakshinapade Pade ||
+
+[note: नमस्कारमन्त्राः | Namaskara Mantras]
+
+[2]
+अन्यथा शरणं नास्ति त्वमेव शरणं मम ।
+Anyatha Sharanam Nasti Tvameva Sharanam Mama |
+तस्मात् कारुण्य भावेन रक्ष मां परमेश्वरः ॥
+Tasmat Karunya Bhavena Raksha Mam Parameshvarah ||
+
+[3]
+मृत्युञ्जयाय रुद्राय नीलकण्ठाय शंभवे ।
+Mrutyunjayaya Rudraya Nilakanthaya Shambhave |
+अमृतेशाय शर्वाय महादेवाय ते नमः ॥
+Amruteshaya Sharvaya Mahadevaya Te Namah ||
+
+[note: क्षमाप्रार्थना | Kshama Prarthana]
+
+[4]
+अपराध सहस्राणि क्रियन्तेऽहर्निशं मया ।
+Aparadha Sahasrani Kriyanteharnisham Maya |
+दासोऽहं इति मां मत्वा क्षमस्व परमेश्वरः ॥
+Dasoham Iti Mam Matva Kshamasva Parameshvarah ||
+
+[note: निरामयमन्त्रः | Niramaya Mantra]
+
+[5]
+गतं पापं गतं दुःखं गतं दारिद्र्यमेव च ।
+Gatam Papam Gatam Duhkham Gatam Daridryameva Cha |
+आगताः सुखसंपत्ति पुण्या च तव दर्शनात् ॥
+Agatah Sukhasampatti Punya Cha Tava Darshanat ||
+
+[note: स्वस्तिमन्त्राः | Svasti Mantras]
+
+[6]
+स्वस्ति॑ प्रजा॒भ्यः परिपा॑लयन्तां । न्याये॑न मा॒र्गेण॑ महीं॑ महीशाः ॥
+Svasti Prajabhyah Paripalayantam | Nyayena Margena Mahim Mahishah ||
+
+[7]
+गोब्रा॑ह्मणे॒भ्यः शु॒भमस्तु॑ नि॒त्यम् । लोका॑स्सम॒स्तास्सु॒खिनो॑ भवन्तु ॥
+Gobrahmanebhyah Shubhamastu Nityam | Lokassamastassukhino Bhavantu ||
+
+[8]
+का॒ले व॒र्षतु॑ पर्जन्यः॑ । पृथि॑वी॒ सस्य शालि॑नी ॥
+Kale Varshatu Parjanyah | Pruthivi Sasya Shalini ||
+
+[9]
+देशो॑ऽयं॒ क्षोभर॒हितः॑ । ब्रा॒ह्म॒णास्सन्तु॑ नि॒र्भ॑याः ॥
+Deshoyam Kshobharahitah | Brahmanassantu Nirbhayah ||
+
+[10]
+सर्वे भवन्तु सुखिनः । सर्वे सन्तु निरामयाः ॥
+Sarve Bhavantu Sukhinah | Sarve Santu Niramayah ||
+
+[11]
+सर्वे भद्राणि पश्यन्तु । मा कश्चिद् दुःखभाग् भवेत् ॥
+Sarve Bhadrani Pashyantu | Ma Kashchid Duhkhabhag Bhavet ||

@@ -3,6 +3,7 @@ title: श्रीसूक्त
 title-en: Shri Sukta
 category: vedic-chant
 language: sa
+layout: lines
 stanza-numbers: as-written
 credit: ऋग्वेद (खिलसूक्त)
 credit-en: Rig Veda (Khila Sukta)

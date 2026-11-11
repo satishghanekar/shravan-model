@@ -179,3 +179,19 @@ target is still missed on them. Doubling the steps bought little: validation was
 The same run with unsorted batches, meant to show what sorting alone does, ran out of the Mac's GPU memory at step 20 and
 was not repeated. So these figures cannot say which of the three changes did what. The sorted run itself went all 6000
 steps without running out of memory, which unsorted runs have often not done.
+
+### Two new texts, never trained on: chant-v4 on Kalabhairava Ashtakam and Rudrashtakam (2026-11-11)
+
+Two held-out recordings of texts the site has just added (`results/2026-11-11-0851-follow-models-ctc-v3-int8.json`,
+chant-v4 on the CPU; the other held-out recordings scored as before):
+
+| Recording (units tested) | Following, 2 s | Following, 3 s | Following, 5 s | Search, 3 s |
+| --- | --- | --- | --- | --- |
+| Kalabhairava Ashtakam, published, one voice (9) | 88.9% | 100% | 100% | 100% |
+| RG's Rudrashtakam, in a moving car (8) | 75.0% | 62.5% | 87.5% | 50.0% |
+
+A published voice on a text the model has never heard is followed as well as the texts it was trained on: what it
+learnt carries over to a new ashtakam. A family voice under road noise is not: 5 of 8 verses found at 3 seconds, well
+under the 95% target, though only 8 units, so one verse moves the figure by 12.5%. It is the first test of a family
+voice other than SG's and SJ's, and the first with noise this loud; whether the voice or the car costs more needs a
+quiet take of the same text.

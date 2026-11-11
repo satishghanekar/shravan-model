@@ -1,0 +1,244 @@
+id: stotra-shiva-ashtottara-shatanamavali
+title: श्री शिवाष्टोत्तरशतनामावलिः
+title-en: Shri Shiva Ashtottara Shatanamavali
+category: stotra
+language: sa
+layout: lines
+---
+[para 1]
+ॐ शिवाय नमः ।
+Om Shivaya Namah |
+ॐ महेश्वराय नमः ।
+Om Maheshvaraya Namah |
+ॐ शम्भवे नमः ।
+Om Shambhave Namah |
+ॐ पिनाकिने नमः ।
+Om Pinakine Namah |
+ॐ शशिशेखराय नमः ।
+Om Shashishekharaya Namah |
+ॐ वामदेवाय नमः ।
+Om Vamadevaya Namah |
+ॐ विरूपाक्षाय नमः ।
+Om Virupakshaya Namah |
+ॐ कपर्दिने नमः ।
+Om Kapardine Namah |
+ॐ नीललोहिताय नमः ।
+Om Nilalohitaya Namah |
+ॐ शङ्कराय नमः ॥ १० ॥
+Om Shankaraya Namah || 10 ||
+
+[2]
+ॐ शूलपाणये नमः ।
+Om Shulapanaye Namah |
+ॐ खट्वाङ्गिने नमः ।
+Om Khatvangine Namah |
+ॐ विष्णुवल्लभाय नमः ।
+Om Vishnuvallabhaya Namah |
+ॐ शिपिविष्टाय नमः ।
+Om Shipivishtaya Namah |
+ॐ अम्बिकानाथाय नमः ।
+Om Ambikanathaya Namah |
+ॐ श्रीकण्ठाय नमः ।
+Om Shrikanthaya Namah |
+ॐ भक्तवत्सलाय नमः ।
+Om Bhaktavatsalaya Namah |
+ॐ भवाय नमः ।
+Om Bhavaya Namah |
+ॐ शर्वाय नमः ।
+Om Sharvaya Namah |
+ॐ त्रिलोकेशाय नमः ॥ २० ॥
+Om Trilokeshaya Namah || 20 ||
+
+[3]
+ॐ शितिकण्ठाय नमः ।
+Om Shitikanthaya Namah |
+ॐ शिवाप्रियाय नमः ।
+Om Shivapriyaya Namah |
+ॐ उग्राय नमः ।
+Om Ugraya Namah |
+ॐ कपालिने नमः ।
+Om Kapaline Namah |
+ॐ कामारये नमः ।
+Om Kamaraye Namah |
+ॐ अन्धकासुरसूदनाय नमः ।
+Om Andhakasurasudanaya Namah |
+ॐ गङ्गाधराय नमः ।
+Om Gangadharaya Namah |
+ॐ ललाटाक्षाय नमः ।
+Om Lalatakshaya Namah |
+ॐ कालकालाय नमः ।
+Om Kalakalaya Namah |
+ॐ कृपानिधये नमः ॥ ३० ॥
+Om Krupanidhaye Namah || 30 ||
+
+[4]
+ॐ भीमाय नमः ।
+Om Bhimaya Namah |
+ॐ परशुहस्ताय नमः ।
+Om Parashuhastaya Namah |
+ॐ मृगपाणये नमः ।
+Om Mrugapanaye Namah |
+ॐ जटाधराय नमः ।
+Om Jatadharaya Namah |
+ॐ कैलासवासिने नमः ।
+Om Kailasavasine Namah |
+ॐ कवचिने नमः ।
+Om Kavachine Namah |
+ॐ कठोराय नमः ।
+Om Kathoraya Namah |
+ॐ त्रिपुरान्तकाय नमः ।
+Om Tripurantakaya Namah |
+ॐ वृषाङ्काय नमः ।
+Om Vrushankaya Namah |
+ॐ वृषभारूढाय नमः ॥ ४० ॥
+Om Vrushabharudhaya Namah || 40 ||
+
+[5]
+ॐ भस्मोद्धूलितविग्रहाय नमः ।
+Om Bhasmoddhulitavigrahaya Namah |
+ॐ सामप्रियाय नमः ।
+Om Samapriyaya Namah |
+ॐ स्वरमयाय नमः ।
+Om Svaramayaya Namah |
+ॐ त्रयीमूर्तये नमः ।
+Om Trayimurtaye Namah |
+ॐ अनीश्वराय नमः ।
+Om Anishvaraya Namah |
+ॐ सर्वज्ञाय नमः ।
+Om Sarvadnyaya Namah |
+ॐ परमात्मने नमः ।
+Om Paramatmane Namah |
+ॐ सोमसूर्याग्निलोचनाय नमः ।
+Om Somasuryagnilochanaya Namah |
+ॐ हविषे नमः ।
+Om Havishe Namah |
+ॐ यज्ञमयाय नमः ॥ ५० ॥
+Om Yadnyamayaya Namah || 50 ||
+
+[6]
+ॐ सोमाय नमः ।
+Om Somaya Namah |
+ॐ पञ्चवक्त्राय नमः ।
+Om Panchavaktraya Namah |
+ॐ सदाशिवाय नमः ।
+Om Sadashivaya Namah |
+ॐ विश्वेश्वराय नमः ।
+Om Vishveshvaraya Namah |
+ॐ वीरभद्राय नमः ।
+Om Virabhadraya Namah |
+ॐ गणनाथाय नमः ।
+Om Gananathaya Namah |
+ॐ प्रजापतये नमः ।
+Om Prajapataye Namah |
+ॐ हिरण्यरेतसे नमः ।
+Om Hiranyaretase Namah |
+ॐ दुर्धर्षाय नमः ।
+Om Durdharshaya Namah |
+ॐ गिरीशाय नमः ॥ ६० ॥
+Om Girishaya Namah || 60 ||
+
+[7]
+ॐ गिरिशाय नमः ।
+Om Girishaya Namah |
+ॐ अनघाय नमः ।
+Om Anaghaya Namah |
+ॐ भुजङ्गभूषणाय नमः ।
+Om Bhujangabhushanaya Namah |
+ॐ भर्गाय नमः ।
+Om Bhargaya Namah |
+ॐ गिरिधन्वने नमः ।
+Om Giridhanvane Namah |
+ॐ गिरिप्रियाय नमः ।
+Om Giripriyaya Namah |
+ॐ कृत्तिवाससे नमः ।
+Om Kruttivasase Namah |
+ॐ पुरारातये नमः ।
+Om Purarataye Namah |
+ॐ भगवते नमः ।
+Om Bhagavate Namah |
+ॐ प्रमथाधिपाय नमः ॥ ७० ॥
+Om Pramathadhipaya Namah || 70 ||
+
+[8]
+ॐ मृत्युञ्जयाय नमः ।
+Om Mrutyunjayaya Namah |
+ॐ सूक्ष्मतनवे नमः ।
+Om Sukshmatanave Namah |
+ॐ जगद्व्यापिने नमः ।
+Om Jagadvyapine Namah |
+ॐ जगद्गुरवे नमः ।
+Om Jagadgurave Namah |
+ॐ व्योमकेशाय नमः ।
+Om Vyomakeshaya Namah |
+ॐ महासेनजनकाय नमः ।
+Om Mahasenajanakaya Namah |
+ॐ चारुविक्रमाय नमः ।
+Om Charuvikramaya Namah |
+ॐ रुद्राय नमः ।
+Om Rudraya Namah |
+ॐ भूतपतये नमः ।
+Om Bhutapataye Namah |
+ॐ स्थाणवे नमः ॥ ८० ॥
+Om Sthanave Namah || 80 ||
+
+[9]
+ॐ अहिर्बुध्नियाय नमः ।
+Om Ahirbudhniyaya Namah |
+ॐ दिगम्बराय नमः ।
+Om Digambaraya Namah |
+ॐ अष्टमूर्तये नमः ।
+Om Ashtamurtaye Namah |
+ॐ अनेकात्मने नमः ।
+Om Anekatmane Namah |
+ॐ सात्विकाय नमः ।
+Om Satvikaya Namah |
+ॐ शुद्धविग्रहाय नमः ।
+Om Shuddhavigrahaya Namah |
+ॐ शाश्वताय नमः ।
+Om Shashvataya Namah |
+ॐ खण्डपरशवे नमः ।
+Om Khandaparashave Namah |
+ॐ अजाय नमः ।
+Om Ajaya Namah |
+ॐ पाशविमोचकाय नमः ॥ ९० ॥
+Om Pashavimochakaya Namah || 90 ||
+
+[10]
+ॐ मृडाय नमः ।
+Om Mrudaya Namah |
+ॐ पशुपतये नमः ।
+Om Pashupataye Namah |
+ॐ देवाय नमः ।
+Om Devaya Namah |
+ॐ महादेवाय नमः ।
+Om Mahadevaya Namah |
+ॐ अव्ययाय नमः ।
+Om Avyayaya Namah |
+ॐ हरये नमः ।
+Om Haraye Namah |
+ॐ भगनेत्रभिदे नमः ।
+Om Bhaganetrabhide Namah |
+ॐ अव्यक्ताय नमः ।
+Om Avyaktaya Namah |
+ॐ दक्षाध्वरहराय नमः ।
+Om Dakshadhvaraharaya Namah |
+ॐ हराय नमः ॥ १०० ॥
+Om Haraya Namah || 100 ||
+
+[11]
+ॐ पूषदन्तभिदे नमः ।
+Om Pushadantabhide Namah |
+ॐ अव्यग्राय नमः ।
+Om Avyagraya Namah |
+ॐ सहस्राक्षाय नमः ।
+Om Sahasrakshaya Namah |
+ॐ सहस्रपदे नमः ।
+Om Sahasrapade Namah |
+ॐ अपवर्गप्रदाय नमः ।
+Om Apavargapradaya Namah |
+ॐ अनन्ताय नमः ।
+Om Anantaya Namah |
+ॐ तारकाय नमः ।
+Om Tarakaya Namah |
+ॐ परमेश्वराय नमः ॥ १०८ ॥
+Om Parameshvaraya Namah || 108 ||
