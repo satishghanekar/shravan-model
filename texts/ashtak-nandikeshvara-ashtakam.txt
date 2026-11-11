@@ -1,0 +1,54 @@
+id: ashtak-nandikeshvara-ashtakam
+title: नन्दिकेश्वराष्टकम्
+title-en: Nandikeshvara Ashtakam
+category: ashtak
+language: sa
+stanza-numbers: as-written
+---
+[1]
+नन्दिकेश्वर नन्दिकेश्वर नन्दिकेश्वर पाहिमां ।
+Nandikeshvara Nandikeshvara Nandikeshvara Pahimam |
+नन्दिकेश्वर नन्दिकेश्वर नन्दिकेश्वर रक्षमाम् ॥ १ ॥
+Nandikeshvara Nandikeshvara Nandikeshvara Rakshamam || 1 ||
+
+[2]
+वेदपाद ब्रह्मरूप शिवध्यान पाहिमां ।
+Vedapada Brahmarupa Shivadhyana Pahimam |
+तुङ्गशैल देवदेव शिवप्रिय रक्षमाम् ॥ २ ॥
+Tungashaila Devadeva Shivapriya Rakshamam || 2 ||
+
+[3]
+विष्णुरूप मृत्विरूप नीति ईश्वर पाहिमां ।
+Vishnurupa Mrutvirupa Niti Ishvara Pahimam |
+वेदसार मन्त्रसार साक्षात्कार रक्षमाम् ॥ ३ ॥
+Vedasara Mantrasara Sakshatkara Rakshamam || 3 ||
+
+[4]
+सोमसूर्य अग्निलोचन नन्दिकेश्वर पाहिमां ।
+Somasurya Agnilochana Nandikeshvara Pahimam |
+पापहरण पर्थिवास सकललोक रक्षमाम् ॥ ४ ॥
+Papaharana Parthivasa Sakalaloka Rakshamam || 4 ||
+
+[5]
+चिदानन्द चित्स्वरूप चिन्मयेश पाहिमां ।
+Chidananda Chitsvarupa Chinmayesha Pahimam |
+कैलाश कनकरूप पण्डिताय रक्षमाम् ॥ ५ ॥
+Kailasha Kanakarupa Panditaya Rakshamam || 5 ||
+
+[6]
+प्रदोषकाल परमेश्वर भक्तपाल पाहिमां ।
+Pradoshakala Parameshvara Bhaktapala Pahimam |
+नाडिबोधक कालकण्ठ करुणासागर रक्षमाम् ॥ ६ ॥
+Nadibodhaka Kalakantha Karunasagara Rakshamam || 6 ||
+
+[7]
+सकलदोष सकलपीड दहननाम पाहिमां ।
+Sakaladosha Sakalapida Dahananama Pahimam |
+सर्वशत्रु सर्वरोग निवारण रक्षमाम् ॥ ७ ॥
+Sarvashatru Sarvaroga Nivarana Rakshamam || 7 ||
+
+[8]
+सिद्धपुरुष सिद्धनायक सेवितादि पाहिमां ।
+Siddhapurusha Siddhanayaka Sevitadi Pahimam |
+नटनरूप नाट्यप्रिय मृदङ्गवाद्य रक्षमाम् ॥ ८ ॥
+Natanarupa Natyapriya Mrudangavadya Rakshamam || 8 ||

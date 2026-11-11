@@ -1,0 +1,44 @@
+id: stotra-shiva-panchakshara
+title: शिवपञ्चाक्षरस्तोत्रम्
+title-en: Shiva Panchakshara Stotram
+category: stotra
+language: sa
+stanza-numbers: as-written
+credit: [आदि शंकराचार्य](https://mr.wikipedia.org/wiki/आदि_शंकराचार्य) यांचे मानले जाते
+credit-en: Attributed to [Adi Shankaracharya](https://en.wikipedia.org/wiki/Adi_Shankara)
+---
+[1]
+नागेन्द्रहाराय त्रिलोचनाय भस्माङ्गरागाय महेश्वराय ।
+Nagendraharaya Trilochanaya Bhasmangaragaya Maheshvaraya |
+नित्याय शुद्धाय दिगम्बराय तस्मै नकाराय नमः शिवाय ॥ १ ॥
+Nityaya Shuddhaya Digambaraya Tasmai Nakaraya Namah Shivaya || 1 ||
+
+[2]
+मन्दाकिनी सलिल चन्दन चर्चिताय नन्दीश्वर प्रमथनाथ महेश्वराय ।
+Mandakini Salila Chandana Charchitaya Nandishvara Pramathanatha Maheshvaraya |
+मन्दारमुख्य बहुपुष्प सुपूजिताय तस्मै मकाराय नमः शिवाय ॥ २ ॥
+Mandaramukhya Bahupushpa Supujitaya Tasmai Makaraya Namah Shivaya || 2 ||
+
+[3]
+शिवाय गौरीवदनाब्ज वृन्द सूर्याय दक्षाध्वरनाशकाय ।
+Shivaya Gaurivadanabja Vrunda Suryaya Dakshadhvaranashakaya |
+श्रीनीलकण्ठाय वृषभध्वजाय तस्मै शिकाराय नमः शिवाय ॥ ३ ॥
+Shrinilakanthaya Vrushabhadhvajaya Tasmai Shikaraya Namah Shivaya || 3 ||
+
+[4]
+वसिष्ठ कुम्भोद्भव गौतमार्य मुनीन्द्र देवार्चितशेखराय ।
+Vasishtha Kumbhodbhava Gautamarya Munindra Devarchitashekharaya |
+चन्द्रार्क वैश्वानरलोचनाय तस्मै वकाराय नमः शिवाय ॥ ४ ॥
+Chandrarka Vaishvanaralochanaya Tasmai Vakaraya Namah Shivaya || 4 ||
+
+[5]
+यक्षस्वरूपाय जटाधराय पिनाकहस्ताय सनातनाय ।
+Yakshasvarupaya Jatadharaya Pinakahastaya Sanatanaya |
+दिव्याय देवाय दिगम्बराय तस्मै यकाराय नमः शिवाय ॥ ५ ॥
+Divyaya Devaya Digambaraya Tasmai Yakaraya Namah Shivaya || 5 ||
+
+[once]
+पञ्चाक्षरमिदं पुण्यं यः पठेच्छिवसन्निधौ ।
+Panchaksharamidam Punyam Yah Pathechchhivasannidhau |
+शिवलोकमवाप्नोति शिवेन सह मोदते ॥
+Shivalokamavapnoti Shivena Saha Modate ||

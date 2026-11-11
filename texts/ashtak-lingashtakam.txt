@@ -1,0 +1,60 @@
+id: ashtak-lingashtakam
+title: लिङ्गाष्टकम्
+title-en: Lingashtakam
+category: ashtak
+language: sa
+stanza-numbers: as-written
+---
+[1]
+ब्रह्ममुरारिसुरार्चितलिङ्गं निर्मलभासितशोभितलिङ्गम् ।
+Brahmamurarisurarchitalingam Nirmalabhasitashobhitalingam |
+जन्मजदुःखविनाशकलिङ्गं तत्प्रणमामि सदाशिवलिङ्गम् ॥ १ ॥
+Janmajaduhkhavinashakalingam Tatpranamami Sadashivalingam || 1 ||
+
+[2]
+देवमुनिप्रवरार्चितलिङ्गं कामदहं करुणाकरलिङ्गम् ।
+Devamunipravararchitalingam Kamadaham Karunakaralingam |
+रावणदर्पविनाशकलिङ्गं तत्प्रणमामि सदाशिवलिङ्गम् ॥ २ ॥
+Ravanadarpavinashakalingam Tatpranamami Sadashivalingam || 2 ||
+
+[3]
+सर्वसुगन्धिसुलेपितलिङ्गं बुद्धिविवर्धनकारणलिङ्गम् ।
+Sarvasugandhisulepitalingam Buddhivivardhanakaranalingam |
+सिद्धसुरासुरवन्दितलिङ्गं तत्प्रणमामि सदाशिवलिङ्गम् ॥ ३ ॥
+Siddhasurasuravanditalingam Tatpranamami Sadashivalingam || 3 ||
+
+[4]
+कनकमहामणिभूषितलिङ्गं फणिपतिवेष्टितशोभितलिङ्गम् ।
+Kanakamahamanibhushitalingam Phanipativeshtitashobhitalingam |
+दक्षसुयज्ञविनाशकलिङ्गं तत्प्रणमामि सदाशिवलिङ्गम् ॥ ४ ॥
+Dakshasuyadnyavinashakalingam Tatpranamami Sadashivalingam || 4 ||
+
+[5]
+कुङ्कुमचन्दनलेपितलिङ्गं पङ्कजहारसुशोभितलिङ्गम् ।
+Kunkumachandanalepitalingam Pankajaharasushobhitalingam |
+सञ्चितपापविनाशकलिङ्गं तत्प्रणमामि सदाशिवलिङ्गम् ॥ ५ ॥
+Sanchitapapavinashakalingam Tatpranamami Sadashivalingam || 5 ||
+
+[6]
+देवगणार्चितसेवितलिङ्गं भावैर्भक्तिभिरेव च लिङ्गम् ।
+Devaganarchitasevitalingam Bhavairbhaktibhireva Cha Lingam |
+दिनकरकोटिप्रभाकरलिङ्गं तत्प्रणमामि सदाशिवलिङ्गम् ॥ ६ ॥
+Dinakarakotiprabhakaralingam Tatpranamami Sadashivalingam || 6 ||
+
+[7]
+अष्टदलोपरिवेष्टितलिङ्गं सर्वसमुद्भवकारणलिङ्गम् ।
+Ashtadalopariveshtitalingam Sarvasamudbhavakaranalingam |
+अष्टदरिद्रविनाशकलिङ्गं तत्प्रणमामि सदाशिवलिङ्गम् ॥ ७ ॥
+Ashtadaridravinashakalingam Tatpranamami Sadashivalingam || 7 ||
+
+[8]
+सुरगुरुसुरवरपूजितलिङ्गं सुरवनपुष्पसदार्चितलिङ्गम् ।
+Suragurusuravarapujitalingam Suravanapushpasadarchitalingam |
+परात्परं परमात्मकलिङ्गं तत्प्रणमामि सदाशिवलिङ्गम् ॥ ८ ॥
+Paratparam Paramatmakalingam Tatpranamami Sadashivalingam || 8 ||
+
+[once]
+लिङ्गाष्टकमिदं पुण्यं यः पठेत् शिवसन्निधौ ।
+Lingashtakamidam Punyam Yah Pathet Shivasannidhau |
+शिवलोकमवाप्नोति शिवेन सह मोदते ॥
+Shivalokamavapnoti Shivena Saha Modate ||

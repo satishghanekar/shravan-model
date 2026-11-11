@@ -1,0 +1,62 @@
+id: ashtak-kalabhairava-ashtakam
+title: श्रीकालभैरवाष्टकम्
+title-en: Shri Kalabhairava Ashtakam
+category: ashtak
+language: sa
+stanza-numbers: as-written
+credit: [आदि शंकराचार्य](https://mr.wikipedia.org/wiki/आदि_शंकराचार्य) यांचे मानले जाते
+credit-en: Attributed to [Adi Shankaracharya](https://en.wikipedia.org/wiki/Adi_Shankara)
+---
+[1]
+देवराजसेव्यमानपावनाङ्घ्रिपङ्कजं व्यालयज्ञसूत्रमिन्दुशेखरं कृपाकरम् ।
+Devarajasevyamanapavananghripankajam Vyalayadnyasutramindushekharam Krupakaram |
+नारदादियोगिवृन्दवन्दितं दिगम्बरं काशिकापुराधिनाथकालभैरवं भजे ॥ १ ॥
+Naradadiyogivrundavanditam Digambaram Kashikapuradhinathakalabhairavam Bhaje || 1 ||
+
+[2]
+भानुकोटिभास्वरं भवाब्धितारकं परं नीलकण्ठमीप्सितार्थदायकं त्रिलोचनम् ।
+Bhanukotibhasvaram Bhavabdhitarakam Param Nilakanthamipsitarthadayakam Trilochanam |
+कालकालमम्बुजाक्षमक्षशूलमक्षरं काशिकापुराधिनाथकालभैरवं भजे ॥ २ ॥
+Kalakalamambujakshamakshashulamaksharam Kashikapuradhinathakalabhairavam Bhaje || 2 ||
+
+[3]
+शूलटङ्कपाशदण्डपाणिमादिकारणं श्यामकायमादिदेवमक्षरं निरामयम् ।
+Shulatankapashadandapanimadikaranam Shyamakayamadidevamaksharam Niramayam |
+भीमविक्रमं प्रभुं विचित्रताण्डवप्रियं काशिकापुराधिनाथकालभैरवं भजे ॥ ३ ॥
+Bhimavikramam Prabhum Vichitratandavapriyam Kashikapuradhinathakalabhairavam Bhaje || 3 ||
+
+[4]
+भुक्तिमुक्तिदायकं प्रशस्तचारुविग्रहं भक्तवत्सलं स्थितं समस्तलोकविग्रहम् ।
+Bhuktimuktidayakam Prashastacharuvigraham Bhaktavatsalam Sthitam Samastalokavigraham |
+विनिक्वणन्मनोज्ञहेमकिङ्किणीलसत्कटिं काशिकापुराधिनाथकालभैरवं भजे ॥ ४ ॥
+Vinikvananmanodnyahemakinkinilasatkatim Kashikapuradhinathakalabhairavam Bhaje || 4 ||
+
+[5]
+धर्मसेतुपालकं त्वधर्ममार्गनाशकं कर्मपाशमोचकं सुशर्मदायकं विभुम् ।
+Dharmasetupalakam Tvadharmamarganashakam Karmapashamochakam Susharmadayakam Vibhum |
+स्वर्णवर्णशेषपाशशोभिताङ्गमण्डलं काशिकापुराधिनाथकालभैरवं भजे ॥ ५ ॥
+Svarnavarnasheshapashashobhitangamandalam Kashikapuradhinathakalabhairavam Bhaje || 5 ||
+
+[6]
+रत्नपादुकाप्रभाभिरामपादयुग्मकं नित्यमद्वितीयमिष्टदैवतं निरञ्जनम् ।
+Ratnapadukaprabhabhiramapadayugmakam Nityamadvitiyamishtadaivatam Niranjanam |
+मृत्युदर्पनाशनं करालदंष्ट्रमोक्षदं काशिकापुराधिनाथकालभैरवं भजे ॥ ६ ॥
+Mrutyudarpanashanam Karaladamshtramokshadam Kashikapuradhinathakalabhairavam Bhaje || 6 ||
+
+[7]
+अट्टहासभिन्नपद्मजाण्डकोशसन्ततिं दृष्टिपातनष्टपापजालमुग्रशासनम् ।
+Attahasabhinnapadmajandakoshasantatim Drushtipatanashtapapajalamugrashasanam |
+अष्टसिद्धिदायकं कपालमालिकाधरं काशिकापुराधिनाथकालभैरवं भजे ॥ ७ ॥
+Ashtasiddhidayakam Kapalamalikadharam Kashikapuradhinathakalabhairavam Bhaje || 7 ||
+
+[8]
+भूतसङ्घनायकं विशालकीर्तिदायकं काशिवासलोकपुण्यपापशोधकं विभुम् ।
+Bhutasanghanayakam Vishalakirtidayakam Kashivasalokapunyapapashodhakam Vibhum |
+नीतिमार्गकोविदं पुरातनं जगत्पतिं काशिकापुराधिनाथकालभैरवं भजे ॥ ८ ॥
+Nitimargakovidam Puratanam Jagatpatim Kashikapuradhinathakalabhairavam Bhaje || 8 ||
+
+[once]
+कालभैरवाष्टकं पठन्ति ये मनोहरं ज्ञानमुक्तिसाधनं विचित्रपुण्यवर्धनम् ।
+Kalabhairavashtakam Pathanti Ye Manoharam Dnyanamuktisadhanam Vichitrapunyavardhanam |
+शोकमोहदैन्यलोभकोपतापनाशनं प्रयान्ति कालभैरवाङ्घ्रिसन्निधिं नरा ध्रुवम् ॥
+Shokamohadainyalobhakopatapanashanam Prayanti Kalabhairavanghrisannidhim Nara Dhruvam ||

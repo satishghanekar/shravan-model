@@ -1,0 +1,56 @@
+id: ashtak-rudrashtakam
+title: श्री रुद्राष्टकम्
+title-en: Shri Rudrashtakam
+category: ashtak
+language: sa
+stanza-numbers: as-written
+credit: रचना : [गोस्वामी तुलसीदास](https://mr.wikipedia.org/wiki/तुलसीदास) (रामचरितमानस, उत्तरकाण्ड)
+credit-en: By [Goswami Tulsidas](https://en.wikipedia.org/wiki/Tulsidas) (Ramcharitmanas, Uttarakanda)
+---
+[1]
+नमामीशमीशान निर्वाणरूपं विभुं व्यापकं ब्रह्मवेदस्वरूपम् ।
+Namamishamishana Nirvanarupam Vibhum Vyapakam Brahmavedasvarupam |
+निजं निर्गुणं निर्विकल्पं निरीहं चिदाकाशमाकाशवासं भजेऽहम् ॥ १ ॥
+Nijam Nirgunam Nirvikalpam Niriham Chidakashamakashavasam Bhajeham || 1 ||
+
+[2]
+निराकारमोङ्कारमूलं तुरीयं गिराज्ञान गोतीतमीशं गिरीशम् ।
+Nirakaramonkaramulam Turiyam Giradnyana Gotitamisham Girisham |
+करालं महाकाल कालं कृपालं गुणागार संसारपारं नतोऽहम् ॥ २ ॥
+Karalam Mahakala Kalam Krupalam Gunagara Samsaraparam Natoham || 2 ||
+
+[3]
+तुषाराद्रि संकाश गौरं गभीरं मनोभूत कोटिप्रभा श्री शरीरम् ।
+Tusharadri Sankasha Gauram Gabhiram Manobhuta Kotiprabha Shri Shariram |
+स्फुरन्मौलिकल्लोलिनी चारुगङ्गा लसद्भालबालेन्दु कण्ठे भुजङ्गा ॥ ३ ॥
+Sphuranmaulikallolini Charuganga Lasadbhalabalendu Kanthe Bhujanga || 3 ||
+
+[4]
+चलत्कुण्डलं भ्रू सुनेत्रं विशालं प्रसन्नाननं नीलकण्ठं दयालम् ।
+Chalatkundalam Bhru Sunetram Vishalam Prasannananam Nilakantham Dayalam |
+मृगाधीशचर्माम्बरं मुण्डमालं प्रियं शङ्करं सर्वनाथं भजामि ॥ ४ ॥
+Mrugadhishacharmambaram Mundamalam Priyam Shankaram Sarvanatham Bhajami || 4 ||
+
+[5]
+प्रचण्डं प्रकृष्टं प्रगल्भं परेशं अखण्डं अजं भानुकोटिप्रकाशम् ।
+Prachandam Prakrushtam Pragalbham Paresham Akhandam Ajam Bhanukotiprakasham |
+त्रयः शूल निर्मूलनं शूलपाणिं भजेऽहं भवानीपतिं भावगम्यम् ॥ ५ ॥
+Trayah Shula Nirmulanam Shulapanim Bhajeham Bhavanipatim Bhavagamyam || 5 ||
+
+[6]
+कलातीत कल्याण कल्पान्तकारी सदा सज्जनानन्ददाता पुरारी ।
+Kalatita Kalyana Kalpantakari Sada Sajjananandadata Purari |
+चिदानन्द सन्दोह मोहापहारी प्रसीद प्रसीद प्रभो मन्मथारी ॥ ६ ॥
+Chidananda Sandoha Mohapahari Prasida Prasida Prabho Manmathari || 6 ||
+
+[7]
+न यावदुमानाथ पादारविन्दं भजन्तीह लोके परे वा नराणाम् ।
+Na Yavadumanatha Padaravindam Bhajantiha Loke Pare Va Naranam |
+न तावत्सुखं शान्ति सन्तापनाशं प्रसीद प्रभो सर्वभूताधिवास ॥ ७ ॥
+Na Tavatsukham Shanti Santapanasham Prasida Prabho Sarvabhutadhivasa || 7 ||
+
+[8]
+न जानामि योगं जपं नैव पूजां नतोऽहं सदा सर्वदा शम्भु तुभ्यम् ।
+Na Janami Yogam Japam Naiva Pujam Natoham Sada Sarvada Shambhu Tubhyam |
+जरा जन्म दुःखौघ तातप्यमानं प्रभो पाहि आपन्नमामीश शम्भो ॥ ८ ॥
+Jara Janma Duhkhaugha Tatapyamanam Prabho Pahi Apannamamisha Shambho || 8 ||

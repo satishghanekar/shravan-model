@@ -1,0 +1,56 @@
+id: vedic-chant-chakshushopanishad
+title: चाक्षुषोपनिषद्
+title-en: Chakshushopanishad
+category: vedic-chant
+language: sa
+layout: prose
+---
+[para 1]
+ॐ अस्याश्चाक्षुषीविद्यायाः अहिर्बुध्न्य ऋषिः ।
+Om Asyashchakshushividyayah Ahirbudhnya Rushih |
+गायत्री छन्दः । सूर्यो देवता ।
+Gayatri Chhandah | Suryo Devata |
+चक्षुरोगनिवृत्तये विनियोगः ॥
+Chakshuroganivruttaye Viniyogah ||
+
+[para 2]
+ॐ चक्षुः चक्षुः चक्षुः तेजः स्थिरो भव ।
+Om Chakshuh Chakshuh Chakshuh Tejah Sthiro Bhava |
+मां पाहि पाहि ।
+Mam Pahi Pahi |
+त्वरितं चक्षुरोगान् शमय शमय ।
+Tvaritam Chakshurogan Shamaya Shamaya |
+मम जातरूपं तेजो दर्शय दर्शय ।
+Mama Jatarupam Tejo Darshaya Darshaya |
+यथा अहं अन्धो न स्यां तथा कल्पय कल्पय ।
+Yatha Aham Andho Na Syam Tatha Kalpaya Kalpaya |
+कल्याणं कुरु कुरु ।
+Kalyanam Kuru Kuru |
+यानि मम पूर्वजन्मोपार्जितानि चक्षुःप्रतिरोधकदुष्कृतानि सर्वाणि निर्मूलय निर्मूलय ॥
+Yani Mama Purvajanmoparjitani Chakshuhpratirodhakadushkrutani Sarvani Nirmulaya Nirmulaya ||
+
+[para 3]
+ॐ नमः चक्षुस्तेजोदात्रे दिव्याय भास्कराय ।
+Om Namah Chakshustejodatre Divyaya Bhaskaraya |
+ॐ नमः करुणाकरायामृताय ।
+Om Namah Karunakarayamrutaya |
+ॐ नमः सूर्याय ।
+Om Namah Suryaya |
+ॐ नमो भगवते सूर्यायाक्षितेजसे नमः ।
+Om Namo Bhagavate Suryayakshitejase Namah |
+खेचराय नमः । महते नमः । रजसे नमः । तमसे नमः ।
+Khecharaya Namah | Mahate Namah | Rajase Namah | Tamase Namah |
+असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्मा अमृतं गमय ।
+Asato Ma Sadgamaya | Tamaso Ma Jyotirgamaya | Mrutyorma Amrutam Gamaya |
+उष्णो भगवाञ्छुचिरूपः । हंसो भगवान् शुचिरप्रतिरूपः ॥
+Ushno Bhagavanchhuchirupah | Hamso Bhagavan Shuchirapratirupah ||
+
+[para 4]
+य इमां चाक्षुष्मतीविद्यां ब्राह्मणो नित्यमधीते न तस्याक्षिरोगो भवति ।
+Ya Imam Chakshushmatividyam Brahmano Nityamadhite Na Tasyakshirogo Bhavati |
+न तस्य कुले अन्धो भवति ।
+Na Tasya Kule Andho Bhavati |
+अष्टौ ब्राह्मणान् सम्यग् ग्राहयित्वा विद्यासिद्धिर्भवति ।
+Ashtau Brahmanan Samyag Grahayitva Vidyasiddhirbhavati |
+ॐ नमो भगवते आदित्याय अहोवाहिनी अहोवाहिनी स्वाहा ॥
+Om Namo Bhagavate Adityaya Ahovahini Ahovahini Svaha ||
