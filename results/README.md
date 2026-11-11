@@ -191,7 +191,8 @@ chant-v4 on the CPU; the other held-out recordings scored as before):
 | RG's Rudrashtakam, in a moving car (8) | 75.0% | 62.5% | 87.5% | 50.0% |
 
 A published voice on a text the model has never heard is followed as well as the texts it was trained on: what it
-learnt carries over to a new ashtakam. A family voice under road noise is not: 5 of 8 verses found at 3 seconds, well
-under the 95% target, though only 8 units, so one verse moves the figure by 12.5%. It is the first test of a family
-voice other than SG's and SJ's, and the first with noise this loud; whether the voice or the car costs more needs a
-quiet take of the same text.
+learnt carries over to a new ashtakam. The car recording is not: 5 of 8 verses found at 3 seconds, well under the 95%
+target, though only 8 units, so one verse moves the figure by 12.5%. Its voice is clear; what it adds is road and wind
+noise throughout (Satish, 2026-11-11), the first recording with noise this loud, and the first family voice other than
+SG's and SJ's. It stays held out, the one test of that voice and of a car. Quiet takes by RG are coming to train on;
+this recording then says whether they, and noise mixed into training, help Follow in a car.
