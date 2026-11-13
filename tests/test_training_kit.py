@@ -112,7 +112,9 @@ def test_the_command_always_says_which_way_it_copies():
     import sys
 
     script = str(ROOT / "scripts" / "training_kit.py")
-    bare = subprocess.run([sys.executable, script], capture_output=True, text=True)
-    assert bare.returncode != 0 and "save" in bare.stderr and "restore" in bare.stderr
-    helped = subprocess.run([sys.executable, script, "--help"], capture_output=True, text=True)
+    # CI has no editable install of the package (pip install -e .), so the script finds it through the path
+    env = {**os.environ, "PYTHONPATH": str(ROOT)}
+    bare = subprocess.run([sys.executable, script], capture_output=True, text=True, env=env)
+    assert bare.returncode == 2 and "save" in bare.stderr and "restore" in bare.stderr
+    helped = subprocess.run([sys.executable, script, "--help"], capture_output=True, text=True, env=env)
     assert helped.returncode == 0 and "this Mac → iCloud" in helped.stdout
