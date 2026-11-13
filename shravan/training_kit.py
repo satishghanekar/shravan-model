@@ -108,7 +108,7 @@ def instructions(about: dict[str, Any]) -> str:
     items = "\n".join(f"- `{i}`" for i in about.get("items", []))
     return f"""# Shravan's training kit
 
-Made by `python scripts/training_kit.py` in the shravan-model repository on {about.get("date", "?")}, from commit
+Saved by `python scripts/training_kit.py save` in the shravan-model repository on {about.get("date", "?")}, from commit
 `{about.get("commit", "?")}` (texts from the site's `{about.get("texts", "?")}`). Private: clips cut from the family's
 recordings. Never copy this folder into a git repository.
 
@@ -135,13 +135,13 @@ The recordings themselves are in `recordings/`, beside this folder.
    cd shravan-model
    python3.12 -m venv .venv && source .venv/bin/activate
    pip install -r requirements.txt -r requirements-dev.txt && pip install -e .
-   python scripts/training_kit.py --restore
+   python scripts/training_kit.py restore
    ```
 
    The restore stops and says what is missing if iCloud is still bringing files down: wait, and run it again.
 3. Train, as the repository's README says ("The current model", or the run you mean to make).
 
-When the run is done on that Mac, run `python scripts/training_kit.py` there, so this folder has its clips and
-checkpoint. To carry a stopped run on elsewhere, add its last checkpoint: `python scripts/training_kit.py --add
-checkpoints/<run>/checkpoint-<step>`, then `--restore` and `train_ctc.py --name <run> --resume` on the other Mac.
+When the run is done on that Mac, run `python scripts/training_kit.py save` there, so this folder has its clips and
+checkpoint. To carry a stopped run on elsewhere, add its last checkpoint: `python scripts/training_kit.py save
+--add checkpoints/<run>/checkpoint-<step>`, then `restore` and `train_ctc.py --name <run> --resume` on the other Mac.
 """

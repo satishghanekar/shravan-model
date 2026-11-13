@@ -83,7 +83,7 @@ def test_a_save_and_restore_round_trip(tmp_path):
 
 def test_the_instructions_say_how_to_restore():
     text = kit.instructions({"date": "2026-11-13", "items": ["work/clips"], "remote": "https://example/x.git"})
-    assert "python scripts/training_kit.py --restore" in text
+    assert "python scripts/training_kit.py restore" in text
     assert "git clone https://example/x.git" in text
     assert "`work/clips`" in text
 
@@ -105,3 +105,14 @@ def test_the_recordings_and_the_kit_share_one_project_folder_in_icloud():
     # one folder to Keep Downloaded on another Mac, and nothing of the project scattered across iCloud Drive
     assert CFG.training_kit.parent == CFG.audio.parent
     assert CFG.training_kit.parent.name == ROOT.name == "shravan-model"
+
+
+def test_the_command_always_says_which_way_it_copies():
+    import subprocess
+    import sys
+
+    script = str(ROOT / "scripts" / "training_kit.py")
+    bare = subprocess.run([sys.executable, script], capture_output=True, text=True)
+    assert bare.returncode != 0 and "save" in bare.stderr and "restore" in bare.stderr
+    helped = subprocess.run([sys.executable, script, "--help"], capture_output=True, text=True)
+    assert helped.returncode == 0 and "this Mac → iCloud" in helped.stdout

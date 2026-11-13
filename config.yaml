@@ -4,7 +4,7 @@ texts: texts                        # copied from the site by scripts/sync_texts
 audio: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-model/recordings"   # iCloud Drive; never in git
 work: work                          # clips and alignments made from the audio; private, kept out of git
 recordings: recordings.csv
-# What another Mac needs to train, copied to iCloud Drive by scripts/training_kit.py and brought back by its --restore.
+# What another Mac needs to train, copied to iCloud Drive by scripts/training_kit.py save, brought back by its restore.
 # Beside the recordings, not in their folder: a recording is looked for by its file name anywhere under audio:.
 training_kit: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-model/training-kit"   # iCloud Drive; never in git
 training_kit_items:

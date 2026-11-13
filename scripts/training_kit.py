@@ -1,9 +1,9 @@
 """Keep what another Mac needs to train in iCloud Drive (config.yaml, training_kit:); bring it back to a fresh clone.
 
-    python scripts/training_kit.py             # this Mac → iCloud: the items in config.yaml (training_kit_items:)
-    python scripts/training_kit.py --add checkpoints/ctc-new/checkpoint-3000   # and a stopped run's checkpoint too
-    python scripts/training_kit.py --prune     # and take out of the kit what is no longer here
-    python scripts/training_kit.py --restore   # iCloud → this clone, once iCloud has brought the folder down
+    python scripts/training_kit.py save           # this Mac → iCloud: the items in config.yaml (training_kit_items:)
+    python scripts/training_kit.py save --add checkpoints/ctc-new/checkpoint-3000   # and a stopped run's checkpoint
+    python scripts/training_kit.py save --prune   # and take out of the kit what is no longer here
+    python scripts/training_kit.py restore        # iCloud → this clone, once iCloud has brought the folder down
 
 The recordings are in iCloud already; this copies what is made from them and the checkpoint behind the site's model,
 with a list of every file (shravan/training_kit.py). Saving only adds and updates files unless --prune is given; a
@@ -113,13 +113,19 @@ def restore(cfg: config.Config) -> None:
 
 
 def main() -> None:
+    # Which way it copies is always said, never assumed: a save run by mistake on a fresh Mac, or a restore on the Mac
+    # that trained, would each be the wrong way round.
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--restore", action="store_true", help="bring the kit into this clone")
-    parser.add_argument("--add", action="append", default=[], help="another folder to back up, relative to here")
-    parser.add_argument("--prune", action="store_true", help="remove from the kit what is no longer here")
+    commands = parser.add_subparsers(dest="command", required=True)
+    saving = commands.add_parser("save", help="this Mac → iCloud: copy what is new or changed into the kit")
+    saving.add_argument(
+        "--add", action="append", default=[], help="another folder to keep in the kit, relative to here"
+    )
+    saving.add_argument("--prune", action="store_true", help="remove from the kit what is no longer here")
+    commands.add_parser("restore", help="iCloud → this clone: bring the kit in, once iCloud has brought it all down")
     args = parser.parse_args()
     cfg = config.load()
-    if args.restore:
+    if args.command == "restore":
         restore(cfg)
     else:
         save(cfg, args.add, args.prune)
