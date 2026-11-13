@@ -98,3 +98,9 @@ def test_everything_backed_up_is_kept_out_of_git():
     ignored = (ROOT / ".gitignore").read_text(encoding="utf-8").split()
     for item in CFG.backup_keep:
         assert any(item.startswith(pattern) for pattern in ignored if pattern.endswith("/")), item
+
+
+def test_the_recordings_and_the_backup_share_one_project_folder_in_icloud():
+    # one folder to Keep Downloaded on another Mac, and nothing of the project scattered across iCloud Drive
+    assert CFG.backup.parent == CFG.audio.parent
+    assert CFG.backup.parent.name == ROOT.name == "shravan-model"

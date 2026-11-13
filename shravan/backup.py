@@ -120,12 +120,12 @@ recordings. Never copy this folder into a git repository.
 - `{LIST}`: every file and its size. The restore checks it, so it never starts on a copy iCloud hasn't finished
   bringing down.
 
-The recordings themselves are in `shravan-training/`, beside this folder.
+The recordings themselves are in `recordings/`, beside this folder.
 
 ## Training on another Mac
 
-1. In Finder, open iCloud Drive → `development`, and right-click both `shravan-training` and `shravan-backup`:
-   **Keep Downloaded**. Wait until neither shows the cloud icon any more.
+1. In Finder, open iCloud Drive → `development`, right-click `shravan-model` (the recordings and this backup):
+   **Keep Downloaded**. Wait until it no longer shows the cloud icon.
 2. In Terminal:
 
    ```sh

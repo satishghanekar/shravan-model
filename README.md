@@ -53,9 +53,9 @@ published recordings, which are not ours and are never in this repository.
 | What | Where | Why |
 |---|---|---|
 | Training and test code, settings, results | this repository | so every run can be repeated and compared |
-| The audio | iCloud Drive → `development/shravan-training/`, never in git | private, too big for git, and synced from the phone |
+| The audio | iCloud Drive → `development/shravan-model/recordings/`, never in git | private, too big for git, and synced from the phone |
 | Clips cut from the audio | `work/`, never in git | private like the audio; can be made again from it |
-| What another Mac needs to train | iCloud Drive → `development/shravan-backup/`, by `scripts/backup.py` | so a fresh clone trains within minutes ("Training on another Mac") |
+| What another Mac needs to train | iCloud Drive → `development/shravan-model/backup/`, by `scripts/backup.py` | so a fresh clone trains within minutes ("Training on another Mac") |
 | The texts | `texts/`, copied from the site by `python scripts/sync_texts.py` | a fixed copy per run; `texts/SOURCE` names the site commit |
 | The finished, shrunk model | copied into the site as `models/chant-vN/` | the site never depends on this repository |
 
@@ -90,12 +90,12 @@ python -c "import torch; print(torch.backends.mps.is_available())"   # should pr
 ## Training on another Mac
 
 The recordings are in iCloud already. The rest a run needs, the clips made from them and the checkpoint behind the
-site's model, is copied to iCloud Drive → `development/shravan-backup/` by `python scripts/backup.py` (about 2 GB). Its
+site's model, is copied to iCloud Drive → `development/shravan-model/backup/` by `python scripts/backup.py` (about 2 GB). Its
 `README.md` says the same as this, for whoever opens the folder in Finder.
 
 1. On the Mac that trained last: `python scripts/backup.py`. Run it again after every run or new recording you cut.
-2. On the other Mac, in Finder, right-click iCloud Drive → `development` → `shravan-training` and `shravan-backup`:
-   **Keep Downloaded**, and wait until neither shows the cloud icon.
+2. On the other Mac, in Finder, right-click iCloud Drive → `development` → `shravan-model` (the recordings and the
+   backup are both in it): **Keep Downloaded**, and wait until it no longer shows the cloud icon.
 3. Clone this repository into `~/development/`, set it up as below ("Setting up the Mac"), then
    `python scripts/backup.py --restore`. It stops and says what is missing if iCloud is still bringing files down.
 4. Train. When the run is done, `python scripts/backup.py` on that Mac, so the other one can carry on from it.
@@ -132,8 +132,9 @@ trained one, `checkpoints/ctc-pro-all/best`.
 
 ## Adding recordings
 
-1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-training/`. On the Mac, right-click the
-   folder and choose **Keep Downloaded**, so iCloud never swaps a recording out for a placeholder during training.
+1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-model/recordings/`. On the Mac,
+   right-click `shravan-model` and choose **Keep Downloaded**, so iCloud never swaps a recording out for a placeholder
+   during training.
 2. Add one row per recording to `recordings.csv`, with initials in the `who` column. A family recording is listed by its
    file name alone, without the folder it is in (named after a person): the file is found in any folder. A recording of part of a text, or with a part said again, names
    its blocks after a colon, in the order chanted: `vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5`

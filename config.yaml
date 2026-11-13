@@ -1,12 +1,12 @@
 # Settings for training and testing (read by shravan/config.py). Paths are relative to this folder, or start with ~.
 
 texts: texts                        # copied from the site by scripts/sync_texts.py; texts/SOURCE says from which commit
-audio: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-training"   # iCloud Drive; never in git
+audio: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-model/recordings"   # iCloud Drive; never in git
 work: work                          # clips and alignments made from the audio; private, kept out of git
 recordings: recordings.csv
 # What another Mac needs to train, copied to iCloud Drive by scripts/backup.py and brought back by its --restore. Beside
 # the recordings, not in their folder: a recording is looked for by its file name anywhere under audio: (locate()).
-backup: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-backup"   # iCloud Drive; never in git
+backup: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-model/backup"   # iCloud Drive; never in git
 backup_keep:
   - work/align                      # where each unit starts and ends in each recording
   - work/clips                      # the clips training reads, with their labels

@@ -86,14 +86,14 @@ def restore(cfg: config.Config) -> None:
     if not listed:
         sys.exit(
             f"no backup at {cfg.backup}\n"
-            "  In Finder: iCloud Drive → development → shravan-backup, right-click, Keep Downloaded; then again."
+            "  In Finder: iCloud Drive → development → shravan-model, right-click, Keep Downloaded; then again."
         )
     wanted = {p: f for p, f in listed.items() if not backup.under(p, backup.BASE)}
     absent = backup.missing(cfg.backup, wanted)
     if absent:
         sys.exit(
             f"{len(absent)} of {len(wanted)} files haven't come down from iCloud yet, such as {absent[0]}\n"
-            "  Keep Downloaded on the shravan-backup folder in Finder, wait until it has no cloud icon, and run again."
+            "  Keep Downloaded on the shravan-model folder in Finder, wait until it has no cloud icon, and run again."
         )
 
     here = backup.files(ROOT, about.get("items", []))
