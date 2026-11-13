@@ -4,6 +4,14 @@ texts: texts                        # copied from the site by scripts/sync_texts
 audio: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-training"   # iCloud Drive; never in git
 work: work                          # clips and alignments made from the audio; private, kept out of git
 recordings: recordings.csv
+# What another Mac needs to train, copied to iCloud Drive by scripts/backup.py and brought back by its --restore. Beside
+# the recordings, not in their folder: a recording is looked for by its file name anywhere under audio: (locate()).
+backup: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-backup"   # iCloud Drive; never in git
+backup_keep:
+  - work/align                      # where each unit starts and ends in each recording
+  - work/clips                      # the clips training reads, with their labels
+  - work/audio                      # each recording at 16 kHz, which cut.py, evaluate.py and follow.py read
+  - checkpoints/ctc-pro-all/best    # chant-v4, the model on the site: to export again or to compare a new one with
 
 # Vakyansh's wav2vec2 base (95M) fine-tuned on 60 hours of Sanskrit, writing Devanagari letter by letter, one letter per
 # 20 ms: what scripts/train_ctc.py starts from

@@ -23,6 +23,7 @@ ruff format . && ruff check . && mypy && pytest
 | `test_follow.py` | `shravan/follow.py` gives what Listen's own code gives (`fixtures/listen.json`): the letters, lining up, matching and locating, and every text laid out as the site lays it out; one hearing follows near the mark, finds a lost place and waits through the dhrupad; Listen's mark while following, and whether a place found is right |
 | `test_sound.py` | `normalise()` gives what the site's `normalize()` gives, and no other copy of it is left |
 | `test_ctc.py` | The model's letters: a label as it writes it, its alphabet with our letters added, encoding and decoding, finding its blank |
+| `test_backup.py` | The iCloud backup copies only what is new or changed, finds what is gone only under its own items, keeps its list whole, won't restore from a copy half brought down, round-trips a folder exactly, and stays outside the repository and beside the recordings, not in their folder |
 | `test_config.py` | The audio is outside the repository; `work/`, audio and model files are kept out of git; the held-out and validation hymns are real, don't overlap, leave enough to train on, and every hymn has exactly one split; training runs in full precision and fits a 16 GB Mac (checkpointing, the GPU memory cap) |
 
 ## Listen's answers

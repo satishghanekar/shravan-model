@@ -17,6 +17,8 @@ class Config:
     audio: Path
     work: Path
     recordings: Path
+    backup: Path
+    backup_keep: tuple[str, ...]
     model: str
     heldout_hymns: tuple[int, ...]
     validation_hymns: tuple[int, ...]
@@ -39,6 +41,8 @@ def load(path: Path = ROOT / "config.yaml") -> Config:
         audio=_path(raw["audio"]),
         work=_path(raw["work"]),
         recordings=_path(raw["recordings"]),
+        backup=_path(raw["backup"]),
+        backup_keep=tuple(raw["backup_keep"]),
         model=raw["model"],
         heldout_hymns=tuple(raw["heldout_hymns"]),
         validation_hymns=tuple(raw["validation_hymns"]),
