@@ -53,9 +53,9 @@ published recordings, which are not ours and are never in this repository.
 | What | Where | Why |
 |---|---|---|
 | Training and test code, settings, results | this repository | so every run can be repeated and compared |
-| The audio | iCloud Drive → `development/shravan-training/`, never in git | private, too big for git, and synced from the phone |
+| The audio | iCloud Drive → `development/shravan-model/recordings/`, never in git | private, too big for git, and synced from the phone |
 | Clips cut from the audio | `work/`, never in git | private like the audio; can be made again from it |
-| What another Mac needs to train | iCloud Drive → `development/shravan-backup/`, by `scripts/backup.py` | so a fresh clone trains within minutes ("Training on another Mac") |
+| What another Mac needs to train | iCloud Drive → `development/shravan-model/training-kit/`, by `scripts/training_kit.py` | so a fresh clone trains within minutes ("Training on another Mac") |
 | The texts | `texts/`, copied from the site by `python scripts/sync_texts.py` | a fixed copy per run; `texts/SOURCE` names the site commit |
 | The finished, shrunk model | copied into the site as `models/chant-vN/` | the site never depends on this repository |
 
@@ -90,24 +90,28 @@ python -c "import torch; print(torch.backends.mps.is_available())"   # should pr
 ## Training on another Mac
 
 The recordings are in iCloud already. The rest a run needs, the clips made from them and the checkpoint behind the
-site's model, is copied to iCloud Drive → `development/shravan-backup/` by `python scripts/backup.py` (about 2 GB). Its
-`README.md` says the same as this, for whoever opens the folder in Finder.
+site's model, is the training kit: copied to iCloud Drive → `development/shravan-model/training-kit/` by
+`python scripts/training_kit.py save` (about 2 GB). Its `README.md` says the same as this, for whoever opens the
+folder in Finder.
 
-1. On the Mac that trained last: `python scripts/backup.py`. Run it again after every run or new recording you cut.
-2. On the other Mac, in Finder, right-click iCloud Drive → `development` → `shravan-training` and `shravan-backup`:
-   **Keep Downloaded**, and wait until neither shows the cloud icon.
+1. On the Mac that trained last: `python scripts/training_kit.py save`. Run it again after every run or new
+   recording you cut.
+2. On the other Mac, in Finder, right-click iCloud Drive → `development` → `shravan-model` (the recordings and the
+   training kit are both in it): **Keep Downloaded**, and wait until it no longer shows the cloud icon.
 3. Clone this repository into `~/development/`, set it up as below ("Setting up the Mac"), then
-   `python scripts/backup.py --restore`. It stops and says what is missing if iCloud is still bringing files down.
-4. Train. When the run is done, `python scripts/backup.py` on that Mac, so the other one can carry on from it.
+   `python scripts/training_kit.py restore`. It stops and says what is missing if iCloud is still bringing files down.
+4. Train. When the run is done, `python scripts/training_kit.py save` on that Mac, so the other one can carry on
+   from it.
 
-To carry a stopped run on elsewhere: `python scripts/backup.py --add checkpoints/<run>/checkpoint-<step>`, restore,
-then `train_ctc.py --name <run> --resume`. The backup keeps the starting model too (`base-model/`), as its page names no
-licence and could go; only if Hugging Face no longer has it, set `model:` in `config.yaml` to that folder.
+To carry a stopped run on elsewhere: `python scripts/training_kit.py save --add checkpoints/<run>/checkpoint-<step>`,
+`restore` on the other Mac, then `train_ctc.py --name <run> --resume`. The kit keeps the starting model too
+(`base-model/`), as its page names no licence and could go; only if Hugging Face no longer has it, set `model:` in
+`config.yaml` to that folder.
 
 Another kind of machine: everything above holds on any Apple-silicon Mac. A Mac with less than 16 GB needs a smaller
 `batch_size` (and a larger `accumulate`, so their product stays 8). A machine that isn't a Mac needs the `audio:` and
-`backup:` paths changed and `shravan/env.py`'s `device()` taught its GPU; the settings for the M4 (fp32, the memory
-cap) were chosen for it, so compare a run there with one here before trusting it.
+`training_kit:` paths changed and `shravan/env.py`'s `device()` taught its GPU; the settings for the M4 (fp32, the
+memory cap) were chosen for it, so compare a run there with one here before trusting it.
 
 ## The commands
 
@@ -123,7 +127,7 @@ Run from `shravan-model/` with the environment active (`source .venv/bin/activat
 | `python scripts/follow.py <model>` | The app's own measure, by Listen's own method (`shravan/follow.py`, its settings in `config.yaml`, `listen:`): plays each tested recording as Listen hears it (the last 4 s) and scores how often the right place is found 2, 3 and 5 seconds into a unit, following (the window lined up with the text near Listen's mark) and lost (every text searched). |
 | `python scripts/export.py <model> <folder> [--q4]` | Shrinks a trained model for the phone: ONNX, int8, about 108 MB (`models/`, never in git); `--q4`, its matrix weights in 4 bits for a phone's GPU (90 MB); test the folder like any model |
 | `python scripts/train_ctc.py [<model>] [--resume] [--name N] [--layers L] [--only published\|family]` | Fine-tunes the model (`model` in `config.yaml` unless another is named: wav2vec2, a letter for every 20 ms) on the training clips (a family recording's counted `family_repeat` times), our letters it lacks added to its alphabet, keeping the best checkpoint on validation (`checkpoints/N`). `--resume` carries on a stopped run, `--layers` keeps the first L layers, `--only` trains on one kind of recording, `--set key=value` changes one `training:` setting for a comparison. Up to about 4.5 hours on the M4 |
-| `python scripts/backup.py [--add <folder>] [--prune] [--restore]` | Copies what another Mac needs to train (`backup_keep` in `config.yaml`: the timings, clips and 16 kHz audio in `work/`, chant-v4's checkpoint) and the starting model to iCloud Drive (`backup:`), with a list of every file; `--restore` brings it into a fresh clone, and stops if iCloud hasn't brought every file down yet. Adds and updates only: `--prune` also removes what is no longer here (training reads every recording's clips), `--add` keeps a stopped run's checkpoint too |
+| `python scripts/training_kit.py save [--add <folder>] [--prune]`, `… restore` | `save` copies what another Mac needs to train (`training_kit_items` in `config.yaml`: the timings, clips and 16 kHz audio in `work/`, chant-v4's checkpoint) and the starting model to iCloud Drive (`training_kit:`), with a list of every file; `restore` brings it into a fresh clone, and stops if iCloud hasn't brought every file down yet. Adds and updates only: `--prune` also removes what is no longer here (training reads every recording's clips), `--add` keeps a stopped run's checkpoint too |
 | `python scripts/speed.py <folder>` | Times a phone model on this Mac's CPU with 4 threads, as an iPhone runs it, on 2, 4 and 5 s of sound. Only the ratio between models means much on the phone |
 | `ruff format . && ruff check . && mypy && pytest` | The checks, the same as CI; run them before a pull request |
 
@@ -132,8 +136,9 @@ trained one, `checkpoints/ctc-pro-all/best`.
 
 ## Adding recordings
 
-1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-training/`. On the Mac, right-click the
-   folder and choose **Keep Downloaded**, so iCloud never swaps a recording out for a placeholder during training.
+1. Put the recordings (Voice Memos, MP3s) in iCloud Drive → `development/shravan-model/recordings/`. On the Mac,
+   right-click `shravan-model` and choose **Keep Downloaded**, so iCloud never swaps a recording out for a placeholder
+   during training.
 2. Add one row per recording to `recordings.csv`, with initials in the `who` column. A family recording is listed by its
    file name alone, without the folder it is in (named after a person): the file is found in any folder. A recording of part of a text, or with a part said again, names
    its blocks after a colon, in the order chanted: `vedic-chant-lalita-sahasranama: 132..183 once-7 once-2..once-5`

@@ -62,10 +62,10 @@ hear the words. Everything here exists to train that model fairly and to prove h
 |---|---|---|
 | Texts | `texts/` | yes: public already, on the site |
 | Recording list | `recordings.csv` | yes: file names, dates, initials only |
-| Recordings | iCloud Drive `development/shravan-training/` | never |
+| Recordings | iCloud Drive `development/shravan-model/recordings/` | never |
 | Line timings, clips | `work/` | never: made from the recordings |
 | Checkpoints, models | `checkpoints/`, `models/` | never: large, and rebuilt from the above |
-| Backup for another Mac | iCloud Drive `development/shravan-backup/` (`scripts/backup.py`) | never: clips, the site's checkpoint |
+| Training kit for another Mac | iCloud Drive `development/shravan-model/training-kit/` (`scripts/training_kit.py`) | never: clips, the site's checkpoint |
 | Results | `results/` | yes: the record of every run |
 
 ## What not to do
