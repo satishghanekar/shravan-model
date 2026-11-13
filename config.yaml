@@ -6,7 +6,7 @@ work: work                          # clips and alignments made from the audio; 
 recordings: recordings.csv
 # What another Mac needs to train, copied to iCloud Drive by scripts/backup.py and brought back by its --restore. Beside
 # the recordings, not in their folder: a recording is looked for by its file name anywhere under audio: (locate()).
-backup: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-model/backup"   # iCloud Drive; never in git
+backup: "~/Library/Mobile Documents/com~apple~CloudDocs/development/shravan-model/training-kit"   # iCloud Drive; never in git
 backup_keep:
   - work/align                      # where each unit starts and ends in each recording
   - work/clips                      # the clips training reads, with their labels

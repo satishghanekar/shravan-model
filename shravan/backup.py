@@ -106,7 +106,7 @@ def gigabytes(listed: dict[str, File], paths: Iterable[str]) -> float:
 def instructions(about: dict[str, Any]) -> str:
     """The README written into the backup folder, so whoever opens it in Finder knows what it is and how to use it."""
     items = "\n".join(f"- `{i}`" for i in about.get("items", []))
-    return f"""# Shravan's training backup
+    return f"""# Shravan's training kit
 
 Made by `python scripts/backup.py` in the shravan-model repository on {about.get("date", "?")}, from commit
 `{about.get("commit", "?")}` (texts from the site's `{about.get("texts", "?")}`). Private: clips cut from the family's
@@ -124,7 +124,7 @@ The recordings themselves are in `recordings/`, beside this folder.
 
 ## Training on another Mac
 
-1. In Finder, open iCloud Drive → `development`, right-click `shravan-model` (the recordings and this backup):
+1. In Finder, open iCloud Drive → `development`, right-click `shravan-model` (the recordings and this kit):
    **Keep Downloaded**. Wait until it no longer shows the cloud icon.
 2. In Terminal:
 
