@@ -1,4 +1,4 @@
-"""What another Mac needs to train, kept in iCloud Drive beside the recordings (scripts/backup.py).
+"""What another Mac needs to train, kept in iCloud Drive beside the recordings (scripts/training_kit.py).
 
 The recordings are in iCloud already. What is made from them (each unit's timings, the clips and the 16 kHz copies in
 work/) takes an hour or more to make again, and the model on the site (its checkpoint) can't be made bit for bit the
@@ -15,7 +15,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
-LIST = "files.json"  # the list of every file in the backup, written last, so a backup cut short is never taken as whole
+LIST = "files.json"  # the list of every file in the kit, written last, so a save cut short is never taken as whole
 BASE = "base-model"  # the starting model from Hugging Face, kept in case it is ever taken down; never restored
 SKIP = {".DS_Store"}  # Finder's own files, which iCloud adds and removes as it likes
 
@@ -53,14 +53,14 @@ def to_copy(source: dict[str, File], target: dict[str, File]) -> list[str]:
 
 def stale(source: dict[str, File], target: dict[str, File], items: Iterable[str]) -> list[str]:
     """The files of target under items that source no longer has. Training reads every recording's clips in work/clips,
-    listed in recordings.csv or not, so a recording taken out here must go from the backup too; but only when asked
-    (--prune), since a backup from a Mac not yet restored would otherwise empty the backup."""
+    listed in recordings.csv or not, so a recording taken out here must go from the kit too; but only when asked
+    (--prune), since saving from a Mac not yet restored would otherwise empty the kit."""
     items = list(items)
     return sorted(p for p in target if p not in source and any(under(p, i) for i in items))
 
 
 def read_list(folder: Path) -> tuple[dict[str, File], dict[str, Any]]:
-    """The backup's files and what it says about itself (when, from which commit, which items); empty if none."""
+    """The kit's files and what it says about itself (when, from which commit, which items); empty if none."""
     path = folder / LIST
     if not path.exists():
         return {}, {}
@@ -104,11 +104,11 @@ def gigabytes(listed: dict[str, File], paths: Iterable[str]) -> float:
 
 
 def instructions(about: dict[str, Any]) -> str:
-    """The README written into the backup folder, so whoever opens it in Finder knows what it is and how to use it."""
+    """The README written into the kit's folder, so whoever opens it in Finder knows what it is and how to use it."""
     items = "\n".join(f"- `{i}`" for i in about.get("items", []))
     return f"""# Shravan's training kit
 
-Made by `python scripts/backup.py` in the shravan-model repository on {about.get("date", "?")}, from commit
+Made by `python scripts/training_kit.py` in the shravan-model repository on {about.get("date", "?")}, from commit
 `{about.get("commit", "?")}` (texts from the site's `{about.get("texts", "?")}`). Private: clips cut from the family's
 recordings. Never copy this folder into a git repository.
 
@@ -135,13 +135,13 @@ The recordings themselves are in `recordings/`, beside this folder.
    cd shravan-model
    python3.12 -m venv .venv && source .venv/bin/activate
    pip install -r requirements.txt -r requirements-dev.txt && pip install -e .
-   python scripts/backup.py --restore
+   python scripts/training_kit.py --restore
    ```
 
    The restore stops and says what is missing if iCloud is still bringing files down: wait, and run it again.
 3. Train, as the repository's README says ("The current model", or the run you mean to make).
 
-When the run is done on that Mac, run `python scripts/backup.py` there, so this folder has its clips and checkpoint.
-To carry a stopped run on elsewhere, add its last checkpoint: `python scripts/backup.py --add
+When the run is done on that Mac, run `python scripts/training_kit.py` there, so this folder has its clips and
+checkpoint. To carry a stopped run on elsewhere, add its last checkpoint: `python scripts/training_kit.py --add
 checkpoints/<run>/checkpoint-<step>`, then `--restore` and `train_ctc.py --name <run> --resume` on the other Mac.
 """
